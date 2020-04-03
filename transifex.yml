@@ -1,0 +1,163 @@
+filters:
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: arrosageAuto/fr_FR/
+    translation_files_expression: /arrosageAuto/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: balboa/fr_FR/
+    translation_files_expression: /balboa/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: CaveVin/fr_FR/
+    translation_files_expression: /CaveVin/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: ChauffeEau/fr_FR/
+    translation_files_expression: /ChauffeEau/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: clientSIP/fr_FR/
+    translation_files_expression: /clientSIP/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: eibd/fr_FR/
+    translation_files_expression: /eibd/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: facedetection/fr_FR/
+    translation_files_expression: /facedetection/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: facerecognition/fr_FR/
+    translation_files_expression: /facerecognition/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: falldetector/fr_FR/
+    translation_files_expression: /falldetector/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: Freebox_OS/fr_FR/
+    translation_files_expression: /Freebox_OS/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: FreeboxMini4k/fr_FR/
+    translation_files_expression: /FreeboxMini4k/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: freeCrystal/fr_FR/
+    translation_files_expression: /freeCrystal/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: FreeSms/fr_FR/
+    translation_files_expression: /FreeSms/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: globalcache/fr_FR/
+    translation_files_expression: /globalcache/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: libreNMS/fr_FR/
+    translation_files_expression: /libreNMS/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: luminotherapie/fr_FR/
+    translation_files_expression: /luminotherapie/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: mochad/fr_FR/
+    translation_files_expression: /mochad/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: motion/fr_FR/
+    translation_files_expression: /motion/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: openalpr/fr_FR/
+    translation_files_expression: /openalpr/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: plex/fr_FR/
+    translation_files_expression: /plex/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: prosommateur/fr_FR/
+    translation_files_expression: /prosommateur/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: QRacces/fr_FR/
+    translation_files_expression: /QRacces/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: reveil/fr_FR/
+    translation_files_expression: /reveil/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: telecfree/fr_FR/
+    translation_files_expression: /telecfree/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: voletProp/fr_FR/
+    translation_files_expression: /voletProp/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: Volets/fr_FR/
+    translation_files_expression: /Volets/<lang>/
+  - filter_type: dir
+    file_format: GITHUBMARKDOWN
+    source_file_extension: md
+    source_language: fr
+    source_file_dir: withings/fr_FR/
+    translation_files_expression: /withings/<lang>/
