@@ -1,4 +1,10 @@
 ---
+layout: default
+title: Reconnaissance facial (facerecognition)
+lang: fr_FR
+pluginId: facerecognition
+---
+
 Description
 ==========
 Ce plugin utilise OpenCv pour détecter et reconnaitre votre visage. Attention, toute de même aux permissions que vous accordez au plugin car on peut le tromper avec des photos … ou son jumeau

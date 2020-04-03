@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation  du plugin balboa
+title: SPA Balboa (balboa)
 lang: fr_FR
 pluginId: balboa
 ---

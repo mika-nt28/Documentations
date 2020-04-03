@@ -1,8 +1,9 @@
 ---
 layout: default
-title: Documentation  du plugin ChauffeEau
+title: Gestion du Chauffe Eau (ChauffeEau)
 lang: fr_FR
-ChauffeEau---
+pluginId: ChauffeEau
+---
 
 Description
 ==========

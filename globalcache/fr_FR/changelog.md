@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin globalcache
+title: Global Cache (globalcache)
 lang: fr_FR
 pluginId: globalcache
 ---

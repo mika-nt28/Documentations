@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin Volets
+title: Gestion de Volets (Volets)
 lang: fr_FR
 pluginId: Volets
 ---

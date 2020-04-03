@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation  du plugin clientSIP
+title: Client SIP (clientSIP)
 lang: fr_FR
 pluginId: clientSIP
 ---

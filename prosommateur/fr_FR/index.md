@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin prosommateur
+title: Production Energie (prosommateur)
 lang: fr_FR
 pluginId: prosommateur
 ---

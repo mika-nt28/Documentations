@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation  du plugin CaveVin
+title: Cave à Vin (CaveVin)
 lang: fr_FR
 pluginId: CaveVin
 ---

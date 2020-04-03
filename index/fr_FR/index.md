@@ -118,7 +118,7 @@ LibreNMS est une AutoDiscovery PHP/MySQL/SNMP réseau de surveillance qui compre
 - [Documentation]({{site.baseurl}}/libreNMS/{{page.lang}})
 - [Changelog]({{site.baseurl}}/libreNMS/{{page.lang}}/changelog)
 
-# luminothérapie (luminotherapie)
+# Luminothérapie (luminotherapie)
 
 Ce plugin permet de créer des ambiances lumineuse
 

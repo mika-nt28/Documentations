@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin plex
+title: Plex (plex)
 lang: fr_FR
 pluginId: plex
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin mochad
+title: Mochad - X10 (mochad)
 lang: fr_FR
 pluginId: mochad
 ---

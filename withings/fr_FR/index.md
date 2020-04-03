@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin withings
+title: Withings / Nokia (withings)
 lang: fr_FR
 pluginId: withings
 ---

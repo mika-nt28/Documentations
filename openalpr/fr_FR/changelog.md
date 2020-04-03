@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin openalpr
+title: OpenALPR (openalpr)
 lang: fr_FR
 pluginId: openalpr
 ---

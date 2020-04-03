@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin luminotherapie
+title: Luminothérapie (luminotherapie)
 lang: fr_FR
 pluginId: luminotherapie
 ---

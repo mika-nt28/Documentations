@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin FreeSms
+title: Free SMS (FreeSms)
 lang: fr_FR
 pluginId: FreeSms
 ---

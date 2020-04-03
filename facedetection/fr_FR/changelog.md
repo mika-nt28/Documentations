@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin facedetection
+title: Face detection (facedetection)
 lang: fr_FR
 pluginId: facedetection
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin voletProp
+title: Volet proportionel (voletProp)
 lang: fr_FR
 pluginId: voletProp
 ---

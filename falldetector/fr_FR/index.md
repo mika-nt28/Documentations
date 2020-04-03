@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin falldetector
+title: Reconnaissance de chute (falldetector)
 lang: fr_FR
 pluginId: falldetector
 ---
@@ -67,11 +67,3 @@ Conditionner les actions
 Il est possible de conditionner l’exécution des actions avec l’onglet Condition
 
 ![Condition d'execution des action de l'utilisateur](../images/ConfigurationConditions.jpg)
-
-ChangeLog
-=========
-Stable
-------
-
-Beta
-----

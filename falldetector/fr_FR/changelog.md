@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin falldetector
+title: Reconnaissance de chute (falldetector)
 lang: fr_FR
 pluginId: falldetector
 ---

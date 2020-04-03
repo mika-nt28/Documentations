@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin reveil
+title: Réveil (reveil)
 lang: fr_FR
 pluginId: reveil
 ---
@@ -10,6 +10,11 @@ pluginId: reveil
 ## 03/04/2020
 
 * Separation du plugin et sa documentation
+
+## 24/11/2019
+
+* Suppression des widgets de maniere a laisser cette tache au core
+* BugFix lorsqu'il n'y a aucun delais
 
 # Beta
 

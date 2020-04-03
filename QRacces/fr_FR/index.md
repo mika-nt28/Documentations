@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin QRacces
+title: Acces par QR code (QRacces)
 lang: fr_FR
 pluginId: QRacces
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin telecfree
+title: Freebox Révolution (telecfree)
 lang: fr_FR
 pluginId: telecfree
 ---

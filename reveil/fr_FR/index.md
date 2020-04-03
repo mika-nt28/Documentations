@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin reveil
+title: Réveil (reveil)
 lang: fr_FR
 pluginId: reveil
 ---
@@ -56,10 +56,3 @@ Chaque action configurée sera berifiée et/ou exécutée dans l'ordre choisi.
 
 ![introduction01](../images/ConfigurationAction.jpg)
 
-ChangeLog
-=========
-
-2019-11-24 08:09:34
--------------------
-* Suppression des widgets de maniere a laisser cette tache au core
-* BugFix lorsqu'il n'y a aucun delais

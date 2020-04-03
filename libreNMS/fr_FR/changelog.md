@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin libreNMS
+title: LibreNMS (libreNMS)
 lang: fr_FR
 pluginId: libreNMS
 ---

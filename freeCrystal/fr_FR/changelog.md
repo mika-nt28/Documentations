@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin freeCrystal
+title: Freebox Crystal (freeCrystal)
 lang: fr_FR
 pluginId: freeCrystal
 ---

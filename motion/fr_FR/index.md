@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin motion
+title: Motion (motion)
 lang: fr_FR
 pluginId: motion
 ---
@@ -223,12 +223,3 @@ FAQ
 Lorsque l'on veux configurer une camera USB il faut:
 Dons l'onglet Option de capture ** Plugin source camera = Motion ** Type de camera = USB ** Camera = Choisir le port USB de votre webcam ** Chanel d'entrée = -1
 Dans l'ongler Option de streaming ** Streaming = On ** Port de streaming de la camera choisir un port libre de votre jeedom --
-ChangeLog
-========
-
-Stable
-------
-
-### 10/12/2019
-
-* Reformatage du nom de la camera sans caractere spéciaux 

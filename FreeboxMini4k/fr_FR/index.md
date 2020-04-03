@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Documentation du plugin FreeboxMini4k
+title: Télécommande Freebox mini4K (FreeboxMini4k)
 lang: fr_FR
 pluginId: FreeboxMini4k
 ---
