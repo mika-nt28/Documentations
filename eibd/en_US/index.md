@@ -311,7 +311,7 @@ Creation automatique des equipements
 * Arborescence des groupes : Défini, pour chaque rang de votre arborescence, un type d'information. Cette configuration est obligatoire si vous voulez qu'il crée automatiquement vos objets et équipements
 * Créer les objets : crée automatiquement, s'ils n'existent pas, les objets définis dans le rang d'arborescence si plusieur rang objet selectioné alors il mettera le precédent en parent
 * Créer les équipements  : crée automatiquement, s'il n'existe pas, vos équipements tels que définis dans le rang d'arborescence. Il sera toutefois impératif de reprendre la configuration de chacun car le fichier projet ne le définit pas tout.
-* Uniquement correspondant a un Template : Cette option permet de créer un équipement qui corresponde à un Template. Pour que le plugin puisse identifier le template et ses commandes, l'architecture de GAD de votre projet doit correspondre exactement au projet ETS.[Voici un exemple]: https://github.com/mika-nt28/Jeedom-EIBD/raw/master/docs/images/Jeedom_Template.KNXproj
+* Uniquement correspondant a un Template : Cette option permet de créer un équipement qui corresponde à un Template. Pour que le plugin puisse identifier le template et ses commandes, l'architecture de GAD de votre projet doit correspondre exactement au projet ETS.[Voici un exemple]: https://github.com/mika-nt28/Documentations/EIBD/raw/master/docs/images/Jeedom_Template.KNXproj
 
 Utilisation de la passerelle Jeedom/KNX
 =======================================

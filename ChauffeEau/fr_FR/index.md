@@ -27,7 +27,7 @@ Paramétrage du plugin
 ![introduction01](../images/ConfigurationGeneral.jpg)	
 
 Sur ce blog, vous aurez l'exemple d'une installation complète de la gestion de chauffe eau avec jeedom
-https://jeedom-facile.fr/index.php/2019/01/03/piloter-votre-ballon-deau-chaude/
+https://Documentations/facile.fr/index.php/2019/01/03/piloter-votre-ballon-deau-chaude/
 
 Paramètrage général
 ---

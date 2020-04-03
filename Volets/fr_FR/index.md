@@ -185,7 +185,7 @@ Pour améliorer l'expérience de la gestion Azimut, le plugin calcule des ratios
 - Ratio Vertical :  ce ratio reflète la hauteur d'ouverture du volet en fonction de l'altitude du soleil (Entre 0 et 100% par défaut)
 - Ratio Horizontal :  ce ratio reflète la pénétration du soleil dans la fenêtre en fonction de l'azimut du soleil (Entre 0 et 100% par défaut)
 
-Pour appliquer ces ratios aller lire ce paragraphe [ici](https://mika-nt28.github.io/Jeedom-Volets/fr_FR/#tocAnchor-1-7-8)
+Pour appliquer ces ratios aller lire ce paragraphe [ici](https://mika-nt28.github.io/Documentations/Volets/fr_FR/#tocAnchor-1-7-8)
 
 ### Définition de l'angle d'exposition au soleil 
 

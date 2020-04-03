@@ -187,7 +187,7 @@ Si le soleil est au-dessous du minimum ou au-dessus du maximum alors le ratio se
 
 Nous pouvons limiter le ratio Horizontal avec la définition de l'angle d'exposition au soleil.
 
-Pour appliquer ces ratios aller lire ce paragraphe [ici](https://mika-nt28.github.io/Jeedom-Volets/fr_FR/#tocAnchor-1-7-8)
+Pour appliquer ces ratios aller lire ce paragraphe [ici](https://mika-nt28.github.io/Documentations/Volets/fr_FR/#tocAnchor-1-7-8)
 
 ### Définition de l'angle d'exposition au soleil 
 
