@@ -8,6 +8,8 @@ pluginId: facerecognition
 # Stable
 ## 04/04/2020
 * Bugfix suppression d'utilisateur
+* BugFix Suppression snapshot detection
+* BugFix Url changelog
 ## 03/04/2020
 * Separation du plugin et sa documentation
 ## 02/04/2020
