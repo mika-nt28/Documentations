@@ -14,3 +14,6 @@ pluginId: Volets
 
 # Beta
 
+## 07/04/2020
+
+* Ajout des commandes jour et nuit et suppression des varriables en cache
