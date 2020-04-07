@@ -6,6 +6,8 @@ pluginId: motion
 ---
 
 # Stable
+## 07/04/2020
+* Libération du forçage de template sur le commande
 
 ## 03/04/2020
 
