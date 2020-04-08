@@ -6,6 +6,9 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 08/04/2020
+* Bugfix suppression de snapshot
+* Refonte de l'apprentissage des visages
 ## 04/04/2020
 * Bugfix suppression d'utilisateur
 * BugFix Suppression snapshot detection
@@ -30,5 +33,3 @@ pluginId: facerecognition
 * Suppression de la limitation du nombre de photo pour lancer l'apprentissage de nos visages
 * Mise a jours de droit sur les dossier
 # Beta
-## 06/04/2020
-* Bugfix suppression de snapshot
