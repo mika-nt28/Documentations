@@ -33,3 +33,7 @@ pluginId: facerecognition
 * Suppression de la limitation du nombre de photo pour lancer l'apprentissage de nos visages
 * Mise a jours de droit sur les dossier
 # Beta
+
+## 09/04/2020
+* Ajout de la personnalisation des couleurs de cadre par utilisateur
+* Refonte du code d'apprentissage
