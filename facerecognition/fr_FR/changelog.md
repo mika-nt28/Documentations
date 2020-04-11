@@ -33,7 +33,10 @@ pluginId: facerecognition
 * Suppression de la limitation du nombre de photo pour lancer l'apprentissage de nos visages
 * Mise a jours de droit sur les dossier
 # Beta
-
+## 11/04/2020
+* Limitation de l'import d'image a  5Mo et au format jpg, jpeg, png, tiff (Refus + message d'erreur
+* BugFix Activation de la camera toujours coché
+				
 ## 09/04/2020
 * Ajout de la personnalisation des couleurs de cadre par utilisateur
 * Refonte du code d'apprentissage
