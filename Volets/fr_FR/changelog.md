@@ -13,6 +13,9 @@ pluginId: Volets
 * Ajout du support de configuration par jeedom
 
 # Beta
+## 11/04/2020
+
+* BugFix autorisation Evenemention et conditionnel lorsqu'un gestion du meme type est deja active
 
 ## 07/04/2020
 
