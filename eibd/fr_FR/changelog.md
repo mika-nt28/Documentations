@@ -7,6 +7,9 @@ pluginId: eibd
 
 # Stable
 
+## 15/04/2020
+* Branche d'installation du github de knxd remplacé
+
 ## 03/04/2020
 
 * Séparation de la documentatio
@@ -32,6 +35,4 @@ pluginId: eibd
 * Initialisation des valeur a la sauvegarde (si FlagInit est actif)
 * Ajout d'une vue liste pous simplifier la configuration de base
 # Beta
-
-## 15/04/2020
-* Branche d'installation du github de knxd remplacé 
+ 
