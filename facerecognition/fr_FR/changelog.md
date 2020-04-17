@@ -6,6 +6,12 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 17/04/2020
+* Ajout de la sensibilité de détection (plus il est faible, plus la detection es sensible) 
+* Limitation de l'import d'image a  5Mo et au format jpg, jpeg, png, tiff (Refus + message d'erreur
+* Ajout de la personnalisation des couleurs de cadre par utilisateur
+* Refonte du code d'apprentissage
+* Bugfix affichage de la derniere liste de snapshot sur le panel
 ## 08/04/2020
 * Bugfix suppression de snapshot
 * Refonte de l'apprentissage des visages
@@ -33,13 +39,3 @@ pluginId: facerecognition
 * Suppression de la limitation du nombre de photo pour lancer l'apprentissage de nos visages
 * Mise a jours de droit sur les dossier
 # Beta
-## 15/04/2020
-* Bugfix couleur cadre inconnue 
-* Ajout de la sensibilité de détection (plus il est faible, plus la detection es sensible) 
-## 11/04/2020
-* Limitation de l'import d'image a  5Mo et au format jpg, jpeg, png, tiff (Refus + message d'erreur
-* BugFix Activation de la camera toujours coché
-				
-## 09/04/2020
-* Ajout de la personnalisation des couleurs de cadre par utilisateur
-* Refonte du code d'apprentissage
