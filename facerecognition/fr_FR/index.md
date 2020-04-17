@@ -30,6 +30,7 @@ Vous pouvez configurer vos cameras (une après l’autre) simplement en cliquant
 * Activation du démon: Permet de choisir si une camera configuré est utilisée ou non.
 * Port du démon: Il est impératif de saisir un port libre différent pour chaque caméra, celui çi interagit avec le démon dynamiquement (mise à jours des visage reconnus, prise de snapshots etc…)
 * FrameRate: Permet de determiner combient d'image par seconde le plugin va analysé (plus le framerate est elevé plus il consomme du CPU). Le Frame rate ne doit pas etre superieur au framerate de la camera
+* Sensibilité : Permet de regle la qualité de detection. Plus il est important et plus la detection est strict
 * Autentification : on saisi les identifiants de connexion si besoin.
 * URL de connexion (rtsp://) : On saisis son url (attention de ne pas se tromper ici, je ne peux pas vous aider à cause du nombre immense de caméra qui existent)
 
@@ -37,10 +38,10 @@ Configuration de prise de vue
 -----------------------------
 
 Il est possible que le plugin enregistre un snapshot a chaque detection.
-Pour cela il faut l'autoriser dans la configuration du plugin.
-Apres l'activation, le plugin vous demande ou enregister les snap, il vous est libre de le choisir.
-
-Pour ne pas remplir les disques avec des snapshot, il est possible de limiter la taille de chaque dossier camera
+* Prendre des Snapshot lors d'une detection : Autorise le plugin a sauvgarder la prise de vue
+* Emplacement du dossier Snapshot : Spécifie le dosssier ou enregistrer les snapshots
+* Surveiller la taille du dossier Snapshot de chaque camera : Autorise la surveillance et la suppression des snapshots les plus vieux
+* Taille du dossier Snapshot de chaque camera (Mo) : Taille maximal que peut contenir le dossier
 
 Creation d'un utilisateur
 =========================
@@ -62,21 +63,40 @@ Configurer l'utilisateur
 * Activer : Activer si vous autorisez l’utilisateur.
 * Visible : Afficher sur le dashboard.
 * Apprendre le visage : Outils d’apprentissage de votre visage.
+* Couleur du cadre : Permet de donner une couleur au cadres lors de la detection
 
 Apprentissage de votre visage
 -----------------------------
 
 Avant de pouvoir utiliser la reconnaissance faciale, nous devons d’abord recueillir une librairie d’images du visage que nous voulons reconnaître. L’apprentissage peut être effectuer sur plusieurs jours ou semaines pour recueillir des exemples de leur visage dans:
 
-*  conditions d’éclairage
+* Conditions d’éclairage
 * Heures de la journée
 * Humeurs et états émotionnels
 * Angle de prise de vue
-* Pour faciliter l’apprentissage le plugin propose un outil de capture. Il est également possible d’importer des images.
+
+Pour faciliter l’apprentissage le plugin propose un outil de capture ou d’importe des images.
+
+> Faire attention de n'avoir qu'un visage sur chaque photo
 
 ![Apprentissage utilisateur](../images/facerecognition_screenshot_ApprentissageUtilisateur.jpg)
 
-Vous pouvez choisir ici la caméra avec laquelle vous allez détecter le visage. Vous visualiserez aussi les snapshots, ainsi que l’image de la caméra.
+### Import des photos
+
+Pour importer vos photos il vous suffit de les selectionner.
+Lorsque le fichier est validé il est automatiquement importer sur votre jeedom et ajouté a la librairie
+
+### Prendre un snapshot d'un visages sur nos camera
+
+Pour utiliser la fonction de prise de vue, il vous faut
+
+* Selectionner la camera
+* Cliquer sur "Ajouter"
+
+### Lancement de l'apprentissage
+
+Pour finir l'apprentissage, le plugin a besoin de que l'on lance une compilation de critere de reconnaissance.
+A la fin de la compilation les nouveaux parametre seront automatiquement mise a jours dans le demon de chaque camera et votre nouvelle utilisateur sera alors reconnue
 
 > La création de la reconnaissance peut être long car elle vas réapprendre tous les visages configurer.
 
@@ -87,19 +107,23 @@ Gerer un planning d'autorisation
 
 Pour limiter l'usage de la reconnaissance il est possible de créer des crenaux horaire d'autorisation
 
-* Autorisation (Unique) : Permet que le QRcode ne soit utilisé qu'une seul fois
+* Autorisation (Unique) : Permet que l'autorisation ne soit donnée qu'une seul fois
 * Planning : permet de choisir les crenaux horaire dans la semaine ou sur une periode choisis
 
-Executer les actions
---------------------
-
-Lorsque le visage sera reconnu et que l’utilisateur est activé, le plugin permet d’exécuter des actions.
-
-![Actions spécifique a l'utilisateur](../images/ConfigurationActions.jpg)
+![Apprentissage utilisateur](../images/facerecognition_screenshot_Planning.jpg)
 
 Conditionner les actions
 ------------------------
 
-Il est possible de conditionner l’exécution des actions avec l’onglet Condition
+Il est egalment possible de renforcer l'autorisation d'un utilisateur grace a des conditions
 
 ![Condition d'execution des action de l'utilisateur](../images/ConfigurationConditions.jpg)
+
+Executer les actions
+--------------------
+
+Lorsque le visage sera reconnu, que l’utilisateur est activé, qu'il soit auorisé sur le planning, et qu'il remplisse toutes les conditions, le plugin permet d’exécuter des actions.
+
+> Ouverutre du portail, alert, ...
+
+![Actions spécifique a l'utilisateur](../images/ConfigurationActions.jpg)
