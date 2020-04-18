@@ -41,3 +41,4 @@ pluginId: facerecognition
 # Beta
 ## 18/04/2020
 * Ajout d'un parametre de sélection des cameras permettant l’exécution d'un action
+* Ajout d'un parametre de sélection des cameras permettant l’evalation d'une condition
