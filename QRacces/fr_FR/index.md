@@ -21,7 +21,13 @@ Ajout de camera
 ---------------
 
 Il est possible d'ajouter autant de camera que l'on souhaite, cependant plus y a de camera plus votre systeme sera ralentis
-Dans la partie 'Configuration des Camera' cliquer sur 'Ajouter' et saisir les informations de connexion de votre camera.
+Dans la partie 'Configuration des Camera' cliquer sur 'Ajouter' 
+
+* Nom : On donne un nom à notre camera.
+* Activation du démon: Permet de choisir si une camera configuré est utilisée ou non.
+* FrameRate: Permet de determiner combient d'image par seconde le plugin va analysé (plus le framerate est elevé plus il consomme du CPU). Le Frame rate ne doit pas etre superieur au framerate de la camera
+* Autentification : on saisi les identifiants de connexion si besoin.
+* URL de connexion (rtsp://) : On saisis son url (attention de ne pas se tromper ici, je ne peux pas vous aider à cause du nombre immense de caméra qui existent)
 
 Envoie d'un mail
 ----------------
@@ -33,6 +39,15 @@ Dans la partie 'Email':
 * Boite email : Objet jeedom du plugin mail
 * Objet de l'email envoyer : Saisir le text de l'objet de l'email
 * Corp du message: Il est possible d'ajouté un texte qui sera joint dans le mail
+
+Gestion des snapshots
+---------------------
+
+Il est possible que le plugin enregistre un snapshot a chaque detection.
+* Prendre des Snapshot lors d'une detection : Autorise le plugin a sauvgarder la prise de vue
+* Emplacement du dossier Snapshot : Spécifie le dosssier ou enregistrer les snapshots
+* Surveiller la taille du dossier Snapshot de chaque camera : Autorise la surveillance et la suppression des snapshots les plus vieux
+* Taille du dossier Snapshot de chaque camera (Mo) : Taille maximal que peut contenir le dossier
 
 Creation d'une autorisation utilisateur
 =======================================
@@ -49,16 +64,32 @@ Ici, on retrouve les parametres courant de jeedom
 * Email de la personne autorisé : Adresse mail pour l'envoie du QRcode
 * Objet parent : Objet jeedom si on veux l'afficher sur le dashbord
 * Activer / Visible : Permet de desactivé totalement l'acces
-* Autorisation (Unique) : Permet que le QRcode ne soit utilisé qu'une seul fois
+
+Gerer un planning d'autorisation
+---------------------------------
+
+Pour limiter l'usage de la reconnaissance il est possible de créer des crenaux horaire d'autorisation
+
+* Autorisation (Unique) : Permet que l'autorisation ne soit donnée qu'une seul fois
 * Planning : permet de choisir les crenaux horaire dans la semaine ou sur une periode choisis
 
-Actions
--------
+![Planning utilisateur d'autorisation](../images/QRacces_screenshot_Planning.jpg)
 
-Lorsque le QRcode sera vue par une camera et reconnue par jeedom, et qu'il est autorisé dans le crenaux horaire alors les actions seront executé.
-Le plugin permet de creer un liste d'action executer dans l'odre de saisi
+Conditionner les actions
+------------------------
 
-![introduction01](../images/Actions.JPG)
+Il est egalment possible de renforcer l'autorisation d'un utilisateur grace a des conditions
+
+![Condition d'execution des action de l'utilisateur](../images/ConfigurationConditions.jpg)
+
+Executer les actions
+--------------------
+
+Lorsque le visage sera reconnu, que l’utilisateur est activé, qu'il soit auorisé sur le planning, et qu'il remplisse toutes les conditions, le plugin permet d’exécuter des actions.
+
+> Ouverutre du portail, alert, ...
+
+![Actions spécifique a l'utilisateur](../images/ConfigurationActions.jpg)
 
 FAQ
 ===
