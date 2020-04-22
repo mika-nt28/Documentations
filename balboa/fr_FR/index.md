@@ -84,8 +84,17 @@ Voici toute les commandes qui sont automatiquement cree lors de l'ajout d'un SPA
 
 FAQ
 ===
+Je ne sais pas quel port du serveur choisir
+-------------------------------------------
+Il est conseiller de garder le meme port que votre SPA
 
-Ici les reponses a vos questions
+> 4257
+
+Je n'arrive pas a me connecter avec l'application
+-------------------------------------------------
+
+Le plugin garde une connexion permanante au votre spa, il n'est donc plus possible de se connecter avec le SPA
+Pour connecter avec votre application, il faut utiliser l'ip de jeedom
 
 ChangeLog
 =========
