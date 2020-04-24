@@ -39,6 +39,8 @@ pluginId: facerecognition
 * Suppression de la limitation du nombre de photo pour lancer l'apprentissage de nos visages
 * Mise a jours de droit sur les dossier
 # Beta
+## 24/04/2020
+* Ajout des parametres Largeur et Hauteur minimal du cadre des visages
 ## 22/04/2020
 * BugFix suppression de plusieurs photo
 * Apprentissage uniquement de l'utilisateur en cours
@@ -53,3 +55,10 @@ pluginId: facerecognition
 * Ajout de l'aide contextuel a chaque element de configuration utilisateur
 * BugFix affichage des snapshot sur le panel
 * Limitation de la hauteur d'affichage des snapshots sur le panel
+
+# A venir
+
+* Refonte du module d'apprentissage pour extraire de chaque photo uniquement le visage a détécter
+* Lancement de la reconnaissance dans un autre thread pour evité les latence de camera
+
+
