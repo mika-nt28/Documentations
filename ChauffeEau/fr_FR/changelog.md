@@ -5,6 +5,8 @@ lang: fr_FR
 pluginId: ChauffeEau
 ---
 # Stable
+##26/04/2020
+* Bugfix $_nextTime  non initialisé 
 ## 08/04/2020
 
 * Desactivation du la gestion de defaillance des sondes
