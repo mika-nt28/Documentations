@@ -4,7 +4,8 @@ title: Cave à Vin (CaveVin)
 lang: fr_FR
 pluginId: CaveVin
 ---
-
-# 03/04/2020
-
+# Stable
+## 28/04/2020
+* Autorisation des assenceurs sur le panel
+## 03/04/2020
 * Separation du plugin et sa documentation
