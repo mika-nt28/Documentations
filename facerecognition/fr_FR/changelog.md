@@ -39,7 +39,9 @@ pluginId: facerecognition
 * Suppression de la limitation du nombre de photo pour lancer l'apprentissage de nos visages
 * Mise a jours de droit sur les dossier
 # Beta
-##28/04/2020
+## 30/04/2020
+* Encodage de l'url en argument du demon
+## 28/04/2020
 * Analyse en multi-thread
 * Extraction du visage lors d'un snap camera a l'apprentissage
 * Suppression et recreation du fichier data de reconnaissance des visages
