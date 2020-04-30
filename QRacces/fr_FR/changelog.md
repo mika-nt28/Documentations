@@ -6,6 +6,9 @@ pluginId: QRacces
 ---
 
 # Beta
+## 30/04/2020
+* Encodage de l'url en argument du demon
+* Analyse de la detection dans un nouveau thread
 ## 21/04/2020
 * Prise de snapshot lors de la detection d'un qrcode
 * Mise a jours du panel avec la gestion des snapshot
