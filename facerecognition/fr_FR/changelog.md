@@ -41,6 +41,7 @@ pluginId: facerecognition
 # Beta
 ## 30/04/2020
 * Encodage de l'url en argument du demon
+* Si plusieurs visage sur une photo de l'aprentissage, alors elle ne sera pas retenu pour l'apprentissage et nous cree des images séparer de chaque visage
 ## 28/04/2020
 * Analyse en multi-thread
 * Extraction du visage lors d'un snap camera a l'apprentissage
