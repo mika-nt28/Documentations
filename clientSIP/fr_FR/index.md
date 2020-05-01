@@ -7,29 +7,58 @@ pluginId: clientSIP
 
 Description
 ===========
-Ce plugin a pour but de conneter jeedom a notre reseau Sip
+Ce plugin a pour but de conneter jeedom a notre reseau Sip de maniere a ce que des interation entre jeedom et son applent soit possible
 
 Installation et configuration
 =============================
+
+Installation
+------------
+
+Le plugin embarque l'installation de dependance pour faire du TexToSpeach (pas encore actif sur la plugin)
+Pour poursuivre la configuration, il est important d'avoir installé ses dependances
+
+Configuration
+------------
 
 Pour utiliser se plugin, il est impératif d'avoir configurer un serveur sip et d'y saisir les informations de connexions
 
 ![introduction01](../images/ServerSip.jpg)	
 
-Paramétrage des equipements et des commandes
-============================================
+Ajouter un client SIP
+====================
 
 Avant de commancer le parametrage du client sur jeedom, il est impératif de l'avoir cree sur votre serveur 
 
 ![introduction01](../images/ClientSipConfiguration.jpg)	
 
-La configuration du client se deroule en 2 partie, la premiere la configuration général a jeedom que je ne detaillerai pas dans cette doc, et la seconde spécifique au clients.
+Configuration general
+---------------------
+Cette onglet est un standard de jeedom
 
-- Saisir les informations d'autentificaiton sur le serveur
-- Saisir le temps d'expiration 
-- Choisir le type de transport
+* Nom de l'équipement : Premet de nommer sur jeedom sur votre reseau sip le client virtuel cree
+* Objet parent : Permet d'associer le widget sur votre Jeedom
+* Catégorie : Permet d'associer un catégorie
+* Activer : Permet d'activer le client sur jeedom et sur le reseau sip
+* Visible : Permet de rendre visible ou non le widget sur Jeedom
+
+Configuration du client sip
+--------------------------
+
+Afin de pouvoir etablir une connexion il est imperatif d'avoir cree un numero et un authentification sur votre serveur SIP.
+Reporter ici les information
+
+* Saisir les informations d'autentificaiton sur le serveur : Identifiant precedement creer
+* Saisir le temps d'expiration : Temps d'expiration de votre numero precedement configurer sur votre serveur
+* Choisir le type de transport : Type de transport choisie (seul l'udp a ete validé)
 
 Un fois sauvgarder jeedom communiquera avec votre reseau sip
+
+Text To Speach
+--------------
+Le plugin vas communiquer avec sont interlocuteur a l'aide des interaction jeedom streamer par un text to speach
+Configurer le dans cette onglet
+* Langue : Permet de choisir la langue de la voix
 
 Commandes jeedom
 ===============
