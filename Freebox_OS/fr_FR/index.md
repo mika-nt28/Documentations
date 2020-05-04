@@ -159,7 +159,7 @@ Le plugin va automatiquement créer tous les équipements et les commandes dont 
 Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau et Disque Dur
 --------------------------------------------------
 
-Ces 3 équipements sont vides à la création des équipements par le plugin
+Ces 3 équipements sont vides à la création par le plugin
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 > Le plugin recherchera et créera les différentes commandes associées
