@@ -38,7 +38,11 @@ pluginId: facerecognition
 * Prise de snapshot depuis la camera dynamique (sans les cadres)
 * Suppression de la limitation du nombre de photo pour lancer l'apprentissage de nos visages
 * Mise a jours de droit sur les dossier
+
 # Beta
+## 05/05/2020
+* Refonte global de l'apprentissage
+* Extraction des visages lors de l'import de photo ou de prise de snap par la camera
 ## 30/04/2020
 * Encodage de l'url en argument du demon
 * Si plusieurs visage sur une photo de l'aprentissage, alors elle ne sera pas retenu pour l'apprentissage et nous cree des images séparer de chaque visage
@@ -65,8 +69,5 @@ pluginId: facerecognition
 * Limitation de la hauteur d'affichage des snapshots sur le panel
 
 # A venir
-
-* Refonte du module d'apprentissage pour extraire de chaque photo uniquement le visage a détécter
-* Lancement de la reconnaissance dans un autre thread pour evité les latence de camera
 
 
