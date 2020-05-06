@@ -40,7 +40,7 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-## 05/05/2020
+## 06/05/2020
 * Refonte global de l'apprentissage
 * Extraction des visages lors de l'import de photo ou de prise de snap par la camera
 ## 30/04/2020
