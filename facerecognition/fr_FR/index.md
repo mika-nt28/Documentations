@@ -39,7 +39,7 @@ Vous pouvez configurer vos cameras (une après l’autre) simplement en cliquant
 Plus les parametres sont stricte, et la precision de la detection important mais il est plus difficile d'avoir une detection.
 C'est porpre a chaqu'un de trouvé le meilleur compromis
 
-> Exemple Taille 110x110, sensibilité 13, framerate 15
+> Exemple Taille 110x110, sensibilité 13, framerate 5
 
 Configuration de prise de vue
 -----------------------------
