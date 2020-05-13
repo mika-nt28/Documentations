@@ -11,5 +11,12 @@ pluginId: openalpr
 ## 03/04/2020
 * Separation du plugin et sa documentation
 # Beta
+## 13/05/2020
+* Ajout de l'aide contextuel dans la configuration
+* Mise a jours du script d'installation avec opencv4
+* Suppression de la commande d'envoie de snapshot
+* Envoie de snapshot par une Action compatible (mail, telegram, ...)
+* Execution des actions uniquement au changement d'etat de la plaque
+* Refonte de la boucle d'attente
 ## 24/04/2020
 * Limite de la recherche par flote ** au plaque complete

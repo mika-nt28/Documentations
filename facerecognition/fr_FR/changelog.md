@@ -6,6 +6,29 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 11/05/2020
+### Apprentissage
+* Refonte global de l'apprentissage
+* Extraction des visages lors de l'import de photo ou de prise de snap par la camera
+* Extraction du visage lors d'un snap camera a l'apprentissage
+* Si plusieurs visage sur une photo de l'aprentissage, alors elle ne sera pas retenu pour l'apprentissage et nous cree des images séparer de chaque visage
+* Suppression et recreation du fichier data de reconnaissance des visages
+* Apprentissage uniquement de l'utilisateur en cours
+### Demon
+* Encodage de l'url en argument du demon
+* Analyse en multi-thread
+* Ajout des parametres Largeur et Hauteur minimal du cadre des visages
+* BugFix couleur du cadre aleatroire (dernier utilisateur analyse)
+### Panel
+* BugFix suppression de plusieurs photo
+* BugFix affichage des snapshot sur le panel
+* Limitation de la hauteur d'affichage des snapshots sur le panel
+### Configuration utilisateur
+* Snapshot envoyer en action si plugin compatible (mail, slack, telegram, ...)
+* Correction fautes de frappe
+* Ajout de l'aide contextuel
+* Ajout d'un parametre de sélection des cameras permettant l’exécution d'un action
+* Ajout d'un parametre de sélection des cameras permettant l’evalation d'une condition
 ## 17/04/2020
 * Ajout de la sensibilité de détection (plus il est faible, plus la detection es sensible) 
 * Limitation de l'import d'image a  5Mo et au format jpg, jpeg, png, tiff (Refus + message d'erreur
@@ -38,35 +61,10 @@ pluginId: facerecognition
 * Prise de snapshot depuis la camera dynamique (sans les cadres)
 * Suppression de la limitation du nombre de photo pour lancer l'apprentissage de nos visages
 * Mise a jours de droit sur les dossier
+
 # Beta
-## 30/04/2020
-* Encodage de l'url en argument du demon
-* Si plusieurs visage sur une photo de l'aprentissage, alors elle ne sera pas retenu pour l'apprentissage et nous cree des images séparer de chaque visage
-## 28/04/2020
-* Analyse en multi-thread
-* Extraction du visage lors d'un snap camera a l'apprentissage
-* Suppression et recreation du fichier data de reconnaissance des visages
-* BugFix Hauteur minimal d'un visage
-## 24/04/2020
-* Ajout des parametres Largeur et Hauteur minimal du cadre des visages
-## 22/04/2020
-* BugFix suppression de plusieurs photo
-* Apprentissage uniquement de l'utilisateur en cours
-* BugFix couleur du cadre aleatroire (dernier utilisateur analyse)
-## 20/04/2020
-* Snapshot envoyer en action si plugin compatible (mail, slack, telegram, ...)
-* Correction fautes de frappe
-* Ajout de l'aide contextuel dans la configuration du plugin
-## 18/04/2020
-* Ajout d'un parametre de sélection des cameras permettant l’exécution d'un action
-* Ajout d'un parametre de sélection des cameras permettant l’evalation d'une condition
-* Ajout de l'aide contextuel a chaque element de configuration utilisateur
-* BugFix affichage des snapshot sur le panel
-* Limitation de la hauteur d'affichage des snapshots sur le panel
+
 
 # A venir
-
-* Refonte du module d'apprentissage pour extraire de chaque photo uniquement le visage a détécter
-* Lancement de la reconnaissance dans un autre thread pour evité les latence de camera
 
 

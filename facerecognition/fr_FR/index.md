@@ -22,8 +22,8 @@ Pour fonctionner le plugin a besoin de certains logiciels comme [OpenCv](https:/
 
 L’installation des dépendances peut prendre beaucoup de temps (plus de 4h lors de mes derniers tests) et par conséquent je vous invite a être patient et a poursivre la configuration
 
-Configuration des cameras
-------------------------
+Configuration des cameras et de leurs demon
+--------------------------------------------
 Vous pouvez configurer vos cameras (une après l’autre) simplement en cliquant sur le bouton « ajouter » et en saisissant les informations de connexion.
 
 * Nom : On donne un nom à notre camera.
@@ -31,8 +31,15 @@ Vous pouvez configurer vos cameras (une après l’autre) simplement en cliquant
 * Port du démon: Il est impératif de saisir un port libre différent pour chaque caméra, celui çi interagit avec le démon dynamiquement (mise à jours des visage reconnus, prise de snapshots etc…)
 * FrameRate: Permet de determiner combient d'image par seconde le plugin va analysé (plus le framerate est elevé plus il consomme du CPU). Le Frame rate ne doit pas etre superieur au framerate de la camera
 * Sensibilité : Permet de regle la qualité de detection. Plus il est important et plus la detection est strict
+* Taille minimal du visage a la detection (pixel) : Permet de specifier la taille minimal sur la photo que doit avoir un visage
 * Autentification : on saisi les identifiants de connexion si besoin.
 * URL de connexion (rtsp://) : On saisis son url (attention de ne pas se tromper ici, je ne peux pas vous aider à cause du nombre immense de caméra qui existent)
+
+> La sensiblité couplé a la taille minimal permete d'obtenir un stabilité dans le detection et limiter les faux positif.
+Plus les parametres sont stricte, et la precision de la detection important mais il est plus difficile d'avoir une detection.
+C'est porpre a chaqu'un de trouvé le meilleur compromis
+
+> Exemple Taille 110x110, sensibilité 13, framerate 5
 
 Configuration de prise de vue
 -----------------------------
@@ -75,30 +82,41 @@ Avant de pouvoir utiliser la reconnaissance faciale, nous devons d’abord recue
 * Humeurs et états émotionnels
 * Angle de prise de vue
 
-Pour faciliter l’apprentissage le plugin propose un outil de capture ou d’importe des images.
-
-> Faire attention de n'avoir qu'un visage sur chaque photo
-
+L'outil d'apprentissage a besoin que l'on cree une librairie du visage a reconnaitre avant de lancer la creation de ses parametre avec le bouton "Valider"
 ![Apprentissage utilisateur](../images/facerecognition_screenshot_ApprentissageUtilisateur.jpg)
 
 ### Import des photos
 
-Pour importer vos photos il vous suffit de les selectionner.
-Lorsque le fichier est validé il est automatiquement importer sur votre jeedom et ajouté a la librairie
+L'outil embarque la possibilité de telecharger une photo
+
+![Outil d'acquisition d'un visage par import de photo](../images/facerecognition_screenshot_ApprentissageImport.jpg)
+
+> L'extention doit etre *.jpg *.png .jpeg" *.tiff
+
+> La taille maximal de la photo doit etre inferieur a 5Mo
+
+Pour importer vos photos, cliquer sur "Telecharger", puis selectionner vos photos 1 par 1.
+A chaque import, le plugin vas analyser la photo telecharger et importer dans la librairie chaque visage reconnue
+
+> Une photo peut etre refusé si aucun visage n'est reconnue, vous pouvez jouer sur la sensibilité
 
 ### Prendre un snapshot d'un visages sur nos camera
 
 Pour utiliser la fonction de prise de vue, il vous faut
 
+![Outil d'acquisition d'un visage par camera](../images/facerecognition_screenshot_ApprentissageCamera.jpg)
+
 * Selectionner la camera
+* Verifer que le visage a reconnaitre est present sur la camera (cadre autour du visage)
 * Cliquer sur "Ajouter"
+
+A chaque ajout, le plugin vas importer dans la librairie chaque visage reconnue.
+Si pas de visage sur la camera l'action est ignoré
 
 ### Lancement de l'apprentissage
 
 Pour finir l'apprentissage, le plugin a besoin de que l'on lance une compilation de critere de reconnaissance.
 A la fin de la compilation les nouveaux parametre seront automatiquement mise a jours dans le demon de chaque camera et votre nouvelle utilisateur sera alors reconnue
-
-> La création de la reconnaissance peut être long car elle vas réapprendre tous les visages configurer.
 
 ![Apprentissage utilisateur](https://www.pyimagesearch.com/wp-content/uploads/2018/06/pi_face_recognition_dataset.jpg)
 
