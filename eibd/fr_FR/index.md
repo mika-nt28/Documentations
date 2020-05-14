@@ -292,8 +292,8 @@ Si vous avez ouvert cette fenêtre depuis un bouton de selection de GAD, alors v
 De même, si vous avez configuré les DPT dans votre projet ETS, le plugin vous soulignera en bleu lorsque le DPT est identique et en jaune lorsqu'il est compatible
 
 
-Utilisation du parseur
-======================
+Import de votre projet knx
+==========================
 
 En téléchargeant votre projet ETS (.KNXproj), ou le zip de votre porjet TX100, vous allez permettre à Jeedom de charger, tout les arborescences de votre installation.
 
@@ -311,14 +311,21 @@ Apres le chargement de tous vos projet le plugin vous propose d'utiliser la crea
 Creation automatique des equipements
 =====================================
 
-
 ![Demande de chargement d'un autres fichier projet](../images/eidb_screenshot_autoCreate.jpg)
+
+> La creation automatique de vos equipements ne correspondant pas a un template peut etre inutilisable et necessitera obligatoirement une reprise 1 a 1 de chaque equipement et commande.
+Ce fonctionement n'est donc pas recommandé mais exite
+
+> La creation automatique de vos equipements par la recherche de templates vous oblige a nommage sur ETS dans la vue Groupes ou Batiment.
+Le nom  template et ses commandes doit etre strictement inclue dans le nom sur ETS.[Voici un exemple]: https://github.com/mika-nt28/Documentations/EIBD/raw/master/docs/images/Jeedom_Template.KNXproj.
+Pour assouplir cette demarche des synonime sont ajouté
+Se reporté au paragraphe de template pour y connaitre toute les nome et syntaxe
 
 * Quelle arborescence choisir : Choisi sur quel arboresance se base la creation automatique
 * Arborescence des groupes : Défini, pour chaque rang de votre arborescence, un type d'information. Cette configuration est obligatoire si vous voulez qu'il crée automatiquement vos objets et équipements
 * Créer les objets : crée automatiquement, s'ils n'existent pas, les objets définis dans le rang d'arborescence si plusieur rang objet selectioné alors il mettera le precédent en parent
-* Créer les équipements  : crée automatiquement, s'il n'existe pas, vos équipements tels que définis dans le rang d'arborescence. Il sera toutefois impératif de reprendre la configuration de chacun car le fichier projet ne le définit pas tout.
-* Uniquement correspondant a un Template : Cette option permet de créer un équipement qui corresponde à un Template. Pour que le plugin puisse identifier le template et ses commandes, l'architecture de GAD de votre projet doit correspondre exactement au projet ETS.[Voici un exemple]: https://github.com/mika-nt28/Documentations/EIBD/raw/master/docs/images/Jeedom_Template.KNXproj
+* Créer les équipements  : crée automatiquement, s'il n'existe pas, vos équipements tels que définis dans le rang d'arborescence. 
+* Uniquement correspondant a un Template : Cette option permet de créer un équipement qui corresponde à un Template. 
 
 Utilisation de la passerelle Jeedom/KNX
 =======================================
