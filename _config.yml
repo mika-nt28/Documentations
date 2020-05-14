@@ -1,9 +1,8 @@
 ---
-langs: [fr_FR, en_US]
-baseurl: "/Documentations" # the subpath of your site, e.g. /blog
-url: "/" # the base hostname & protocol for your site
+languages: [fr_FR,en_US,es_ES,de_DE]
+baseurl: "/"
 sass:
-  sass_dir: assets/css
+  sass_dir: css
   style: compressed
 markdown: kramdown
 permalink: /404.html
@@ -11,16 +10,22 @@ kramdown:
   input: GFM
   hard_wrap: false
 highlighter: rouge
+gems:
+- jekyll-paginate
+- jekyll-seo-tag
 exclude:
 - vendor
 plugins:
-- jekyll-paginate
 - jekyll-seo-tag
-title: "Documentations des plugins de Mika-nt28"
-description: "Ceci est la documentation des plugins créés par Mika-nt28 de la solution domotique Jeedom."
-author: "Mika-nt28"
+title: "Documentation Jeedom"
+description: "Ceci est la documentation, lier à la solution domotique Jeedom."
+author: "Jeedom"
 image: https://www.jeedom.com/site/logo.png
-community: https://community.jeedom.com
-market: https://market.jeedom.com
-blog: https://blog.jeedom.com
-doc: https://doc.jeedom.com
+twitter:
+  username: Jeedom_domotic
+social:
+  name: Jeedom
+  links:
+    - https://twitter.com/Jeedom_domotic
+    - https://www.facebook.com/Jeedom-249936178537210/
+    - https://github.com/jeedom
