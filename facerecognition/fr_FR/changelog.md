@@ -12,7 +12,7 @@ pluginId: facerecognition
 * Extraction des visages lors de l'import de photo ou de prise de snap par la camera
 * Extraction du visage lors d'un snap camera a l'apprentissage
 * Si plusieurs visage sur une photo de l'aprentissage, alors elle ne sera pas retenu pour l'apprentissage et nous cree des images séparer de chaque visage
-* Suppression et recreation du fichier data de reconnaissance des visages
+* Suppression et re-création du fichier data de reconnaissance des visages
 * Apprentissage uniquement de l'utilisateur en cours
 ### Demon
 * Encodage de l'url en argument du demon
@@ -43,7 +43,7 @@ pluginId: facerecognition
 * BugFix Suppression snapshot detection
 * BugFix Url changelog
 ## 03/04/2020
-* Separation du plugin et sa documentation
+* Séparation du plugin et sa documentation
 ## 02/04/2020
 * Gestion de la suppression d'utilisateur
 * Ajout de la recherche de camera USB
@@ -56,7 +56,7 @@ pluginId: facerecognition
 * Ajout d'un parametre Framerate au demon de maniere a configurer le nombre d'image annalysé par le plugin (attention a ne pas demander plus d'analyse que d'image fournis par la camera)
 * Le demon ne s'arret plus et parcout toute les images de la camera (bugfix du retard d'image)
 * Changement du fichier de detection de visage par l'officiel OpenCV
-* Creation d'une connexion au demon python
+* Création d'une connexion au demon python
 * Mise a jours dynamique du fichier de data de nos apprentissage sur le visage
 * Prise de snapshot depuis la camera dynamique (sans les cadres)
 * Suppression de la limitation du nombre de photo pour lancer l'apprentissage de nos visages

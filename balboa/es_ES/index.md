@@ -11,7 +11,7 @@ Ajout d'un SPA
 Rendez vous sur la pages de configuration du plugin Plugins => Confort => SPA Balboa
 Comme partout dans jeedom vous avez le bouton "Ajouter" qui vas vous cree votre equipemnet
 
-* Nom de l'équipement : Nom saisi lors de la creation de l'equipement, mais peut etre encore modifié
+* Nom de l'équipement : Nom saisi lors de la création de l'equipement, mais peut etre encore modifié
 * Adresse IP de l'equipement : Adresse IP du module wifi de votre SPA
 * Objet parent : Objet Jeedom associé a votre SPA
 * Catégorie : choisissez la categorie dans laquel vous souhaiter regrouper votre SPA
@@ -21,13 +21,13 @@ Comme partout dans jeedom vous avez le bouton "Ajouter" qui vas vous cree votre 
 
 ![Page de configuration d'un SPA](../images/balboa_screenshot_Equipement.jpg)   
 
-Creation de mode de fonctionnement
+Création de mode de fonctionnement
 ----------------------------------
 
-Pour automatiser plus facilement notre SPA, le plugin propose la creation de mode.
+Pour automatiser plus facilement notre SPA, le plugin propose la création de mode.
 Il est possible d'ajouter autant de mode que l'on souhaite.
 
-![Creation d'un mode pour notre SPA](../images/balboa_screenshot_Mode.jpg)  
+![Création d'un mode pour notre SPA](../images/balboa_screenshot_Mode.jpg)  
 
 Pour chaque mode, il est possible de le conditionner, c'est a dire de definir des conditions pour lequel on autorise l'execution du mode.
 Chaque condition peut etre activé ou non.

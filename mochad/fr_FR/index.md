@@ -7,7 +7,7 @@ pluginId: mochad
 
 Description
 ===
-Ce plugin permet de gerer vos equipements x10 grace a votre CM15 ou CM19
+Ce plugin permet de gérer vos equipements x10 grace a votre CM15 ou CM19
 
 Installation et configuration
 ===

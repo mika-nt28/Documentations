@@ -13,10 +13,10 @@ pluginId: eibd
 ## 03/04/2020
 * Séparation de la documentatio
 ## 17/03/2020
-* Correction valeur de sous-type automatique, lors d'une creation automatique de commande, si le dpt n'est pas configurer sous jeedom
+* Correction valeur de sous-type automatique, lors d'une création automatique de commande, si le dpt n'est pas configurer sous jeedom
 * Synonmyme anglais sur les templates
 * Ajout de la categorie sur les templates
-* Correction bug creation automatique unitaire des objets
+* Correction bug création automatique unitaire des objets
 * Recherche des gad dans les groupes de la vue batiment
 * Bugfix DPT 19.xxx
 ### 13/12/2019 

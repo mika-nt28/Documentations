@@ -18,7 +18,7 @@ Ajout d'un SPA
 Rendez vous sur la pages de configuration du plugin Plugins => Confort => SPA Balboa
 Comme partout dans jeedom vous avez le bouton "Ajouter" qui vas vous cree votre equipemnet
 
-* Nom de l'équipement : Nom saisi lors de la creation de l'equipement, mais peut etre encore modifié
+* Nom de l'équipement : Nom saisi lors de la création de l'equipement, mais peut etre encore modifié
 * Adresse IP de l'equipement : Adresse IP du module wifi de votre SPA
 * Objet parent : Objet Jeedom associé a votre SPA
 * Catégorie : choisissez la categorie dans laquel vous souhaiter regrouper votre SPA
@@ -26,15 +26,15 @@ Comme partout dans jeedom vous avez le bouton "Ajouter" qui vas vous cree votre 
 * Unité de temps : Ce parametre permet de configurer votre SPA Balboa et synchronise l'heure de jeedom et du SPA
 * Unité de température : Ce parametre permet de configurer votre SPA Balboa
 
-![Page de configuration d'un SPA](../images/balboa_screenshot_Equipement.jpg)	
+![Page de configuration d'un SPA](../images/balboa_screenshot_Equipement.jpg)
 
-Creation de mode de fonctionnement
+Création de mode de fonctionnement
 ----------------------------------
 
-Pour automatiser plus facilement notre SPA, le plugin propose la creation de mode.
+Pour automatiser plus facilement notre SPA, le plugin propose la création de mode.
 Il est possible d'ajouter autant de mode que l'on souhaite.
 
-![Creation d'un mode pour notre SPA](../images/balboa_screenshot_Mode.jpg)	
+![Création d'un mode pour notre SPA](../images/balboa_screenshot_Mode.jpg)
 
 Pour chaque mode, il est possible de le conditionner, c'est a dire de definir des conditions pour lequel on autorise l'execution du mode.
 Chaque condition peut etre activé ou non.
@@ -42,11 +42,11 @@ Nous pouvons autoriser le plugin a surveiller que nos conditions soit reunis pou
 
 Pour chaque mode on vient determiner les actions sur notre SPA
 
-* Température de consigne du SPA 
+* Température de consigne du SPA
 * Activation de la pompe 1 du SPA
 * Activation de la pompe 2 du SPA
 
-Les mode peuvent etre declanché par : 
+Les mode peuvent etre declanché par :
 * Ses condition si le champs *Activer si condition vrai* est coché
 * Gere en externe par jeedom grace a la commande *Mode actif / Mode du SPA*
 
@@ -56,7 +56,7 @@ Programmation hebdomadaire des filtrations
 La gestion de votre SPA est capable en toute autonomie de gere automatiquement les filtrations quotidien.
 Dans cette partie je vous propose de programmer la filtration hebdomadaire.
 
-![Page de configuration de la filtration hebdomadaire d'un SPA](../images/balboa_screenshot_Filtration.jpg)	
+![Page de configuration de la filtration hebdomadaire d'un SPA](../images/balboa_screenshot_Filtration.jpg)
 
 Pour ajouter un crenaux, vous cliquer et glisser vers la fin du crenaux
 > seul 2 crenaux sont autoriser
@@ -104,7 +104,7 @@ Beta
 
 ### 27/03/2020
 
-* Creation d'un serveur de connexion intermediaire
+* Création d'un serveur de connexion intermediaire
 
 Stable
 -----

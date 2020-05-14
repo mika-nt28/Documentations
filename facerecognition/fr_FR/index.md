@@ -50,7 +50,7 @@ Il est possible que le plugin enregistre un snapshot a chaque detection.
 * Surveiller la taille du dossier Snapshot de chaque camera : Autorise la surveillance et la suppression des snapshots les plus vieux
 * Taille du dossier Snapshot de chaque camera (Mo) : Taille maximal que peut contenir le dossier
 
-Creation d'un utilisateur
+Création d'un utilisateur
 =========================
 
 Rendez vous sur la page de configuration du plugin
@@ -82,7 +82,7 @@ Avant de pouvoir utiliser la reconnaissance faciale, nous devons d’abord recue
 * Humeurs et états émotionnels
 * Angle de prise de vue
 
-L'outil d'apprentissage a besoin que l'on cree une librairie du visage a reconnaitre avant de lancer la creation de ses parametre avec le bouton "Valider"
+L'outil d'apprentissage a besoin que l'on cree une librairie du visage a reconnaitre avant de lancer la création de ses parametre avec le bouton "Valider"
 ![Apprentissage utilisateur](../images/facerecognition_screenshot_ApprentissageUtilisateur.jpg)
 
 ### Import des photos
@@ -120,7 +120,7 @@ A la fin de la compilation les nouveaux parametre seront automatiquement mise a 
 
 ![Apprentissage utilisateur](https://www.pyimagesearch.com/wp-content/uploads/2018/06/pi_face_recognition_dataset.jpg)
 
-Gerer un planning d'autorisation
+Gérer un planning d'autorisation
 ---------------------------------
 
 Pour limiter l'usage de la reconnaissance il est possible de créer des crenaux horaire d'autorisation

@@ -30,9 +30,9 @@ Conditions météorologiques
 Le plugin est capable de prendre en compte la météo.
 Pour chaque paramètre, il faut sélectionner une commande et saisir son seuil.
 
-* Maximum de la probabilité de précipitation (%) : seuil au dessus duquel l'arrosage ne se fait pas
-* Vitesse du vent maximum (km/h): seuil au dessus duquel l'arrosage ne se fait pas
-* Humidité maximum (%): seuil au dessus duquel l'arrosage ne se fait pas
+* Maximum de la probabilité de précipitation (%) : seuil au-dessus duquel l'arrosage ne se fait pas
+* Vitesse du vent maximum (km/h): seuil au-dessus duquel l'arrosage ne se fait pas
+* Humidité maximum (%): seuil au-dessus duquel l'arrosage ne se fait pas
 * Précipitation de la veille : Le plugin prend en compte les précipitations de la veille
 
 Pluviométrie par type de plantation
@@ -56,7 +56,7 @@ Pour chaque zone d'arrosage créée, le plugin va créer les commandes suivantes
 
 ![introduction01](../images/arrosageAuto_screenshot_Widget.jpg)
 
-Creation d'une branche / zone d'arrosage
+Création d'une branche / zone d'arrosage
 ===
 
 ![introduction01](../images/MesZones.jpg)
@@ -134,7 +134,7 @@ Stable
 
 ### 15/02/2020
 
-* Correction du defaut a la creation des commandes avec le version 4.xxx
+* Correction du defaut a la création des commandes avec le version 4.xxx
 
 Beta
 ----

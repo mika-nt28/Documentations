@@ -28,7 +28,7 @@ Ce plugin a pour objet de connecter Jeedom à vos équipements __global cache__.
 Mochad - X10 (mochad)
 --------------------
 
-Ce plugin permet de gerer vos equipements x10 grace a votre CM15 ou CM19
+Ce plugin permet de gérer vos équipements x10 grâce à votre CM15 ou CM19
 
 - [Documentation]({{site.baseurl}}/mochad/{{page.lang}})
 - [Changelog]({{site.baseurl}}/mochad/{{page.lang}}/changelog)
@@ -43,23 +43,23 @@ Ce plugin a pour objet de gérer facilement et automatiquement votre arrosage au
 - [Documentation]({{site.baseurl}}/arrosageAuto/{{page.lang}})
 - [Changelog]({{site.baseurl}}/arrosageAuto/{{page.lang}}/changelog)
 
-Gestion du Chauffe Eau (ChauffeEau)
+Gestion du Chauffe-Eau (ChauffeEau)
 ----------------------------------
 
 Ce plugin permet de gérer votre chauffe-eau.
 Il va estimer le temps nécessaire pour une chauffe complète de votre ballon.
 Si votre installation est équipée d'une sonde de température, le plugin arrêtera la chauffe dès qu'il atteindra sa température désirée.
-Après l'heure programmée, le plugin arrêtera la chauffe et attendra le prochain créneau, reduit du temps de chauffage calculé.
+Après l'heure programmée, le plugin arrêtera la chauffe et attendra le prochain créneau, réduit du temps de chauffage calculé.
 
 Le plugin embarque une régulation configurable par hystérésis.
 
 - [Documentation]({{site.baseurl}}/ChauffeEau/{{page.lang}})
 - [Changelog]({{site.baseurl}}/ChauffeEau/{{page.lang}}/changelog)
 
-Volet proportionel (voletProp)
+Volet proportionnel (voletProp)
 ------------------------------
 
-Ce plugin a pour but de permetre de gerer ses volets de maniere proportionnel
+Ce plugin a pour but de permettre de gérer ses volets de manière proportionnel
 
 - [Documentation]({{site.baseurl}}/voletProp/{{page.lang}})
 - [Changelog]({{site.baseurl}}/voletProp/{{page.lang}}/changelog)
@@ -77,7 +77,7 @@ Communication
 
 Client SIP (clientSIP)
 ----------------------
-Ce plugin a pour but de conneter jeedom a notre reseau Sip
+Ce plugin a pour but de connecter Jeedom a notre réseau SIP
 
 - [Documentation]({{site.baseurl}}/clientSIP/{{page.lang}})
 - [Changelog]({{site.baseurl}}/clientSIP/{{page.lang}}/changelog)
@@ -96,7 +96,7 @@ Energie
 Production Energie (prosommateur)
 ---------------------------------
 
-L’autoconsommation est le bute dans la production d’énergie. Ce plugin est la pour vous y aidé en contrôlant les activations.
+L’autoconsommation est le but dans la production d’énergie. Ce plugin est là pour vous y aidé en contrôlant les activations.
 
 - [Documentation]({{site.baseurl}}/prosommateur/{{page.lang}})
 - [Changelog]({{site.baseurl}}/prosommateur/{{page.lang}}/changelog)
@@ -140,7 +140,7 @@ LibreNMS est une AutoDiscovery PHP/MySQL/SNMP réseau de surveillance qui compre
 - [Documentation]({{site.baseurl}}/libreNMS/{{page.lang}})
 - [Changelog]({{site.baseurl}}/libreNMS/{{page.lang}}/changelog)
 
-Multimedia
+Multimédia
 =========
 
 Télécommande Freebox mini4K (FreeboxMini4k)
@@ -162,13 +162,13 @@ Plugin pour commander le Freebox Player de la Freebox Révolution
 Plex (plex)
 -----------
 
-Contrôler vos clients plex grâce a votre domotique.
-Créer des réveil, musical grâce a l'association de plex et de jeedom.
+Contrôler vos clients Plex grâce à votre domotique.
+Créer des réveil, musical grâce à l'association de Plex et de Jeedom.
 
 - [Documentation]({{site.baseurl}}/plex/{{page.lang}})
 - [Changelog]({{site.baseurl}}/plex/{{page.lang}}/changelog)
 
-Organisiation
+Organisation
 =============
 
 Réveil (reveil)
@@ -190,7 +190,7 @@ Ce plugin Jeedom nous permet de créer virtuellement notre cave, si on veut on p
 Confort
 =======
 
-SPA Balboa (balboa) 
+SPA Balboa (balboa)
 -------------------
 Ce plugin a pour objet de connecter Jeedom à vos Sap __balboa__.
 
@@ -208,7 +208,7 @@ Ce plugin permet de créer des ambiances lumineuse
 Sécurité
 ========
 
-Face detection (facedetection) 
+Face detection (facedetection)
 ------------------------------
 
 Ce plugin utilise OpenCv pour détecter les visages sur vos camera.
@@ -236,7 +236,7 @@ Motion (motion)
 ---------------
 
 Motion est un logiciel de détection vidéo et qui permet de diffuser un flux vidéo via internet par le protocole HTTP. C’est une solution simple pour diffuser le flux de sa webcam en ligne ou pour détecter des mouvements dans le champ d’une caméra par exemple.
-Dans ce plugin motion sera utilisé pour ces capacité de detection de mouvement
+Dans ce plugin motion sera utilisé pour ces capacité de détection de mouvement
 
 - [Documentation]({{site.baseurl}}/motion/{{page.lang}})
 - [Changelog]({{site.baseurl}}/motion/{{page.lang}}/changelog)
@@ -257,8 +257,8 @@ Ils ne peuvent pas filmer la voie publique, y compris pour assurer la sécurité
 Acces par QR code (QRacces)
 ---------------------------
 
-Ce plugin permet de gerer une acces par QRcode.
-Un Qr code est envoyé par mail a l'utilisateur autorisé
+Ce plugin permet de gérer une acces par QRcode.
+Un Qr code est envoyé par mail à l'utilisateur autorisé
 
 - [Documentation]({{site.baseurl}}/QRacces/{{page.lang}})
 - [Changelog]({{site.baseurl}}/QRacces/{{page.lang}}/changelog)

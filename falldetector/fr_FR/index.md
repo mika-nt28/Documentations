@@ -35,7 +35,7 @@ Apres l'activation, le plugin vous demande ou enregister les snap, il vous est l
 
 Pour ne pas remplir les disques avec des snapshot, il est possible de limiter la taille de chaque dossier camera
 
-Creation d'un utilisateur
+Création d'un utilisateur
 =========================
 
 Rendez vous sur la page de configuration du plugin

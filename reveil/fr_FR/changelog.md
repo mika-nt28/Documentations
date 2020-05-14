@@ -9,7 +9,7 @@ pluginId: reveil
 
 ## 03/04/2020
 
-* Separation du plugin et sa documentation
+* Séparation du plugin et sa documentation
 
 ## 24/11/2019
 

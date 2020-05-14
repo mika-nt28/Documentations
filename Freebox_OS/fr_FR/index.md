@@ -177,6 +177,20 @@ Cliquer sur le bouton ***Rechercher les tile***, le plugin va créer les différ
 
 ![Recherche des équipements spécifique Freebox delta](../images/RechercheTiles.jpg)
 
+### Statut Alarme
+> Le plugin remonte l'état de l'alarme par la commande "info_État de lalarme"
+
+![Temps de rafraichissement](../images/alarme_statut.png)
+Les valeurs possibles sont :
+* **idle** = Alarme désactivée
+* **alarm_1_arming** = L'alarme principale est activée, c'est un compte à rebours lorsque seuls les capteurs ne se trouvant pas dans la zone peuvent déclencher l'alerte
+* **alarm_2_arming** = L'alarme partielle est activée, c'est un compte à rebours lorsque seuls les capteurs ne se trouvant pas dans la zone peuvent déclencher l'alerte
+* **alarm_1_armed** = Alarme totale activée
+* **alarm_2_armed** = Alarme partielle activée
+* **alarm1_alert_timer** = L'alarme principale a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
+* **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
+* **alert** = la sirène sonne
+
 ### Les caméras
 > les caméras sont créées, avec votre accord, dans le plugin caméra, si celui-ci est installé.
 

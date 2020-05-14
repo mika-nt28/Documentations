@@ -12,7 +12,7 @@ pluginId: plex
 
 ## 03/04/2020
 
-* Separation du plugin et sa documentation
+* Séparation du plugin et sa documentation
 
 # Beta
 
