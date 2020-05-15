@@ -11,4 +11,4 @@ pluginId: falldetector
 ## 30/04/2020
 * Encodage de l'url en argument du demon
 ## 03/04/2020
-* Separation du plugin et sa documentation
+* Séparation du plugin et sa documentation

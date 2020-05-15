@@ -128,7 +128,7 @@ Le plugin vas automatiquement cree tous les equipements et les commandes dont il
 Specificité de Home Adapters, Réseau et Disque Dur
 --------------------------------------------------
 
-Ces 3 equipement ont pour spécificité d'etre vide a la creation.
+Ces 3 equipement ont pour spécificité d'etre vide a la création.
 Cela vient du fait qu'il faut se connecter a la box pour recuperer les commande associé.
 Vous y trouverez dans chaqu'un d'entre eu un bouton "Rechercher" qui crera les commande associé
 

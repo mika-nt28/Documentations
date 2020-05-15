@@ -10,7 +10,7 @@ pluginId: Volets
 * BugFix autorisation Evenemention et conditionnel lorsqu'un gestion du meme type est deja active
 * Ajout des commandes jour et nuit et suppression des varriables en cache
 ## 03/04/2020
-* Separation du plugin et sa documentation
+* Séparation du plugin et sa documentation
 * Ajout du support de configuration par jeedom
 
 # Beta

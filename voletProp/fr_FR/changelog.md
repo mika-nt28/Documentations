@@ -11,5 +11,5 @@ pluginId: voletProp
 * Suppression de la configuration d'etat  sur action manuel (inutile)
 * Suppression des End dans le test de retour d'etat
 ## 03/04/2020
-* Separation du plugin et sa documentation
+* Séparation du plugin et sa documentation
 # Beta

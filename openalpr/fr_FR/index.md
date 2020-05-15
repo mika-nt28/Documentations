@@ -108,7 +108,7 @@ Plaques d'imatriculation
 
 ![introduction01](../images/Configuration_commande.jpg)	
 
-A la creation du groupe certaine commande ont été ajouté automatiquement, il ne faut pas les supprimer.
+A la création du groupe certaine commande ont été ajouté automatiquement, il ne faut pas les supprimer.
 * Dernier déclencheur : Indique quel a ete la derniere plaque vue sur la camera
 * Détection manuel : permet de spécifier une url d'une image a analysé
 * Etat du groupe : informe l'etat de detection du groupe

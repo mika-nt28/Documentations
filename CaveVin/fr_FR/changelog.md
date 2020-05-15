@@ -8,4 +8,4 @@ pluginId: CaveVin
 ## 28/04/2020
 * Autorisation des assenceurs sur le panel
 ## 03/04/2020
-* Separation du plugin et sa documentation
+* Séparation du plugin et sa documentation

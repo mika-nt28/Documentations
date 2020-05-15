@@ -7,7 +7,7 @@ pluginId: voletProp
 
 Description
 ===
-Ce plugin a pour but de permetre de gerer ses volets de maniere proportionnel
+Ce plugin a pour but de permetre de gérer ses volets de maniere proportionnel
 
 Paramétrage d'un volet proportionnel
 ===

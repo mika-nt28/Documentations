@@ -140,7 +140,7 @@ Je n'arrive pas a synchroniser un utilisateur a Jeedom
 ------------------------------------------------------
 
 La synchronisation doit etre obligatoirement faite a partir de l'url externe.
-Withings a une securité sur le callback qui doit etre identique au callback renseginé lors de la creation de l'application, celui envoyer par le plugin lors de la demande et que la racine de l'url demandeur soit la meme que le callback.
+Withings a une securité sur le callback qui doit etre identique au callback renseginé lors de la création de l'application, celui envoyer par le plugin lors de la demande et que la racine de l'url demandeur soit la meme que le callback.
 
 Je n'ai plus de synchonisation apres un arret long du serveur ou une restauration
 ---------------------------------------------------------------------------------

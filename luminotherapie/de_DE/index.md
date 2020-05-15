@@ -24,7 +24,7 @@ En cliquant sur le bouton "Ajouter une séquence" nous allons pouvoir imbriquer 
 
 ![introduction02](../images/luminotherapie_screenshot_ConfigurationAmbianceLum.jpg)
 
-On remarquera une représentation graphique de notre simulation pour facilité la creation
+On remarquera une représentation graphique de notre simulation pour facilité la création
 
 Pour chaque sequence, il faut determiner un delais dont sont unité sera definie dans la configuration d'une sequence.
 
@@ -36,7 +36,7 @@ C'est le meme principe que pour la variation lumineuse, on vas imbriquer plusieu
 
 ![introduction03](../images/luminotherapie_screenshot_ConfigurationAmbianceCouleur.jpg)
 
-On remarquera une représentation graphique de notre simulation pour facilité la creation
+On remarquera une représentation graphique de notre simulation pour facilité la création
 
 Le forme d'onde
 -----

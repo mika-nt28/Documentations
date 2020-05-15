@@ -7,8 +7,8 @@ pluginId: QRacces
 
 Description
 ==========
-Ce plugin permet de gerer une acces par QRcode.
-Un Qr code est envoyé par mail a l'utilisateur autorisé
+Ce plugin permet de gérer une accès par QRcode.
+Un Qr code est envoyé par mail à l'utilisateur autorisé
 
 Configuration
 =============
@@ -49,7 +49,7 @@ Il est possible que le plugin enregistre un snapshot a chaque detection.
 * Surveiller la taille du dossier Snapshot de chaque camera : Autorise la surveillance et la suppression des snapshots les plus vieux
 * Taille du dossier Snapshot de chaque camera (Mo) : Taille maximal que peut contenir le dossier
 
-Creation d'une autorisation utilisateur
+Création d'une autorisation utilisateur
 =======================================
 
 Rendez vous dans Plugins => Sécurité => Acces par QRcode
@@ -65,7 +65,7 @@ Ici, on retrouve les parametres courant de jeedom
 * Objet parent : Objet jeedom si on veux l'afficher sur le dashbord
 * Activer / Visible : Permet de desactivé totalement l'acces
 
-Gerer un planning d'autorisation
+Gérer un planning d'autorisation
 ---------------------------------
 
 Pour limiter l'usage de la reconnaissance il est possible de créer des crenaux horaire d'autorisation

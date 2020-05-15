@@ -13,4 +13,4 @@ pluginId: clientSIP
 * Mise a jours de la configuration SDP
 * BugFix Emmission d'un appel
 ## 03/04/2020
-* Separation du plugin et sa documentation
+* Séparation du plugin et sa documentation

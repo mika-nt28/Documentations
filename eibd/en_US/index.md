@@ -297,17 +297,17 @@ Ce mecanisme est tres utile pour les personnes ayant une licence demo ou lite d'
 
 ![Demande de chargement d'un autres fichier projet](../images/otherProjectFile.jpg)
 
-Apres le chargement de tous vos projet le plugin vous propose d'utiliser la creation automatique des equipement
+Apres le chargement de tous vos projet le plugin vous propose d'utiliser la création automatique des equipement
 
 ![Demande de chargement d'un autres fichier projet](../images/autoCreateConfirm.jpg)
 
-Creation automatique des equipements
+Création automatique des equipements
 =====================================
 
 
 ![Demande de chargement d'un autres fichier projet](../images/eidb_screenshot_autoCreate.jpg)
 
-* Quelle arborescence choisir : Choisi sur quel arboresance se base la creation automatique
+* Quelle arborescence choisir : Choisi sur quel arboresance se base la création automatique
 * Arborescence des groupes : Défini, pour chaque rang de votre arborescence, un type d'information. Cette configuration est obligatoire si vous voulez qu'il crée automatiquement vos objets et équipements
 * Créer les objets : crée automatiquement, s'ils n'existent pas, les objets définis dans le rang d'arborescence si plusieur rang objet selectioné alors il mettera le precédent en parent
 * Créer les équipements  : crée automatiquement, s'il n'existe pas, vos équipements tels que définis dans le rang d'arborescence. Il sera toutefois impératif de reprendre la configuration de chacun car le fichier projet ne le définit pas tout.
@@ -350,7 +350,7 @@ Template disponnible
 
 Voici la définition de chaque template.
 Désormais un template peut contenir des options (par exemple pour un point de lumière qui peut être simple, variateur ou couleur).
-Pour simplifier la creation, un template rassemble les commandes identiques (On / Off, Ouvrir / Fermer,...)
+Pour simplifier la création, un template rassemble les commandes identiques (On / Off, Ouvrir / Fermer,...)
 Pour donner plus de souplesse à l'import ETS, la notion de synonyme est intégrée.
 
 Thermostat
@@ -642,11 +642,11 @@ Beta
 
 ### 07/02/2019
 
-* Correction valeur de sous-type automatique, lors d'une creation automatique de commande, si le dpt n'est pas configurer sous jeedom
+* Correction valeur de sous-type automatique, lors d'une création automatique de commande, si le dpt n'est pas configurer sous jeedom
 
 ### 01/02/2020
 
  * Synonmyme anglais sur les templates
  * Ajout de la categorie sur les templates
- * Correction bug creation automatique unitaire des objets
+ * Correction bug création automatique unitaire des objets
  * Recherche des gad dans les groupes de la vue batiment

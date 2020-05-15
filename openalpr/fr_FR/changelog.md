@@ -9,7 +9,7 @@ pluginId: openalpr
 ## 01/05/2020
 * Verification si le fichier de configuration alprd existe apres la verification de la configuration
 ## 03/04/2020
-* Separation du plugin et sa documentation
+* Séparation du plugin et sa documentation
 # Beta
 ## 13/05/2020
 * Ajout de l'aide contextuel dans la configuration
