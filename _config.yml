@@ -1,6 +1,6 @@
 ---
 languages: [fr_FR,en_US,es_ES,de_DE]
-baseurl: "/"
+baseurl: "/Documentations-Mika-nt28"
 sass:
   sass_dir: assets/css
   style: compressed
