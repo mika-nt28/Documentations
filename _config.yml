@@ -3,7 +3,7 @@ languages: [fr_FR,en_US,es_ES,de_DE]
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
 sass:
-  sass_dir: css
+  sass_dir: assets/css
   style: compressed
 markdown: kramdown
 permalink: /404.html
