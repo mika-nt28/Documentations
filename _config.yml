@@ -1,6 +1,6 @@
 ---
 languages: [fr_FR,en_US,es_ES,de_DE]
-baseurl: "/Documentations"
+baseurl: "/"
 sass:
   sass_dir: assets/css
   style: compressed
