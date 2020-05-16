@@ -7,7 +7,7 @@ pluginId: balboa
 
 # Description
 
-Ce plugin a pour objet de connecter Jeedom à vos Sap __balboa__.
+Ce plugin a pour objet de connecter Jeedom à vos SPA __balboa__.
 
 # Configuration
 
