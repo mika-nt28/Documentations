@@ -5,8 +5,7 @@ lang: fr_FR
 pluginId: ChauffeEau
 ---
 
-Description
-==========
+# Description
 
 Ce plugin permet de gérer votre chauffe-eau.
 Il va estimer le temps nécessaire pour une chauffe complète de votre ballon.
@@ -19,27 +18,24 @@ Le plugin embarque une régulation configurable par hystérésis.
 
 Par exemple, si on règle l’hystérésis à 1°C et que la valeur de consigne vaut 19°C, alors le chauffage s’active lorsque la température passe en dessous de 18°C et s’arrête dès qu’il atteint 20°C.
 
-![introduction03](../images/PrincipeHysteresis.png)	
+![Principe Hysteresis](../images/PrincipeHysteresis.png)
 
-Paramétrage du plugin
-==========	
+# Paramétrage du plugin
 
-![introduction01](../images/ConfigurationGeneral.jpg)	
+![Configuration générale](../images/ConfigurationGeneral.jpg)
 
 Sur ce blog, vous aurez l'exemple d'une installation complète de la gestion de chauffe eau avec jeedom
 https://Documentations/facile.fr/index.php/2019/01/03/piloter-votre-ballon-deau-chaude/
 
-Paramètrage général
----
+## Paramètrage général
 
-* Nom  : le nom a déjà été paramétré, mais vous avez la possibilité de le changer.		
-* Objet parent : ce paramètre permet d'ajouter l'équipement dans un objet Jeedom.		
-* Catégorie : déclare l'équipement dans une catégorie.		
-* Visible : permet de rendre l'équipement visible dans le Dashboard.		
-* Activer : permet d'activer l'équipement.		
+* Nom  : le nom a déjà été paramétré, mais vous avez la possibilité de le changer.
+* Objet parent : ce paramètre permet d'ajouter l'équipement dans un objet Jeedom.
+* Catégorie : déclare l'équipement dans une catégorie.
+* Visible : permet de rendre l'équipement visible dans le Dashboard.
+* Activer : permet d'activer l'équipement.
 
-Paramètrage du chauffe-eau
----
+## Paramètrage du chauffe-eau
 
 * Capacité du chauffe-eau (Litre) : indiquez le volume de votre chauffe-eau
 * Puissance du chauffe-eau (Watt) : indiquez la puissance de votre chauffe-eau, cette puissance sera ré-évaluée en cours d'utilisation
@@ -48,8 +44,7 @@ Paramètrage du chauffe-eau
 * Sélectionner une commande de la température actuelle de l'eau : Choisissez un objet Jeedom représentant la valeur
 * Température de la pièce : Température de la pièce du ballon (valeur mini de la simulation de température)
 
-Contrôle du chauffe-eau
----
+## Contrôle du chauffe-eau
 
 * Protection Bactériologique : ce mode permet au plugin de lancer automatiquement un nettoyage bactériologique
 * Temps de protection : Défini le temps que le ballon reste en zone critique (25°C > 47°C)
@@ -61,26 +56,24 @@ Contrôle du chauffe-eau
 Si vous utilisez une sonde de température réelle, le plugin enregistre les caractéristiques de perte.
 Il est possible de visualiser cette caractéristique en cliquant sur le bouton "Caractéristique"
 
-Programmation
-==========
-Nous avons la possibilité de créer plusieurs programmations de notre chauffe eau, en fonction des jours de la semaine, de l'heure de disponibilité de l'eau chaude ou d'un seuil de température. 
-![introduction02](../images/ConfigurationProgramation.jpg)	
+# Programmation
+
+Nous avons la possibilité de créer plusieurs programmations de notre chauffe eau, en fonction des jours de la semaine, de l'heure de disponibilité de l'eau chaude ou d'un seuil de température.
+![Configuration Programmation](../images/ConfigurationProgramation.jpg)
 
 Pour chaque programmation, nous pouvons déterminer une consigne, l'hystérésis, et le type de régulation active avec ses paramètres.
 
-Programmation déclenchée par Température
----
+## Programmation déclenchée par Température
 
 Si la régulation par Température est actif alors le plugin cherchera l'heure d'atteinte de la valeur de seuil et se déclenchera uniquement en dessous de cette valeur.
 
 
-Programmation Horaire
----
+## Programmation Horaire
+
 Lorsque vous sélectionnez une programmation horaire, le chauffage de l'eau sera autorisé uniquement dans la plage horaire :
 Heure Programmée - Temps de chauffe > Chauffe > Heure Programmée.
 
-Programmation dynamique
----
+## Programmation dynamique
 
 Pour chaque programmation une url de reconfiguration est disponible pour le lier avec d'autres équipements.
 L'url de reprogrammation se présente sous la forme
@@ -96,20 +89,19 @@ Il sera impératif de personnaliser cette url en remplaçant les paramètres par
 Si les paramètres heure=%H et minute=%M sont présent dans l'url alors le plugin activera la programmation horaire
 Si le paramètre seuil=%S est présent dans l'url alors le plugin activera la programmation hystérésis
 
-Condition
-==========
+# Condition
+
 Afin de pouvoir filtrer les déclenchements du ChauffeEau nous avons la possibilité de lui ajouter des conditions d’exécution.
 Par exemple je suis en vacance, je ne veux donc pas que le chauffe-eau se déclenche.
 
-![introduction01](../images/ConfigurationCondition.jpg)
+![Configuration condition](../images/ConfigurationCondition.jpg)
 
 Cliquer sur "Ajouter une condition" et configurer votre condition
 Chaque condition de la liste formera un ET
 
-Actions
-==========
+# Actions
 
-![introduction01](../images/ConfigurationAction.jpg)
+![COnfiguration Action](../images/ConfigurationAction.jpg)
 
 Les actions sont exécutées dans l'ordre d'apparition en fonction de leur déclencheurs.
 Il existe 3 déclenchements
@@ -119,8 +111,7 @@ Il existe 3 déclenchements
 * Défaillance Sonde : Si vous utilisez une sonde de température, le plugin va la surveiller et exécuter ce type d'action pour corriger ou notifier.
 
 
-Mode de fonctionnement
-==========
+# Mode de fonctionnement
 
 Le plugin a 4 modes de fonctionnement, Marche forcée, Automatique , Off ou Délestage.
 Nous pouvons connaitre et contrôler chacun de ses mode par une commande.
@@ -133,15 +124,14 @@ La commande "Délestage" permet de forcer l'extinction du chauffe-eau mais en ay
 > En fonction de l'état du chauffe-eau vu par le plugin et l'état réel, le plugin changera automatiquement le mode.
 Par exemple, vous forcé l'allumage du chauffe-eau en manuel, le retour d'état réel passe a on alors que le plugin attend un off, il comprend alors que nous souhaitons faire une marche forcée et passe par ce mode pour ne pas interférer avec votre ordre manuel
 
-FAQ
-===
+# FAQ
 
-Je veux que le plugin ne se déclenche qu'en heures creuses
----
+## Je veux que le plugin ne se déclenche qu'en heures creuses
+
 > Pour cette problématique, propre a la France, il est facile d'ajouter une condition qui n'autorisera le déclenchement que durant la période qui défini les heures creuse, ou toute autre  spécificité tarifaire existante.
 
-Le plugin change automatiquement de mode de fonctionnement
----
+## Le plugin change automatiquement de mode de fonctionnement
+
 > Le changement automatique de gestion se fait sur incohérence de l’état réel et l’état de pilotage du plugin.
 Ce mode automatique est important pour qu'une manipulation manuelle ou scenario soit prioritaire.
 Dans une premier temps, il faut s'assurer qu'aucune action extérieure au plugin ne soit faite.
@@ -153,20 +143,3 @@ Allez dans l'onglet **Configuration** >> **Autres** et passez le paramètre **Ge
 
 ![Ecran de configuration des paramètres avancés d'une commande](../images/AllwaysRepetition.jpg)
 
-ChangeLog
-=========
-Beta
-----
-
-Stable
-------
-
-### 07/01/2020
-
-* Ajout de la température extérieure pour la simulation de température 
-* Mise à jour de la cartographie de perte du chauffe eau 
-
-### 27/11/2019
-
-Ajout d'un déclancheur pour le changement de mode.
-Ce declancheur est tres utile pour la notification par exemple.
