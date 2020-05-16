@@ -7,24 +7,30 @@ pluginId: eibd
 
 # Stable
 ## 29/04/2020
-* Mise a jours du template Lumiere avec l'ajout des widgets standard
+* Mise a jours du Template Lumière avec l'ajout des widgets standard
+
 ## 15/04/2020
-* Branche d'installation du github de knxd remplacé
+* Branche d'installation du GitHub de knxd remplacé
+
 ## 03/04/2020
-* Séparation de la documentatio
+* Séparation de la documentation
+
 ## 17/03/2020
-* Correction valeur de sous-type automatique, lors d'une création automatique de commande, si le dpt n'est pas configurer sous jeedom
-* Synonmyme anglais sur les templates
-* Ajout de la categorie sur les templates
+* Correction valeur de sous-type automatique, lors d'une création automatique de commande, si le dpt n'est pas configuré sous jeedom
+* Synonyme anglais sur les Templates
+* Ajout de la catégorie sur les Templates
 * Correction bug création automatique unitaire des objets
-* Recherche des gad dans les groupes de la vue batiment
+* Recherche des gad dans les groupes de la vue bâtiment
 * Bugfix DPT 19.xxx
-### 13/12/2019 
+
+### 13/12/2019
 * BugFix : ***erreur : Call to a member function getHumanName() on null***
+
 ### 11/12/2019
-* Refonte de moteur de template pour simplifié la maintenance
-* Ajout du template AireZone
+* Refonte de moteur de Template pour simplifier la maintenance
+* Ajout du Template AireZone
 * Correction de bug
 * Initialisation des valeur a la sauvegarde (si FlagInit est actif)
-* Ajout d'une vue liste pous simplifier la configuration de base
+* Ajout d'une vue liste pour simplifier la configuration de base
+
 # Beta
