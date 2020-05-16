@@ -18,7 +18,7 @@ Activation du service
 
 Sur le site de Free mobile (https://mobile.free.fr), rendez-vous dans votre espace abonné.
 
-Ensuite dans "Gérer mon compte", choississez "Mes Options"
+Ensuite dans "Gérer mon compte", choisissez "Mes Options"
 
 ![Mes Options](../images/freesms1.png)
 
@@ -35,11 +35,11 @@ Il n'y a aucune configuration particulière à effectuer.
 Configuration des équipements
 --------------------------------
 
-La configuration des numéro est accessible à partir du menu plugin : 
+La configuration des numéro est accessible à partir du menu plugin :
 
 ![Mes Options](../images/freesms3.png)
 
-La page principale du plugin vous permets d'ajouter un équipement en indiquant un nom :
+La page principale du plugin vous permet d'ajouter un équipement en indiquant un nom :
 
 ![Mes Options](../images/freesms4.png)
 
@@ -47,7 +47,7 @@ Une fois l'équipement sélectionné vous arrivez sur la page de configuration :
 
 ![Mes Options](../images/freesms5.png)
 
-Vous retrouvez ici toute la configuration de votre équipement : 
+Vous retrouvez ici toute la configuration de votre équipement :
 
 * *Nom* : nom de votre équipement
 * *Objet parent* : indique l'objet parent auquel appartient l'équipement

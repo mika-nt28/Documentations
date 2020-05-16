@@ -90,10 +90,10 @@ Ce plugin vous permet d'envoyer des sms à votre portable Free via le service de
 - [Documentation]({{site.baseurl}}/FreeSms/{{page.lang}})
 - [Changelog]({{site.baseurl}}/FreeSms/{{page.lang}}/changelog)
 
-Energie
+Énergie
 =======
 
-Production Energie (prosommateur)
+Production Énergie (prosommateur)
 ---------------------------------
 
 L’autoconsommation est le but dans la production d’énergie. Ce plugin est là pour vous y aidé en contrôlant les activations.
@@ -101,7 +101,7 @@ L’autoconsommation est le but dans la production d’énergie. Ce plugin est l
 - [Documentation]({{site.baseurl}}/prosommateur/{{page.lang}})
 - [Changelog]({{site.baseurl}}/prosommateur/{{page.lang}}/changelog)
 
-Santée
+Santee
 ======
 
 Withings / Nokia (withings)

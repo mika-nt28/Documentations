@@ -6,6 +6,7 @@ pluginId: CaveVin
 ---
 # Stable
 ## 28/04/2020
-* Autorisation des assenceurs sur le panel
+* Autorisation des ascenseurs sur le panel
+
 ## 03/04/2020
 * Séparation du plugin et sa documentation
