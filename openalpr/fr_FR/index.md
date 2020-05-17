@@ -11,10 +11,10 @@ Plugin permanent de faire de la reconnaissance de plaque d’immatriculation ave
 
 > Attention avec l'usage de ce plugin
 Seules les autorités publiques (les mairies notamment) peuvent
-filmer la voie publique.
+Filmer la voie publique.
 Les particuliers ne peuvent filmer que l’intérieur de leur propriété.
 Ils ne peuvent pas filmer la voie publique, y compris pour
-assurer la sécurité de leur véhicule garé devant leur domicile.
+Assurer la sécurité de leur véhicule garé devant leur domicile.
 
 Installation et configuration
 =============================
@@ -22,25 +22,25 @@ Installation et configuration
 Installation des dépendances
 ----------------------------
 
-Pour facilité la mise en place des dépendance, jeedom vas gérer seul l’installation et la compilation du logiciel OpenALPR.
+Pour faciliter la mise en place des dépendance, Jeedom vas gérer seul l’installation et la compilation du logiciel OpenALPR.
 
-Dans la cadre réservé aux dépendances, vous allez avoir le statut de l’installation. Nous avons aussi la possibilité de consulté le log d’installation en temps réel.
+Dans le cadre réservé aux dépendances, vous allez avoir le statut de l’installation. Nous avons aussi la possibilité de consulté le log d’installation en temps réel.
 
-![introduction01](../images/Installation_dependance.jpg)	
+![introduction01](../images/Installation_dependance.jpg)
 
-Configuration du plugin et de ses dépendance
+Configuration du plugin et de ses dépendances
 ----------------------------------------------
 
-![introduction01](../images/openalpr_screenshot_configuration.jpg)	
+![introduction01](../images/openalpr_screenshot_configuration.jpg)
 
-Les paramettre de configuration général sont:
+Les paramètre de configuration général sont:
 
-* Création automatique de plaque inconnue: Permet a jeedom de créer une commande pour les plaque non reconue
-* Activer le Snapshot: Permet de déterminer si on veut des snapshot des détécton
-* Choisir l'emplacement par defaut des snapshot
-* Choisir les commandes d'alerte (mail, slack...) separer par des &&
+* Création automatique de plaque inconnue: Permet à Jeedom de créer une commande pour les plaques non reconnue
+* Activer le Snapshot: Permet de déterminer si on veut des snapshot des détectons
+* Choisir l'emplacement par défaut des snapshot
+* Choisir les commandes d'alerte (mail, slack...) séparer par des &&
 * Choisir le nombre d'images envoyé
-* Personnalisé les paramettre par defaut de OpenAlpr
+* Personnalisé les paramètre par défaut de OpenAlpr
 
 *  state_id_img_size_percent
 *  ocr_img_size_percent
@@ -56,40 +56,40 @@ Les paramettre de configuration général sont:
 *  max_plate_angle_degrees
 *  ocr_min_font_point
 *  Minimum de confiance OCR à considérer(%)
-*  Tout caractère OCR inférieur à ce parametre sera ignorée.
+*  Tout caractère OCR inférieur à ce paramètre sera ignorée.
 *  Mode Débug
-* Ajouter une camera : Permet d’ajouter une camera
-* Resau jeedom: Permet de déterminer sur quel jeedom l’analyse va se faire
-* Plugin source camera: determine la maniere de configurer une camera
+* Ajouter une caméra : Permet d’ajouter une camera
+* Réseau Jeedom: Permet de déterminer sur quel Jeedom l’analyse va se faire
+* Plugin source camera: détermine la manière de configurer une camera
 * Url de la Camera: adresse du flux de votre camera
-* Login de connexion a la Camera
-* Mots de pass de la Camera
+* Login de connexion à la Camera
+* Mots de passe de la Camera
 
-Nous pouvons voir le status de configuration et d’activation d’OpenALPR dans le cadre "Démon"
-La configuration des parametres peuvent etre défini avec l'utilitaire openalpr-utils-calibrate.exe sur windows avec une image de la camera. 
+Nous pouvons voir le statu de configuration et d’activation d’OpenALPR dans le cadre "Démon"
+La configuration des paramètres peut être défini avec l'utilitaire openalpr-utils-calibrate.exe sur windows avec une image de la camera.
 
-![introduction01](../images/Status_Demon.jpg)	
-Si tous les voyant sont au vert, nous pouvons passée a la suite
+![introduction01](../images/Status_Demon.jpg)
+Si tous les voyant sont au vert, nous pouvons passée à la suite
 
 
-Paramétrage des mes groupes et de mes plaques
+Paramétrage de mes groupes et de mes plaques
 =============================================
 
-![introduction01](../images/MesGroupes.jpg)	
+![introduction01](../images/MesGroupes.jpg)
 
-Verification d'une image
+Vérification d'une image
 -----------------
 
-Il est possible de lancer une detection manuel, ou par scénario de cette en passant en message l'url de votre image
+Il est possible de lancer une détection manuelle, ou par scénario de cette en passant en message l'url de votre image
 
-![introduction01](../images/TestManuel.jpg)	
+![introduction01](../images/TestManuel.jpg)
 
 Groupe de plaques
 ------------------
 
 Dans un premier temps, il faut créer un nouveau groupe et le nommer.
-Comme dans tous les plugins Jeedom vous avez un bouton ajouter un equipement sur la gauche de votre fenetre.
-![introduction01](../images/Configuration_equipement.jpg)	
+Comme dans tous les plugins Jeedom vous avez un bouton ajouter un équipement sur la gauche de votre fenêtre.
+![introduction01](../images/Configuration_equipement.jpg)
 
 Ce nouveau groupe a besoin d'être paramétré.
 
@@ -98,25 +98,25 @@ Ce nouveau groupe a besoin d'être paramétré.
 * Catégorie : Déclare l'équipement dans une catégorie
 * Visible : Permet de rendre l'équipement visible dans le Dashboard
 * Activer : Permet d'activer l'équipement
-* Mode de mise a jours : permet de determiné si les etats des commandes représenterons la visibilité sur l'image ou un changement a chaque passage (cette deuxieme option peut posée probleme si on reste devant la camera)
-* Camera autorisé : ce champs permet de spécifier quel camera a le droit de mettre a jours se groupe
+* Mode de mise a jours : permet de déterminé si les états des commandes représenteront la visibilité sur l'image ou un changement à chaque passage (cette deuxième option peut poser des problèmes si on reste devant la caméra)
+* Camera autoriser : ce champ permet de spécifier quel camera à le droit de mettre à jours se groupe
 
-Le groupe "Plaques détectées inconnu" ce créer automatiquement des qu’une plaque a ete détécté et qu’elle n’existe pas sous jeedom.
+Le groupe "Plaques détectées inconnu" se créer automatiquement dès qu’une plaque a été détecté et qu’elle n’existe pas sous Jeedom.
 
-Plaques d'imatriculation
+Plaques d'immatriculation
 --------------------------
 
-![introduction01](../images/Configuration_commande.jpg)	
+![introduction01](../images/Configuration_commande.jpg)
 
 A la création du groupe certaine commande ont été ajouté automatiquement, il ne faut pas les supprimer.
-* Dernier déclencheur : Indique quel a ete la derniere plaque vue sur la camera
+* Dernier déclencheur : Indique la dernière plaque qui a été vue sur la camera
 * Détection manuel : permet de spécifier une url d'une image a analysé
-* Etat du groupe : informe l'etat de detection du groupe
+* État du groupe : informe l'état de détection du groupe
 
-Pour compléter votre goupe vous devez ajouter autant de commandes que vous avez de plaque a détecter
+Pour compléter votre groupe vous devez ajouter autant de commandes que vous avez de plaque à détecter
 
-* Nom : Donner un nom a votre plaque de manière a la retrouve facilement dans Jeedom
-* Numero de la plaque: Numero de la plaque (sans les tirets) (il est possible de remplacé des caractere par de ** en cas de flotte avec de plaque qui se suive
+* Nom : Donner un nom à votre plaque de manière à la retrouve facilement dans Jeedom
+* Numéro de la plaque: Numéro de la plaque (sans les tirets) (il est possible de remplacer des caractères par de ** en cas de flotte avec de plaque qui se suive
 
 >AX**
 AX123**
@@ -125,14 +125,14 @@ AX**WW
 **123WW
 **WW
 
-* Historiser: Tres utiles si vous voulez visualiser sur le panel les entée
-* Afficher: si vous voulez que la plaque apparaisse sur le dashbord
+* Historiser: Très utiles si vous voulez visualiser sur le panel les entée
+* Afficher: si vous voulez que la plaque apparaisse sur le Dashboard
 * Déplacer: ce bouton permet de déplacer une plaque d’un groupe a un autre
 * Enfin pensez sauvegarder.
 
-Il est possible egalement de d'initialisé l'etat de base (si vous avez choisie un changement a chaque passage) avec les boutons "Absent" et "Présent".
+Il est possible également de d'initialisé l'état de base (si vous avez choisi un changement à chaque passage) avec les boutons "Absent" et "Présent".
 
 Condition et Action
 -------------------
-A chaque détéction du plugin il est possible d'executer des actions.
-Ses actions sont autorisé par des conditions
+A chaque détection du plugin il est possible d'exécuter des actions.
+Ses actions sont autorisées par des conditions
