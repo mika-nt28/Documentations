@@ -1,8 +1,9 @@
 ---
 languages: [fr_FR,en_US,es_ES,de_DE]
-baseurl: "/"
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "/" # the base hostname & protocol for your site
 sass:
-  sass_dir: css
+  sass_dir: assets/css
   style: compressed
 markdown: kramdown
 permalink: /404.html
@@ -16,10 +17,11 @@ gems:
 exclude:
 - vendor
 plugins:
+- jekyll-paginate
 - jekyll-seo-tag
 title: "Documentation Jeedom"
-description: "Ceci est la documentation, lier à la solution domotique Jeedom."
-author: "Jeedom"
+description: "Ceci est la documentation, lié à la solution domotique Jeedom."
+author: "Mika"
 image: https://www.jeedom.com/site/logo.png
 twitter:
   username: Jeedom_domotic
@@ -29,3 +31,7 @@ social:
     - https://twitter.com/Jeedom_domotic
     - https://www.facebook.com/Jeedom-249936178537210/
     - https://github.com/jeedom
+community: https://community.jeedom.com
+market: https://market.jeedom.com
+blog: https://blog.jeedom.com
+doc: https://doc.jeedom.com
