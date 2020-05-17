@@ -7,7 +7,7 @@ pluginId: motion
 
 # Stable
 ## 07/04/2020
-* Libération du forçage de template sur le commande
+* Libération du forçage de Template sur la commande
 
 ## 03/04/2020
 
@@ -15,7 +15,7 @@ pluginId: motion
 
 ## 10/12/2019
 
-* Reformatage du nom de la camera sans caractere spéciaux 
+* Reformatage du nom de la camera sans caractère spéciaux
 
 # Beta
 
