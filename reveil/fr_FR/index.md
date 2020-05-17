@@ -10,12 +10,12 @@ Description
 Ce plugin permet de créer des réveils.
 
 Création d'un réveil
-==========	
+==========
 
 Paramètre général
 ---
 
-![introduction01](../images/ConfigurationGeneral.jpg)	
+![introduction01](../images/ConfigurationGeneral.jpg)
 
 * Nom : le nom a déjà été paramétré, mais vous avez la possibilité de le changer.
 * Objet parent : ce paramètre permet d'ajouter l'équipement dans un objet Jeedom.
@@ -28,7 +28,7 @@ Programmation
 Nous avons la possibilité de créer plusieurs programmations de réveil.
 Pour chaque programmation, une url de reconfiguration est disponible pour le lier avec d'autre équipement.
 
-![introduction01](../images/ConfigurationProgramation.jpg)	
+![introduction01](../images/ConfigurationProgramation.jpg)
 
 L'url de reprogrammation se présente sous la forme suivante :
 URL_Jeedom/plugins/reveil/core/api/jeeReveil.php?apikey=APIKEY&id=ID&prog=IDcmd&day=%DAY&heure=%H&minute=%M
@@ -51,8 +51,8 @@ Chaque condition de la liste formera un ET
 Action
 ---
 Vous pouvez configurer le séquencement de votre réveil.
-Pour chaque action il est possible de mettre un delais (positif si on veux le decaler dans le future et negatif dans le passée)
-Chaque action configurée sera berifiée et/ou exécutée dans l'ordre choisi.
+Pour chaque action il est possible de mettre un délai (positif si on veut le décaler dans le futur et négatif dans le passée)
+Chaque action configurée sera vérifiée et/ou exécutée dans l'ordre choisi.
 
 ![introduction01](../images/ConfigurationAction.jpg)
 
