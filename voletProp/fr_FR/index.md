@@ -1,13 +1,13 @@
 ---
 layout: default
-title: Volet proportionel (voletProp)
+title: Volet proportionnel (voletProp)
 lang: fr_FR
 pluginId: voletProp
 ---
 
 Description
 ===
-Ce plugin a pour but de permetre de gérer ses volets de maniere proportionnel
+Ce plugin a pour but de permettre de gérer ses volets de manière proportionnel
 
 Paramétrage d'un volet proportionnel
 ===
@@ -16,7 +16,7 @@ Paramétrage d'un volet proportionnel
 
 La page de configuration est assez simple.
 
-Géneral
+Général
 ---
 
 * Nom du volet : Le nom a déjà été paramétrée mais vous avez la possibilité de la changer
@@ -24,31 +24,31 @@ Géneral
 * Catégorie : Déclare l'équipement dans une catégorie
 * Visible : Permet de rendre l'équipement visible dans le Dashboard
 * Activer : Permet d'activer l'équipement
-* Délais minimal : Permet de determiner le delais entre 2 commande (Attention plus le delais est grand et plus le petite montée seront impossible).
-* Synchro : Sélectioner les types de synchro que vous souhaité.
+* Délais minimal : Permet de déterminer le délai entre 2 commandes (Attention plus le délai est grand et plus le petite montée seront impossible).
+* Synchro : Sélectionner les types de synchro que vous souhaité.
 
 Objet de control du volet
 ---
 
-* Objet de montée : Commande jeedom permétant de controler la montée (Action -> Defaut)
-* Objet de stop  : Commande jeedom permétant de controler le stop (Action -> Defaut)
-* Objet de decente : Commande jeedom permétant de controler la déscente (Action -> Defaut)
+* Objet de montée : Commande Jeedom permettant de contrôler la montée (Action -> Défaut)
+* Objet de stop  : Commande Jeedom permettant de contrôler le stop (Action -> Défaut)
+* Objet de descente : Commande Jeedom permettant de contrôler la descente (Action -> Défaut)
 
 Objet d'état du volet
 ---
 
-Les états de mouvement sont defini comme une condition, c'est a dire qu'il faut definir une objet (de votre equipement connecter au volet) ainsi qu'un opérende et une valeur.
-* Utiliser les etat sur : 
- * Les mouvement Jeedom : Permet, si cochée de mettre a jours la hauteur par les retour d'etat, ou sinon de forcer la valeur demander
+Les états de mouvement sont définis comme une condition, c'est à dire qu'il faut définir un objet (de votre équipement connecter au volet) ainsi qu'un opérande et une valeur.
+* Utiliser les états surs :
+ * Les mouvement Jeedom : Permet, si cochée de mettre à jours la hauteur par le retour d'état, ou sinon de forcer la valeur demander
 
-* Condition d'etat montée : Cette etat indique au plugin une montée
-* Condition d'etat descente  : Cette etat indique au plugin une descente
-* Condition d'etat arret  : Cette etat indique au plugin un arret de mouvement
+* Condition d'état montée : Cette état indique au plugin une montée
+* Condition d'état descente  : Cette état indique au plugin une descente
+* Condition d'état arrêt  : Cette état indique au plugin un arrêt de mouvement
 
-* Fin de course  :  Commande jeedom representant la fin de course(info -> Binaire :1 = Volet commpletement fermée)
+* Fin de course  :  Commande Jeedom représentant la fin de course(info -> Binaire :1 = Volet complètement fermée)
 
 Délais
 ---
 
-* Temps total : Temps total que met le volet pour une fermeture ou un ouverture
-* Temps de décollement : Temps avant lequel le volet se decolle du sol
+* Temps total : Temps total que met le volet pour une fermeture ou une ouverture
+* Temps de décollement : Temps avant lequel le volet se décolle du sol

@@ -36,12 +36,12 @@ Commandes
 
 ![Commandes crée automatiquement](../images/telecfree_snapshot_commandes.jpg)	
 
-Par defaut, le plugin ajoute toutes les commandes de base ainsi que ses principaux racourcis.
-Il est néanmoins possible d'ajouter des chaines personnalisé avce le bouton "Ajouter"
+Par défaut, le plugin ajoute toutes les commandes de base ainsi que ses principaux raccourcis.
+Il est néanmoins possible d'ajouter des chaînes personnalisé avec le bouton "Ajouter"
 
 ![Commandes crée automatiquement](../images/telecfree_snapshot_commandes_perso.jpg)	
 
-Nommer la chaine et saisir en action le numero de chaine freebox voulue
+Nommer la chaîne et saisir en action le numéro de chaîne freebox voulue
 
 FAQ
 ===
@@ -58,6 +58,9 @@ _Vérifiez que l'adresse IP du player est correcte
 _Vérifiez que le code télécommande est correct
 _Vérifiez dans l'interface de votre Freebox que votre "Box" Jeedom fait bien partie des périphériques détectés sur le réseau
 _Si même après avoir essayé les points ci-dessus cela ne fonctionne toujours pas, essayez directement d'entrer les commandes suivantes dans votre navigateur internet
+
 http://hd1.freebox.fr/pub/remote_control?code=CODEDEVOTRETELECOMMANDE&key=power
+
 http://hd2.freebox.fr/pub/remote_control?code=CODEDEVOTRETELECOMMANDE&key=power
+
 Si aucune ne fonctionne c'est un problème de réseau et non du plugin

@@ -33,7 +33,7 @@ Obtenir une clef API BING
 ----
 
 Pour obtenir une clef API bing, aller sur le site [bingmapsportal](https://www.bingmapsportal.com/Application#)
-puis créer une nouvelle application.
+Puis créer une nouvelle application.
 
 ![introduction01](../images/BingAPiKeyCreate.jpg)
 
@@ -48,7 +48,7 @@ Pour chaque équipement, le plugin va créer des commandes.
 * `Position du soleil` : Détermine si le soleil est dans la fenêtre ou non
 * `Ratio Horizontal` : Estimation par le plugin du ratio d'ouverture horizontal
 * `Ratio Vertical` : Estimation par le plugin du ratio d'ouverture vertical
-* `Mode` : Détermine dans quel Mode (Saison) fonctionne le plugin 
+* `Mode` : Détermine dans quel Mode (Saison) fonctionne le plugin
 * `Etat mode` : Représentation du mode actif
 * `Gestion Active` : Indicateur de gestion en cours d'utilisation
 
@@ -60,8 +60,8 @@ Cette commande permet de déterminer quelle gestion est en cours actuellement.
 * `Manuel` : Le plugin est en mode manuel et n'intervient plus
 * `Jour` : il fait jour, on active toutes les autres gestions. On vérifie les autres gestions avant d'exécuter les actions.
 * `Nuit` : il fait nuit, toutes les autres gestions sont désactivées.
-* `Azimut` : si le soleil est dans la fenêtre, on ferme les volets. La gestion par azimut autorise toutes autres gestions.	
-* `Evènement` : Le plugin vas écouter les évènements de vos commandes et décider de fermer selon vos paramètres. La gestion Evènement interdit toutes autres gestions hormis la gestion `Nuit`.
+* `Azimut` : si le soleil est dans la fenêtre, on ferme les volets. La gestion par azimut autorise toutes autres gestions.
+* `Évènement` : Le plugin va écouter les évènements de vos commandes et décider de fermer selon vos paramètres. La gestion Évènement interdit toutes autres gestions hormis la gestion `Nuit`.
 * `Conditionnel` : Le plugin vérifie toute les minutes les conditions, si elles sont vérifiées, alors, il fermera le volet. La gestion Conditionnel interdit toutes autres gestions hormis la gestion `Nuit`.
 
 La position du volet
@@ -86,7 +86,7 @@ C'est à vous de déterminer à quel moment il faut gérer ce changement.
 La position du soleil
 ---
 Cette commande nous informe si le soleil est dans la fenêtre ou pas.
- 
+
 ![introduction01](../images/SunInWindows.png)
 
 Dans la fenêtre.
@@ -118,11 +118,11 @@ Configuration générale Jeedom
 ### Choix des gestions actives
 
 * `Manuel` : activation de la gestion manuelle, autorise les changements manuels de volet
-* `Jour` : activation de la gestion en jour 
+* `Jour` : activation de la gestion en jour
 * `Nuit` : activation de la gestion en nuit
 * `Azimut` : activation de la gestion en fonction de la position du soleil (dépend de l'équipement Héliotrope)
-* `Evènement` : activation de la gestion Evènement
-* `Conditionnel` : active la gestion Conditionnel. 
+* `Évènement` : activation de la gestion Évènement
+* `Conditionnel` : active la gestion Conditionnel.
 
 ### Gestion de l'état réel
 
@@ -138,20 +138,20 @@ Il faut activer la gestion pour faire apparaitre les champs de configuration sp�
 
 ### Général
 
-* `Ouverture et fermeture aléatoire` : Si vous avez plusieurs volets sur la zone et que vous souhaitez un ouverture aléatoire (Attention il est impératif que les actions de mouvement soit renseignées dans les actions)
+* `Ouverture et fermeture aléatoire` : Si vous avez plusieurs volets sur la zone et que vous souhaitez une ouverture aléatoire (Attention il est impératif que les actions de mouvement soient renseignées dans les actions)
 * `Délai maximal du mode aléatoire (s)` : Délais maximal qui sera appliqué entre chaque exécution de mouvement aléatoire
-* `Mode de gestion Planning / Soleil` : Permet de choisir si on veut imposer un planing d'ouverture journalier ou si on parametre l'ouverture par la position du soleil
-* `Planning Jour de la semaine` : Ajout un crenaux de jour avec un click gauche et supprimer avec un click droit
+* `Mode de gestion Planning / Soleil` : Permet de choisir si on veut imposer un planning d'ouverture journalier ou si on paramètre l'ouverture par la position du soleil
+* `Planning Jour de la semaine` : Ajout un créneau de jour avec un click gauche et supprimer avec un clic droit
 
 ### Gestion du jour
 
-* `Heure d'ouverture minimum` : Permet d'imposer au plugin une heure minimum à partir de laquelle le plugin ne tiendra plus compte de l'heure du lever du soleil 
+* `Heure d'ouverture minimum` : Permet d'imposer au plugin une heure minimum à partir de laquelle le plugin ne tiendra plus compte de l'heure du lever du soleil
 * `Type de lever du soleil` : permet de choisir quel type d'horaire vous voulez pour le lever du jour
 * `Délai au lever du jour (min)` : délai avant (-) ou après (+) l'heure du lever du jour
 
 ### Gestion de la nuit
 
-* `Heure de fermeture maximum` :  Permet d'imposer au plugin une heure maximum à partir de laquelle le plugin ne tiendra plus compte de l'heure du coucher du soleil 
+* `Heure de fermeture maximum` :  Permet d'imposer au plugin une heure maximum à partir de laquelle le plugin ne tiendra plus compte de l'heure du coucher du soleil
 * `Type de coucher du soleil` : permet de choisir quel type d'horaire vous voulez pour la tombée de la nuit
 * `Délai à la tombée de la nuit (min)` : délai avant (-) ou après (+) l'heure de la tombée de la nuit
 
@@ -167,7 +167,7 @@ J'ajouterai donc une condition de ce type
 Gestion Manuel
 ---
 
-La gestion manuel est détectée si votre état réel du volet change et qui n'est pas autorisé par le plugin.
+La gestion manuelle est détectée si votre état réel du volet change et qui n'est pas autorisé par le plugin.
 Elle va vous permettre de pouvoir autoriser des changements manuels en désarmant le plugin.
 
 Ce sera donc à vous de gérer le réarmement pour retrouver un fonctionnement automatique de vos volets
@@ -187,32 +187,32 @@ Pour améliorer l'expérience de la gestion Azimut, le plugin calcule des ratios
 
 Pour appliquer ces ratios aller lire ce paragraphe [ici](https://mika-nt28.github.io/Documentations/Volets/fr_FR/#tocAnchor-1-7-8)
 
-### Définition de l'angle d'exposition au soleil 
+### Définition de l'angle d'exposition au soleil
 
 Nous pouvons limiter le ratio Horizontal avec la définition de l'angle d'exposition au soleil.
 Cette étape est importante pour le fonctionnement de la gestion en fonction de la position du soleil.
 
 ![introduction01](../images/ConfigurationMap.jpg)
 
-Sur votre fenêtre doit apparaitre 3 curseurs. 
+Sur votre fenêtre doit apparaitre 3 curseurs.
 Ces 3 curseurs vont donc former notre angle.
-Le point central doit être obligatoirement placé au-dessus de notre fenêtre. 
-Les 2 autres vont former l'angle et peuvent être placés n'importe où à l'extérieur de la maison. 
+Le point central doit être obligatoirement placé au-dessus de notre fenêtre.
+Les 2 autres vont former l'angle et peuvent être placés n'importe où à l'extérieur de la maison.
 Attention toutefois à bien respecter la droite et la gauche de votre fenêtre vue de l'extérieur (indiqué sur les points de la carte).
 
-### Altitude d'obstruction 
+### Altitude d'obstruction
 
-Dans la gestion d'altitude il est possible que le relief face a la fenetre masque le soleil.
+Dans la gestion d'altitude il est possible que le relief face à la fenêtre masque le soleil.
 Nous pouvons limiter le ratioVertical avec les paramètres d'altitude d'obstruction Minimum et Maximum.
 Si le soleil est au-dessous du minimum ou au-dessus du maximum alors le ratio sera à 100% ouvert
 
-### Paramètres d'ombrage 
+### Paramètres d'ombrage
 
-Pour caluler la fermeture proportionnel du volet par rapport a l'altitde du soleil, le plugin a besoin de calculé l'ange d'ombrage.
+Pour calculer la fermeture proportionnelle du volet par rapport à l'altitude du soleil, le plugin a besoin de calculé l'ange d'ombrage.
 ![introduction01](../images/Ombrage.jpg)
-* Hauteur du mur (m) : Hauteur du mur jusqu'au toit creant l'ombrage
-* Hauteur du seuil de fenêtre (m) : Hauteur du mur jusqu'au seuil de la feunetre
-* Dégagement du toit (m) : Longueur entre le bord du toit et la fenetre
+* Hauteur du mur (m) : Hauteur du mur jusqu'au toit créant l'ombrage
+* Hauteur du seuil de fenêtre (m) : Hauteur du mur jusqu'au seuil de la fenêtre
+* Dégagement du toit (m) : Longueur entre le bord du toit et la fenêtre
 
 ### Conditionner
 
@@ -223,45 +223,45 @@ J'ajouterai donc une condition de ce type.
 
 ![introduction01](../images/ConditionTemps.jpg)
 
-Gestion Evènement
+Gestion Évènement
 -----------------
 
 Cette gestion est prioritaire sur la gestion Azimut
 
-La gestion Evènement permet de cree une gestion personalisée sur une évènement exterieur
+La gestion Évènement permet de crée une gestion personnalisée sur une évènement extérieur
 Il faut activer la gestion pour faire apparaitre les champs de configuration spécifiques.
 
-Pour cree une nouvelle gestion évènementiel cliquer sur **Ajouter un groupe**
-Desormais cette gestion est diponnible dans la configuration des actions et des conditions particuliere
+Pour crée une nouvelle gestion évènementielle cliquer sur **Ajouter un groupe**
+Désormais cette gestion est disponible dans la configuration des actions et des conditions particulières
 
 ![introduction01](../images/ConfigurationEvenement.jpg)
 
-Deplier le groupe de gestion en cliquan sur son nom
+Déplier le groupe de gestion en cliquant sur son nom
 
 Vous pouvez ajouter un évènement, aussi bien pour une action d'ouverture ou de fermeture.
-Pour cela, il vous suffit de cliquer **Evenement ouverture** ou **Evenement fermeture** et de compléter la ligne créée.
+Pour cela, il vous suffit de cliquer **Évènement ouverture** ou **Évènement fermeture** et de compléter la ligne créée.
 * `Objet` : Sélectionner une commande Jeedom à écouter
 * `Operateur`: Choisir l'opération à effectuer pour valider la fermeture
 * `Valeur` : Saisir la valeur à comparer à l'objet
 
-En dessous, le plugin affichera le resumé des conditions et actions pour chaque phase.
+En dessous, le plugin affichera le résumé des conditions et actions pour chaque phase.
 
-Par defaut, la gestion est autorisé en mode jours, il est cepandant possible de l'autoriser la nuit avec la case **Autoriser la nuit** elle sera donc prioritaire sur toutes les gestions
-En cas de multiple gestion évènementiel la premiere gestion executer sera prioritaire.
+Par défaut, la gestion est autorisée en mode jours, il est cependant possible de l'autoriser la nuit avec la case **Autoriser la nuit** elle sera donc prioritaire sur toutes les gestions
+En cas de multiple gestion évènementiel la première gestion exécuter sera prioritaire.
 
 Gestion Conditionnel
 --------------------
 
 Cette gestion est prioritaire sur la gestion Azimut
 
-La gestion Conditionnel permet de cree une gestion personalisée ou les condition sont vérifie toutes les minutes.
+La gestion Conditionnel permet de crée une gestion personnalisée ou les conditions sont vérifié toutes les minutes.
 Si toutes les conditions que vous avez complétées sont valides, alors l'ordre de fermeture sera donné et toutes les autres gestions hormis la gestion de la nuit sont inactives.
 Il faut activer la gestion pour faire apparaitre les champs de configuration spécifiques.
 
-Pour cree une nouvelle gestion évènementiel cliquer sur **Ajouter un groupe**
-Desormais cette gestion est diponnible dans la configuration des actions et des conditions particuliere
+Pour crée une nouvelle gestion évènementielle cliquer sur **Ajouter un groupe**
+Désormais cette gestion est disponible dans la configuration des actions et des conditions particulières
 
-Deplier le groupe de gestion en cliquant sur son nom pour afficher le resumé des conditions et actions pour chaque phase.
+Déplier le groupe de gestion en cliquant sur son nom pour afficher le résumé des conditions et actions pour chaque phase.
 
 
 Conditions d'exécution et de réarmement
@@ -272,9 +272,9 @@ Afin d'affiner tous les cas d'utilisation de gestion de nos volets, nous pouvons
 ![introduction01](../images/Volets_screenshot_ConfigurationCondition.jpg)
 
 Paramètres complémentaires :
-* `Sur Action` : Permet d'identifier les conditions à tester pour exécuter une action 	
+* `Sur Action` : Permet d'identifier les conditions à tester pour exécuter une action
 * `Sur Réactivation` : 	Permet d'identifier les conditions à tester pour réarmer le plugin automatiquement
-* `Inverser l'action` : Permet de relancer une évaluation des conditions avec une position inverse du volet 	
+* `Inverser l'action` : Permet de relancer une évaluation des conditions avec une position inverse du volet
 * `Condition` : Saisir votre condition. L'ensemble des conditions forme un ET logique
 * `Type de gestion` : sélectionner toutes les gestions où la condition doit être vérifiée (avec la touche `Ctrl`)
 * `Mode` : sélectionner tous les modes où la condition doit être vérifiée (avec la touche `Ctrl`)
@@ -300,7 +300,7 @@ Paramètres complémentaires :
 
 * `Activation` : Permet d'activer ou non l'action
 * `Mouvement` : Permet de déterminer si l'action est une action de mouvement et donnera un retour d'état.
-* `Autorisation` : Permet de definir une action a toujours executer 
+* `Autorisation` : Permet de définir une action à toujours exécuter
 * `Action` : Saisir / choisir votre commande. Il est possible de saisir des opérations arithmétiques dans les options.
 * `Type de gestion` : sélectionner toutes les gestions où l'action doit être exécutée (avec la touche `Ctrl`).
 * `Mode` : sélectionner tous les modes où l'action doit être exécutée (avec la touche `Ctrl`).
@@ -308,11 +308,11 @@ Paramètres complémentaires :
 
 ### Utilisation des actions
 
-Il existe trois possibilités pour l'execution d'une action
+Il existe trois possibilités pour l'exécution d'une action
 
-* A chaque action autorisé par le plugin, une action qui peut servir a mettre a jours une valeur ou une serveillance
-* A chaque mouvement, ces commandes sont exlusivement executé pour une action declanchant un mouvement et un retour d'etat. Cette déclaration est importante pour que le plugin attende un acquitement.
-* A chaque changement de gestion, ces actions peut etre utile pour etre notifié par exemple
+* A chaque action autorisée par le plugin, une action qui peut servir à mettre à jours une valeur ou une surveillance
+* A chaque mouvement, ces commandes sont exclusivement exécutées pour une action déclenchant un mouvement et un retour d'état. Cette déclaration est importante pour que le plugin attende un acquittement.
+* A chaque changement de gestion, ces actions peuvent être utile pour être notifié par exemple
 
 ### Utilisation des commandes Ratio
 
@@ -359,7 +359,7 @@ Pour le corriger, rendez-vous sur la page de configuration du plugin de contrôl
 Jeedom va vous ouvrir la page de paramètre avancé
 Allez dans l'onglet **Configuration** >> **Autres** et passez le paramètre **Gestion de la répétition des valeurs** sur **Jamais répéter**
 
-![Ecran de configuration des paramètres avancés d'une commande](../images/CmdParamAvanceRepetition.jpg)
+![Écran de configuration des paramètres avancés d'une commande](../images/CmdParamAvanceRepetition.jpg)
 
 Je suis passé en mode manuel dans la journée, comment réarmer automatiquement le plugin
 ---
@@ -375,5 +375,5 @@ Dans l'exemple si dessous, on limite l'ouverture du volet de 0 à 100% par pas d
 Le plugin ne fonctionne pas avec mon module Fibaro
 ---
 > Les modules fibaro sont gradués proportionnellement de 0 à 99%.
-Pour pallier à ce problème il est recommandé de mettre à jour le minimum et maximum des commandes `Etat du volet`,`Ratio Horizontal`, `Ratio Vertical`.
+Pour pallier ce problème il est recommandé de mettre à jour le minimum et maximum des commandes `Etat du volet`,`Ratio Horizontal`, `Ratio Vertical`.
 

@@ -5,8 +5,8 @@ lang: fr_FR
 pluginId: Freebox_OS
 ---
 
-Description
-==========
+# Description
+
 Ce plugin permet de récupérer les informations de votre freeboxOS (Serveur Freebox Révolution ou 4K ou DELTA).
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont:
@@ -27,12 +27,11 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont:
 * **Domotique (uniquement pour la DELTA) :**
     * Récupère les infos de la maison connecté
 
-Installation et Configuration
-=============================
+# Installation et Configuration
 
 Sur la page de configuration du plugin, une fois le plugin installé et actif
 
-il est possible de personnaliser certaines options de connexion, **mais seules celles par défaut ont été validées**.
+Il est possible de personnaliser certaines options de connexion, **mais seules celles par défaut ont été validées**.
 
 ![Configuration Plugin](../images/plugin_configuration.png)
 
@@ -47,36 +46,33 @@ il est possible de personnaliser certaines options de connexion, **mais seules c
 >L'appairage doit être lancé après chaque sauvegarde de ces paramètres pour leurs prises en compte.
 
 
-Appairage
-=============================
+# Appairage
 
 * Cliquer sur le bouton **Appairage** dans l'interface de configuration.
 Le message ci-dessous apparait,
 
 ![Message Validation](../images/msg_validation.png)
 
-> **Il ne faut pas cliquer de suite sur OK, il faut d'abord suivre les
-  indications de *Validation sur la Freebox***
+> **Il ne faut pas cliquer tout de suite sur OK, il faut d'abord suivre les
+  Indications de *Validation sur la Freebox***
 
 > Le plugin va demander d'une nouvelle connexion de type "API" à la Freebox
 
-Validation sur la Freebox
--------------------------
+## Validation sur la Freebox
 
 > L'opération suivante se fait directement sur l'écran de la Freebox
 
 * **Suivre et valider** les différentes informations affichées sur la Freebox
 
-![Ecran Freebox V4](../images/freebox_ecran.jpeg)
+![Écran Freebox V4](../images/freebox_ecran.jpeg)
 
-Validation Jeedom
------------------
+## Validation Jeedom
+
 * Maintenant, cliquer sur le bouton **OK** du message dans le navigateur
 
 > Le plugin va vérifier le fonctionnement de la liaison.
 
-Droit d'accès
-=============
+# Droit d'accès
 
 Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation du plugin, ils doivent être **obligatoirement attribuer et modifier** directement depuis l'OS de la Freebox
 
@@ -98,8 +94,7 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 ![Modification des droits d'accès](../images/freebox_autorisation_acces_API.png)
 
-Les équipements
-===========
+# Les équipements
 
 Le plugin va automatiquement créer tous les équipements et les commandes dont il est capable d'exécuter ou de récupérer leurs informations.
 
@@ -156,8 +151,7 @@ Le plugin va automatiquement créer tous les équipements et les commandes dont 
     * AirMedia Start
     * AirMedia Stop
 
-Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau et Disque Dur
---------------------------------------------------
+# Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau et Disque Dur
 
 Ces 3 équipements sont vides à la création par le plugin
 
@@ -168,8 +162,7 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 ![Recherche des équipements spécifique](../images/RechercheCommandes.jpg)
 
 
-Freebox Delta
-=============
+# Freebox Delta
 
 > La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certain équipement.
 
@@ -177,7 +170,7 @@ Cliquer sur le bouton ***Rechercher les tile***, le plugin va créer les différ
 
 ![Recherche des équipements spécifique Freebox delta](../images/RechercheTiles.jpg)
 
-### Statut Alarme
+## Statut Alarme
 > Le plugin remonte l'état de l'alarme par la commande "info_État de lalarme"
 
 ![Temps de rafraichissement](../images/alarme_statut.png)
@@ -189,9 +182,9 @@ Les valeurs possibles sont :
 * **alarm_2_armed** = Alarme partielle activée
 * **alarm1_alert_timer** = L'alarme principale a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 * **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
-* **alert** = la sirène sonne
+* **alert** = La sirène sonne
 
-### Les caméras
+## Les caméras
 > les caméras sont créées, avec votre accord, dans le plugin caméra, si celui-ci est installé.
 
 ![Recherche des équipements spécifique Freebox delta](../images/msg_camera.png)
@@ -211,8 +204,8 @@ Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 
 **Je n'ai pas le message d'autorisation qui apparait sur la Freebox**
 
-![Ecran Freebox V4](../images/freebox_ecran.jpeg)
+![Écran Freebox V4](../images/freebox_ecran.jpeg)
 >
 >Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'association** est coché*(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)*
 
-![Ecran Freebox V4](../images/freebox_association.png)
+![Écran Freebox V4](../images/freebox_association.png)
