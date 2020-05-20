@@ -6,6 +6,8 @@ pluginId: QRacces
 ---
 
 # Beta
+## 20/05/2020
+* Ajout du champs de configuration e-mail disparue dans une percedent mise  a jours
 ## 30/04/2020
 * Encodage de l'url en argument du demon
 * Analyse de la detection dans un nouveau thread
