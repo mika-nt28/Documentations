@@ -11,6 +11,8 @@ pluginId: openalpr
 ## 03/04/2020
 * Séparation du plugin et sa documentation
 # Beta
+## 20/05/2020
+* Correction envoie de snapshot par action
 ## 13/05/2020
 * Ajout de l'aide contextuel dans la configuration
 * Mise a jours du script d'installation avec opencv4
