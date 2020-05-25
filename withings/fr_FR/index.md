@@ -17,7 +17,7 @@ Compléter le formulaire
 
 * Nom de l'application :	Nom de l'application sur le service withings / Nokia (par exemple: Jeedom)
 * Description :	Description de l'application sur le service withings / Nokia (par exemple: Connexion au serveur Jeedom)
-* Site web de l'application:	Url de votre connexion Jeedom
+* Site web de l'application: Url de votre connexion Jeedom
 * Société :	-
 * URL de callback :	Reporter ici "URL de retour"
 * Accès par défaut :	Lecture seule
@@ -145,5 +145,5 @@ Withings a une sécurité sur le callback qui doit être identique au callback r
 Je n'ai plus de synchronisation après un arrêt long du serveur ou une restauration
 ---------------------------------------------------------------------------------
 
-La synchronisation fait une demande de tocken avec une durée de validité (Généralement 30min)
+La synchronisation fait une demande de Tocken avec une durée de validité (Généralement 30min)
 Si cette validité a été dépassé, il n'est plus possible de régénère un nouveau token et il faut donc refaire une synchro d'utilisateur

@@ -31,3 +31,9 @@ pluginId: Freebox_OS
 * Ajout des widgets pour la partie mobile
 
 # Beta
+## 24/05/2020
+
+* Ajout info lors de la recherche des Tiles
+* Amélioration affichage des commandes
+* Migration commande API Wifi de V3 à V5
+* Séparation des équipements Home et Tiles dans la liste des équipements
