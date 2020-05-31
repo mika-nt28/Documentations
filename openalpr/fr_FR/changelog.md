@@ -6,6 +6,8 @@ pluginId: openalpr
 ---
 
 # Stable
+## 27/05/2020
+* ajout d'un temps maximum d'installation des dépendances 
 ## 20/05/2020
 * Correction envoie de snapshot par action
 * Ajout de l'aide contextuel dans la configuration
