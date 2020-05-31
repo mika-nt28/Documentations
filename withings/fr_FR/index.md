@@ -96,6 +96,45 @@ Il vous appartient de choisir les informations que vous souhaitez faire remonter
 * Avancée (petites roues crantées) : permet d'afficher la configuration avancée de la commande
 * Tester : permet de tester la commande pour voir sa valeur
 
+Type de commande disponible
+---------------------------
+
+### Tensiometre	
+* Rythme cardiaque	
+* Diastolique	
+* Systolique	
+* SP02
+### Corp	
+* IMC (Il est obligatoire de faire rmonte la Taille et le Poids)
+* Poids	
+* Taille	
+* Masse musculaire
+* Masse eau
+* Masse osseuse
+* Masse maigre
+* Ratio masse grasse
+* Masse grasse
+### Sommeil
+* Etat
+* Durée du réveil
+* Temps pour dormir
+* Sommeils profond
+* Sommeil léger
+* Nombre de réveils
+### Température
+* Température
+* Température corporel
+* Température de la peau
+### Activitée
+* Pas
+* Distance
+* Durée des activités soft
+* Durée des activités modérée
+* Durée des activités intense
+* Calories
+* Calories Total
+* Elévation
+        
 Mode de mise a jours des commandes
 ----------------------------------
 
