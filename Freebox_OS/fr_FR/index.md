@@ -166,9 +166,9 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certain équipement.
 
-Cliquer sur le bouton ***Rechercher les tile***, le plugin va créer les différents équipements connectés à la Freebox Delta
+Cliquer sur le bouton ***Rechercher les tiles***, le plugin va créer les différents équipements connectés à la Freebox Delta
 
-![Recherche des équipements spécifique Freebox delta](../images/RechercheTiles.jpg)
+![Recherche des équipements spécifique Freebox delta](../images/recherche_tiles.png)
 
 ## Statut Alarme
 > Le plugin remonte l'état de l'alarme par la commande "info_État de lalarme"
@@ -209,3 +209,11 @@ Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 >Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'association** est coché*(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)*
 
 ![Écran Freebox V4](../images/freebox_association.png)
+
+**Je n'ai pas le niveau de batterie qui remonte des capteurs de sécurités de la Freebox**
+
+>Ces infos ne sont pas remontés pas la freebox
+
+**Je ne peux commander la sirène de l'alarme de la Freebox**
+
+>Il n'est pas possible de commander directement cette sirène [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
