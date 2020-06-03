@@ -67,6 +67,7 @@ pluginId: facerecognition
 * Refonte du code python pour integrer dans une class l'analyse
 * Utilisation du GPU si compatible
 * Verification de l'installation de dependance
+* Suppression et deplacement des fichiers pour le nettoyage sur V4
 
 # A venir
 
