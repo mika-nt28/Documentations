@@ -63,7 +63,10 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-
+## 03/06/2020
+* Refonte du code python pour integrer dans une class l'analyse
+* Utilisation du GPU si compatible
+* Verification de l'installation de dependance
 
 # A venir
 
