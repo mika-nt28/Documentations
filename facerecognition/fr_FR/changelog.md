@@ -63,6 +63,8 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 06/06/2020
+* Bugfix connexion par caméra USB
 ## 04/06/2020
 * BugFix chemin incorecte vers les scriptes python
 ## 03/06/2020
