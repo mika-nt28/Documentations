@@ -7,7 +7,7 @@ pluginId: Freebox_OS
 
 # Description
 
-Ce plugin permet de récupérer les informations de votre freeboxOS (Serveur Freebox Révolution ou 4K ou DELTA).
+Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA).
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont:
 
@@ -212,8 +212,8 @@ Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 
 **Je n'ai pas le niveau de batterie qui remonte des capteurs de sécurités de la Freebox**
 
->Ces infos ne sont pas remontés pas la freebox
+>Ces infos ne sont pas remontés par le capteur à la Freebox
 
-**Je ne peux commander la sirène de l'alarme de la Freebox**
+**Je ne peux pas commander la sirène de l'alarme de la Freebox**
 
 >Il n'est pas possible de commander directement cette sirène [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
