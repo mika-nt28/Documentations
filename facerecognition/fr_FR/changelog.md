@@ -63,7 +63,15 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-
+## 06/06/2020
+* Bugfix connexion par caméra USB
+## 04/06/2020
+* BugFix chemin incorecte vers les scriptes python
+## 03/06/2020
+* Refonte du code python pour integrer dans une class l'analyse
+* Utilisation du GPU si compatible
+* Verification de l'installation de dependance
+* Suppression et deplacement des fichiers pour le nettoyage sur V4
 
 # A venir
 

@@ -34,6 +34,9 @@ Objet de control du volet
 * Objet de stop  : Commande Jeedom permettant de contrôler le stop (Action -> Défaut)
 * Objet de descente : Commande Jeedom permettant de contrôler la descente (Action -> Défaut)
 
+> La commande stop n'est pas obligatoire. 
+Dans se cas le plugin attend la même commande de mouvement pour s'arrêter 
+
 Objet d'état du volet
 ---
 
@@ -46,6 +49,9 @@ Les états de mouvement sont définis comme une condition, c'est à dire qu'il f
 * Condition d'état arrêt  : Cette état indique au plugin un arrêt de mouvement
 
 * Fin de course  :  Commande Jeedom représentant la fin de course(info -> Binaire :1 = Volet complètement fermée)
+
+> Tout les état ne sont pas obligatoires. 
+Elle doivent corresponde à ce qui est disponible sur votre actionneur. 
 
 Délais
 ---
