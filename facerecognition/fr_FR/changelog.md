@@ -75,6 +75,7 @@ pluginId: facerecognition
 # Beta
 ## 09/06/2020
 * BugFix Erreur de detection
+* Deplacement du fichier d'apprentissage des visages vers le dossier data
 
 ## 06/06/2020
 * Bugfix connexion par caméra USB
