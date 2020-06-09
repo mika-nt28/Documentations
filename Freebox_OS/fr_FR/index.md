@@ -210,7 +210,7 @@ Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 
 ![Écran Freebox V4](../images/freebox_association.png)
 
-**Je n'ai pas le niveau de batterie qui remonte des capteurs de sécurités de la Freebox**
+**Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox**
 
 >Ces infos ne sont pas remontés par le capteur à la Freebox
 

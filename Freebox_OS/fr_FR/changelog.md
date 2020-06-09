@@ -6,7 +6,10 @@ pluginId: Freebox_OS
 ---
 
 # Stable
-## 08 et 09/06/2020
+## 09/06/2020
+* Modification remontée alarme batterie lors de la création de la commande
+
+## 07/06 et 08/06/2020
 * Equipement de type "Tiles"
     * Attribution de la catégorie des titles (sécurité, lumière)
     * Correction Bug bouton ON/OFF
