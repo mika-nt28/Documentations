@@ -73,6 +73,10 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 11/06/2020
+* Bugfix envoie du snapshot a la detection
+* Prise du snapshot et signalement uniquement au debut de la detection (a tester sur de long detection)
+
 ## 10/06/2020
 * Restructuration du code
 * Prise de snapshot par le demon (perte de l'envoie du snapshot dans les actions)
@@ -97,4 +101,4 @@ pluginId: facerecognition
 
 # A venir
 
-
+* Envoie d'un flag a jeedom lorsqu'il n'y a plus de detection , au lieu de l'attente de 1minute
