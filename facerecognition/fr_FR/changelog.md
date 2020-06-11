@@ -73,6 +73,12 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 10/06/2020
+* Restructuration du code
+* Prise de snapshot par le demon (perte de l'envoie du snapshot dans les actions)
+* Bugfix detection KO
+* Bugfix prise de capture du visage par la camera dans l'apprentissage
+
 ## 09/06/2020
 * BugFix Erreur de detection
 * Deplacement du fichier d'apprentissage des visages vers le dossier data
