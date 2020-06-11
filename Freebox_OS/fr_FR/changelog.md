@@ -6,6 +6,13 @@ pluginId: Freebox_OS
 ---
 
 # Stable
+## 11/06/2020
+* Bug : Correction Affichage Batterie : Masqué par défaut
+* Bug : Template par défaut pour le sabotage et l'ouverture
+* Bug : Invertion de la valeur par défaut sur le couvercle + attribution template
+* Bug : Détecteur de présence correction des templates et l'inversion des signaux
+* Autorisation de supprimer les commandes
+
 ## 09/06/2020
 * Modification remontée alarme batterie lors de la création de la commande
 
