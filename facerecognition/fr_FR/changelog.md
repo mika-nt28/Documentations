@@ -74,6 +74,7 @@ pluginId: facerecognition
 
 # Beta
 ## 15/06/2020
+* Ajout de l'affichage des etat utilisateur sur le panel
 * Gestion de l'etat de détéction par le demon
 
 ## 11/06/2020
