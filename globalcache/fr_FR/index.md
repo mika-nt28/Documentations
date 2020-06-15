@@ -50,6 +50,7 @@ Pour les iTach, il existe une procédure d'apprentissage (non testée sur les GC
 ### Mode Manuel
 
 Pour pouvoir configurer une commande en mode manuel, il faut avoir la valeur HEXA à envoyer à l'appareil.
+Si vous avez vos instruction sous la forme de globalcache, ou autre qu'en HEXA alors vous pouvez le convertir avec [iConvert](https://www.globalcache.com/files/software/iConvert.zip)
 Une liste est disponible https://irdb.globalcache.com/Home/Database
 
 Le plugin fait le reste.
