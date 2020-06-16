@@ -6,6 +6,10 @@ pluginId: eibd
 ---
 
 # Stable
+## 16/06/2020
+* Ajout de log pour l'identification du plantage de demon lorsque les flag sont mauvais
+* Ajout d'un test si FlagWrite actif on renvoie l'info contenue dans jeedom plutot que d'interroger le bus
+
 ## 29/04/2020
 * Mise a jours du Template Lumière avec l'ajout des widgets standard
 
