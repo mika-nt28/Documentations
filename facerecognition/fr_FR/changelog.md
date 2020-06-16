@@ -73,6 +73,14 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 15/06/2020
+* Ajout de l'affichage des etat utilisateur sur le panel
+* Gestion de l'etat de détéction par le demon
+
+## 11/06/2020
+* Bugfix envoie du snapshot a la detection
+* Prise du snapshot et signalement uniquement au debut de la detection (a tester sur de long detection)
+
 ## 10/06/2020
 * Restructuration du code
 * Prise de snapshot par le demon (perte de l'envoie du snapshot dans les actions)
@@ -96,5 +104,4 @@ pluginId: facerecognition
 * Suppression et deplacement des fichiers pour le nettoyage sur V4
 
 # A venir
-
 
