@@ -39,6 +39,7 @@ pluginId: facerecognition
 * Ajout de la personnalisation des couleurs de cadre par utilisateur
 * Refonte du code d'apprentissage
 * Bugfix affichage de la dernière liste de Snapchat sur le panel
+* Refonte affichage des snapshot
 
 ## 08/04/2020
 * Bugfix suppression de Snapchat
@@ -110,3 +111,4 @@ pluginId: facerecognition
 
 # A venir
 
+* Prise de video lors de la detection
