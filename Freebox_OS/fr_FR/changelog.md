@@ -78,5 +78,5 @@ pluginId: Freebox_OS
 - Airplay
   - Ajout icône stop et play (Uniquement pour les nouvelles installations)
 - Bug : Correction des sous types des infos sur les températures, la vitesse FAN et les téléchargements
-- Ajout de la possibilitée de rechercher les équipements standards de la Freebox. (Il faut passer en mode débug pour avoir ce nouveau menu)
+- Ajout de la possibilité de rechercher les équipements standards de la Freebox. (Il faut passer en mode débug pour avoir ce nouveau menu)
 - Ajout de l'icône de la commande et de la possibilité de le changer dans la liste des commandes
