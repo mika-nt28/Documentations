@@ -73,6 +73,11 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 17/06/2020
+* Bugfix import de photo pour l'apprentissage
+* Bugfix sauvegarde de snapshot lors de l'usage par GPU 
+* Bugfix alert et prise de snapshot unique de detection (a confirmer)
+
 ## 15/06/2020
 * Ajout de l'affichage des etat utilisateur sur le panel
 * Gestion de l'etat de détéction par le demon
