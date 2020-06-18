@@ -74,6 +74,10 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 18/06/2020
+* Refonte de l'affichage des snapshots et de la suppression
+* Bugfix alert et prise de snapshot unique de detection (a confirmer)
+
 ## 17/06/2020
 * Bugfix import de photo pour l'apprentissage
 * Bugfix sauvegarde de snapshot lors de l'usage par GPU 
