@@ -74,6 +74,10 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 19/06/2020
+* BugFix creation de video
+* Bugfix affichage Video + Photo sur le panel
+
 ## 18/06/2020
 * Refonte de l'affichage des snapshots et de la suppression
 * Bugfix alert et prise de snapshot unique de detection (a confirmer)
