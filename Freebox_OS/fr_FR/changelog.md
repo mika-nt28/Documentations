@@ -69,14 +69,34 @@ pluginId: Freebox_OS
 
 # Beta
 
-## 16/06/2020
+## 23/06/2020
 
 - Wifi
   - Déplacement des commandes vers un équipement spécifique Wifi
   - Ajout icône pour les commandes ON et OFF (Uniquement pour les nouvelles installations)
+  - Ajout widget pour le status du wifi (uniquement pour la V4)
   - Passage de L'API de V3 à V5
+- Téléphone
+  - Amélioration du widget
+  - Ajout icônes pour les différentes commandes (en couleur pour la V4)
+- Systèmes
+  - Ajout icônes pour les températures et le ventilateur
+  - Ajout icônes pour les boutons updates et reboot (en couleur pour la V4)
+  - Corrections du sous type des équipements
+  - Mise à jour des min et maxi de certaines commandes
 - Airplay
-  - Ajout icône stop et play (Uniquement pour les nouvelles installations)
-- Bug : Correction des sous types des infos sur les températures, la vitesse FAN et les téléchargements
-- Ajout de la possibilité de rechercher les équipements standards de la Freebox. (Il faut passer en mode débug pour avoir ce nouveau menu)
-- Ajout de l'icône de la commande et de la possibilité de le changer dans la liste des commandes
+  - Ajout icône stop et play (Uniquement pour les nouvelles installations, en couleur pour la V4)
+- Tiles
+  - Bug luminosité 0 à 255 + affichage du min/max sur les commandes numériques
+  - Ajout BP type Switch/Toggle
+  - Déplacement de la fonction rechercher Homeadpater dans la recherche des Tiles (Nécessaire uniquement pour les Freebox DELTA)
+  - Regroupement des fonctions Tiles et Homeadapter
+- Corrections et améliorations
+  - Bug : Correction Bug, **Roue crantée en boucle sur activation plugin**
+  - Désactivation de la création des équipements à la première installation
+  - Ajout commande pour rechercher les équipements systèmes de la Freebox.
+  - Ajout analyse réseau après la recherche des équipements systèmes
+  - Ajout dans la liste des commandes : L'icône, Mini-Maxi
+  - Passage API à la version 1.1
+  - Désactivation de la création des équipements à la première installation
+    > il faudra cliquer sur "Scan équipements standard"
