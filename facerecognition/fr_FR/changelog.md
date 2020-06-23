@@ -6,7 +6,24 @@ pluginId: facerecognition
 ---
 
 # Stable
-## 11/05/2020
+## 19/06/2020
+### Apprentissage
+* Bugfix prise de capture du visage par la camera dans l'apprentissage
+
+### Démon
+* Suppression et deplacement des fichiers pour le nettoyage sur V4
+* Refonte du code python pour integrer dans une class l'analyse
+* Utilisation du GPU si compatible
+* Verification de l'installation de dependance
+* Bugfix connexion par caméra USB
+* Prise de snapshot par le demon 
+* Restructuration du code
+
+### Panel
+* Refonte affichage Video + Photo sur le panel
+* Refonte suppression des snapshote
+
+## 10/06/2020
 ### Apprentissage
 * Refonte global de l'apprentissage
 * Extraction des visages lors de l'import de photo ou de prise de snap par la camera
@@ -39,6 +56,7 @@ pluginId: facerecognition
 * Ajout de la personnalisation des couleurs de cadre par utilisateur
 * Refonte du code d'apprentissage
 * Bugfix affichage de la dernière liste de Snapchat sur le panel
+* Refonte affichage des snapshot
 
 ## 08/04/2020
 * Bugfix suppression de Snapchat
@@ -73,35 +91,6 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-## 15/06/2020
-* Ajout de l'affichage des etat utilisateur sur le panel
-* Gestion de l'etat de détéction par le demon
 
-## 11/06/2020
-* Bugfix envoie du snapshot a la detection
-* Prise du snapshot et signalement uniquement au debut de la detection (a tester sur de long detection)
-
-## 10/06/2020
-* Restructuration du code
-* Prise de snapshot par le demon (perte de l'envoie du snapshot dans les actions)
-* Bugfix detection KO
-* Bugfix prise de capture du visage par la camera dans l'apprentissage
-
-## 09/06/2020
-* BugFix Erreur de detection
-* Deplacement du fichier d'apprentissage des visages vers le dossier data
-
-## 06/06/2020
-* Bugfix connexion par caméra USB
-
-## 04/06/2020
-* BugFix chemin incorecte vers les scriptes python
-
-## 03/06/2020
-* Refonte du code python pour integrer dans une class l'analyse
-* Utilisation du GPU si compatible
-* Verification de l'installation de dependance
-* Suppression et deplacement des fichiers pour le nettoyage sur V4
 
 # A venir
-
