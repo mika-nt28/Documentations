@@ -18,6 +18,8 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 23/06/2020
+* Reapplication du calcul initial pour retrouver un comportement initial
+* Mise en log du nouveau cacul avec suppression des arrondies superflux apportant toujours un calcule erroné.
 ## 08/06/2020
-
 * Creation d'un nouveau calcul du ratioVertical
