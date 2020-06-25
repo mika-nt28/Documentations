@@ -6,6 +6,9 @@ pluginId: ChauffeEau
 ---
 
 # Stable
+## 25/06/2020
+* Interdiction de la repetition si on est a moins de 60 seconde de la repetition
+
 ## 26/04/2020
 * Bugfix $_nextTime  non initialisé
 
@@ -25,5 +28,3 @@ Ajout d'un déclencheur pour le changement de mode.
 Ce déclencheur est très utile pour la notification par exemple.
 
 # Beta
-## 12/06/2020
-* Interdiction de la repetition si on est a moins de 60 seconde de la repetition
