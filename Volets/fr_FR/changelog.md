@@ -18,6 +18,9 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 25/06/2020
+* Inverstion du ratio pour qu'il soit un pourcentage d'ouverture
+
 ## 24/06/2020
 * Correction du calcul, la hauteur calculé est la hauteur entre le sous toit et le soleil sur le mur alors que precedement utilisé du sol au soleil sur le mur
 * Mise  a jours du ratioVertical par rapport au nouveau calcul de hauteur
