@@ -61,7 +61,7 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 
 - **Suivre et valider** les différentes informations affichées sur la Freebox
 
-![Écran Freebox V4](../images/freebox_ecran.jpeg)
+![Écran Autorisation Application Freebox V4](../images/freebox_ecran.jpeg)
 
 ## Validation Jeedom
 
@@ -91,8 +91,11 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 ![Modification des droits d'accès](../images/freebox_autorisation_acces_API.png)
 
-# Les équipements
+# Les équipements systèmes
 
+Cliquer sur le bouton **_Scan équipements standard_**, le plugin va créer les différents équipements système de la Freebox Delta
+
+![Recherche des équipements systèmes](../images/recherche_systeme.png)
 Le plugin va automatiquement créer tous les équipements et les commandes dont il est capable d'exécuter ou de récupérer leurs informations.
 
 - **ADSL**
@@ -126,8 +129,6 @@ Le plugin va automatiquement créer tous les équipements et les commandes dont 
   - Liste Appels Manqués
   - Liste Appels Reçus
   - Liste Appels Passés
-  - Faire sonner les téléphones DECT
-  - Arrêter les sonneries des téléphones DECT
 - **Téléchargements**
   - Nombre de tâche(s)
   - Nombre de tâche(s) active
@@ -151,19 +152,19 @@ Le plugin va automatiquement créer tous les équipements et les commandes dont 
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau et Disque Dur
 
-Ces 3 équipements sont vides à la création par le plugin
+Ces 3 équipements sont vides à la création
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Le plugin recherchera et créera les différentes commandes associées
 
-![Recherche des équipements spécifique](../images/RechercheCommandes.jpg)
+![Recherche des équipements spécifique](../images/recherche_commandes.png)
 
 # Freebox Delta
 
 > La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certain équipement.
 
-Cliquer sur le bouton **_Rechercher les tiles_**, le plugin va créer les différents équipements connectés à la Freebox Delta
+Cliquer sur le bouton **_Scan Tiles_**, le plugin va créer les différents équipements connectés à la Freebox Delta
 
 ![Recherche des équipements spécifique Freebox delta](../images/recherche_tiles.png)
 
@@ -212,7 +213,7 @@ Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 
 **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox**
 
-> Ces infos ne sont pas remontés par ce type de capteur à la Freebox.
+> Ces infos ne sont pas remontées par ce type de capteur à la Freebox.
 
 **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 
