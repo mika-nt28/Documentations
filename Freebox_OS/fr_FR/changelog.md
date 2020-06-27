@@ -69,7 +69,7 @@ pluginId: Freebox_OS
 
 # Beta
 
-## 25/06/2020
+## 27/06/2020
 
 - **Wifi**
   - Déplacement des commandes vers un équipement spécifique Wifi
@@ -89,6 +89,7 @@ pluginId: Freebox_OS
 - **Tiles**
   - Bug luminosité 0 à 255 + affichage du min/max sur les commandes numériques
   - Ajout BP type Switch/Toggle
+  - Liaison des actions et des commandes pour les types store et éclairages
   - Déplacement de la fonction rechercher Homeadpater dans la recherche des Tiles (Nécessaire uniquement pour les Freebox DELTA)
   - Regroupement des fonctions Tiles et Homeadapter
   - Ajout info de du type d'action et d'équipement
