@@ -6,7 +6,7 @@ pluginId: QRacces
 ---
 
 # Beta
-## 27/06/2020
+## 28/06/2020
 * Refonte du demon python
 * Génération du qrcode par le plugin au lieu de google
 * Refonte de la prise de snapshot par le demon
