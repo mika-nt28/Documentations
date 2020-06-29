@@ -25,7 +25,7 @@ Dans la partie 'Configuration des Camera' cliquer sur 'Ajouter'
 
 * Nom : On donne un nom à notre camera.
 * Activation du démon: Permet de choisir si une caméra configurée est utilisée ou non.
-* FrameRate: Permet de déterminer combien d'image par seconde le plugin va analyser (plus le framerate est élevé plus il consomme du CPU). Le Frame rate ne doit pas être supérieur au framerate de la camera
+* Nombre de thread: Permet de déterminer combien d'analyse simultané peut faire le plugin. (Plus y a de therad, plus le plugin est capable d'annalyser d'image et plus la charge est importante)
 * Port de connexion: Saisir un port de votre jeedom libre afin que le plugin puisse communiquer avec le demon de votre camera
 * Authentification : on saisit les identifiants de connexion si besoin.
 * URL de connexion (rtsp://) : On saisis son url (attention de ne pas se tromper ici, je ne peux pas vous aider à cause du nombre immense de caméra qui existent)
