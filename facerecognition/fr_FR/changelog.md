@@ -92,5 +92,9 @@ pluginId: facerecognition
 
 # Beta
 
+## 29/06/2020
+* Suppression du parametre FPS dans la configuration
+* Ajout du parametre de configuration nombre de thread pour limiter la charge CPU du plugin.
+* Correction de bug
 
 # A venir
