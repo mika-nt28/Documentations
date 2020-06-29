@@ -6,7 +6,11 @@ pluginId: QRacces
 ---
 
 # Beta
-## 28/06/2020
+## 29/06/2020
+* Suppression du parametre Framerate et ajout du paramatre de nombre de thread
+* Gestion du nombre de thread pour limité l'impacte sur la charge CPU
+
+## 27/06/2020
 * Refonte du demon python
 * Génération du qrcode par le plugin au lieu de google
 * Refonte de la prise de snapshot par le demon
