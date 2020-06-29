@@ -73,6 +73,7 @@ pluginId: Freebox_OS
 
 - **Wifi**
   - Déplacement des commandes vers un équipement spécifique Wifi
+    > Attention cet équipement est désactivé par défaut
   - Ajout icône pour les commandes ON et OFF (Uniquement pour les nouvelles installations)
   - Ajout widget pour le status et l'action on/OFF du wifi (uniquement pour la V4)
   - Passage de l'API de V3 à V5
