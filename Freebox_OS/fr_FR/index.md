@@ -211,9 +211,9 @@ Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 
 ![Association](../images/freebox_association.png)
 
-**Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox**
+**Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox ou sur la télécommande**
 
-> Ces infos ne sont pas remontées par ce type de capteur à la Freebox.
+> Ces infos ne sont pas remontées à la Freebox.
 
 **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 

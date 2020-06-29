@@ -69,12 +69,12 @@ pluginId: Freebox_OS
 
 # Beta
 
-## 27/06/2020
+## 29/06/2020
 
 - **Wifi**
   - Déplacement des commandes vers un équipement spécifique Wifi
   - Ajout icône pour les commandes ON et OFF (Uniquement pour les nouvelles installations)
-  - Ajout widget pour le status du wifi (uniquement pour la V4)
+  - Ajout widget pour le status et l'action on/OFF du wifi (uniquement pour la V4)
   - Passage de l'API de V3 à V5
 - **Téléphone**
   - Amélioration du widget
@@ -92,6 +92,7 @@ pluginId: Freebox_OS
   - Liaison des actions et des commandes pour les types store et éclairages
   - Déplacement de la fonction rechercher Homeadpater dans la recherche des Tiles (Nécessaire uniquement pour les Freebox DELTA)
   - Regroupement des fonctions Tiles et Homeadapter
+  - Amélioration widget pour l'alarme
   - Ajout info de du type d'action et d'équipement
     > il est nécessaire de cliquer sur "Scan Tiles" pour avoir ces infos
 - **Corrections et améliorations**
