@@ -93,10 +93,10 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 # Les équipements systèmes
 
-Cliquer sur le bouton **_Scan équipements standard_**, le plugin va créer les différents équipements système de la Freebox Delta
+Cliquer sur le bouton **_Scan équipements standard_**, le plugin va créer les différents équipements système de la Freebox.
 
 ![Recherche des équipements systèmes](../images/recherche_systeme.png)
-Le plugin va automatiquement créer tous les équipements et les commandes dont il est capable d'exécuter ou de récupérer leurs informations.
+Les équipements et les commandes suivantes vont être créé :
 
 - **ADSL**
   - Freebox rate down
@@ -115,20 +115,14 @@ Le plugin va automatiquement créer tous les équipements et les commandes dont 
   - Freebox firmware version
   - Mac
   - Vitesse ventilateur
-  - temp sw','temp_sw
+  - Températures
   - Allumée depuis
   - board name
-  - temp cpub
-  - temp cpum
   - serial
   - Redirection de ports
 - **Téléphone**
-  - Nombre Appels Manqués
-  - Nombre Appels Reçus
-  - Nombre Appels Passés
-  - Liste Appels Manqués
-  - Liste Appels Reçus
-  - Liste Appels Passés
+  - Nombre Appels Manqués / Reçus / Passés
+  - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**
   - Nombre de tâche(s)
   - Nombre de tâche(s) active
@@ -183,6 +177,7 @@ Les valeurs possibles sont :
 - **alarm1_alert_timer** = L'alarme principale a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 - **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 - **alert** = La sirène sonne
+  ![Temps de rafraichissement](../images/alarme_dashboard.png)
 
 ## Les caméras
 
@@ -191,13 +186,16 @@ Les valeurs possibles sont :
 ![Recherche des équipements spécifique Freebox delta](../images/msg_camera.png)
 
 > La caméra ne sera pas visible dans le plugin Freebox.
->
 > Si le message n'apparait pas, vérifier les droits sur l'OS de la Freebox
 
 # Récurrence de la mise à jour des équipements
 
-Il est possible de modifier le temps de rafraichissement de chaque équipement. Par défaut, le temps est de 300s.
-Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
+Il est possible de modifier le temps de rafraichissement de chaque équipement. _Par défaut, le temps est de 300s._
+
+> Ce temps permet de rafraichir les différentes commandes de type infos.
+> Les commandes d'action ne sont pas concernées par ce temps de rafraichissement.
+
+> Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 
 ![Temps de rafraichissement](../images/Temps_de_rafraichissement.png)
 
@@ -211,10 +209,11 @@ Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 
 ![Association](../images/freebox_association.png)
 
-**Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox ou sur la télécommande**
+**Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
 > Ces infos ne sont pas remontées à la Freebox.
 
 **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 
-> Il n'est pas possible de commander directement cette sirène [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
+> Il n'est pas possible de commander directement cette sirène
+> [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)

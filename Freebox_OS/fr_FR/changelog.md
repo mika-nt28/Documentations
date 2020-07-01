@@ -7,6 +7,45 @@ pluginId: Freebox_OS
 
 # Stable
 
+## 02/07/2020
+
+- **Wifi**
+  - Déplacement des commandes vers un équipement spécifique Wifi
+    > Attention cet équipement est désactivé par défaut
+  - Ajout icône pour les commandes ON et OFF (Uniquement pour les nouvelles installations)
+  - Ajout widget pour le status et l'action on/OFF du wifi (uniquement pour la V4)
+  - Passage de l'API de V3 à V5
+- **Téléphone**
+  - Amélioration du widget
+  - Ajout icônes pour les différentes commandes (en couleur pour la V4)
+- **Téléchargement**
+  - Ajout icônes pour les différentes commandes (en couleur pour la V4)
+  - Affecatation des widgets Core sur les différentes commandes
+- **Systèmes**
+  - Ajout icônes pour les températures et le ventilateur
+  - Ajout icônes pour les boutons updates et reboot (en couleur pour la V4)
+  - Corrections du sous type des équipements
+  - Mise à jour des min et maxi de certaines commandes
+- **Airplay**
+  - Ajout icône stop et play (Uniquement pour les nouvelles installations, en couleur pour la V4)
+- **Tiles**
+  - Bug luminosité 0 à 255 + affichage du min/max sur les commandes numériques
+  - Ajout BP type Switch/Toggle
+  - Liaison des actions et des commandes pour les types store et éclairages
+  - Déplacement de la fonction rechercher Homeadpater dans la recherche des Tiles (Nécessaire uniquement pour les Freebox DELTA)
+  - Regroupement des fonctions Tiles et Homeadapter
+  - Amélioration widget pour l'alarme
+  - Ajout info de du type d'action et d'équipement
+    > il est nécessaire de cliquer sur "Scan Tiles" pour avoir ces infos
+- **Corrections et améliorations**
+  - Correction Bug : **Roue crantée en boucle sur activation plugin**
+  - Désactivation de la création des équipements à la première installation
+  - Ajout commande pour rechercher les équipements systèmes de la Freebox
+  - Ajout analyse réseau après la recherche des équipements systèmes
+  - Ajout dans la liste des commandes : l'icône, mini-maxi
+  - Désactivation de la création des équipements à la première installation
+    > il faudra cliquer sur "Scan équipements standard"
+
 ## 11/06/2020
 
 - Bug : Correction Affichage Batterie : Masqué par défaut
@@ -68,39 +107,3 @@ pluginId: Freebox_OS
 - Ajout des widgets pour la partie mobile
 
 # Beta
-
-## 29/06/2020
-
-- **Wifi**
-  - Déplacement des commandes vers un équipement spécifique Wifi
-    > Attention cet équipement est désactivé par défaut
-  - Ajout icône pour les commandes ON et OFF (Uniquement pour les nouvelles installations)
-  - Ajout widget pour le status et l'action on/OFF du wifi (uniquement pour la V4)
-  - Passage de l'API de V3 à V5
-- **Téléphone**
-  - Amélioration du widget
-  - Ajout icônes pour les différentes commandes (en couleur pour la V4)
-- **Systèmes**
-  - Ajout icônes pour les températures et le ventilateur
-  - Ajout icônes pour les boutons updates et reboot (en couleur pour la V4)
-  - Corrections du sous type des équipements
-  - Mise à jour des min et maxi de certaines commandes
-- **Airplay**
-  - Ajout icône stop et play (Uniquement pour les nouvelles installations, en couleur pour la V4)
-- **Tiles**
-  - Bug luminosité 0 à 255 + affichage du min/max sur les commandes numériques
-  - Ajout BP type Switch/Toggle
-  - Liaison des actions et des commandes pour les types store et éclairages
-  - Déplacement de la fonction rechercher Homeadpater dans la recherche des Tiles (Nécessaire uniquement pour les Freebox DELTA)
-  - Regroupement des fonctions Tiles et Homeadapter
-  - Amélioration widget pour l'alarme
-  - Ajout info de du type d'action et d'équipement
-    > il est nécessaire de cliquer sur "Scan Tiles" pour avoir ces infos
-- **Corrections et améliorations**
-  - Correction Bug : **Roue crantée en boucle sur activation plugin**
-  - Désactivation de la création des équipements à la première installation
-  - Ajout commande pour rechercher les équipements systèmes de la Freebox
-  - Ajout analyse réseau après la recherche des équipements systèmes
-  - Ajout dans la liste des commandes : L'icône, Mini-Maxi
-  - Désactivation de la création des équipements à la première installation
-    > il faudra cliquer sur "Scan équipements standard"
