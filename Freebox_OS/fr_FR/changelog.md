@@ -12,7 +12,7 @@ pluginId: Freebox_OS
 - **Wifi**
   - Déplacement des commandes vers un équipement spécifique Wifi
     > Attention cet équipement est désactivé par défaut
-  - Ajout icône pour les commandes ON et OFF (Uniquement pour les nouvelles installations)
+  - Ajout icône pour les commandes ON et OFF
   - Ajout widget pour l'état et l'action on/OFF du wifi (uniquement pour la V4)
   - Passage de l'API de V3 à V5
 - **Téléphone**
@@ -70,7 +70,7 @@ pluginId: Freebox_OS
     - Ajout des types de générique sur certaines commandes
     - Modification de la visibilité par défaut de certaines commandes (Batterie, Code Pin => non visible)
     - Correction non-apparition commande rechercher dans l'équipement "home Adapter" après une première recherche \* Renommage des commandes (ajout État dans le cas où la commande et l'info porte le même nom)
-    > Pour avoir l'ensemble des nouveautés sur les équipements, il est nécessaire de les supprimer et de cliquer ensuite sur "rechercher les Tiles"
+      > Pour avoir l'ensemble des nouveautés sur les équipements, il est nécessaire de les supprimer et de cliquer ensuite sur "rechercher les Tiles"
 
 - Ajout commande "refresh" => commande masquer par défaut dans les listes des commandes
 - Clean code
