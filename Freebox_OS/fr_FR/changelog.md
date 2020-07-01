@@ -13,14 +13,14 @@ pluginId: Freebox_OS
   - Déplacement des commandes vers un équipement spécifique Wifi
     > Attention cet équipement est désactivé par défaut
   - Ajout icône pour les commandes ON et OFF (Uniquement pour les nouvelles installations)
-  - Ajout widget pour le status et l'action on/OFF du wifi (uniquement pour la V4)
+  - Ajout widget pour l'état et l'action on/OFF du wifi (uniquement pour la V4)
   - Passage de l'API de V3 à V5
 - **Téléphone**
   - Amélioration du widget
   - Ajout icônes pour les différentes commandes (en couleur pour la V4)
 - **Téléchargement**
   - Ajout icônes pour les différentes commandes (en couleur pour la V4)
-  - Affecatation des widgets Core sur les différentes commandes
+  - Affectation des widgets Core sur les différentes commandes
 - **Systèmes**
   - Ajout icônes pour les températures et le ventilateur
   - Ajout icônes pour les boutons updates et reboot (en couleur pour la V4)
@@ -60,16 +60,16 @@ pluginId: Freebox_OS
 
 ## 07/06 et 08/06/2020
 
-- Equipement de type "Tiles"
+- Équipement de type "Tiles"
 
-  - Attribution de la catégorie des titles (sécurité, lumière)
-  - Correction Bug bouton ON/OFF \* Ajout Info dans log en mode debug
+  - Attribution de la catégorie des Tiles (sécurité, lumière)
+  - Correction Bug bouton ON/OFF \* Ajout Info dans log en mode Debug
   - Remplacement ' dans le nom de l'équipement ou de la commande par un espace
-  - Remplacement "É" dans le nom des commande par "E"
-    _ Masquage du bouton ajouter commande
-    _ Ajout des types de générique sur certaines commandes
-    _ Modification de la visibilité par défaut de certaines commandes (Batterie, Code Pin => non visible)
-    _ Correction non apparition commande rechercher dans l'équipement "home Adapter" après une premiere recherche \* Renommage des commandes (ajout Etat dans le cas où la commande et l'info porte le même nom)
+  - Remplacement "É" dans le nom des commandes par "E"
+    - Masquage du bouton ajouter commande
+    - Ajout des types de générique sur certaines commandes
+    - Modification de la visibilité par défaut de certaines commandes (Batterie, Code Pin => non visible)
+    - Correction non-apparition commande rechercher dans l'équipement "home Adapter" après une première recherche \* Renommage des commandes (ajout État dans le cas où la commande et l'info porte le même nom)
     > Pour avoir l'ensemble des nouveautés sur les équipements, il est nécessaire de les supprimer et de cliquer ensuite sur "rechercher les Tiles"
 
 - Ajout commande "refresh" => commande masquer par défaut dans les listes des commandes
@@ -99,7 +99,7 @@ pluginId: Freebox_OS
 ## 10/12/2019
 
 - Restructuration de la class API
-- Création d'un cron de rafraichissement du tocken pour avoir qu'une seul session
+- Création d'un cron de rafraichissement du tocken pour avoir qu'une seule session
 - Mise a jours du widget Réseau
 
 ## 27/11/2019
