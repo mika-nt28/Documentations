@@ -115,7 +115,7 @@ Les équipements et les commandes suivantes vont être créé :
   - Freebox firmware version
   - Mac
   - Vitesse ventilateur
-  - Températures
+  - Températures _(temp sw, temp cpub, temp cpum)_
   - Allumée depuis
   - board name
   - serial
@@ -146,7 +146,7 @@ Les équipements et les commandes suivantes vont être créé :
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau et Disque Dur
 
-Ces 3 équipements sont vides à la création
+Ces 3 équipements sont vides par défaut lors de leur création
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
@@ -211,7 +211,7 @@ Il est possible de modifier le temps de rafraichissement de chaque équipement. 
 
 **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
-> Ces infos ne sont pas remontées à la Freebox.
+> Ces infos ne sont pas remontées à la Freebox donc impossible de les avoir dans Jeedom.
 
 **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 
