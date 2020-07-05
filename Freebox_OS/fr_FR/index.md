@@ -96,7 +96,7 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 Cliquer sur le bouton **_Scan équipements standard_**, le plugin va créer les différents équipements système de la Freebox.
 
 ![Recherche des équipements systèmes](../images/recherche_systeme.png)
-Les équipements et les commandes suivantes vont être créé :
+Les équipements et les commandes suivantes vont être créées :
 
 - **ADSL**
   - Freebox rate down
@@ -158,7 +158,7 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certain équipement.
 
-Cliquer sur le bouton **_Scan Tiles_**, le plugin va créer les différents équipements connectés à la Freebox Delta
+Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des différents équipements connectés vont être créées
 
 ![Recherche des équipements spécifique Freebox delta](../images/recherche_tiles.png)
 
