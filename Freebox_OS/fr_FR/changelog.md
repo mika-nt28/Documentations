@@ -7,6 +7,22 @@ pluginId: Freebox_OS
 
 # Stable
 
+## 05/07/2020
+
+- Résolution bug transparence équipement réseau + disques
+- Résolution bug Etat HomeAdapters
+- Compatibilité avec la V3 pour certains icônes
+- Aligmement icônes des commandes de l'alarme en fonction du plugin Alarme
+- **Caméra**
+  - Ajout de log lors de la création
+  - Modification du réglage de la caméra lors de la création cela permettra une meilleure intégration dans Homebridge
+    > Attention le réglage n'est pas changé dans l'équipement existant.
+    >
+    > - Soit il faut supprimer l'équipement et relancer un scan des Tiles
+    > - Soit modifier les réglages suivants :
+    >   - **URL du Flux** : rtsp://#username#:#password#@#ip#/img/live
+    >   - **Nombre d'images par seconde de la vidéo** (onglet capture) : 15
+
 ## 02/07/2020
 
 - **Wifi**
