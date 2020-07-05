@@ -25,7 +25,7 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont:
 - **Réseau :**
   - L’état de chaque équipement DHCP
 - **Domotique (uniquement pour la DELTA) :**
-  - Récupère les infos de la maison connecté
+  - Récupère les infos de la maison connectée
 
 # Installation et Configuration
 
