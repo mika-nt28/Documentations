@@ -21,7 +21,7 @@ pluginId: Freebox_OS
     > - Soit il faut supprimer l'équipement et relancer un scan des Tiles
     > - Soit modifier les réglages suivants :
     >   - **URL du Flux** : rtsp://#username#:#password#@#ip#/img/live
-    >   - **Nombre d'images par seconde de la vidéo** (onglet capture) : 15
+    >   - **Nombre d'images par seconde de la vidéo** _(onglet capture)_ : 15
 
 ## 02/07/2020
 
