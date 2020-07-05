@@ -15,7 +15,7 @@ pluginId: Freebox_OS
 - Aligmement icônes des commandes de l'alarme en fonction du plugin Alarme
 - **Caméra**
   - Ajout de log lors de la création
-  - Modification du réglage de la caméra lors de la création cela permettra une meilleure intégration dans Homebridge
+  - Modification du réglage de la caméra lors de la création de l'équipement dans le **_Plugin Caméra_** cela permettra une meilleure intégration dans Homebridge.
     > Attention le réglage n'est pas changé dans l'équipement existant.
     >
     > - Soit il faut supprimer l'équipement et relancer un scan des Tiles
