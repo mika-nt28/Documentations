@@ -61,7 +61,7 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 
 - **Suivre et valider** les différentes informations affichées sur la Freebox
 
-![Écran Freebox V4](../images/freebox_ecran.jpeg)
+![Écran Autorisation Application Freebox V4](../images/freebox_ecran.jpeg)
 
 ## Validation Jeedom
 
@@ -91,9 +91,12 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 ![Modification des droits d'accès](../images/freebox_autorisation_acces_API.png)
 
-# Les équipements
+# Les équipements systèmes
 
-Le plugin va automatiquement créer tous les équipements et les commandes dont il est capable d'exécuter ou de récupérer leurs informations.
+Cliquer sur le bouton **_Scan équipements standard_**, le plugin va créer les différents équipements système de la Freebox.
+
+![Recherche des équipements systèmes](../images/recherche_systeme.png)
+Les équipements et les commandes suivantes vont être créé :
 
 - **ADSL**
   - Freebox rate down
@@ -112,22 +115,14 @@ Le plugin va automatiquement créer tous les équipements et les commandes dont 
   - Freebox firmware version
   - Mac
   - Vitesse ventilateur
-  - temp sw','temp_sw
+  - Températures _(temp sw, temp cpub, temp cpum)_
   - Allumée depuis
   - board name
-  - temp cpub
-  - temp cpum
   - serial
   - Redirection de ports
 - **Téléphone**
-  - Nombre Appels Manqués
-  - Nombre Appels Reçus
-  - Nombre Appels Passés
-  - Liste Appels Manqués
-  - Liste Appels Reçus
-  - Liste Appels Passés
-  - Faire sonner les téléphones DECT
-  - Arrêter les sonneries des téléphones DECT
+  - Nombre Appels Manqués / Reçus / Passés
+  - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**
   - Nombre de tâche(s)
   - Nombre de tâche(s) active
@@ -151,19 +146,19 @@ Le plugin va automatiquement créer tous les équipements et les commandes dont 
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau et Disque Dur
 
-Ces 3 équipements sont vides à la création par le plugin
+Ces 3 équipements sont vides par défaut lors de leur création
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Le plugin recherchera et créera les différentes commandes associées
 
-![Recherche des équipements spécifique](../images/RechercheCommandes.jpg)
+![Recherche des équipements spécifique](../images/recherche_commandes.png)
 
 # Freebox Delta
 
 > La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certain équipement.
 
-Cliquer sur le bouton **_Rechercher les tiles_**, le plugin va créer les différents équipements connectés à la Freebox Delta
+Cliquer sur le bouton **_Scan Tiles_**, le plugin va créer les différents équipements connectés à la Freebox Delta
 
 ![Recherche des équipements spécifique Freebox delta](../images/recherche_tiles.png)
 
@@ -182,6 +177,7 @@ Les valeurs possibles sont :
 - **alarm1_alert_timer** = L'alarme principale a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 - **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 - **alert** = La sirène sonne
+  ![Temps de rafraichissement](../images/alarme_dashboard.png)
 
 ## Les caméras
 
@@ -190,13 +186,16 @@ Les valeurs possibles sont :
 ![Recherche des équipements spécifique Freebox delta](../images/msg_camera.png)
 
 > La caméra ne sera pas visible dans le plugin Freebox.
->
 > Si le message n'apparait pas, vérifier les droits sur l'OS de la Freebox
 
 # Récurrence de la mise à jour des équipements
 
-Il est possible de modifier le temps de rafraichissement de chaque équipement. Par défaut, le temps est de 300s.
-Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
+Il est possible de modifier le temps de rafraichissement de chaque équipement. _Par défaut, le temps est de 300s._
+
+> Ce temps permet de rafraichir les différentes commandes de type infos.
+> Les commandes d'action ne sont pas concernées par ce temps de rafraichissement.
+
+> Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 
 ![Temps de rafraichissement](../images/Temps_de_rafraichissement.png)
 
@@ -210,10 +209,11 @@ Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
 
 ![Association](../images/freebox_association.png)
 
-**Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox**
+**Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
-> Ces infos ne sont pas remontés par ce type de capteur à la Freebox.
+> Ces infos ne sont pas remontées à la Freebox donc impossible de les avoir dans Jeedom.
 
 **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 
-> Il n'est pas possible de commander directement cette sirène [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
+> Il n'est pas possible de commander directement cette sirène
+> [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
