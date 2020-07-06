@@ -21,6 +21,11 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 06/07/2020
+* Mise a jours des parametre de configuration du calcul RatioVertical
+* Mise a jours du calcul de RatioVertical pour garder la logique de hauteur entre le seuil de toit et le bas de la feunetre
+* Fusion Gestion Conditionnel et Evenementiel (Les 2 sont toujours active, mais la gestion Evenementiel verifie ses condtions 
+
 ## 25/06/2020
 * Inverstion du ratio pour qu'il soit un pourcentage d'ouverture
 * Bugfix Jour / Nuit par planning
