@@ -91,6 +91,8 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 08/07/2020
+* Sortie des parametre de detection generique a toutes les cameras
 
 ## 29/06/2020
 * Suppression du parametre FPS dans la configuration
