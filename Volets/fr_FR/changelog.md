@@ -21,6 +21,10 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 08/07/2020
+* BugFix sortie de gestion evenementiel 
+* BugFix inversion de sens du volet en gestion Azimut pra RatioVertical
+
 ## 06/07/2020
 * Mise a jours des parametre de configuration du calcul RatioVertical
 * Mise a jours du calcul de RatioVertical pour garder la logique de hauteur entre le seuil de toit et le bas de la feunetre
