@@ -40,6 +40,7 @@ pluginId: eibd
 # Beta
 ## 09/07/2020
 * BugFix recherche maximal de level sur l'autocreate
+* BugFix Creation et affichage des objet automatiquement
 
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
