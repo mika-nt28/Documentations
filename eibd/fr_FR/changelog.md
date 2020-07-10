@@ -27,10 +27,10 @@ pluginId: eibd
 * Recherche des gad dans les groupes de la vue bâtiment
 * Bugfix DPT 19.xxx
 
-### 13/12/2019
+## 13/12/2019
 * BugFix : ***erreur : Call to a member function getHumanName() on null***
 
-### 11/12/2019
+## 11/12/2019
 * Refonte de moteur de Template pour simplifier la maintenance
 * Ajout du Template AireZone
 * Correction de bug
@@ -38,3 +38,11 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
+## 09/07/2020
+* BugFix recherche maximal de level sur l'autocreate
+* BugFix Creation et affichage des objet automatiquement
+
+# Prochainement
+* Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
+* Mise a jours des arboressance d'objet en creation manuel
+* Ajout d'un systeme de parse manuel pour la creation des equipement Template dans l'arboressance
