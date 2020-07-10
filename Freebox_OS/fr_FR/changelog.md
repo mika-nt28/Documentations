@@ -123,3 +123,17 @@ pluginId: Freebox_OS
 - Ajout des widgets pour la partie mobile
 
 # Beta
+
+## 10/07/2020
+
+- Caméra : Mise à jour des infos fabricant et modèle suite à l'intégration dans le plugin Caméra
+- Nettoyage Création des commandes
+- Ajout icône pour les batteries
+- Ajout du type d'équipement sur chaque commande
+- Ajout possibilité dans l'add des commandes de mettre le nom avec son icône
+- Ajout type de générique pour le Wifi (afin de le commander via Homebridge)
+- **Alarme**
+  - Correction Bug widget Alarme Freebox
+  - Ajout du nom et de l'icône pour les modes
+  - Création des commandes spécifique pour l'intégrer dans Homebridge
+    > - Il fortement conseillé de supprimer cet équipement pour avoir les nouvelles commandes
