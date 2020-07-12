@@ -136,6 +136,8 @@ pluginId: Freebox_OS
   - Ajout du nom et de l'icône pour les modes
   - Création des commandes spécifique pour l'intégrer dans Homebridge
     > - Il fortement conseillé de supprimer cet équipement pour avoir les nouvelles commandes
+- **Télécommande Alarme**
+  - Remonter du dernier état
 - **Wifi**
   - Ajout Planning => Etat + Activation + Désactiver
   - Ajout type de générique pour le Wifi (afin de le commander via Homebridge)
