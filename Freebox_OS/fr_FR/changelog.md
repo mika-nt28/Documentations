@@ -138,6 +138,8 @@ pluginId: Freebox_OS
     > - Il fortement conseillé de supprimer cet équipement pour avoir les nouvelles commandes
 - **Télécommande Alarme**
   - Remonter du dernier état
+- **4G**
+  - Ajout commande pour activer/désactiver la 4G sur la boxe
 - **Wifi**
   - Ajout Planning => Etat + Activation + Désactiver
   - Ajout type de générique pour le Wifi (afin de le commander via Homebridge)
