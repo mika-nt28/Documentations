@@ -38,6 +38,9 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
+## 15/07/2020
+* Ajout du support ft12cemi
+
 ## 09/07/2020
 * BugFix recherche maximal de level sur l'autocreate
 * BugFix Creation et affichage des objet automatiquement
