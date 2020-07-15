@@ -177,7 +177,18 @@ Les valeurs possibles sont :
 - **alarm1_alert_timer** = L'alarme principale a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 - **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 - **alert** = La sirène sonne
-  ![Temps de rafraichissement](../images/alarme_dashboard.png)
+
+![Temps de rafraichissement](../images/alarme_dashboard.png)
+
+## Statut de la télécommande
+
+> Le plugin remonte l'historique de la télécommande, il affichera la dernière action faite par la télécommande
+> Les valeurs possibles sont :
+
+- **null** ou **0** = Aucun état
+- **1** = Alarme principale
+- **2** = Désactivation
+- **3** = Alarme secondaire
 
 ## Les caméras
 
