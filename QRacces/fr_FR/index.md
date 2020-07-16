@@ -63,6 +63,7 @@ Dans la partie 'Configuration des Caméras' cliquez sur 'Ajouter'
 
 Il est possible que le plugin enregistre un snapshot à chaque détection.
 * Prendre un snapshot lors d'une détection : Autorise le plugin à sauvegarder la prise de vue
+* Prendre une video lors d'une détection : Autorise le plugin à sauvegarder une video de la detection
 * Emplacement du dossier Snapshot : Spécifie le dossier où enregistrer les snapshots
 * Surveiller la taille du dossier Snapshot de chaque caméra : Autorise la surveillance et la suppression des snapshots les plus vieux
 * Taille du dossier Snapshot de chaque camera (Mo) : Taille maximale que peut contenir le dossier
