@@ -7,6 +7,7 @@ pluginId: QRacces
 # Stable
 ## 17/07/2020
 * Ajout de la commande detect
+* Mise a jours du scripte d'installation
 
 ## 16/07/2020
 * Bugfix Suppression camera
