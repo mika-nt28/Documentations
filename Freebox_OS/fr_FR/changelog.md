@@ -124,13 +124,16 @@ pluginId: Freebox_OS
 
 # Beta
 
-## 11/07/2020
+## 17/07/2020
 
-- Caméra : Mise à jour des infos fabricant et modèle suite à l'intégration dans le plugin Caméra
+> Attention cette version nécessite d'avoir au minimun la version 4.2 sur la freebox
+> Il faudra aussi mettre à jour les droits dans la console de la Freebox
+
 - Nettoyage Création des commandes
 - Ajout icône pour les batteries
-- Ajout du type d'équipement sur chaque commande
 - Ajout possibilité dans l'add des commandes de mettre le nom avec son icône
+- Migration de l'ensemble des API vers V8
+- Correction Bug création commande Disques
 - **Alarme**
   - Correction Bug widget Alarme Freebox
   - Ajout du nom et de l'icône pour les modes
@@ -138,10 +141,17 @@ pluginId: Freebox_OS
     > - Il fortement conseillé de supprimer cet équipement pour avoir les nouvelles commandes
 - **Télécommande Alarme**
   - Remonter du dernier état
+- **Système**
+  - Remonter des nouveaux états
+    > Il est conseiller de supprimer l'équipement et faire une recherche des équipements standards
+  - Ajout
 - **4G**
   - Ajout commande pour activer/désactiver la 4G sur la boxe
+    > Les commandes sont ajoutées uniquement si la carte est détectée
 - **Wifi**
   - Ajout Planning => Etat + Activation + Désactiver
   - Ajout type de générique pour le Wifi (afin de le commander via Homebridge)
 - **Contrôle Parental**
-  - Ajout du contrôle parental => Etat + Activation + Désactiver
+  - Ajout du contrôle parental => Etat
+- **Caméra**
+  - Mise à jour des infos fabricant et modèle suite à l'intégration dans le plugin Caméra
