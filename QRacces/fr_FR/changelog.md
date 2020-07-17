@@ -5,6 +5,9 @@ lang: fr_FR
 pluginId: QRacces
 ---
 # Stable
+## 17/07/2020
+* Ajout de la commande detect
+
 ## 16/07/2020
 * Bugfix Suppression camera
 * Ajout d'un parametre d'activation de prise de video
