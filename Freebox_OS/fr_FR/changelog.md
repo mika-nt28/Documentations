@@ -126,12 +126,12 @@ pluginId: Freebox_OS
 
 ## 17/07/2020
 
-> Attention cette version nécessite d'avoir au minimun la version 4.2 sur la freebox
+> Attention cette version nécessite d'avoir au minimum la version 4.2 sur la Freebox
 > Il faudra aussi mettre à jour les droits dans la console de la Freebox
+> Suppression de commande : La commande Activer/Désactiver sera supprimer lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF
 
 - Nettoyage Création des commandes
 - Ajout icône pour les batteries
-- Ajout possibilité dans l'add des commandes de mettre le nom avec son icône
 - Migration de l'ensemble des API vers V8
 - Correction Bug création commande Disques
 - **Alarme**
