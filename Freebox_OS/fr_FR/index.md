@@ -9,7 +9,7 @@ pluginId: Freebox_OS
 
 Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA).
 
-Les informations disponibles de votre Freebox Serveur sur Jeedom sont:
+Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
 - **Les informations système :**
   - Couper le wifi
@@ -17,7 +17,7 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont:
   - Les débits internet
   - L'état de votre connexion
 - **Téléphone :**
-  - Le nombre d'appels en absences
+  - Le nombre d'appels en absence
   - Le nombre d'appels passés
   - Le nombre d'appels reçus
 - **Disque Dur :**
@@ -38,12 +38,12 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 - **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : mafreebox.free.fr)_
 - **Id de l'application Freebox serveur** : Identifiant utilisé par la Freebox _(par défaut : fr.freebox.jeedom)_
 - **Nom de l'application Freebox serveur** : Nom utilisé par la Freebox _(par défaut : Freebox OS For Jeedom)_
-- **Version de l'application Freebox serveur** : Version de l'application utilisé par la Freebox _(par défaut : v1.0.0)_
+- **Version de l'application Freebox serveur** : Version de l'application utilisée par la Freebox _(par défaut : v1.0.0)_
 - **Nom de l'équipement connecté** : Nom de l'équipement utilisé par la Freebox (par défaut : Jeedom Core)
 
 - **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
 
-> L'appairage doit être lancé après chaque sauvegarde de ces paramètres pour leurs prises en compte.
+> L'appairage doit être lancé après chaque sauvegarde de ces paramètres pour leur prise en compte.
 
 # Appairage
 
@@ -55,7 +55,7 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 > **Il ne faut pas cliquer tout de suite sur OK, il faut d'abord suivre les
 > Indications de _Validation sur la Freebox_**
 
-> Le plugin va demander d'une nouvelle connexion de type "API" à la Freebox
+> Le plugin va demander une nouvelle connexion de type "API" à la Freebox
 
 ## Validation sur la Freebox
 
@@ -71,9 +71,9 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 
 > Le plugin va vérifier le fonctionnement de la liaison.
 
-# Droit d'accès
+# Droits d'accès
 
-Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation du plugin, ils doivent être **obligatoirement attribuer et modifier** directement depuis l'OS de la Freebox
+Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation du plugin, ils doivent être **obligatoirement attribués et modifiés** directement depuis l'OS de la Freebox
 
 - Se connecter à l'interface de la Freebox (http://mafreebox.free.fr)
 - Ouvrir le paramètre Freebox
@@ -85,7 +85,7 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 ![Paramètres de gestion des accès de la Freebox](../images/freebox_gestion_acces_1.png)
 
 - Cliquer sur l'onglet **Applications**
-- Dans la liste, choisir l'Application déclaré lors de l'installation du Plugin _(par défaut : Jeedom Core)_
+- Dans la liste, choisir l'Application déclarée lors de l'installation du Plugin _(par défaut : Jeedom Core)_
 
 ![Paramètres de gestion des accès de la Freebox](../images/freebox_gestion_acces_2.jpg)
 
@@ -93,7 +93,7 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 ![Modification des droits d'accès](../images/freebox_autorisation_acces_API.png)
 
-# Les équipements systèmes
+# Les équipements système
 
 Cliquer sur le bouton **_Scan équipements standard_**, le plugin va créer les différents équipements système de la Freebox.
 
@@ -127,7 +127,7 @@ Les équipements et les commandes suivantes vont être créées :
   - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**
   - Nombre de tâche(s)
-  - Nombre de tâche(s) active
+  - Nombre de tâche(s) active(s)
   - Nombre de tâche(s) en extraction
   - Nombre de tâche(s) en réparation
   - Nombre de tâche(s) en vérification
@@ -158,9 +158,9 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 # Freebox Delta
 
-> La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certain équipement.
+> La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certains équipements.
 
-Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des différents équipements connectés vont être créées
+Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des différents équipements connectés vont être créés
 
 ![Recherche des équipements spécifique Freebox delta](../images/recherche_tiles.png)
 
@@ -208,7 +208,7 @@ Il est possible de modifier le temps de rafraichissement de chaque équipement. 
 > Ce temps permet de rafraichir les différentes commandes de type infos.
 > Les commandes d'action ne sont pas concernées par ce temps de rafraichissement.
 
-> Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
+> Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
 
 ![Temps de rafraichissement](../images/Temps_de_rafraichissement.png)
 
