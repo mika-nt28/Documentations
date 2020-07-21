@@ -22,7 +22,7 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont:
   - Le nombre d'appels reçus
 - **Disque Dur :**
   - La place disponible dans vos disques connectés à la Freebox Serveur.
-- **Réseau :**
+- **Appareils connectés :**
   - L’état de chaque équipement DHCP
 - **Domotique (uniquement pour la DELTA) :**
   - Récupère les infos de la maison connectée
@@ -40,6 +40,8 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 - **Nom de l'application Freebox serveur** : Nom utilisé par la Freebox _(par défaut : Freebox OS For Jeedom)_
 - **Version de l'application Freebox serveur** : Version de l'application utilisé par la Freebox _(par défaut : v1.0.0)_
 - **Nom de l'équipement connecté** : Nom de l'équipement utilisé par la Freebox (par défaut : Jeedom Core)
+
+- **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
 
 > L'appairage doit être lancé après chaque sauvegarde de ces paramètres pour leurs prises en compte.
 
