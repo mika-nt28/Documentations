@@ -144,9 +144,9 @@ Les équipements et les commandes suivantes vont être créées :
   - Wifi On
   - Wifi Off
 
-# Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau et Disque Dur
+# Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau Disque Dur et système
 
-Ces 3 équipements sont vides par défaut lors de leur création
+Ces 4 équipements sont vides par défaut lors de leur création
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
