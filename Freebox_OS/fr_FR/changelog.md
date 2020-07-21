@@ -144,7 +144,7 @@ pluginId: Freebox_OS
 - **Système**
   - Remonter des nouveaux états
     > Il est conseiller de supprimer l'équipement et faire une recherche des équipements standards
-  - Ajout
+  - Ajout de la fonction activation/désactivation de la 4G
 - **4G**
   - Ajout commande pour activer/désactiver la 4G sur la boxe
     > Les commandes sont ajoutées uniquement si la carte est détectée
