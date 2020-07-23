@@ -76,7 +76,7 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation du plugin, ils doivent être **obligatoirement attribués et modifiés** directement depuis l'OS de la Freebox
 
 - Se connecter à l'interface de la Freebox (http://mafreebox.free.fr)
-- Ouvrir le paramètre Freebox
+- Ouvrir les paramètres de la Freebox
 
 ![Paramètres de la Freebox](../images/freebox_para.png)
 
@@ -95,17 +95,18 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 # Les équipements système
 
-Cliquer sur le bouton **_Scan équipements standard_**, le plugin va créer les différents équipements système de la Freebox.
+Cliquer sur le bouton **_Scan équipements standards_**, le plugin va créer les différents équipements système de la Freebox.
 
 ![Recherche des équipements systèmes](../images/recherche_systeme.png)
-Les équipements et les commandes suivantes vont être créées :
+
+Les équipements et les commandes suivants vont être créés :
 
 - **Air Média**
   - Player actuel AirMedia
   - AirMedia Start
   - AirMedia Stop
 - **Appareils connectés**
-  - Ensemble des appareils connectés à la freebox
+  - Ensemble des appareils connectés à la Freebox
 - **Disques**
   - Occupation du disque
 - **Freebox Débits**
@@ -134,7 +135,7 @@ Les équipements et les commandes suivantes vont être créées :
   - board name
   - serial
   - Redirection de ports
-  - 4G si la carte est présente dans la Freebo
+  - 4G si la carte est présente dans la Freebox
 - **Téléphone**
   - Nombre Appels Manqués / Reçus / Passés
   - Liste Appels Manqués / Reçus / Passés
@@ -161,7 +162,7 @@ Les équipements et les commandes suivantes vont être créées :
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
-Ces 4 équipements sont vides par défaut lors de leur création sauf pour le système qui intégre les infos communes à toutes les freebox
+Ces 4 équipements sont vides par défaut lors de leur création sauf pour le système qui intégre les infos communes à toutes les Freebox
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
@@ -171,12 +172,13 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 # Le contrôle parental
 
-Cliquer sur le bouton **_Scan contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
+Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
 
 > Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
 
 ![Recherche des équipements systèmes](../images/recherche_parental.png)
-Les équipements et les commandes suivantes vont être créées :
+
+Les équipements et les commandes suivants vont être créés :
 
 - **Air Média**
   - Etat
@@ -207,8 +209,8 @@ Les valeurs possibles sont :
 - **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 - **alert** = La sirène sonne
 
-> le système d'alarme est compatible avec Homebridge et l'application mobile aucune configuration est à faire
-> Pour permettre l'intégration, des commandes d'infos ont été ajoutés pour permettre d'interagir avec le plugin Alarme
+> le système d'alarme est compatible avec Homebridge et l'application mobile : aucune configuration n'est à faire.
+> Pour permettre l'intégration, des commandes d'infos ont été ajoutées pour permettre d'interagir avec le plugin Alarme
 >
 > - **Actif** = Info Binaire (1 = Alarme Activée)
 > - **Statut** = Info Binaire (1 = Sirène active)
@@ -217,7 +219,8 @@ Les valeurs possibles sont :
 
 ## Statut de la télécommande
 
-> Le plugin remonte l'historique de la télécommande, il affichera la dernière action faite par la télécommande
+> Le plugin remonte l'historique de la télécommande, il affichera la dernière action faite par la télécommande.
+
 > Les valeurs possibles sont :
 
 - **null** ou **0** = Aucun état
@@ -236,7 +239,7 @@ Les valeurs possibles sont :
 
 # Temps de rafraichissement (cron) des équipements
 
-Il est possible de modifier le cron de raffraichissement de chaque équipement, par défaut :
+Il est possible de modifier le cron de rafraichissement de chaque équipement, par défaut :
 
 - Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron réglé à 5 minutes**
 - Disque Dur = **Cron réglé à 1 heure**
