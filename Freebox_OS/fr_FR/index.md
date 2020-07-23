@@ -100,17 +100,29 @@ Cliquer sur le bouton **_Scan équipements standard_**, le plugin va créer les 
 ![Recherche des équipements systèmes](../images/recherche_systeme.png)
 Les équipements et les commandes suivantes vont être créées :
 
-- **ADSL**
+- **Air Média**
+  - Player actuel AirMedia
+  - AirMedia Start
+  - AirMedia Stop
+- **Appareils connectés**
+  - Ensemble des appareils connectés à la freebox
+- **Disques**
+  - Occupation du disque
+- **Freebox Débits**
   - Freebox rate down
   - Freebox rate up
   - Freebox bandwidth up
   - Freebox bandwidth down
   - Freebox media
   - Freebox state
-- **AirPlay**
-  - Player actuel AirMedia
-  - AirMedia Start
-  - AirMedia Stop
+- **Player**
+  - Mac
+  - Type
+  - Modèle
+  - Version
+  - API disponible
+  - Disponible sur le réseau
+  - Etat (allumé ou éteint)
 - **Système**
   - Update
   - Reboot
@@ -122,6 +134,7 @@ Les équipements et les commandes suivantes vont être créées :
   - board name
   - serial
   - Redirection de ports
+  - 4G si la carte est présente dans la Freebo
 - **Téléphone**
   - Nombre Appels Manqués / Reçus / Passés
   - Liste Appels Manqués / Reçus / Passés
@@ -146,15 +159,29 @@ Les équipements et les commandes suivantes vont être créées :
   - Wifi On
   - Wifi Off
 
-# Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau Disque Dur et système
+# Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
-Ces 4 équipements sont vides par défaut lors de leur création
+Ces 4 équipements sont vides par défaut lors de leur création sauf pour le système qui intégre les infos communes à toutes les freebox
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Le plugin recherchera et créera les différentes commandes associées
 
 ![Recherche des équipements spécifique](../images/recherche_commandes.png)
+
+# Le contrôle parental
+
+Cliquer sur le bouton **_Scan contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
+
+> Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
+
+![Recherche des équipements systèmes](../images/recherche_parental.png)
+Les équipements et les commandes suivantes vont être créées :
+
+- **Air Média**
+  - Etat
+  - Bloquer
+  - Autoriser
 
 # Freebox Delta
 
@@ -180,6 +207,12 @@ Les valeurs possibles sont :
 - **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 - **alert** = La sirène sonne
 
+> le système d'alarme est compatible avec Homebridge et l'application mobile aucune configuration est à faire
+> Pour permettre l'intégration, des commandes d'infos ont été ajoutés pour permettre d'interagir avec le plugin Alarme
+>
+> - **Actif** = Info Binaire (1 = Alarme Activée)
+> - **Statut** = Info Binaire (1 = Sirène active)
+
 ![Temps de rafraichissement](../images/alarme_dashboard.png)
 
 ## Statut de la télécommande
@@ -201,16 +234,20 @@ Les valeurs possibles sont :
 > La caméra ne sera pas visible dans le plugin Freebox.
 > Si le message n'apparait pas, vérifier les droits sur l'OS de la Freebox
 
-# Récurrence de la mise à jour des équipements
+# Temps de rafraichissement (cron) des équipements
 
-Il est possible de modifier le temps de rafraichissement de chaque équipement. _Par défaut, le temps est de 300s._
+Il est possible de modifier le cron de raffraichissement de chaque équipement, par défaut :
 
-> Ce temps permet de rafraichir les différentes commandes de type infos.
-> Les commandes d'action ne sont pas concernées par ce temps de rafraichissement.
+- Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron réglé à 5 minutes**
+- Disque Dur = **Cron réglé à 1 heure**
+- Ensemble des Tiles sauf FREEBOX - Télécommande (Alarme) = **Cron réglé à 1 minute**
+
+> Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
+> Les commandes d'action ne sont pas concernées par ce cron.
 
 > Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
 
-![Temps de rafraichissement](../images/Temps_de_rafraichissement.png)
+![Temps de rafraichissement](../images/cron.png)
 
 # Troubleshotting
 

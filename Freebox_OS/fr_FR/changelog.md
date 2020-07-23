@@ -128,11 +128,15 @@ pluginId: Freebox_OS
 
 > Attention cette version nécessite d'avoir au minimum la version 4.2 sur la Freebox
 > Il faudra aussi mettre à jour les droits dans la console de la Freebox
-> Suppression de commande : La commande Activer/Désactiver sera supprimer lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF
+> Attention : La commande Activer/Désactiver sera supprimer lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le wifi
 
 - Nettoyage Création des commandes
 - Ajout icône pour les batteries
 - Migration de l'ensemble des API vers V8
+- Réécriture de la partie update et refresh
+- Création class Template et refresh et update
+- Nettoyage des API
+- Création de la class Freebox_OS.inc
 - Correction Bug création commande Disques
 - **Alarme**
   - Correction Bug widget Alarme Freebox
@@ -153,5 +157,6 @@ pluginId: Freebox_OS
   - Ajout type de générique pour le Wifi (afin de le commander via Homebridge)
 - **Contrôle Parental**
   - Ajout du contrôle parental => Etat
+  - Ajout des commandes bloquer / débloquer
 - **Caméra**
   - Mise à jour des infos fabricant et modèle suite à l'intégration dans le plugin Caméra
