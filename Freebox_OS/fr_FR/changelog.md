@@ -12,11 +12,11 @@ pluginId: Freebox_OS
 - Résolution bug transparence équipement réseau + disques
 - Résolution bug Etat HomeAdapters
 - Compatibilité avec la V3 pour certains icônes
-- Aligmement icônes des commandes de l'alarme en fonction du plugin Alarme
+- Alignement icônes des commandes de l'alarme en fonction du plugin Alarme
 - **Caméra**
   - Ajout de log lors de la création
   - Modification du réglage de la caméra lors de la création de l'équipement dans le **_Plugin Caméra_** cela permettra une meilleure intégration dans Homebridge.
-    > Attention le réglage n'est pas changé dans l'équipement existant.
+    > Attention, le réglage n'est pas changé dans l'équipement existant.
     >
     > - Soit il faut supprimer l'équipement et relancer un scan des Tiles
     > - Soit modifier les réglages suivants :
@@ -40,7 +40,7 @@ pluginId: Freebox_OS
 - **Systèmes**
   - Ajout icônes pour les températures et le ventilateur
   - Ajout icônes pour les boutons updates et reboot (en couleur pour la V4)
-  - Corrections du sous type des équipements
+  - Corrections du sous-type des équipements
   - Mise à jour des min et maxi de certaines commandes
 - **Airplay**
   - Ajout icône stop et play (Uniquement pour les nouvelles installations, en couleur pour la V4)
@@ -48,10 +48,10 @@ pluginId: Freebox_OS
   - Bug luminosité 0 à 255 + affichage du min/max sur les commandes numériques
   - Ajout BP type Switch/Toggle
   - Liaison des actions et des commandes pour les types store et éclairages
-  - Déplacement de la fonction rechercher Homeadpater dans la recherche des Tiles (Nécessaire uniquement pour les Freebox DELTA)
+  - Déplacement de la fonction rechercher Homeadapter dans la recherche des Tiles (Nécessaire uniquement pour les Freebox DELTA)
   - Regroupement des fonctions Tiles et Homeadapter
   - Amélioration widget pour l'alarme
-  - Ajout info de du type d'action et d'équipement
+  - Ajout info du type d'action et d'équipement
     > il est nécessaire de cliquer sur "Scan Tiles" pour avoir ces infos
 - **Corrections et améliorations**
   - Correction Bug : **Roue crantée en boucle sur activation plugin**
@@ -60,7 +60,7 @@ pluginId: Freebox_OS
   - Ajout analyse réseau après la recherche des équipements systèmes
   - Ajout dans la liste des commandes : l'icône, mini-maxi
   - Désactivation de la création des équipements à la première installation
-    > il faudra cliquer sur "Scan équipements standard"
+    > il faudra cliquer sur "Scan équipements standards"
 
 ## 11/06/2020
 
@@ -85,10 +85,10 @@ pluginId: Freebox_OS
     - Masquage du bouton ajouter commande
     - Ajout des types de générique sur certaines commandes
     - Modification de la visibilité par défaut de certaines commandes (Batterie, Code Pin => non visible)
-    - Correction non-apparition commande rechercher dans l'équipement "home Adapter" après une première recherche \* Renommage des commandes (ajout État dans le cas où la commande et l'info porte le même nom)
+    - Correction non-apparition commande rechercher dans l'équipement "home Adapter" après une première recherche \* Renommage des commandes (ajout État dans le cas où la commande et l'info portent le même nom)
       > Pour avoir l'ensemble des nouveautés sur les équipements, il est nécessaire de les supprimer et de cliquer ensuite sur "rechercher les Tiles"
 
-- Ajout commande "refresh" => commande masquer par défaut dans les listes des commandes
+- Ajout commande "refresh" => commande masquée par défaut dans les listes des commandes
 - Clean code
 
 ## 27/05/2020
@@ -97,7 +97,7 @@ pluginId: Freebox_OS
 - Amélioration affichage des commandes
 - Migration commande API Wifi de V3 à V5
 - Séparation des équipements Home et Tiles dans la liste des équipements
-- Nettoyage des cron a la suppression du plugin
+- Nettoyage des cron à la suppression du plugin
 
 ## 03/04/2020
 
@@ -115,8 +115,8 @@ pluginId: Freebox_OS
 ## 10/12/2019
 
 - Restructuration de la class API
-- Création d'un cron de rafraichissement du tocken pour avoir qu'une seule session
-- Mise a jours du widget Réseau
+- Création d'un cron de rafraichissement du token pour n'avoir qu'une seule session
+- Mise a jour du widget Réseau
 
 ## 27/11/2019
 
@@ -128,7 +128,7 @@ pluginId: Freebox_OS
 
 > Attention cette version nécessite d'avoir au minimum la version 4.2 sur la Freebox
 > Il faudra aussi mettre à jour les droits dans la console de la Freebox
-> Attention : La commande Activer/Désactiver sera supprimer lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le wifi
+> Attention : La commande Activer/Désactiver sera supprimée lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le wifi
 
 - Nettoyage Création des commandes
 - Ajout icône pour les batteries
@@ -141,16 +141,16 @@ pluginId: Freebox_OS
 - **Alarme**
   - Correction Bug widget Alarme Freebox
   - Ajout du nom et de l'icône pour les modes
-  - Création des commandes spécifique pour l'intégrer dans Homebridge
-    > - Il fortement conseillé de supprimer cet équipement pour avoir les nouvelles commandes
+  - Création des commandes spécifiques pour l'intégrer dans Homebridge
+    > - Il est fortement conseillé de supprimer cet équipement pour avoir les nouvelles commandes
 - **Télécommande Alarme**
-  - Remonter du dernier état
+  - Remontée du dernier état
 - **Système**
-  - Remonter des nouveaux états
-    > Il est conseiller de supprimer l'équipement et faire une recherche des équipements standards
+  - Remontée des nouveaux états
+    > Il est conseillé de supprimer l'équipement et de faire une recherche des équipements standards
   - Ajout de la fonction activation/désactivation de la 4G
 - **4G**
-  - Ajout commande pour activer/désactiver la 4G sur la boxe
+  - Ajout commande pour activer/désactiver la 4G sur la box
     > Les commandes sont ajoutées uniquement si la carte est détectée
 - **Wifi**
   - Ajout Planning => Etat + Activation + Désactiver
