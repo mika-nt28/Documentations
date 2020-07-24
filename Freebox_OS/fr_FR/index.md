@@ -184,6 +184,7 @@ Les équipements et les commandes suivants vont être créés :
   - Etat
   - Bloquer
   - Autoriser
+  - Bloquer 30min/1h/2h
 
 # Freebox Delta
 

@@ -157,6 +157,6 @@ pluginId: Freebox_OS
   - Ajout type de générique pour le Wifi (afin de le commander via Homebridge)
 - **Contrôle Parental**
   - Ajout du contrôle parental => Etat
-  - Ajout des commandes bloquer / débloquer
+  - Ajout des commandes débloquer / bloquer (30min/1h/2h)
 - **Caméra**
   - Mise à jour des infos fabricant et modèle suite à l'intégration dans le plugin Caméra
