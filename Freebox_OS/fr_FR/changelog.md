@@ -138,6 +138,10 @@ pluginId: Freebox_OS
 - Nettoyage des API
 - Création de la class Freebox_OS.inc
 - Correction Bug création commande Disques
+- **Renommage des équipements**
+  - _ADSL_ devient _Freebox Débits_
+  - _AirPlay_ devient _Air Média_
+  - _Réseau_ devient _Appareils connectés_
 - **Alarme**
   - Correction Bug widget Alarme Freebox
   - Ajout du nom et de l'icône pour les modes
@@ -160,3 +164,6 @@ pluginId: Freebox_OS
   - Ajout des commandes débloquer / bloquer (30min/1h/2h)
 - **Caméra**
   - Mise à jour des infos fabricant et modèle suite à l'intégration dans le plugin Caméra
+- **Appareils connectés**
+  - Widget prise en charge des nouvelles images des appareils
+  - Résolution bugs sur la gestion des ports qui étaient vide
