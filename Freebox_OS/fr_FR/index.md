@@ -9,7 +9,7 @@ pluginId: Freebox_OS
 
 Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA).
 
-Les informations disponibles de votre Freebox Serveur sur Jeedom sont:
+Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
 - **Les informations système :**
   - Couper le wifi
@@ -17,12 +17,12 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont:
   - Les débits internet
   - L'état de votre connexion
 - **Téléphone :**
-  - Le nombre d'appels en absences
+  - Le nombre d'appels en absence
   - Le nombre d'appels passés
   - Le nombre d'appels reçus
 - **Disque Dur :**
   - La place disponible dans vos disques connectés à la Freebox Serveur.
-- **Réseau :**
+- **Appareils connectés :**
   - L’état de chaque équipement DHCP
 - **Domotique (uniquement pour la DELTA) :**
   - Récupère les infos de la maison connectée
@@ -38,10 +38,12 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 - **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : mafreebox.free.fr)_
 - **Id de l'application Freebox serveur** : Identifiant utilisé par la Freebox _(par défaut : fr.freebox.jeedom)_
 - **Nom de l'application Freebox serveur** : Nom utilisé par la Freebox _(par défaut : Freebox OS For Jeedom)_
-- **Version de l'application Freebox serveur** : Version de l'application utilisé par la Freebox _(par défaut : v1.0.0)_
+- **Version de l'application Freebox serveur** : Version de l'application utilisée par la Freebox _(par défaut : v1.0.0)_
 - **Nom de l'équipement connecté** : Nom de l'équipement utilisé par la Freebox (par défaut : Jeedom Core)
 
-> L'appairage doit être lancé après chaque sauvegarde de ces paramètres pour leurs prises en compte.
+- **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
+
+> L'appairage doit être lancé après chaque sauvegarde de ces paramètres pour leur prise en compte.
 
 # Appairage
 
@@ -53,7 +55,7 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 > **Il ne faut pas cliquer tout de suite sur OK, il faut d'abord suivre les
 > Indications de _Validation sur la Freebox_**
 
-> Le plugin va demander d'une nouvelle connexion de type "API" à la Freebox
+> Le plugin va demander une nouvelle connexion de type "API" à la Freebox
 
 ## Validation sur la Freebox
 
@@ -69,12 +71,12 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 
 > Le plugin va vérifier le fonctionnement de la liaison.
 
-# Droit d'accès
+# Droits d'accès
 
-Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation du plugin, ils doivent être **obligatoirement attribuer et modifier** directement depuis l'OS de la Freebox
+Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation du plugin, ils doivent être **obligatoirement attribués et modifiés** directement depuis l'OS de la Freebox
 
 - Se connecter à l'interface de la Freebox (http://mafreebox.free.fr)
-- Ouvrir le paramètre Freebox
+- Ouvrir les paramètres de la Freebox
 
 ![Paramètres de la Freebox](../images/freebox_para.png)
 
@@ -83,7 +85,7 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 ![Paramètres de gestion des accès de la Freebox](../images/freebox_gestion_acces_1.png)
 
 - Cliquer sur l'onglet **Applications**
-- Dans la liste, choisir l'Application déclaré lors de l'installation du Plugin _(par défaut : Jeedom Core)_
+- Dans la liste, choisir l'Application déclarée lors de l'installation du Plugin _(par défaut : Jeedom Core)_
 
 ![Paramètres de gestion des accès de la Freebox](../images/freebox_gestion_acces_2.jpg)
 
@@ -91,24 +93,37 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 ![Modification des droits d'accès](../images/freebox_autorisation_acces_API.png)
 
-# Les équipements systèmes
+# Les équipements système
 
-Cliquer sur le bouton **_Scan équipements standard_**, le plugin va créer les différents équipements système de la Freebox.
+Cliquer sur le bouton **_Scan équipements standards_**, le plugin va créer les différents équipements système de la Freebox.
 
 ![Recherche des équipements systèmes](../images/recherche_systeme.png)
-Les équipements et les commandes suivantes vont être créées :
 
-- **ADSL**
+Les équipements et les commandes suivants vont être créés :
+
+- **Air Média**
+  - Player actuel AirMedia
+  - AirMedia Start
+  - AirMedia Stop
+- **Appareils connectés**
+  - Ensemble des appareils connectés à la Freebox
+- **Disques**
+  - Occupation du disque
+- **Freebox Débits**
   - Freebox rate down
   - Freebox rate up
   - Freebox bandwidth up
   - Freebox bandwidth down
   - Freebox media
   - Freebox state
-- **AirPlay**
-  - Player actuel AirMedia
-  - AirMedia Start
-  - AirMedia Stop
+- **Player**
+  - Mac
+  - Type
+  - Modèle
+  - Version
+  - API disponible
+  - Disponible sur le réseau
+  - Etat (allumé ou éteint)
 - **Système**
   - Update
   - Reboot
@@ -120,12 +135,13 @@ Les équipements et les commandes suivantes vont être créées :
   - board name
   - serial
   - Redirection de ports
+  - 4G si la carte est présente dans la Freebox
 - **Téléphone**
   - Nombre Appels Manqués / Reçus / Passés
   - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**
   - Nombre de tâche(s)
-  - Nombre de tâche(s) active
+  - Nombre de tâche(s) active(s)
   - Nombre de tâche(s) en extraction
   - Nombre de tâche(s) en réparation
   - Nombre de tâche(s) en vérification
@@ -144,9 +160,9 @@ Les équipements et les commandes suivantes vont être créées :
   - Wifi On
   - Wifi Off
 
-# Spécificité de Home Adapters (Uniquement Freebox Delta), Réseau et Disque Dur
+# Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
-Ces 3 équipements sont vides par défaut lors de leur création
+Ces 4 équipements sont vides par défaut lors de leur création sauf pour le système qui intégre les infos communes à toutes les Freebox
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
@@ -154,11 +170,27 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 ![Recherche des équipements spécifique](../images/recherche_commandes.png)
 
+# Le contrôle parental
+
+Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
+
+> Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
+
+![Recherche des équipements systèmes](../images/recherche_parental.png)
+
+Les équipements et les commandes suivants vont être créés :
+
+- **Air Média**
+  - Etat
+  - Bloquer
+  - Autoriser
+  - Bloquer 30min/1h/2h
+
 # Freebox Delta
 
-> La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certain équipement.
+> La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certains équipements.
 
-Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des différents équipements connectés vont être créées
+Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des différents équipements connectés vont être créés
 
 ![Recherche des équipements spécifique Freebox delta](../images/recherche_tiles.png)
 
@@ -178,11 +210,18 @@ Les valeurs possibles sont :
 - **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
 - **alert** = La sirène sonne
 
+> le système d'alarme est compatible avec Homebridge et l'application mobile : aucune configuration n'est à faire.
+> Pour permettre l'intégration, des commandes d'infos ont été ajoutées pour permettre d'interagir avec le plugin Alarme
+>
+> - **Actif** = Info Binaire (1 = Alarme Activée)
+> - **Statut** = Info Binaire (1 = Sirène active)
+
 ![Temps de rafraichissement](../images/alarme_dashboard.png)
 
 ## Statut de la télécommande
 
-> Le plugin remonte l'historique de la télécommande, il affichera la dernière action faite par la télécommande
+> Le plugin remonte l'historique de la télécommande, il affichera la dernière action faite par la télécommande.
+
 > Les valeurs possibles sont :
 
 - **null** ou **0** = Aucun état
@@ -199,16 +238,20 @@ Les valeurs possibles sont :
 > La caméra ne sera pas visible dans le plugin Freebox.
 > Si le message n'apparait pas, vérifier les droits sur l'OS de la Freebox
 
-# Récurrence de la mise à jour des équipements
+# Temps de rafraichissement (cron) des équipements
 
-Il est possible de modifier le temps de rafraichissement de chaque équipement. _Par défaut, le temps est de 300s._
+Il est possible de modifier le cron de rafraichissement de chaque équipement, par défaut :
 
-> Ce temps permet de rafraichir les différentes commandes de type infos.
-> Les commandes d'action ne sont pas concernées par ce temps de rafraichissement.
+- Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron réglé à 5 minutes**
+- Disque Dur = **Cron réglé à 1 heure**
+- Ensemble des Tiles sauf FREEBOX - Télécommande (Alarme) = **Cron réglé à 1 minute**
 
-> Plus le temps est cours, plus il y aura de la charge sur la CPU de la Freebox.
+> Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
+> Les commandes d'action ne sont pas concernées par ce cron.
 
-![Temps de rafraichissement](../images/Temps_de_rafraichissement.png)
+> Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
+
+![Temps de rafraichissement](../images/cron.png)
 
 # Troubleshotting
 
