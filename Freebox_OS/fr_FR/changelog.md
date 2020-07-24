@@ -50,7 +50,7 @@ pluginId: Freebox_OS
 - **Appareils connectés**
   - Widget prise en charge des nouvelles images des appareils
   - Résolution bugs sur la gestion des ports qui étaient vide
-  - **Ensemble des Tiles**
+- **Ensemble des Tiles**
   - Corrections bugs sur les slider de type éclairage
     > Il faut absolument supprimer les commandes pour avoir ce problème résolu
 
