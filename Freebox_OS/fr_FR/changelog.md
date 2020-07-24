@@ -7,6 +7,53 @@ pluginId: Freebox_OS
 
 # Stable
 
+## 24/07/2020
+
+> Attention cette version nécessite d'avoir au minimum la version 4.2 sur la Freebox
+> Il faudra aussi mettre à jour les droits dans la console de la Freebox
+> Attention : La commande Activer/Désactiver du Wifi sera supprimée lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le wifi
+
+- Nettoyage Création des commandes
+- Ajout icône pour les batteries
+- Migration de l'ensemble des API vers V8
+- Réécriture de la partie update et refresh
+- Création class Template et refresh et update
+- Nettoyage des API
+- Création de la class Freebox_OS.inc
+- Correction Bug création commande Disques
+- **Renommage des équipements**
+  - _ADSL_ devient _Freebox Débits_
+  - _AirPlay_ devient _Air Média_
+  - _Réseau_ devient _Appareils connectés_
+- **Alarme**
+  - Correction Bug widget Alarme Freebox
+  - Ajout du nom et de l'icône pour les modes
+  - Création des commandes spécifiques pour l'intégrer dans Homebridge
+    > - Il est fortement conseillé de supprimer cet équipement pour avoir les nouvelles commandes
+- **Télécommande Alarme**
+  - Remontée du dernier état
+- **Système**
+  - Remontée des nouveaux états
+    > Il est conseillé de supprimer l'équipement et de faire une recherche des équipements standards
+  - Ajout de la fonction activation/désactivation de la 4G
+- **4G**
+  - Ajout commande pour activer/désactiver la 4G sur la box
+    > Les commandes sont ajoutées uniquement si la carte est détectée
+- **Wifi**
+  - Ajout Planning => Etat + Activation + Désactiver
+  - Ajout type de générique pour le Wifi (afin de le commander via Homebridge)
+- **Contrôle Parental**
+  - Ajout du contrôle parental => Etat
+  - Ajout des commandes débloquer / bloquer (30min/1h/2h)
+- **Caméra**
+  - Mise à jour des infos fabricant et modèle suite à l'intégration dans le plugin Caméra
+- **Appareils connectés**
+  - Widget prise en charge des nouvelles images des appareils
+  - Résolution bugs sur la gestion des ports qui étaient vide
+  - **Ensemble des Tiles**
+  - Corrections bugs sur les slider de type éclairage
+    > Il faut absolument supprimer les commandes pour avoir ce problème résolu
+
 ## 05/07/2020
 
 - Résolution bug transparence équipement réseau + disques
@@ -123,47 +170,3 @@ pluginId: Freebox_OS
 - Ajout des widgets pour la partie mobile
 
 # Beta
-
-## 17/07/2020
-
-> Attention cette version nécessite d'avoir au minimum la version 4.2 sur la Freebox
-> Il faudra aussi mettre à jour les droits dans la console de la Freebox
-> Attention : La commande Activer/Désactiver sera supprimée lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le wifi
-
-- Nettoyage Création des commandes
-- Ajout icône pour les batteries
-- Migration de l'ensemble des API vers V8
-- Réécriture de la partie update et refresh
-- Création class Template et refresh et update
-- Nettoyage des API
-- Création de la class Freebox_OS.inc
-- Correction Bug création commande Disques
-- **Renommage des équipements**
-  - _ADSL_ devient _Freebox Débits_
-  - _AirPlay_ devient _Air Média_
-  - _Réseau_ devient _Appareils connectés_
-- **Alarme**
-  - Correction Bug widget Alarme Freebox
-  - Ajout du nom et de l'icône pour les modes
-  - Création des commandes spécifiques pour l'intégrer dans Homebridge
-    > - Il est fortement conseillé de supprimer cet équipement pour avoir les nouvelles commandes
-- **Télécommande Alarme**
-  - Remontée du dernier état
-- **Système**
-  - Remontée des nouveaux états
-    > Il est conseillé de supprimer l'équipement et de faire une recherche des équipements standards
-  - Ajout de la fonction activation/désactivation de la 4G
-- **4G**
-  - Ajout commande pour activer/désactiver la 4G sur la box
-    > Les commandes sont ajoutées uniquement si la carte est détectée
-- **Wifi**
-  - Ajout Planning => Etat + Activation + Désactiver
-  - Ajout type de générique pour le Wifi (afin de le commander via Homebridge)
-- **Contrôle Parental**
-  - Ajout du contrôle parental => Etat
-  - Ajout des commandes débloquer / bloquer (30min/1h/2h)
-- **Caméra**
-  - Mise à jour des infos fabricant et modèle suite à l'intégration dans le plugin Caméra
-- **Appareils connectés**
-  - Widget prise en charge des nouvelles images des appareils
-  - Résolution bugs sur la gestion des ports qui étaient vide
