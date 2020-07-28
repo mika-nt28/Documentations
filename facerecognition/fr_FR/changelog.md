@@ -6,6 +6,14 @@ pluginId: facerecognition
 ---
 
 # Stable
+
+## 17/07/2020
+* Mise a jours du scripte d'installation
+* Sortie des parametre de detection generique a toutes les cameras
+* Suppression du parametre FPS dans la configuration
+* Ajout du parametre de configuration nombre de thread pour limiter la charge CPU du plugin.
+* Correction de bug
+
 ## 19/06/2020
 ### Apprentissage
 * Bugfix prise de capture du visage par la camera dans l'apprentissage
@@ -91,12 +99,5 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-## 08/07/2020
-* Sortie des parametre de detection generique a toutes les cameras
-
-## 29/06/2020
-* Suppression du parametre FPS dans la configuration
-* Ajout du parametre de configuration nombre de thread pour limiter la charge CPU du plugin.
-* Correction de bug
 
 # A venir

@@ -4,39 +4,17 @@ title: Accès par QR code (QRacces)
 lang: fr_FR
 pluginId: QRacces
 ---
+# Stable
+## 17/07/2020
+* Ajout de la commande detect
+* Mise a jours du scripte d'installation
+
+## 16/07/2020
+* Bugfix Suppression camera
+* Ajout d'un parametre d'activation de prise de video
 
 # Beta
-## 29/06/2020
-* Suppression du parametre Framerate et ajout du paramatre de nombre de thread
-* Gestion du nombre de thread pour limité l'impacte sur la charge CPU
 
-## 27/06/2020
-* Refonte du demon python
-* Génération du qrcode par le plugin au lieu de google
-* Refonte de la prise de snapshot par le demon
-* Prise de video de detection
-* Affichage sur le pannel de photo et video
-* Envoie du snashot avec action compatible
-
-## 20/05/2020
-* Ajout du champs de configuration e-mail disparue dans une percedent mise  a jours
-
-## 30/04/2020
-* Encodage de l'url en argument du démon
-* Analyse de la détection dans un nouveau thread
-
-## 21/04/2020
-* Prise de snapshot lors de la détection d'un QR code
-* Mise a jours du panel avec la gestion des snapshot
-* Mise a jours des actions avec le choix des camera déclencheur
-* Ajouts des conditions supplémentaires
-* Réorganisation de la configuration d'un utilisateur
-* Libération du flux de camera
-* Mise en place d'un framerate de détection
-* Activer les caméras de surveillance de QR code
-
-## 03/04/2020
-* Séparation du plugin et sa documentation
-
-# Stable
-
+# A venir
+* Envoie du QRcode par tous plugin de transmission d'image
+* Acces a la configuration planning du widget

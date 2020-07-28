@@ -6,6 +6,11 @@ pluginId: eibd
 ---
 
 # Stable
+## 16/07/2020
+* Bugfix nombre de level dans la creation automatique
+* Ajout du FT12cemi
+* BugFix Creation et affichage des objets automatiquement
+
 ## 16/06/2020
 * Ajout de log pour l'identification du plantage de demon lorsque les flag sont mauvais
 * Ajout d'un test si FlagWrite actif on renvoie l'info contenue dans jeedom plutot que d'interroger le bus
@@ -38,9 +43,6 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
-## 09/07/2020
-* BugFix recherche maximal de level sur l'autocreate
-* BugFix Creation et affichage des objet automatiquement
 
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
