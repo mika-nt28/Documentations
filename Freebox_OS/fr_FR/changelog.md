@@ -7,6 +7,23 @@ pluginId: Freebox_OS
 
 # Stable
 
+## 29/07/2020
+
+- Réécriture de la partie création des équipements standards
+- **Contrôle Parental**
+  - Possibilité de bloquer ou de débloquer pendant un temps sélectionné
+    > Pour pourvoir bénéficier de ces nouveautés, il faudra supprimer les équipements "Contrôle parental" et refaire une recherche
+- **Ensemble des Tiles**
+  - Correction des commandes des volets de type slider
+- **Téléchargement**
+  - Correction du nombre de download, la valeur était toujours vide
+- **Disque**
+  - Amélioration du nom lors de la création de l'équipement
+  - Correction du non retour de la capacité du disque
+- **Ensemble des équipements**
+  - Affectation des Temps de rafraichissement (cron) différents suivant le type d'équipement.
+    > Cela s'appliquera uniquement pour les nouveaux équipements
+
 ## 24/07/2020
 
 > Attention cette version nécessite d'avoir au minimum la version 4.2 sur la Freebox
