@@ -9,6 +9,8 @@ pluginId: Freebox_OS
 
 ## 29/07/2020
 
+> Il est nécessaire d'avoir la Freebox en version 4.2 pour que le plugin fonctionne
+
 - Réécriture de la partie création des équipements standards
 - **Contrôle Parental**
   - Possibilité de bloquer ou de débloquer pendant un temps sélectionné
