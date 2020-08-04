@@ -271,3 +271,7 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 > Il n'est pas possible de commander directement cette sirène
 > [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
+
+**J'ai le message "Version d’API inconnue"**
+
+> Il faut avoir le micrologiciel de la Freebox soit au minimun en version 4.2.x.
