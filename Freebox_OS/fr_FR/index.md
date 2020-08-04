@@ -274,4 +274,4 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 **J'ai le message "Version d’API inconnue"**
 
-> Il faut avoir le micrologiciel de la Freebox soit au minimun en version 4.2.x.
+> Le micrologiciel de la Freebox doit être au minimun en version 4.2.x.
