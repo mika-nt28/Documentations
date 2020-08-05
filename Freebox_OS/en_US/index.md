@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Freebox OS (Freebox_OS)
-lang: fr_FR
+lang: en_US
 pluginId: Freebox_OS
 ---
 
