@@ -35,7 +35,7 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 
 ![Configuration Plugin](../images/plugin_configuration.png)
 
-- **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : mafreebox.free.fr)_
+- **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : mafreebox.freebox.fr)_
 - **Id de l'application Freebox serveur** : Identifiant utilisé par la Freebox _(par défaut : fr.freebox.jeedom)_
 - **Nom de l'application Freebox serveur** : Nom utilisé par la Freebox _(par défaut : Freebox OS For Jeedom)_
 - **Version de l'application Freebox serveur** : Version de l'application utilisée par la Freebox _(par défaut : v1.0.0)_
@@ -75,7 +75,7 @@ Il est possible de personnaliser certaines options de connexion, **mais seules c
 
 Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation du plugin, ils doivent être **obligatoirement attribués et modifiés** directement depuis l'OS de la Freebox
 
-- Se connecter à l'interface de la Freebox (http://mafreebox.free.fr)
+- Se connecter à l'interface de la Freebox (http://mafreebox.freebox.fr)
 - Ouvrir les paramètres de la Freebox
 
 ![Paramètres de la Freebox](../images/freebox_para.png)
@@ -274,4 +274,12 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 **J'ai le message "Version d’API inconnue"**
 
-> Il faut avoir le micrologiciel de la Freebox soit au minimun en version 4.2.x.
+> Le micrologiciel de la Freebox doit être au minimun en version 4.2.x.
+
+**J'ai le message "unknown host, use ip address or mafreebox.freebox.fr" et le Demon NOK**
+
+> Suite à la mise à jour de la Freebox 4.2.3
+>
+> Free a changé l'’adresse de la Freebox **_mafreebox.free.fr_**, celle-ci ne fonctionne plus il faut remplacer par **_mafreebox.freebox.fr_**
+>
+> Voir le paragraphe **Installation et Configuration**
