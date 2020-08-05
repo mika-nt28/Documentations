@@ -91,7 +91,7 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 - **Autoriser tous les droits d'accès**
 
-![Modification des droits d'accès](../images/freebox_autorisation_acces_API.png)
+![Modification des droits d'accès](../images/modification_droit.png)
 
 # Les équipements système
 
