@@ -7,6 +7,12 @@ pluginId: Freebox_OS
 
 # Stable
 
+## 06/08/2020
+
+> Suite à la mise à jour de la Freebox en 4.2.3
+
+- Correction IP Freebox
+
 ## 29/07/2020
 
 > Il est nécessaire d'avoir la Freebox en version 4.2 pour que le plugin fonctionne
