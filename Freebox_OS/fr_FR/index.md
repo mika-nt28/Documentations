@@ -93,9 +93,9 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 ![Modification des droits d'accès](../images/modification_droit.png)
 
-# Les équipements système
+# Les équipements standards
 
-Cliquer sur le bouton **_Scan équipements standards_**, le plugin va créer les différents équipements système de la Freebox.
+Cliquer sur le bouton **_Scan équipements standards_**, le plugin va créer les différents équipements standards de la Freebox.
 
 ![Recherche des équipements systèmes](../images/recherche_systeme.png)
 
@@ -134,7 +134,6 @@ Les équipements et les commandes suivants vont être créés :
   - Allumée depuis
   - board name
   - serial
-  - Redirection de ports
   - 4G si la carte est présente dans la Freebox
 - **Téléphone**
   - Nombre Appels Manqués / Reçus / Passés
@@ -156,7 +155,6 @@ Les équipements et les commandes suivants vont être créés :
   - Stop DL
 - **Wifi**
   - Statut du wifi
-  - Active/Désactive le wifi
   - Wifi On
   - Wifi Off
 
