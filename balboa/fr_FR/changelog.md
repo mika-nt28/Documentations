@@ -6,7 +6,10 @@ pluginId: balboa
 ---
 
 # Stable
-# 01/07/2020
+## 19/08/2020
+* suppression du cron daily de programmation de la filtration hebdo (plantage de jeedom) 
+
+## 01/07/2020
 * Bugfix mise a jours du filtrage quotidien
 * Conditionnement de la mise a jour de la température du spa uniquement lorsque la pompe de circulation est en route
 
