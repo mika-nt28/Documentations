@@ -36,9 +36,9 @@ pluginId: Freebox_OS
   - Résolution de la non-suppression des appareils non présents dans la Freebox
   - Ajout cron Jour pour rechercher les nouveaux appareils.
 - **Disque Dur**
-  - Suppression widget, utilisation widget core par défaut
+  - Suppression du widget actuel et utilisation du widget core par défaut
 - **Wifi**
-  - Suppression de commande Activer/Désactiver du Wifi
+  - Suppression de la commande Activer/Désactiver du Wifi
     > il faut utiliser les commandes ON et OFF pour gérer le wifi
 - **Caméra**
   - Amélioration des réglages de la Caméra
