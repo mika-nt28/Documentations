@@ -13,7 +13,7 @@ pluginId: Freebox_OS
 
 - Amélioration des messages d'erreur (en cas d'erreur, un message est indiqué dans le centre des messages)
 - Suppression des widgets ne servant plus
-- Corrections Bug sur la commande rafraîchir sur certains équipements
+- Correction des bugs sur la commande rafraîchir sur certains équipements
 - **Appairage**
   - Mise en place d'une modale pour faciliter l'appairage
     > Le menu se trouve maintenant dans l'interface du plugin
@@ -27,7 +27,7 @@ pluginId: Freebox_OS
   - Suppression des widgets
   - Résolution du retour à la ligne sur l'affichage des listes d'appels
 - **Appareils connectés**
-  - Résolution de la non suppression des appareils non présent dans la Freebox
+  - Résolution de la non-suppression des appareils non présents dans la Freebox
   - Ajout cron Jour pour rechercher les nouveaux appareils.
 - **Disque Dur**
   - Suppression widget, utilisation widget core par défaut
