@@ -9,7 +9,8 @@ pluginId: Freebox_OS
 
 ## xx/08/2020
 
-> ATTENTION : Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu
+> **Important**  
+> Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu
 
 - Amélioration des messages d'erreur (en cas d'erreur, un message est indiqué dans le centre des messages)
 - Suppression des widgets ne servant plus
