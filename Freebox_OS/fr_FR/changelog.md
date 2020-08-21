@@ -24,7 +24,7 @@ pluginId: Freebox_OS
   - Mise en place d'une modale pour faciliter l'appairage
     > Le menu se trouve maintenant dans l'interface du plugin
   - Modification des réglages par défauts, (masquages des paramètres non nécessaires)
-  - Ajout fonction pour contrôler les droits, si non OK il n'est pas possible de continuer (Droits obligatoires en gras)
+  - Ajout d'une fonction pour contrôler les droits, si **NON OK** il ne sera pas possible de continuer (Droits obligatoires en gras)
   - Pour la Freebox Delta : Il est possible de lier les pièces de la Freebox avec les objects de Jeedom
   - Possibilité de lancer des divers équipements en fin d'authentification
 - **Téléphone**
