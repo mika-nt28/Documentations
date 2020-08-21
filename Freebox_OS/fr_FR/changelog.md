@@ -11,6 +11,8 @@ pluginId: Freebox_OS
 
 > **Important**  
 > **Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu**
+>
+> **NE PAS FAIRE LA MISE A JOUR SI VOUS N'ETES PAS CHEZ VOUS**
 
 > **Merci**  
 > Merci au betatesteur : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
