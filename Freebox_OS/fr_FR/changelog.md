@@ -45,6 +45,8 @@ pluginId: Freebox_OS
 - **Freebox débits**
   - Ajout info de l’IPV4 et IPV6
     > Il faut refaire une recherche des équipements standards pour avoir cette info
+- **Equipements Appareils connectés Wifi Invité**
+  - Ajout de cette équipement
 
 ## 06/08/2020
 
