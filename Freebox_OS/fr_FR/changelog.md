@@ -9,7 +9,7 @@ pluginId: Freebox_OS
 
 ## xx/08/2020
 
-> Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu
+> ATTENTION : Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu
 
 - Amélioration des messages d'erreur (en cas d'erreur, un message est indiqué dans le centre des messages)
 - Suppression des widgets ne servant plus
@@ -46,7 +46,7 @@ pluginId: Freebox_OS
   - Ajout info de l’IPV4 et IPV6
     > Il faut refaire une recherche des équipements standards pour avoir cette info
 - **Equipements Appareils connectés Wifi Invité**
-  - Ajout de cette équipement
+  - Ajout de cet équipement
 
 ## 06/08/2020
 
