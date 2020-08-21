@@ -10,7 +10,7 @@ pluginId: Freebox_OS
 ## xx/08/2020
 
 > **Important**  
-> Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu
+> **Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu**
 
 > **Merci**  
 > Merci au betatesteur : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
