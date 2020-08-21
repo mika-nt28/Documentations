@@ -7,6 +7,45 @@ pluginId: Freebox_OS
 
 # Stable
 
+## xx/08/2020
+
+> Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu
+
+- Amélioration des messages d'erreur (en cas d'erreur, un message est indiqué dans le centre des messages)
+- Suppression des widgets ne servant plus
+- Corrections Bug sur la commande rafraîchir sur certains équipements
+- **Appairage**
+  - Mise en place d'une modale pour faciliter l'appairage
+    > Le menu se trouve maintenant dans l'interface du plugin
+  - Modification des réglages par défaut, (masquage des paramétres non nécessaire)
+  - Ajout fonction pour contrôler les droits, si non OK il n'est pas possible de continuer (Droits obligatoires en gras)
+  - Pour la Freebox Delta : Il est possible de lier les pièces de la Freebox avec les objects de Jeedom
+  - Possibilité de lancer des divers équipements en fin d'authentification
+- **Téléphone**
+  - Suppression de l'ensemble des commandes obsolètes
+    > Les commandes seront supprimées lors de la mise à jour du Plugin
+  - Suppression des widgets
+  - Résolution du retour à la ligne sur l'affichage des listes d'appels
+- **Appareils connectés**
+  - Résolution de la non suppression des appareils non présent dans la Freebox
+  - Ajout cron Jour pour rechercher les nouveaux appareils.
+- **Disque Dur**
+  - Suppression widget, utilisation widget core par défaut
+- **Wifi**
+  - Suppression de commande Activer/Désactiver du Wifi
+    > il faut utiliser les commandes ON et OFF pour gérer le wifi
+- **Caméra**
+  - Amélioration des réglages de la Caméra
+    > il faut supprimer l'équipement pour avoir les nouveaux réglages
+  - Suppression du message d'installation de la caméra, si celle-ci est détecté
+- **Tiles**
+  - Correction d’un problème sur la recherche
+- **Equipements standards**
+  - Correction d’un problème sur la recherche
+- **Freebox débits**
+  - Ajout info de l’IPV4 et IPV6
+    > Il faut refaire une recherche des équipements standards pour avoir cette info
+
 ## 06/08/2020
 
 > Suite à la mise à jour de la Freebox en 4.2.3
