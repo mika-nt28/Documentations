@@ -52,6 +52,7 @@ Dans la fenêtre ci dessous, il est possible de modifier
 - **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
 - Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramétres par défaut
 - Ne pas oublier de cliquer sur **Sauvegarder**
+
 <p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
 ### Authentification
@@ -60,6 +61,7 @@ Dans la fenêtre ci dessous, il va être réaliser l'authentification sur la Fre
 
 - Cliquer sur le bouton **Lancement de l'Authentification**
 - Suivre à la fois les identifications sur cet écran ainsi que sur la Freebox
+
 <p><img src="../images/Freebox_OS_screenshot4.png" alt="Authentification 3" width="300" /></p>
 
 ### Vérification des droits
@@ -70,7 +72,8 @@ Dans la fenêtre ci dessous, Le système va contrôler les droits qui sont attri
 - Une fois les droits réglés, cliquer sur le bouton **Vérification des droits**
   > Si les droits sont OK, le bouton va disparaitre
   > Les droits obligatoire sont en gras
-  <p><img src="../images/Freebox_OS_screenshot5.png" alt="Authentification 4" width="300" /></p>
+
+<p><img src="../images/Freebox_OS_screenshot5.png" alt="Authentification 4" width="300" /></p>
 
 ### Lier les pièces Freebox avec les Objets Jeedom
 
