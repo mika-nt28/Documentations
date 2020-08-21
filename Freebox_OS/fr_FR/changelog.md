@@ -14,6 +14,7 @@ pluginId: Freebox_OS
 
 > **Merci**  
 > Merci au betatesteur : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+>
 > Merci Titi_Titi pour m'aider à améliorer le plugin
 
 - Amélioration des messages d'erreur (en cas d'erreur, un message est indiqué dans le centre des messages)
