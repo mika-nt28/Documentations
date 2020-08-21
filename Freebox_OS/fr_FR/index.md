@@ -45,19 +45,19 @@ Il faut ensuite suivre les différents écrans pour valider l'appairage
 
 ### Réglages
 
-Dans la fenêtre ci dessous, il est possible de modifier
+Dans la fenêtre ci-dessous, il est possible de modifier
 
 - **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : mafreebox.freebox.fr)_
 - **Nom de l'équipement connecté** : Le nom de la jeedom (ce Champs est vérouillé )
 - **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
-- Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramétres par défaut
+- Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défauts
 - Ne pas oublier de cliquer sur **Sauvegarder**
 
 <p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
 ### Authentification
 
-Dans la fenêtre ci dessous, il va être réaliser l'authentification sur la Freebox
+Dans la fenêtre ci-dessous, il va être réalisé l'authentification sur la Freebox
 
 - Cliquer sur le bouton **Lancement de l'Authentification**
 - Suivre à la fois les identifications sur cet écran ainsi que sur la Freebox
@@ -66,7 +66,7 @@ Dans la fenêtre ci dessous, il va être réaliser l'authentification sur la Fre
 
 ### Vérification des droits
 
-Dans la fenêtre ci dessous, Le système va contrôler les droits qui sont attribuer à l'application
+Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attribuer à l'application
 
 - Voir la section des Droits d'accès (dans cette documentation) pour modifier les droits sur la Freebox
 - Une fois les droits réglés, cliquer sur le bouton **Vérification des droits**
@@ -83,7 +83,7 @@ Dans la fenêtre ci dessous, Le système va contrôler les droits qui sont attri
 
 ### Scan
 
-Dans la fenêtre ci dessous, Il est possible de lancer le scan des différents équipements.
+Dans la fenêtre ci-dessous, Il est possible de lancer le scan des différents équipements.
 
 <p><img src="../images/Freebox_OS_screenshot7.png" alt="Authentification 5" width="300" /></p>
 
@@ -182,7 +182,7 @@ Les équipements et les commandes suivants vont être créés :
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
-Ces 4 équipements sont vides par défaut lors de leur création sauf pour le système qui intégre les infos communes à toutes les Freebox.
+Ces quatre équipements sont vides par défauts lors de leurs créations sauf pour le système qui intègre les infos communes à toutes les Freebox.
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
@@ -276,7 +276,7 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 **Je n'ai pas le message d'autorisation qui apparait sur la Freebox**
 
-> Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'association** est coché*(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)*
+> Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
 
 ![Association](../images/freebox_association.png)
 
