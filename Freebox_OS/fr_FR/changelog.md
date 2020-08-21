@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 - Suppression des widgets ne servant plus
 - Correction des bugs sur la commande rafraîchir sur certains équipements
 - **Appairage**
-  - Mise en place d'une modale pour faciliter l'appairage
+  - Mise en place d'une modale pour faciliter l'appairage (l'association) avec la Freebox
     > Le menu se trouve maintenant dans l'interface du plugin
   - Modification des réglages par défauts, (masquages des paramètres non nécessaires)
   - Ajout d'une fonction pour contrôler les droits, si **NON OK** il ne sera pas possible de continuer (Droits obligatoires en gras)
