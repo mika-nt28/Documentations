@@ -20,7 +20,7 @@ pluginId: Freebox_OS
 > Merci Titi_Titi pour m'aider à améliorer le plugin
 
 - Amélioration des messages d'erreur (en cas d'erreur, un message est indiqué dans le centre des messages)
-- Suppression des widgets ne servant plus
+- Suppression des widgets n'étant plus utilisés
 - Correction des bugs sur la commande rafraîchir sur certains équipements
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
