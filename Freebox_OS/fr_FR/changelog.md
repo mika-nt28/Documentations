@@ -19,16 +19,16 @@ pluginId: Freebox_OS
 >
 > Merci Titi_Titi pour m'aider à améliorer le plugin
 
-- Amélioration des messages d'erreur (en cas d'erreur, un message est indiqué dans le centre des messages)
+- Amélioration des messages d'erreurs (en cas d'erreur, un message est indiqué dans le centre des messages)
 - Suppression des widgets n'étant plus utilisés
-- Correction des bugs sur la commande rafraîchir sur certains équipements
+- Corrections des bugs sur la commande rafraichir sur certains équipements
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
     > Le menu se trouve maintenant dans l'interface du plugin
   - Modification des réglages par défauts, (masquages des paramètres non nécessaires)
-  - Ajout d'une fonction pour contrôler les droits, si **NON OK** il ne sera pas possible de continuer (Droits obligatoires en gras)
+  - Ajout d'une fonction pour contrôler les droits, si **NOK**, il n'est pas possible de continuer (Droits obligatoires en gras)
   - Pour la Freebox Delta : Il est possible de lier les pièces de la Freebox avec les objects de Jeedom
-  - Possibilité de lancer des divers équipements en fin d'authentification
+  - Possibilité de lancer la recherche des divers équipements en fin d'authentification
 - **Téléphone**
   - Suppression de l'ensemble des commandes obsolètes
     > Les commandes seront supprimées lors de la mise à jour du Plugin
@@ -45,7 +45,7 @@ pluginId: Freebox_OS
 - **Caméra**
   - Amélioration des réglages de la Caméra
     > il faut supprimer l'équipement pour avoir les nouveaux réglages
-  - Suppression du message d'installation de la caméra, si celle-ci est détecté
+  - Suppression du message d'installation de la caméra, si celle-ci est détectée
 - **Tiles**
   - Correction d’un problème sur la recherche
 - **Equipements standards**
