@@ -24,6 +24,8 @@ pluginId: Freebox_OS
 - Corrections des bugs sur la commande rafraichir sur certains équipements
 - Les fonctionnalités non disponibles pour la box sont masquées (Ex : Scan des Tiles)
 - Les regroupements d'équipements vide sont masqués
+- **Cron Journalier**
+- Ajout cron journalier pour rechercher les appareils connectés
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
     > Le menu se trouve maintenant dans l'interface du plugin
