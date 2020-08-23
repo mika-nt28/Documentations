@@ -22,6 +22,8 @@ pluginId: Freebox_OS
 - Amélioration des messages d'erreurs (en cas d'erreur, un message est indiqué dans le centre des messages)
 - Suppression des widgets n'étant plus utilisés
 - Corrections des bugs sur la commande rafraichir sur certains équipements
+- Les fonctionnalités non disponible pour la box sont masquées (Ex : Scan des Tiles)
+- Les regroupements d'équipements vide sont masqués
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
     > Le menu se trouve maintenant dans l'interface du plugin
@@ -37,6 +39,7 @@ pluginId: Freebox_OS
 - **Appareils connectés**
   - Résolution de la non-suppression des appareils non présents dans la Freebox
   - Ajout cron Jour pour rechercher les nouveaux appareils.
+  - Possibilité de masquer les adresses IP sur le widget
 - **Disque Dur**
   - Suppression du widget actuel et utilisation du widget core par défaut
 - **Wifi**
