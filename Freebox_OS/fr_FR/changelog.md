@@ -25,7 +25,9 @@ pluginId: Freebox_OS
 - Les fonctionnalités non disponibles pour la box sont masquées (Ex : Scan des Tiles)
 - Les regroupements d'équipements vide sont masqués
 - **Cron Journalier**
-- Ajout cron journalier pour rechercher les appareils connectés
+- Ajout cron journalier pour rechercher les nouveaux appareils connectés
+- Ajout cron journalier pour rechercher les nouveaux disques
+- Ajout cron journalier pour rechercher les nouveaux Home Adapters
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
     > Le menu se trouve maintenant dans l'interface du plugin
@@ -38,6 +40,11 @@ pluginId: Freebox_OS
     > Les commandes seront supprimées lors de la mise à jour du Plugin
   - Suppression des widgets
   - Résolution du retour à la ligne sur l'affichage des listes d'appels
+- **Freebox Débits**
+  - Renommage des commandes
+    > Les commandes seront mises à jour lors du scan des équipements standards
+  - Ajout _Info Réponse Ping_ et _Proxy Wake on Lan_
+  - Ajout des commandes spécifiques pour la fibre optique (Ajout fait uniquement si le module _ftth_) est présent
 - **Appareils connectés**
   - Résolution de la non-suppression des appareils non présents dans la Freebox
   - Ajout cron Jour pour rechercher les nouveaux appareils.
