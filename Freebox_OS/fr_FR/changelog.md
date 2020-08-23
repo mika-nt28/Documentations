@@ -15,14 +15,14 @@ pluginId: Freebox_OS
 > **NE PAS FAIRE LA MISE A JOUR SI VOUS N'ETES PAS CHEZ VOUS**
 
 > **Merci**  
-> Merci au betatesteur : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
 >
-> Merci Titi_Titi pour m'aider à améliorer le plugin
+> Merci Titi_Titi de m'aider à améliorer le plugin
 
 - Amélioration des messages d'erreurs (en cas d'erreur, un message est indiqué dans le centre des messages)
 - Suppression des widgets n'étant plus utilisés
 - Corrections des bugs sur la commande rafraichir sur certains équipements
-- Les fonctionnalités non disponible pour la box sont masquées (Ex : Scan des Tiles)
+- Les fonctionnalités non disponibles pour la box sont masquées (Ex : Scan des Tiles)
 - Les regroupements d'équipements vide sont masqués
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
