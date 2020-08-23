@@ -45,6 +45,7 @@ pluginId: Freebox_OS
     > Les commandes seront mises à jour lors du scan des équipements standards
   - Ajout _Info Réponse Ping_ et _Proxy Wake on Lan_
   - Ajout des commandes spécifiques pour la fibre optique (Ajout fait uniquement si le module _ftth_) est présent
+  - Ajout des commandes spécifique pour les connexions de type _xDSL + 4G_
 - **Appareils connectés**
   - Résolution de la non-suppression des appareils non présents dans la Freebox
   - Ajout cron Jour pour rechercher les nouveaux appareils.
