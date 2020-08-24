@@ -282,7 +282,7 @@ Afin de pouvoir intégrer les nouveaux systèmes.
 - Redémarrer le Démon
 - Faire _Scan des tiles_
 
-Ouvrir un sujet sur le communauté et fournir les infos suivantes
+Ouvrir (si un sujet ne traite pas déjà cette demande) un sujet sur le communauté et fournir les infos suivantes
 
 - Faire une copie d'écran de l'équipement
 <p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="500" /></p>
