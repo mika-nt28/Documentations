@@ -272,6 +272,51 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 ![Temps de rafraichissement](../images/cron.png)
 
+# Les tiles
+
+> Tous les équipements ne sont pas forcement intégré dans le système vue l'évolution de la Freebox
+
+Afin de pouvoir intégrer les nouveaux systèmes.
+
+- Mettre le plugin en mode débug
+- Redémarrer le Démon
+- Faire _Scan des tiles_
+
+Ouvrir un sujet sur le communauté et fournir les infos suivantes
+
+- Faire une copie d'écran de l'équipement
+<p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="500" /></p>
+
+- Faire une copie d'écran des commandes de l'équipement
+<p><img src="../images/tiles2.png" alt="Equipement tiles 2" width="500" /></p>
+
+- Fournir les logs sous forme de texte et non une copie d'écran
+  > [Voir le paragraphe **11** Formatez correctement](https://community.jeedom.com/t/comment-nous-aider-a-vous-aider-ou-comment-poser-une-bonne-question/34932)
+
+```
+    [2020-08-24 07:37:41][DEBUG] : ┌───────── Commande trouvée pour l'équipement FREEBOX : FREEBOX - Eclairage Canapé -- Pièce : Salon (Node ID 9)
+[2020-08-24 07:37:41][DEBUG] : │ Label : Enclenché -- Name : switch_state
+[2020-08-24 07:37:41][DEBUG] : │ Type (eq) : light -- Action (eq): intensity_picker
+[2020-08-24 07:37:41][DEBUG] : │ Index : 0 -- Value Type : bool -- Access : rw
+[2020-08-24 07:37:41][DEBUG] : │ Valeur actuelle :
+[2020-08-24 07:37:41][DEBUG] : │ Range : ----- -- Range color : -
+[2020-08-24 07:37:41][DEBUG] : │ Name: Etat -- Type : info -- LogicalID : 0 -- Template Widget / Ligne : core::light/0-- Type de générique : LIGHT_STATE -- Inverser : 0 -- Icône :  -- Min/Max : default/default
+[2020-08-24 07:37:41][DEBUG] : │ No Repeat pour l'info avec le nom : Etat
+[2020-08-24 07:37:41][DEBUG] : │ Name: On -- Type : action -- LogicalID : PB_On -- Template Widget / Ligne : core::light/1-- Type de générique : LIGHT_ON -- Inverser : 0 -- Icône :  -- Min/Max : default/default
+[2020-08-24 07:37:41][DEBUG] : │ Name: Off -- Type : action -- LogicalID : PB_Off -- Template Widget / Ligne : core::light/0-- Type de générique : LIGHT_OFF -- Inverser : 0 -- Icône :  -- Min/Max : default/default
+[2020-08-24 07:37:41][DEBUG] : └─────────
+[2020-08-24 07:37:41][DEBUG] : ┌───────── Commande trouvée pour l'équipement FREEBOX : FREEBOX - Eclairage Canapé -- Pièce : Salon (Node ID 9)
+[2020-08-24 07:37:41][DEBUG] : │ Label : Luminosité -- Name : luminosity
+[2020-08-24 07:37:41][DEBUG] : │ Type (eq) : light -- Action (eq): intensity_picker
+[2020-08-24 07:37:41][DEBUG] : │ Index : 2 -- Value Type : int -- Access : rw
+[2020-08-24 07:37:41][DEBUG] : │ Valeur actuelle : 254
+[2020-08-24 07:37:41][DEBUG] : │ Range : ----- -- Range color : -
+[2020-08-24 07:37:41][DEBUG] : │ Name: Etat Luminosité -- Type : info -- LogicalID : 2 -- Template Widget / Ligne : /0-- Type de générique : LIGHT_COLOR -- Inverser : 0 -- Icône :  -- Min/Max : 0/255
+[2020-08-24 07:37:41][DEBUG] : │ No Repeat pour l'info avec le nom : Etat Luminosité
+[2020-08-24 07:37:41][DEBUG] : │ Name: Luminosité -- Type : action -- LogicalID : 2 -- Template Widget / Ligne : default/0-- Type de générique : LIGHT_SET_COLOR -- Inverser : 0 -- Icône :  -- Min/Max : 0/255
+[2020-08-24 07:37:41][DEBUG] : └─────────
+```
+
 # Troubleshotting
 
 **Je n'ai pas le message d'autorisation qui apparait sur la Freebox**
