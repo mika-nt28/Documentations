@@ -5,15 +5,9 @@ lang: fr_FR
 pluginId: Freebox_OS
 ---
 
-# Info
-
-## Important
-
-> **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineur.
-
 # Stable
 
-## 25/08/2020
+## xx/08/2020
 
 > **Important**  
 > **Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu**
@@ -29,7 +23,7 @@ pluginId: Freebox_OS
 - Suppression des widgets n'étant plus utilisés
 - Corrections des bugs sur la commande rafraichir sur certains équipements
 - Les fonctionnalités non disponibles pour la box sont masquées (Ex : Scan des Tiles)
-- Les regroupements d'équipements vide sont masqués
+- Les regroupements d'équipements vides sont masqués
 - **Cron Journalier**
 - Ajout cron journalier pour rechercher les nouveaux appareils connectés
 - Ajout cron journalier pour rechercher les nouveaux disques
@@ -37,7 +31,7 @@ pluginId: Freebox_OS
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
     > Le menu se trouve maintenant dans l'interface du plugin
-  - Modification des réglages par défauts, (masquages des paramètres non nécessaires)
+  - Modification des réglages par défaut (masquages des paramètres non nécessaires)
   - Ajout d'une fonction pour contrôler les droits, si **NOK**, il n'est pas possible de continuer (Droits obligatoires en gras)
   - Pour la Freebox Delta : Il est possible de lier les pièces de la Freebox avec les objects de Jeedom
   - Possibilité de lancer la recherche des divers équipements en fin d'authentification
@@ -51,12 +45,12 @@ pluginId: Freebox_OS
     > Les commandes seront mises à jour lors du scan des équipements standards
   - Ajout _Info Réponse Ping_ et _Proxy Wake on Lan_
   - Ajout des commandes spécifiques pour la fibre optique (Ajout fait uniquement si le module _ftth_) est présent
-  - Ajout des commandes spécifique pour les connexions de type _xDSL + 4G_
+  - Ajout des commandes spécifiques pour les connexions de type _xDSL + 4G_
 - **Appareils connectés**
   - Résolution de la non-suppression des appareils non présents dans la Freebox
   - Ajout cron Jour pour rechercher les nouveaux appareils.
   - Possibilité de masquer les adresses IP sur le widget
-  - Le widget a été remnommé
+  - Le widget a été renommé
     > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 - **Téléchargements**
   - Ajout info flux RSS
@@ -266,5 +260,3 @@ pluginId: Freebox_OS
 - Ajout des widgets pour la partie mobile
 
 # Beta
-
-> [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
