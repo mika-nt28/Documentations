@@ -5,9 +5,15 @@ lang: fr_FR
 pluginId: Freebox_OS
 ---
 
+# Info
+
+## Important
+
+> **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineur.
+
 # Stable
 
-## xx/08/2020
+## 25/08/2020
 
 > **Important**  
 > **Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu**
@@ -260,3 +266,5 @@ pluginId: Freebox_OS
 - Ajout des widgets pour la partie mobile
 
 # Beta
+
+> [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
