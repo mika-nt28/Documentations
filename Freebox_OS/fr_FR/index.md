@@ -285,10 +285,10 @@ Afin de pouvoir intégrer les nouveaux systèmes.
 Ouvrir (si un sujet ne traite pas déjà cette demande) un sujet sur le communauté et fournir les infos suivantes
 
 - Faire une copie d'écran de l'équipement
-<p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="500" /></p>
+<p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="700" /></p>
 
 - Faire une copie d'écran des commandes de l'équipement
-<p><img src="../images/tiles2.png" alt="Equipement tiles 2" width="500" /></p>
+<p><img src="../images/tiles2.png" alt="Equipement tiles 2" width="700" /></p>
 
 - Fournir les logs sous forme de texte et non une copie d'écran
   > [Voir le paragraphe **11** Formatez correctement](https://community.jeedom.com/t/comment-nous-aider-a-vous-aider-ou-comment-poser-une-bonne-question/34932)
