@@ -274,7 +274,7 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 # Les tiles
 
-> Tous les équipements ne sont pas forcement intégrés dans le système vue l'évolution de la Freebox
+> Chaques équipements ne sont pas forcement intégrés dans le système vue l'évolution de la Freebox
 
 Afin de pouvoir intégrer les nouveaux systèmes.
 
@@ -282,7 +282,7 @@ Afin de pouvoir intégrer les nouveaux systèmes.
 - Redémarrer le Démon
 - Faire **_Scan des tiles_**
 
-Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur la communauté et fournir les infos suivantes
+Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le communauty et fournir les infos suivantes
 
 - Faire une copie d'écran de l'équipement
 <p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="800" /></p>
