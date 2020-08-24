@@ -5,7 +5,79 @@ lang: fr_FR
 pluginId: Freebox_OS
 ---
 
+# Info
+
+## Important
+
+> **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineur.
+
 # Stable
+
+## 25/08/2020
+
+> **Important**  
+> **Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu**
+>
+> **NE PAS FAIRE LA MISE A JOUR SI VOUS N'ETES PAS CHEZ VOUS**
+
+> **Merci**  
+> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+>
+> Merci Titi_Titi de m'aider à améliorer le plugin
+
+- Amélioration des messages d'erreurs (en cas d'erreur, un message est indiqué dans le centre des messages)
+- Suppression des widgets n'étant plus utilisés
+- Corrections des bugs sur la commande rafraichir sur certains équipements
+- Les fonctionnalités non disponibles pour la box sont masquées (Ex : Scan des Tiles)
+- Les regroupements d'équipements vides sont masqués
+- **Cron Journalier**
+- Ajout cron journalier pour rechercher les nouveaux appareils connectés
+- Ajout cron journalier pour rechercher les nouveaux disques
+- Ajout cron journalier pour rechercher les nouveaux Home Adapters
+- **Appairage**
+  - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
+    > Le menu se trouve maintenant dans l'interface du plugin
+  - Modification des réglages par défaut (masquages des paramètres non nécessaires)
+  - Ajout d'une fonction pour contrôler les droits, si **NOK**, il n'est pas possible de continuer (Droits obligatoires en gras)
+  - Pour la Freebox Delta : Il est possible de lier les pièces de la Freebox avec les objects de Jeedom
+  - Possibilité de lancer la recherche des divers équipements en fin d'authentification
+- **Téléphone**
+  - Suppression de l'ensemble des commandes obsolètes
+    > Les commandes seront supprimées lors de la mise à jour du Plugin
+  - Suppression des widgets
+  - Résolution du retour à la ligne sur l'affichage des listes d'appels
+- **Freebox Débits**
+  - Renommage des commandes
+    > Les commandes seront mises à jour lors du scan des équipements standards
+  - Ajout _Info Réponse Ping_ et _Proxy Wake on Lan_
+  - Ajout des commandes spécifiques pour la fibre optique (Ajout fait uniquement si le module _ftth_) est présent
+  - Ajout des commandes spécifiques pour les connexions de type _xDSL + 4G_
+- **Appareils connectés**
+  - Résolution de la non-suppression des appareils non présents dans la Freebox
+  - Ajout cron Jour pour rechercher les nouveaux appareils.
+  - Possibilité de masquer les adresses IP sur le widget
+  - Le widget a été renommé
+    > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
+- **Téléchargements**
+  - Ajout info flux RSS
+- **Disque Dur**
+  - Suppression du widget actuel et utilisation du widget core par défaut
+- **Wifi**
+  - Suppression de la commande Activer/Désactiver du Wifi
+    > il faut utiliser les commandes ON et OFF pour gérer le wifi
+- **Caméra**
+  - Amélioration des réglages de la Caméra
+    > il faut supprimer l'équipement pour avoir les nouveaux réglages
+  - Suppression du message d'installation de la caméra, si celle-ci est détectée
+- **Tiles**
+  - Correction d’un problème sur la recherche
+- **Equipements standards**
+  - Correction d’un problème sur la recherche
+- **Freebox débits**
+  - Ajout info de l’IPV4 et IPV6
+    > Il faut refaire une recherche des équipements standards pour avoir cette info
+- **Equipements Appareils connectés Wifi Invité**
+  - Ajout de cet équipement
 
 ## 06/08/2020
 
@@ -194,3 +266,5 @@ pluginId: Freebox_OS
 - Ajout des widgets pour la partie mobile
 
 # Beta
+
+> [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
