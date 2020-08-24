@@ -50,6 +50,8 @@ pluginId: Freebox_OS
   - Résolution de la non-suppression des appareils non présents dans la Freebox
   - Ajout cron Jour pour rechercher les nouveaux appareils.
   - Possibilité de masquer les adresses IP sur le widget
+  - Le widget a été remnommé
+    > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 - **Téléchargements**
   - Ajout info flux RSS
 - **Disque Dur**

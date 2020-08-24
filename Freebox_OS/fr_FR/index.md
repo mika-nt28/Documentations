@@ -345,3 +345,8 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 > Free a changé l'’adresse de la Freebox **_mafreebox.free.fr_**, celle-ci ne fonctionne plus il faut remplacer par **_mafreebox.freebox.fr_**
 >
 > Voir le paragraphe **Installation et Configuration**
+
+**J'ai le widget des appareils connectés qui n'est plus disponible**
+
+- Le widget a été remnommé lors de la dernière mise à jour
+  > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
