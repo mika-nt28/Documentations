@@ -100,20 +100,20 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 - Se connecter à l'interface de la Freebox (http://mafreebox.freebox.fr)
 - Ouvrir les paramètres de la Freebox
 
-![Paramètres de la Freebox](../images/freebox_para.png)
+<p><img src="../images/freebox_para.png" alt="MParamètres de la Freebox" width="60" /></p>
 
 - Ouvrir la gestion des accès de la Freebox _(ce réglage se trouve dans le mode avancé)_
 
-![Paramètres de gestion des accès de la Freebox](../images/freebox_gestion_acces_1.png)
+<p><img src="../images/freebox_gestion_acces_1.png" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
 
 - Cliquer sur l'onglet **Applications**
 - Dans la liste, choisir l'Application déclarée lors de l'installation du Plugin _(par défaut : Jeedom Core)_
 
-![Paramètres de gestion des accès de la Freebox](../images/freebox_gestion_acces_2.jpg)
+<p><img src="../images/freebox_gestion_acces_2.jpg" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
 
 - **Autoriser tous les droits d'accès**
 
-![Modification des droits d'accès](../images/modification_droit.png)
+<p><img src="../images/modification_droit.png" alt="Modification des droits d'accès spécifique" width="600" /></p>
 
 # Les équipements standards
 
@@ -188,7 +188,7 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Le plugin recherchera et créera les différentes commandes associées
 
-![Recherche des équipements spécifique](../images/recherche_commandes.png)
+<p><img src="../images/recherche_commandes.png" alt="Recherche des équipements spécifique" width="800" /></p>
 
 # Le contrôle parental
 
@@ -270,7 +270,7 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 > Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
 
-![Temps de rafraichissement](../images/cron.png)
+<p><img src="../images/cron.png" alt="Temps de rafraichissement" width="800" /></p>
 
 # Les tiles
 
@@ -285,10 +285,10 @@ Afin de pouvoir intégrer les nouveaux systèmes.
 Ouvrir (si un sujet ne traite pas déjà cette demande) un sujet sur le communauté et fournir les infos suivantes
 
 - Faire une copie d'écran de l'équipement
-<p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="700" /></p>
+<p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="800" /></p>
 
 - Faire une copie d'écran des commandes de l'équipement
-<p><img src="../images/tiles2.png" alt="Equipement tiles 2" width="700" /></p>
+<p><img src="../images/tiles2.png" alt="Equipement tiles 2" width="800" /></p>
 
 - Fournir les logs sous forme de texte et non une copie d'écran
   > [Voir le paragraphe **11** Formatez correctement](https://community.jeedom.com/t/comment-nous-aider-a-vous-aider-ou-comment-poser-une-bonne-question/34932)
