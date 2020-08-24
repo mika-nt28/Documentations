@@ -9,7 +9,7 @@ pluginId: Freebox_OS
 
 Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA ou POP).
 
-> Toutes les infos ne sont pas encore disponible pour la Freebox POP
+> Toutes les infos ne sont pas encore disponibles pour la Freebox POP
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
@@ -48,16 +48,16 @@ Il faut ensuite suivre les différents écrans pour valider l'appairage
 Dans la fenêtre ci-dessous, il est possible de modifier
 
 - **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : mafreebox.freebox.fr)_
-- **Nom de l'équipement connecté** : Le nom de la jeedom (ce Champs est vérouillé )
+- **Nom de l'équipement connecté** : Le nom de la Jeedom (ce Champ est vérouillé )
 - **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
-- Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défauts
+- Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
 - Ne pas oublier de cliquer sur **Sauvegarder**
 
 <p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
 ### Authentification
 
-Dans la fenêtre ci-dessous, il va être réalisé l'authentification sur la Freebox
+Dans la fenêtre ci-dessous, il va être réalisée l'authentification sur la Freebox
 
 - Cliquer sur le bouton **Lancement de l'Authentification**
 - Suivre à la fois les identifications sur cet écran ainsi que sur la Freebox
@@ -66,12 +66,12 @@ Dans la fenêtre ci-dessous, il va être réalisé l'authentification sur la Fre
 
 ### Vérification des droits
 
-Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attribuer à l'application
+Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attribués à l'application
 
 - Voir la section des Droits d'accès (dans cette documentation) pour modifier les droits sur la Freebox
 - Une fois les droits réglés, cliquer sur le bouton **Vérification des droits**
   > Si les droits sont OK, le bouton va disparaitre
-  > Les droits obligatoire sont en gras
+  > Les droits obligatoires sont en gras
 
 <p><img src="../images/Freebox_OS_screenshot5.png" alt="Authentification 4" width="300" /></p>
 
@@ -87,7 +87,7 @@ Dans la fenêtre ci-dessous, Il est possible de lancer le scan des différents �
 
 <p><img src="../images/Freebox_OS_screenshot7.png" alt="Authentification 5" width="300" /></p>
 
-### Authentification terminéee
+### Authentification terminée
 
 L'authentification est réussie.
 
@@ -113,7 +113,7 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 
 - **Autoriser tous les droits d'accès**
 
-<p><img src="../images/modification_droit.png" alt="Modification des droits d'accès spécifique" width="600" /></p>
+<p><img src="../images/modification_droit.png" alt="Modification des droits d'accès spécifiques" width="600" /></p>
 
 # Les équipements standards
 
@@ -182,13 +182,13 @@ Les équipements et les commandes suivants vont être créés :
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
-Ces quatre équipements sont vides par défauts lors de leurs créations sauf pour le système qui intègre les infos communes à toutes les Freebox.
+Ces quatre équipements sont vides par défaut lors de leur création sauf pour le système qui intègre les infos communes à toutes les Freebox.
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Le plugin recherchera et créera les différentes commandes associées
 
-<p><img src="../images/recherche_commandes.png" alt="Recherche des équipements spécifique" width="800" /></p>
+<p><img src="../images/recherche_commandes.png" alt="Recherche des équipements spécifiques" width="800" /></p>
 
 # Le contrôle parental
 
@@ -211,7 +211,7 @@ Les équipements et les commandes suivants vont être créés :
 
 Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des différents équipements connectés vont être créés
 
-<p><img src="../images/recherche_tiles.png" alt="Recherche des équipements spécifique Freebox delta" width="60" /></p>
+<p><img src="../images/recherche_tiles.png" alt="Recherche des équipements spécifiques Freebox delta" width="60" /></p>
 
 ## Statut Alarme
 
@@ -282,7 +282,7 @@ Afin de pouvoir intégrer les nouveaux systèmes.
 - Redémarrer le Démon
 - Faire **_Scan des tiles_**
 
-Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le communauté et fournir les infos suivantes
+Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur la communauté et fournir les infos suivantes
 
 - Faire une copie d'écran de l'équipement
 <p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="800" /></p>
