@@ -13,6 +13,11 @@ pluginId: Freebox_OS
 
 # Stable
 
+## 26/08/2020
+
+- Correction bug routé crantée infinie lors de la mise à jour
+- Correction Bug débit, les débit 4G ne sont plus ajoutés si la carte n'est pas présente
+
 ## 25/08/2020
 
 > **Important**  
