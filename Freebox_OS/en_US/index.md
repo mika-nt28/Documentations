@@ -1,13 +1,15 @@
 ---
 layout: default
 title: Freebox OS (Freebox_OS)
-lang: en_US
+lang: fr_FR
 pluginId: Freebox_OS
 ---
 
 # Description
 
-Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA).
+Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA ou POP).
+
+> Toutes les infos ne sont pas encore disponibles pour la Freebox POP
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
@@ -22,54 +24,74 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
   - Le nombre d'appels reçus
 - **Disque Dur :**
   - La place disponible dans vos disques connectés à la Freebox Serveur.
-- **Appareils connectés :**
+- **Appareils connectés sur le LAN et le Wifi Invité:**
   - L’état de chaque équipement DHCP
 - **Domotique (uniquement pour la DELTA) :**
   - Récupère les infos de la maison connectée
 
 # Installation et Configuration
 
-Sur la page de configuration du plugin, une fois le plugin installé et actif
+Une fois le plugin installé et actif.
 
-Il est possible de personnaliser certaines options de connexion, **mais seules celles par défaut ont été validées**.
+## Appairage
 
-![Configuration Plugin](../images/plugin_configuration.png)
+Il faut se rendre dans la page principale du plugin et cliquer
+
+<p><img src="../images/appairage.png" alt="Modale Appairage" width="60" /></p>
+
+Il faut ensuite suivre les différents écrans pour valider l'appairage
+
+<p><img src="../images/Freebox_OS_screenshot2.png" alt="Authentification 1" width="300" /></p>
+
+### Réglages
+
+Dans la fenêtre ci-dessous, il est possible de modifier
 
 - **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : mafreebox.freebox.fr)_
-- **Id de l'application Freebox serveur** : Identifiant utilisé par la Freebox _(par défaut : fr.freebox.jeedom)_
-- **Nom de l'application Freebox serveur** : Nom utilisé par la Freebox _(par défaut : Freebox OS For Jeedom)_
-- **Version de l'application Freebox serveur** : Version de l'application utilisée par la Freebox _(par défaut : v1.0.0)_
-- **Nom de l'équipement connecté** : Nom de l'équipement utilisé par la Freebox (par défaut : Jeedom Core)
-
+- **Nom de l'équipement connecté** : Le nom de la Jeedom (ce Champ est vérouillé )
 - **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
+- Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
+- Ne pas oublier de cliquer sur **Sauvegarder**
 
-> L'appairage doit être lancé après chaque sauvegarde de ces paramètres pour leur prise en compte.
+<p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
-# Appairage
+### Authentification
 
-- Cliquer sur le bouton **Appairage** dans l'interface de configuration.
-  Le message ci-dessous apparait,
+Dans la fenêtre ci-dessous, il va être réalisée l'authentification sur la Freebox
 
-![Message Validation](../images/msg_validation.png)
+- Cliquer sur le bouton **Lancement de l'Authentification**
+- Suivre à la fois les identifications sur cet écran ainsi que sur la Freebox
 
-> **Il ne faut pas cliquer tout de suite sur OK, il faut d'abord suivre les
-> Indications de _Validation sur la Freebox_**
+<p><img src="../images/Freebox_OS_screenshot4.png" alt="Authentification 3" width="300" /></p>
 
-> Le plugin va demander une nouvelle connexion de type "API" à la Freebox
+### Vérification des droits
 
-## Validation sur la Freebox
+Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attribués à l'application
 
-> L'opération suivante se fait directement sur l'écran de la Freebox
+- Voir la section des Droits d'accès (dans cette documentation) pour modifier les droits sur la Freebox
+- Une fois les droits réglés, cliquer sur le bouton **Vérification des droits**
+  > Si les droits sont OK, le bouton va disparaitre
+  > Les droits obligatoires sont en gras
 
-- **Suivre et valider** les différentes informations affichées sur la Freebox
+<p><img src="../images/Freebox_OS_screenshot5.png" alt="Authentification 4" width="300" /></p>
 
-![Écran Autorisation Application Freebox V4](../images/freebox_ecran.jpeg)
+### Lier les pièces Freebox avec les Objets Jeedom
 
-## Validation Jeedom
+> Cette fenêtre n'apparait uniquement que si la Freebox est une DELTA
 
-- Maintenant, cliquer sur le bouton **OK** du message dans le navigateur
+<p><img src="../images/Freebox_OS_screenshot6.png" alt="Authentification 4" width="300" /></p>
 
-> Le plugin va vérifier le fonctionnement de la liaison.
+### Scan
+
+Dans la fenêtre ci-dessous, Il est possible de lancer le scan des différents équipements.
+
+<p><img src="../images/Freebox_OS_screenshot7.png" alt="Authentification 5" width="300" /></p>
+
+### Authentification terminée
+
+L'authentification est réussie.
+
+<p><img src="../images/Freebox_OS_screenshot8.png" alt="Authentification 6" width="300" /></p>
 
 # Droits d'accès
 
@@ -78,26 +100,26 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 - Se connecter à l'interface de la Freebox (http://mafreebox.freebox.fr)
 - Ouvrir les paramètres de la Freebox
 
-![Paramètres de la Freebox](../images/freebox_para.png)
+<p><img src="../images/freebox_para.png" alt="MParamètres de la Freebox" width="60" /></p>
 
 - Ouvrir la gestion des accès de la Freebox _(ce réglage se trouve dans le mode avancé)_
 
-![Paramètres de gestion des accès de la Freebox](../images/freebox_gestion_acces_1.png)
+<p><img src="../images/freebox_gestion_acces_1.png" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
 
 - Cliquer sur l'onglet **Applications**
 - Dans la liste, choisir l'Application déclarée lors de l'installation du Plugin _(par défaut : Jeedom Core)_
 
-![Paramètres de gestion des accès de la Freebox](../images/freebox_gestion_acces_2.jpg)
+<p><img src="../images/freebox_gestion_acces_2.jpg" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
 
 - **Autoriser tous les droits d'accès**
 
-![Modification des droits d'accès](../images/modification_droit.png)
+<p><img src="../images/modification_droit.png" alt="Modification des droits d'accès spécifiques" width="600" /></p>
 
-# Les équipements système
+# Les équipements standards
 
-Cliquer sur le bouton **_Scan équipements standards_**, le plugin va créer les différents équipements système de la Freebox.
+Cliquer sur le bouton **_Scan équipements standards_**, le plugin va créer les différents équipements standards de la Freebox.
 
-![Recherche des équipements systèmes](../images/recherche_systeme.png)
+<p><img src="../images/recherche_systeme.png" alt="Recherche des équipements systèmes" width="60" /></p>
 
 Les équipements et les commandes suivants vont être créés :
 
@@ -134,7 +156,6 @@ Les équipements et les commandes suivants vont être créés :
   - Allumée depuis
   - board name
   - serial
-  - Redirection de ports
   - 4G si la carte est présente dans la Freebox
 - **Téléphone**
   - Nombre Appels Manqués / Reçus / Passés
@@ -156,19 +177,18 @@ Les équipements et les commandes suivants vont être créés :
   - Stop DL
 - **Wifi**
   - Statut du wifi
-  - Active/Désactive le wifi
   - Wifi On
   - Wifi Off
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
-Ces 4 équipements sont vides par défaut lors de leur création sauf pour le système qui intégre les infos communes à toutes les Freebox
+Ces quatre équipements sont vides par défaut lors de leur création sauf pour le système qui intègre les infos communes à toutes les Freebox.
 
 Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Le plugin recherchera et créera les différentes commandes associées
 
-![Recherche des équipements spécifique](../images/recherche_commandes.png)
+<p><img src="../images/recherche_commandes.png" alt="Recherche des équipements spécifiques" width="800" /></p>
 
 # Le contrôle parental
 
@@ -176,15 +196,14 @@ Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les dif
 
 > Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
 
-![Recherche des équipements systèmes](../images/recherche_parental.png)
+<p><img src="../images/recherche_parental.png" alt="Recherche des contrôles parentaux" width="60" /></p>
 
 Les équipements et les commandes suivants vont être créés :
 
-- **Air Média**
-  - Etat
-  - Bloquer
-  - Autoriser
-  - Bloquer 30min/1h/2h
+- Etat
+- Bloquer
+- Autoriser
+- Bloquer 30min/1h/2h
 
 # Freebox Delta
 
@@ -192,7 +211,7 @@ Les équipements et les commandes suivants vont être créés :
 
 Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des différents équipements connectés vont être créés
 
-![Recherche des équipements spécifique Freebox delta](../images/recherche_tiles.png)
+<p><img src="../images/recherche_tiles.png" alt="Recherche des équipements spécifiques Freebox delta" width="60" /></p>
 
 ## Statut Alarme
 
@@ -251,15 +270,58 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 > Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
 
-![Temps de rafraichissement](../images/cron.png)
+<p><img src="../images/cron.png" alt="Temps de rafraichissement" width="800" /></p>
+
+# Les tiles
+
+> Chaques équipements ne sont pas forcement intégrés dans le système vue l'évolution de la Freebox
+
+Afin de pouvoir intégrer les nouveaux systèmes.
+
+- Mettre le plugin en mode débug
+- Redémarrer le Démon
+- Faire **_Scan des tiles_**
+
+Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le communauty et fournir les infos suivantes
+
+- Faire une copie d'écran de l'équipement
+<p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="800" /></p>
+
+- Faire une copie d'écran des commandes de l'équipement
+<p><img src="../images/tiles2.png" alt="Equipement tiles 2" width="800" /></p>
+
+- Fournir les logs sous forme de texte et non une copie d'écran
+  > [Voir le paragraphe **11** Formatez correctement](https://community.jeedom.com/t/comment-nous-aider-a-vous-aider-ou-comment-poser-une-bonne-question/34932)
+
+```
+    [2020-08-24 07:37:41][DEBUG] : ┌───────── Commande trouvée pour l'équipement FREEBOX : FREEBOX - Eclairage Canapé -- Pièce : Salon (Node ID 9)
+[2020-08-24 07:37:41][DEBUG] : │ Label : Enclenché -- Name : switch_state
+[2020-08-24 07:37:41][DEBUG] : │ Type (eq) : light -- Action (eq): intensity_picker
+[2020-08-24 07:37:41][DEBUG] : │ Index : 0 -- Value Type : bool -- Access : rw
+[2020-08-24 07:37:41][DEBUG] : │ Valeur actuelle :
+[2020-08-24 07:37:41][DEBUG] : │ Range : ----- -- Range color : -
+[2020-08-24 07:37:41][DEBUG] : │ Name: Etat -- Type : info -- LogicalID : 0 -- Template Widget / Ligne : core::light/0-- Type de générique : LIGHT_STATE -- Inverser : 0 -- Icône :  -- Min/Max : default/default
+[2020-08-24 07:37:41][DEBUG] : │ No Repeat pour l'info avec le nom : Etat
+[2020-08-24 07:37:41][DEBUG] : │ Name: On -- Type : action -- LogicalID : PB_On -- Template Widget / Ligne : core::light/1-- Type de générique : LIGHT_ON -- Inverser : 0 -- Icône :  -- Min/Max : default/default
+[2020-08-24 07:37:41][DEBUG] : │ Name: Off -- Type : action -- LogicalID : PB_Off -- Template Widget / Ligne : core::light/0-- Type de générique : LIGHT_OFF -- Inverser : 0 -- Icône :  -- Min/Max : default/default
+[2020-08-24 07:37:41][DEBUG] : └─────────
+[2020-08-24 07:37:41][DEBUG] : ┌───────── Commande trouvée pour l'équipement FREEBOX : FREEBOX - Eclairage Canapé -- Pièce : Salon (Node ID 9)
+[2020-08-24 07:37:41][DEBUG] : │ Label : Luminosité -- Name : luminosity
+[2020-08-24 07:37:41][DEBUG] : │ Type (eq) : light -- Action (eq): intensity_picker
+[2020-08-24 07:37:41][DEBUG] : │ Index : 2 -- Value Type : int -- Access : rw
+[2020-08-24 07:37:41][DEBUG] : │ Valeur actuelle : 254
+[2020-08-24 07:37:41][DEBUG] : │ Range : ----- -- Range color : -
+[2020-08-24 07:37:41][DEBUG] : │ Name: Etat Luminosité -- Type : info -- LogicalID : 2 -- Template Widget / Ligne : /0-- Type de générique : LIGHT_COLOR -- Inverser : 0 -- Icône :  -- Min/Max : 0/255
+[2020-08-24 07:37:41][DEBUG] : │ No Repeat pour l'info avec le nom : Etat Luminosité
+[2020-08-24 07:37:41][DEBUG] : │ Name: Luminosité -- Type : action -- LogicalID : 2 -- Template Widget / Ligne : default/0-- Type de générique : LIGHT_SET_COLOR -- Inverser : 0 -- Icône :  -- Min/Max : 0/255
+[2020-08-24 07:37:41][DEBUG] : └─────────
+```
 
 # Troubleshotting
 
 **Je n'ai pas le message d'autorisation qui apparait sur la Freebox**
 
-![Écran Freebox V4](../images/freebox_ecran.jpeg)
-
-> Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'association** est coché*(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)*
+> Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
 
 ![Association](../images/freebox_association.png)
 
@@ -283,3 +345,8 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 > Free a changé l'’adresse de la Freebox **_mafreebox.free.fr_**, celle-ci ne fonctionne plus il faut remplacer par **_mafreebox.freebox.fr_**
 >
 > Voir le paragraphe **Installation et Configuration**
+
+**J'ai le widget des appareils connectés qui n'est plus disponible**
+
+- Le widget a été remnommé lors de la dernière mise à jour
+  > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
