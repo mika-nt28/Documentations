@@ -13,7 +13,7 @@ pluginId: Freebox_OS
 
 ## Authentification ou Appairage
 
-> Si vous avez une version inférieure au 25 ou 26/08/2020, il est nécessaire de refaire l'appariage (https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
+> Si vous avez une version inférieure au 25 ou 26/08/2020, il est nécessaire de refaire l'appariage [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
 
 # Stable
 
@@ -47,7 +47,7 @@ pluginId: Freebox_OS
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
     > Le menu se trouve maintenant dans l'interface du plugin
-    > La documentation du plugin a été mise à jour en conséquence
+    > La documentation du plugin a été mise à jour en conséquence [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
   - Modification des réglages par défaut (masquages des paramètres non nécessaires)
   - Ajout d'une fonction pour contrôler les droits, si **NOK**, il n'est pas possible de continuer (Droits obligatoires en gras)
   - Pour la Freebox Delta : Il est possible de lier les pièces de la Freebox avec les objects de Jeedom
