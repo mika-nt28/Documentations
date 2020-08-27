@@ -53,7 +53,7 @@ Dans la fenêtre ci-dessous, il est possible de modifier
 - Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
 - Ne pas oublier de cliquer sur **Sauvegarder**
 
-> > Il est impératif que votre jeedom soit nommé pour continuer l'appairage du plugin avec votre freebox
+> Il est impératif que votre jeedom soit nommé pour continuer l'appairage du plugin avec votre freebox
 
 <p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
@@ -355,11 +355,12 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
   > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 
-**J'ai le message suivant qui apparait "Missing device_name" lors de l'appairage**
-**J'ai le message suivant qui apparait "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
+**J'ai les messages suivant qui apparaissent "Missing device_name" ou "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
 
 - Votre Jeedom n'a pas de Nom
 
+  > Il est impératif que votre jeedom soit nommé pour continuer l'appairage du plugin avec votre freebox
+  >
   > Se rendre dans Réglages -> Système -> Configuration -> onglet Général et mettre un nom
 
   > Recommencer ensuite l'authentification en n'oubliant pas de faire un reset de la configuration
