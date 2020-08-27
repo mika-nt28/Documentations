@@ -32,6 +32,11 @@ pluginId: Freebox_OS
   - Ajout de log
   - Ajout d'un message en cas d'absence de nom à votre jeedom
 
+- **Téléchargements**
+
+  - Ajout info etat de la connexion
+  - Ajout info etat du planning
+
 - **Player**
   - Certain player ne renvois pas leur nom. Mise en place d'une parade pour pouvoir créer l'équipement
     > Les commandes seront mises à jour lors du scan des équipements standards
