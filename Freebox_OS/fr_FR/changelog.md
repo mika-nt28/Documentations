@@ -17,6 +17,27 @@ pluginId: Freebox_OS
 
 # Stable
 
+## xx/08/2020
+
+- **Freebox Débits**
+
+  - Reprise des commandes suites aux différences des box et des protocoles
+    > Les commandes seront mises à jour lors du scan des équipements standards
+  - Ajout des informations ADSL
+
+- **Appairage**
+
+  - Ajout information si l’association de nouvelles applications est désactivée
+  - Modification de la barre de progression lors de l appairage
+
+- **Player**
+  - Certain player ne renvois pas leur nom. Mise en place d'une parade pour pouvoir créer l'équipement
+    > Les commandes seront mises à jour lors du scan des équipements standards
+  - Ajout d’un message dans les logs, si l’ID du player est vide
+  ```
+  PLAYER : Freebox-Mini-52ec41c5c8d0bbee -- L'Id est vide donc pas de création de l'équipement (mettre sous tension le player pour résoudre ce problème)
+  ```
+
 ## 26/08/2020
 
 - Correction bug routé crantée infinie lors de la mise à jour
