@@ -53,6 +53,8 @@ Dans la fenêtre ci-dessous, il est possible de modifier
 - Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
 - Ne pas oublier de cliquer sur **Sauvegarder**
 
+> Il est impératif que votre jeedom est un nom pour continuer les étapes
+
 <p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
 ### Authentification
@@ -146,6 +148,7 @@ Les équipements et les commandes suivants vont être créés :
   - API disponible
   - Disponible sur le réseau
   - Etat (allumé ou éteint)
+    > Les players POP ne sont pas encore compatible avec l'API de la Freebox
 - **Système**
   - Update
   - Reboot
@@ -353,8 +356,14 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
   > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 
 **J'ai le message suivant qui apparait "Missing device_name" lors de l'appairage**
+**J'ai le message suivant qui apparait "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
 
 - Votre Jeedom n'a pas de Nom
+
   > Se rendre dans Réglages -> Système -> Configuration -> onglet Général et mettre un nom
-  >
-  > <p><img src="../images/missing_device_name.png" alt="Missing device_name" width="800" /></p>
+
+  > Recommencer ensuite l'authentification en n'oubliant pas de faire un reset de la configuration
+
+  > <p><img src="../images/nom_jeedom_1.png" alt="Missing device_name" width="800" /></p>
+
+  > <p><img src="../images/nom_jeedom_2.png" alt="Nom Jeedom" width="800" /></p>

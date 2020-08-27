@@ -29,6 +29,8 @@ pluginId: Freebox_OS
 
   - Ajout information si l’association de nouvelles applications est désactivée
   - Modification de la barre de progression lors de l appairage
+  - Ajout de log
+  - Ajout d'un message en cas d'absence de nom à votre jeedom
 
 - **Player**
   - Certain player ne renvois pas leur nom. Mise en place d'une parade pour pouvoir créer l'équipement
@@ -62,9 +64,9 @@ pluginId: Freebox_OS
 - Les fonctionnalités non disponibles pour la box sont masquées (Ex : Scan des Tiles)
 - Les regroupements d'équipements vides sont masqués
 - **Cron Journalier**
-- Ajout cron journalier pour rechercher les nouveaux appareils connectés
-- Ajout cron journalier pour rechercher les nouveaux disques
-- Ajout cron journalier pour rechercher les nouveaux Home Adapters
+  - Ajout cron journalier pour rechercher les nouveaux appareils connectés
+  - Ajout cron journalier pour rechercher les nouveaux disques
+  - Ajout cron journalier pour rechercher les nouveaux Home Adapters
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
     > Le menu se trouve maintenant dans l'interface du plugin
