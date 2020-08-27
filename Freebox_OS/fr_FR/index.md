@@ -31,9 +31,9 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
 # Installation et Configuration
 
-Une fois le plugin installé et actif.
+Une fois le plugin installé et actif. aucune configuration n'est necessaire
 
-## Appairage
+# Appairage (Authentification)
 
 Il faut se rendre dans la page principale du plugin et cliquer
 
@@ -43,7 +43,7 @@ Il faut ensuite suivre les différents écrans pour valider l'appairage
 
 <p><img src="../images/Freebox_OS_screenshot2.png" alt="Authentification 1" width="300" /></p>
 
-### Réglages
+## Réglages
 
 Dans la fenêtre ci-dessous, il est possible de modifier
 
@@ -57,7 +57,7 @@ Dans la fenêtre ci-dessous, il est possible de modifier
 
 <p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
-### Authentification
+## Authentification
 
 Dans la fenêtre ci-dessous, il va être réalisée l'authentification sur la Freebox
 
@@ -66,7 +66,7 @@ Dans la fenêtre ci-dessous, il va être réalisée l'authentification sur la Fr
 
 <p><img src="../images/Freebox_OS_screenshot4.png" alt="Authentification 3" width="300" /></p>
 
-### Vérification des droits
+## Vérification des droits
 
 Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attribués à l'application
 
@@ -77,19 +77,19 @@ Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attri
 
 <p><img src="../images/Freebox_OS_screenshot5.png" alt="Authentification 4" width="300" /></p>
 
-### Lier les pièces Freebox avec les Objets Jeedom
+## Lier les pièces Freebox avec les Objets Jeedom
 
 > Cette fenêtre n'apparait uniquement que si la Freebox est une DELTA
 
 <p><img src="../images/Freebox_OS_screenshot6.png" alt="Authentification 4" width="300" /></p>
 
-### Scan
+## Scan
 
 Dans la fenêtre ci-dessous, Il est possible de lancer le scan des différents équipements.
 
 <p><img src="../images/Freebox_OS_screenshot7.png" alt="Authentification 5" width="300" /></p>
 
-### Authentification terminée
+## Authentification terminée
 
 L'authentification est réussie.
 
