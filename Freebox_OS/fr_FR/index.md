@@ -53,7 +53,7 @@ Dans la fenêtre ci-dessous, il est possible de modifier
 - Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
 - Ne pas oublier de cliquer sur **Sauvegarder**
 
-> Il est impératif que votre jeedom est un nom pour continuer les étapes
+> > Il est impératif que votre jeedom soit nommé pour continuer l'appairage du plugin avec votre freebox
 
 <p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
