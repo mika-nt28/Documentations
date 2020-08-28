@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 - **Freebox Débits**
 
-  - Reprise des commandes suites aux différences des box et des protocoles
+  - Reprise des commandes suites aux différences entre les box et des protocoles
     > Les commandes seront mises à jour lors du scan des équipements standards
   - Ajout des informations ADSL
 
@@ -33,17 +33,17 @@ pluginId: Freebox_OS
 
 - **Appairage**
 
-  - Ajout information si l’association de nouvelles applications est désactivée
-  - Modification de la barre de progression lors de l appairage
+  - Ajout d'information si l’association de nouvelles applications est désactivée
+  - Modification de la barre de progression lors de l'appairage
   - Ajout de log
   - Ajout d'un message en cas d'absence de nom à votre jeedom
 
 - **Téléchargements**
 
-  - Ajout info etat de la connexion
-  - Ajout info etat du planning
-  - Ajout info Etat mode de téléchargement
-  - Ajout commandes pour modifier le type de mode (4 modes)
+  - Ajout de l'info état de la connexion
+  - Ajout de l'info état du planning
+  - Ajout de l'info état mode de téléchargement
+  - Ajout des commandes pour modifier le type de mode (4 modes)
 
 - **Player**
 
