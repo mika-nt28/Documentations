@@ -34,7 +34,7 @@ pluginId: Freebox_OS
 - **Appairage**
 
   - Ajout d'information si l’association de nouvelles applications est désactivée
-  - Modification de la barre de progression lors de l appairage
+  - Modification de la barre de progression lors de l'appairage
   - Ajout de log
   - Ajout d'un message en cas d'absence de nom à votre jeedom
 
