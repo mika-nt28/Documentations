@@ -57,7 +57,7 @@ pluginId: Freebox_OS
 
   - **Tiles**
 
-  - Possibilité d'inverser la commande du slide
+  - Possibilité d'inverser la commande pour les actions de type curseur
     > Il faut avoir la valeur mini et maxi de renseigner pour que cela fonctionne
 
 ## 26/08/2020
