@@ -10,6 +10,8 @@ pluginId: Freebox_OS
 Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA ou POP).
 
 > Toutes les infos ne sont pas encore disponibles pour la Freebox POP
+>
+> **Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
@@ -31,9 +33,9 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
 # Installation et Configuration
 
-Une fois le plugin installé et actif.
+Une fois le plugin installé et actif. aucune configuration n'est necessaire
 
-## Appairage
+# Appairage (Authentification)
 
 Il faut se rendre dans la page principale du plugin et cliquer
 
@@ -43,7 +45,7 @@ Il faut ensuite suivre les différents écrans pour valider l'appairage
 
 <p><img src="../images/Freebox_OS_screenshot2.png" alt="Authentification 1" width="300" /></p>
 
-### Réglages
+## Réglages
 
 Dans la fenêtre ci-dessous, il est possible de modifier
 
@@ -53,9 +55,11 @@ Dans la fenêtre ci-dessous, il est possible de modifier
 - Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
 - Ne pas oublier de cliquer sur **Sauvegarder**
 
+> Il est impératif que votre jeedom soit nommé pour continuer l'appairage du plugin avec votre freebox
+
 <p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
-### Authentification
+## Authentification
 
 Dans la fenêtre ci-dessous, il va être réalisée l'authentification sur la Freebox
 
@@ -64,7 +68,7 @@ Dans la fenêtre ci-dessous, il va être réalisée l'authentification sur la Fr
 
 <p><img src="../images/Freebox_OS_screenshot4.png" alt="Authentification 3" width="300" /></p>
 
-### Vérification des droits
+## Vérification des droits
 
 Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attribués à l'application
 
@@ -75,19 +79,19 @@ Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attri
 
 <p><img src="../images/Freebox_OS_screenshot5.png" alt="Authentification 4" width="300" /></p>
 
-### Lier les pièces Freebox avec les Objets Jeedom
+## Lier les pièces Freebox avec les Objets Jeedom
 
 > Cette fenêtre n'apparait uniquement que si la Freebox est une DELTA
 
 <p><img src="../images/Freebox_OS_screenshot6.png" alt="Authentification 4" width="300" /></p>
 
-### Scan
+## Scan
 
 Dans la fenêtre ci-dessous, Il est possible de lancer le scan des différents équipements.
 
 <p><img src="../images/Freebox_OS_screenshot7.png" alt="Authentification 5" width="300" /></p>
 
-### Authentification terminée
+## Authentification terminée
 
 L'authentification est réussie.
 
@@ -146,6 +150,7 @@ Les équipements et les commandes suivants vont être créés :
   - API disponible
   - Disponible sur le réseau
   - Etat (allumé ou éteint)
+    > Les players POP ne sont pas encore compatible avec l'API de la Freebox
 - **Système**
   - Update
   - Reboot
@@ -349,4 +354,23 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 **J'ai le widget des appareils connectés qui n'est plus disponible**
 
 - Le widget a été remnommé lors de la dernière mise à jour
+
   > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
+
+**J'ai les messages suivant qui apparaissent "Missing device_name" ou "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
+
+- Votre Jeedom n'a pas de Nom
+
+  > Il est impératif que votre jeedom soit nommé pour continuer l'appairage du plugin avec votre freebox
+  >
+  > Se rendre dans Réglages -> Système -> Configuration -> onglet Général et mettre un nom
+
+  > Recommencer ensuite l'authentification en n'oubliant pas de faire un reset de la configuration
+
+  > <p><img src="../images/nom_jeedom_1.png" alt="Missing device_name" width="800" /></p>
+
+  > <p><img src="../images/nom_jeedom_2.png" alt="Nom Jeedom" width="800" /></p>
+
+**J'ai le messages suivant qui apparait "API incorrecte"**
+
+> **Il est nécessaire d'avoir la Freebox en version 4.2 minimun pour que le plugin fonctionne**

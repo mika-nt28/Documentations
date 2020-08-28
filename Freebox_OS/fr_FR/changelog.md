@@ -19,7 +19,7 @@ pluginId: Freebox_OS
 
 # Stable
 
-## xx/08/2020
+## 28/08/2020
 
 - **Freebox Débits**
 
