@@ -4,11 +4,9 @@ title: Liste des plugins
 lang: fr_FR
 ---
 
-Protocole
-========
+# Protocole
 
-EIB / KNX (eibd)
-----------------
+## EIB / KNX (eibd)
 
 Ce plugin permet de communiquer entre Jeedom et votre installation KNX.
 Jeedom deviendra donc un équipement de votre installation.
@@ -17,34 +15,30 @@ Des fonctions d'auto-configuration (auto-include, parser ETS5) ont été implém
 - [Documentation]({{site.baseurl}}/eibd/{{page.lang}})
 - [Changelog]({{site.baseurl}}/eibd/{{page.lang}}/changelog)
 
-Global Cache (globalcache)
---------------------------
+## Global Cache (globalcache)
 
-Ce plugin a pour objet de connecter Jeedom à vos équipements __global cache__.
+Ce plugin a pour objet de connecter Jeedom à vos équipements **global cache**.
 
 - [Documentation]({{site.baseurl}}/globalcache/{{page.lang}})
 - [Changelog]({{site.baseurl}}/globalcache/{{page.lang}}/changelog)
 
-Mochad - X10 (mochad)
---------------------
+## Mochad - X10 (mochad)
 
 Ce plugin permet de gérer vos équipements x10 grâce à votre CM15 ou CM19
 
 - [Documentation]({{site.baseurl}}/mochad/{{page.lang}})
 - [Changelog]({{site.baseurl}}/mochad/{{page.lang}}/changelog)
 
-Automatisation
-==============
+# Automatisation
 
-Arrosage automatique (arrosageAuto)
------------------------------------
+## Arrosage automatique (arrosageAuto)
+
 Ce plugin a pour objet de gérer facilement et automatiquement votre arrosage automatique.
 
 - [Documentation]({{site.baseurl}}/arrosageAuto/{{page.lang}})
 - [Changelog]({{site.baseurl}}/arrosageAuto/{{page.lang}}/changelog)
 
-Gestion du Chauffe-Eau (ChauffeEau)
-----------------------------------
+## Gestion du Chauffe-Eau (ChauffeEau)
 
 Ce plugin permet de gérer votre chauffe-eau.
 Il va estimer le temps nécessaire pour une chauffe complète de votre ballon.
@@ -56,67 +50,57 @@ Le plugin embarque une régulation configurable par hystérésis.
 - [Documentation]({{site.baseurl}}/ChauffeEau/{{page.lang}})
 - [Changelog]({{site.baseurl}}/ChauffeEau/{{page.lang}}/changelog)
 
-Volet proportionnel (voletProp)
-------------------------------
+## Volet proportionnel (voletProp)
 
 Ce plugin a pour but de permettre de gérer ses volets de manière proportionnel
 
 - [Documentation]({{site.baseurl}}/voletProp/{{page.lang}})
 - [Changelog]({{site.baseurl}}/voletProp/{{page.lang}}/changelog)
 
-Gestion de Volets (Volets)
---------------------------
+## Gestion de Volets (Volets)
 
 Ce plugin a pour objectif de gérer facilement et automatiquement vos volets.
 
 - [Documentation]({{site.baseurl}}/Volets/{{page.lang}})
 - [Changelog]({{site.baseurl}}/Volets/{{page.lang}}/changelog)
 
-Communication
-============
+# Communication
 
-Client SIP (clientSIP)
-----------------------
+## Client SIP (clientSIP)
+
 Ce plugin a pour but de connecter Jeedom a notre réseau SIP
 
 - [Documentation]({{site.baseurl}}/clientSIP/{{page.lang}})
 - [Changelog]({{site.baseurl}}/clientSIP/{{page.lang}}/changelog)
 
-Free SMS (FreeSms)
-------------------
+## Free SMS (FreeSms)
 
 Ce plugin vous permet d'envoyer des sms à votre portable Free via le service de notification proposé par Free.
 
 - [Documentation]({{site.baseurl}}/FreeSms/{{page.lang}})
 - [Changelog]({{site.baseurl}}/FreeSms/{{page.lang}}/changelog)
 
-Énergie
-=======
+# Énergie
 
-Production Énergie (prosommateur)
----------------------------------
+## Production Énergie (prosommateur)
 
 L’autoconsommation est le but dans la production d’énergie. Ce plugin est là pour vous y aidé en contrôlant les activations.
 
 - [Documentation]({{site.baseurl}}/prosommateur/{{page.lang}})
 - [Changelog]({{site.baseurl}}/prosommateur/{{page.lang}}/changelog)
 
-Santee
-======
+# Santée
 
-Withings / Nokia (withings)
----------------------------
+## Withings / Nokia (withings)
 
 Plugin pour appareils Withings / Nokia, il permet de récupérer les informations des balances withings (poids, masse graisseuse mais pas le CO2) et des bracelets (distance, nombre de pas, heures de sommeil profond, heures de sommeil léger...)
 
 - [Documentation]({{site.baseurl}}/withings/{{page.lang}})
 - [Changelog]({{site.baseurl}}/withings/{{page.lang}}/changelog)
 
-Monitoring
-==========
+# Monitoring
 
-Freebox Crystal (freeCrystal)
------------------------------
+## Freebox Crystal (freeCrystal)
 
 Ce plugin permet de récupérer les informations de votre Freebox Crystal.
 Certains éléments sont rendus actifs par Jeedom (Redémarrage des Freebox, présence DHCP) mais nécessitent une installation supplémentaire sur votre serveur.
@@ -124,43 +108,37 @@ Certains éléments sont rendus actifs par Jeedom (Redémarrage des Freebox, pr�
 - [Documentation]({{site.baseurl}}/freeCrystal/{{page.lang}})
 - [Changelog]({{site.baseurl}}/freeCrystal/{{page.lang}}/changelog)
 
-Freebox OS (Freebox_OS)
------------------------
+## Freebox OS (Freebox_OS)
 
 Ce plugin permet de récupérer les informations de votre freeboxOS (Serveur Freebox Révolution ou 4K ou DELTA).
 
 - [Documentation]({{site.baseurl}}/Freebox_OS/{{page.lang}})
 - [Changelog]({{site.baseurl}}/Freebox_OS/{{page.lang}}/changelog)
 
-LibreNMS (libreNMS)
--------------------
+## LibreNMS (libreNMS)
 
 LibreNMS est une AutoDiscovery PHP/MySQL/SNMP réseau de surveillance qui comprend la prise en charge d'une large gamme de matériel réseau et les systèmes d'exploitation, y compris Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP et beaucoup plus.
 
 - [Documentation]({{site.baseurl}}/libreNMS/{{page.lang}})
 - [Changelog]({{site.baseurl}}/libreNMS/{{page.lang}}/changelog)
 
-Multimédia
-=========
+# Multimédia
 
-Télécommande Freebox mini4K (FreeboxMini4k)
-------------------------------------------
+## Télécommande Freebox mini4K (FreeboxMini4k)
 
 Contrôler votre Freebox mini4K
 
 - [Documentation]({{site.baseurl}}/FreeboxMini4k/{{page.lang}})
 - [Changelog]({{site.baseurl}}/FreeboxMini4k/{{page.lang}}/changelog)
 
-Freebox Révolution (telecfree)
-------------------------------
+## Freebox Révolution (telecfree)
 
 Plugin pour commander le Freebox Player de la Freebox Révolution
 
 - [Documentation]({{site.baseurl}}/telecfree/{{page.lang}})
 - [Changelog]({{site.baseurl}}/telecfree/{{page.lang}}/changelog)
 
-Plex (plex)
------------
+## Plex (plex)
 
 Contrôler vos clients Plex grâce à votre domotique.
 Créer des réveil, musical grâce à l'association de Plex et de Jeedom.
@@ -168,18 +146,16 @@ Créer des réveil, musical grâce à l'association de Plex et de Jeedom.
 - [Documentation]({{site.baseurl}}/plex/{{page.lang}})
 - [Changelog]({{site.baseurl}}/plex/{{page.lang}}/changelog)
 
-Organisation
-=============
+# Organisation
 
-Réveil (reveil)
----------------
+## Réveil (reveil)
+
 Ce plugin permet de créer des réveils.
 
 - [Documentation]({{site.baseurl}}/reveil/{{page.lang}})
 - [Changelog]({{site.baseurl}}/reveil/{{page.lang}}/changelog)
 
-Cave à Vin (CaveVin)
---------------------
+## Cave à Vin (CaveVin)
 
 Et si on domotisait notre cave à vin !
 Ce plugin Jeedom nous permet de créer virtuellement notre cave, si on veut on peut domotiser la présence de la bouteille.
@@ -187,53 +163,46 @@ Ce plugin Jeedom nous permet de créer virtuellement notre cave, si on veut on p
 - [Documentation]({{site.baseurl}}/CaveVin/{{page.lang}})
 - [Changelog]({{site.baseurl}}/CaveVin/{{page.lang}}/changelog)
 
-Confort
-=======
+# Confort
 
-SPA Balboa (balboa)
--------------------
-Ce plugin a pour objet de connecter Jeedom à vos Sap __balboa__.
+## SPA Balboa (balboa)
+
+Ce plugin a pour objet de connecter Jeedom à vos Sap **balboa**.
 
 - [Documentation]({{site.baseurl}}/balboa/{{page.lang}})
 - [Changelog]({{site.baseurl}}/balboa/{{page.lang}}/changelog)
 
-Luminothérapie (luminotherapie)
--------------------------------
+## Luminothérapie (luminotherapie)
 
 Ce plugin permet de créer des ambiances lumineuse
 
 - [Documentation]({{site.baseurl}}/luminotherapie/{{page.lang}})
 - [Changelog]({{site.baseurl}}/luminotherapie/{{page.lang}}/changelog)
 
-Sécurité
-========
+# Sécurité
 
-Face detection (facedetection)
-------------------------------
+## Face detection (facedetection)
 
 Ce plugin utilise OpenCv pour détecter les visages sur vos camera.
 
 - [Documentation]({{site.baseurl}}/facedetection/{{page.lang}})
 - [Changelog]({{site.baseurl}}/facedetection/{{page.lang}}/changelog)
 
-Reconnaissance facial (facerecognition)
----------------------------------------
+## Reconnaissance facial (facerecognition)
 
 Ce plugin utilise OpenCv pour détecter et reconnaitre votre visage. Attention, toute de même aux permissions que vous accordez au plugin car on peut le tromper avec des photos … ou son jumeau
 
 - [Documentation]({{site.baseurl}}/facerecognition/{{page.lang}})
 - [Changelog]({{site.baseurl}}/facerecognition/{{page.lang}}/changelog)
 
-Reconnaissance de chute (falldetector)
---------------------------------------
+## Reconnaissance de chute (falldetector)
 
 Ce plugin utilise OpenCv pour détecter et reconnaitre les situations de chute.an 9
 
 - [Documentation]({{site.baseurl}}/falldetector/{{page.lang}})
 - [Changelog]({{site.baseurl}}/falldetector/{{page.lang}}/changelog)
 
-Motion (motion)
----------------
+## Motion (motion)
 
 Motion est un logiciel de détection vidéo et qui permet de diffuser un flux vidéo via internet par le protocole HTTP. C’est une solution simple pour diffuser le flux de sa webcam en ligne ou pour détecter des mouvements dans le champ d’une caméra par exemple.
 Dans ce plugin motion sera utilisé pour ces capacité de détection de mouvement
@@ -241,21 +210,19 @@ Dans ce plugin motion sera utilisé pour ces capacité de détection de mouvemen
 - [Documentation]({{site.baseurl}}/motion/{{page.lang}})
 - [Changelog]({{site.baseurl}}/motion/{{page.lang}}/changelog)
 
-OpenALPR (openalpr)
--------------------
+## OpenALPR (openalpr)
 
 Plugin permanent de faire de la reconnaissance de plaque d’immatriculation avec nos camera
 
 > Attention avec l'usage de ce plugin
-Seules les autorités publiques (les mairies notamment) peuvent filmer la voie publique.
-Les particuliers ne peuvent filmer que l’intérieur de leur propriété.
-Ils ne peuvent pas filmer la voie publique, y compris pour assurer la sécurité de leur véhicule garé devant leur domicile.
+> Seules les autorités publiques (les mairies notamment) peuvent filmer la voie publique.
+> Les particuliers ne peuvent filmer que l’intérieur de leur propriété.
+> Ils ne peuvent pas filmer la voie publique, y compris pour assurer la sécurité de leur véhicule garé devant leur domicile.
 
 - [Documentation]({{site.baseurl}}/openalpr/{{page.lang}})
 - [Changelog]({{site.baseurl}}/openalpr/{{page.lang}}/changelog)
 
-Acces par QR code (QRacces)
----------------------------
+## Acces par QR code (QRacces)
 
 Ce plugin permet de gérer une acces par QRcode.
 Un Qr code est envoyé par mail à l'utilisateur autorisé
