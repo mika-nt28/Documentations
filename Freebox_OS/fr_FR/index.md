@@ -368,3 +368,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
   > <p><img src="../images/nom_jeedom_1.png" alt="Missing device_name" width="800" /></p>
 
   > <p><img src="../images/nom_jeedom_2.png" alt="Nom Jeedom" width="800" /></p>
+
+**J'ai le messages suivant qui apparait "API incorrecte"**
+
+> **Il est nécessaire d'avoir la Freebox en version 4.2 minimun pour que le plugin fonctionne**
