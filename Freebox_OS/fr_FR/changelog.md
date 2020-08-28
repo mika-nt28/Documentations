@@ -10,6 +10,7 @@ pluginId: Freebox_OS
 ## Important
 
 > **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineur.
+>
 > **Il est nécessaire d'avoir la Freebox en version 4.2 pour que le plugin fonctionne**
 
 ## Authentification ou Appairage
@@ -146,8 +147,10 @@ pluginId: Freebox_OS
 
 ## 24/07/2020
 
-> Attention cette version nécessite d'avoir au minimum la version 4.2 sur la Freebox
-> Il faudra aussi mettre à jour les droits dans la console de la Freebox
+> **Attention cette version nécessite d'avoir au minimum la version 4.2 sur la Freebox**
+>
+> **Il faudra aussi mettre à jour les droits dans la console de la Freebox**
+>
 > Attention : La commande Activer/Désactiver du Wifi sera supprimée lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le wifi
 
 - Nettoyage Création des commandes
