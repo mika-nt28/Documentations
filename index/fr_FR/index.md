@@ -6,7 +6,7 @@ lang: fr_FR
 
 # info
 
-# Protocole
+# Protocole domotique
 
 ## EIB / KNX (eibd)
 
@@ -31,7 +31,7 @@ Ce plugin permet de gérer vos équipements x10 grâce à votre CM15 ou CM19
 - [Documentation]({{site.baseurl}}/mochad/{{page.lang}})
 - [Changelog]({{site.baseurl}}/mochad/{{page.lang}}/changelog)
 
-# Automatisation
+# Automatisme
 
 ## Arrosage automatique (arrosageAuto)
 
@@ -102,6 +102,13 @@ Plugin pour appareils Withings / Nokia, il permet de récupérer les information
 
 # Monitoring
 
+|                                                                                                     |          |                                                                                                                                                                                                                                                            |                                                                                                                                                                                                                |
+| --------------------------------------------------------------------------------------------------- | -------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="{{site.baseurl}}/Freebox_OS/images/Freebox_OS_icon.png" class="pluginLogo" width="100" /> | Freebox  | Ce Plugin permet de récupérer les informations disponibles sur les box Freebox Révolution/Delta/Pop.Pour les Freebox Delta, il permet aussi de récupèrer les équipements connectés (Domotique)                                                             | [Documentation]({{site.baseurl}}/Freebox_OS/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1666)<br/>[Changelog]({{site.baseurl}}/Freebox_OS/{{page.lang}}/changelog) |
+| <img src="{{site.baseurl}}/libreNMS/images/libreNMS_icon.png" class="pluginLogo" width="100" />     | LibreNMS | LibreNMS est une AutoDiscovery PHP/MySQL/SNMP réseau de surveillance qui comprend la prise en charge d'une large gamme de matériel réseau et les systèmes d'exploitation, y compris Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP et beaucoup plus. | [Documentation]({{site.baseurl}}/libreNMS/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3446)<br/>[Changelog]({{site.baseurl}}/libreNMS/{{page.lang}}/changelog)     |
+
+# Multimédia
+
 ## Freebox Crystal (freeCrystal)
 
 Ce plugin permet de récupérer les informations de votre Freebox Crystal.
@@ -109,22 +116,6 @@ Certains éléments sont rendus actifs par Jeedom (Redémarrage des Freebox, pr�
 
 - [Documentation]({{site.baseurl}}/freeCrystal/{{page.lang}})
 - [Changelog]({{site.baseurl}}/freeCrystal/{{page.lang}}/changelog)
-
-## Freebox OS (Freebox_OS)
-
-Ce plugin permet de récupérer les informations de votre freeboxOS (Serveur Freebox Révolution ou 4K ou DELTA).
-
-- [Documentation]({{site.baseurl}}/Freebox_OS/{{page.lang}})
-- [Changelog]({{site.baseurl}}/Freebox_OS/{{page.lang}}/changelog)
-
-## LibreNMS (libreNMS)
-
-LibreNMS est une AutoDiscovery PHP/MySQL/SNMP réseau de surveillance qui comprend la prise en charge d'une large gamme de matériel réseau et les systèmes d'exploitation, y compris Cisco, Linux, FreeBSD, Juniper, Brocade, Foundry, HP et beaucoup plus.
-
-- [Documentation]({{site.baseurl}}/libreNMS/{{page.lang}})
-- [Changelog]({{site.baseurl}}/libreNMS/{{page.lang}}/changelog)
-
-# Multimédia
 
 ## Télécommande Freebox mini4K (FreeboxMini4k)
 
