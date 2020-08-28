@@ -33,38 +33,12 @@ Ce plugin permet de gérer vos équipements x10 grâce à votre CM15 ou CM19
 
 # Automatisme
 
-## Arrosage automatique (arrosageAuto)
-
-Ce plugin a pour objet de gérer facilement et automatiquement votre arrosage automatique.
-
-- [Documentation]({{site.baseurl}}/arrosageAuto/{{page.lang}})
-- [Changelog]({{site.baseurl}}/arrosageAuto/{{page.lang}}/changelog)
-
-## Gestion du Chauffe-Eau (ChauffeEau)
-
-Ce plugin permet de gérer votre chauffe-eau.
-Il va estimer le temps nécessaire pour une chauffe complète de votre ballon.
-Si votre installation est équipée d'une sonde de température, le plugin arrêtera la chauffe dès qu'il atteindra sa température désirée.
-Après l'heure programmée, le plugin arrêtera la chauffe et attendra le prochain créneau, réduit du temps de chauffage calculé.
-
-Le plugin embarque une régulation configurable par hystérésis.
-
-- [Documentation]({{site.baseurl}}/ChauffeEau/{{page.lang}})
-- [Changelog]({{site.baseurl}}/ChauffeEau/{{page.lang}}/changelog)
-
-## Volet proportionnel (voletProp)
-
-Ce plugin a pour but de permettre de gérer ses volets de manière proportionnel
-
-- [Documentation]({{site.baseurl}}/voletProp/{{page.lang}})
-- [Changelog]({{site.baseurl}}/voletProp/{{page.lang}}/changelog)
-
-## Gestion de Volets (Volets)
-
-Ce plugin a pour objectif de gérer facilement et automatiquement vos volets.
-
-- [Documentation]({{site.baseurl}}/Volets/{{page.lang}})
-- [Changelog]({{site.baseurl}}/Volets/{{page.lang}}/changelog)
+|                                                                                                         |                                               |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 |                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------- | --------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="{{site.baseurl}}/arrosageAuto/images/arrosageAuto_icon.png" class="pluginLogo" width="100" /> | Arrosage automatique <br/>(arrosageAuto)      | Ce plugin a pour objet de gérer facilement et automatiquement votre arrosage automatique.                                                                                                                                                                                                                                                                                                                                                                                       | [Documentation]({{site.baseurl}}/arrosageAuto/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2903)<br/>[Changelog]({{site.baseurl}}/arrosageAuto/{{page.lang}}/changelog) |
+| <img src="{{site.baseurl}}/ChauffeEau/images/ChauffeEau_icon.png" class="pluginLogo" width="100" />     | Gestion du <br/>Chauffe-Eau <br/>(ChauffeEau) | Ce plugin permet de gérer votre chauffe-eau.<br/>Il va estimer le temps nécessaire pour une chauffe complète de votre ballon.<br/>Si votre installation est équipée d'une sonde de température, le plugin arrêtera la chauffe dès qu'il atteindra sa température désirée.<br/>Après l'heure programmée, le plugin arrêtera la chauffe et attendra le prochain créneau, réduit du temps de chauffage calculé.<br/>Le plugin embarque une régulation configurable par hystérésis. | [Documentation]({{site.baseurl}}/ChauffeEau/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2671)<br/>[Changelog]({{site.baseurl}}/ChauffeEau/{{page.lang}}/changelog)     |
+| <img src="{{site.baseurl}}/voletProp/images/voletProp_icon.png" class="pluginLogo" width="100" />       | Volet proportionnel <br/>(voletProp)          | Ce plugin a pour but de permettre de gérer ses volets de manière proportionnel                                                                                                                                                                                                                                                                                                                                                                                                  | [Documentation]({{site.baseurl}}/voletProp/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3229)<br/>[Changelog]({{site.baseurl}}/voletProp/{{page.lang}}/changelog)       |
+| <img src="{{site.baseurl}}/Volets/images/Volets_icon.png" class="pluginLogo" width="100" />             | Gestion de Volets <br/>(volets)               | Ce plugin a pour objectif de gérer facilement et automatiquement vos volets.                                                                                                                                                                                                                                                                                                                                                                                                    | [Documentation]({{site.baseurl}}/Volets/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2612)<br/>[Changelog]({{site.baseurl}}/Volets/{{page.lang}}/changelog)             |
 
 # Communication
 
