@@ -40,10 +40,10 @@ pluginId: Freebox_OS
 
 - **Téléchargements**
 
-  - Ajout info etat de la connexion
-  - Ajout info etat du planning
-  - Ajout info Etat mode de téléchargement
-  - Ajout commandes pour modifier le type de mode (4 modes)
+  - Ajout de l'info état de la connexion
+  - Ajout de l'info état du planning
+  - Ajout de l'info état mode de téléchargement
+  - Ajout des commandes pour modifier le type de mode (4 modes)
 
 - **Player**
 
