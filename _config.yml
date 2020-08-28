@@ -2,6 +2,7 @@
 languages: [fr_FR, en_US, es_ES, de_DE]
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
+plugin: https://market.jeedom.com/index.php?v=d&p=market_display&id=
 sass:
   sass_dir: assets/css
   style: compressed
@@ -35,4 +36,3 @@ community: https://community.jeedom.com
 market: https://market.jeedom.com
 blog: https://blog.jeedom.com
 doc: https://doc.jeedom.com
-market_plugin: https://market.jeedom.com/index.php?v=d&p=market_display&id=
