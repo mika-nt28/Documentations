@@ -109,35 +109,12 @@ Plugin pour appareils Withings / Nokia, il permet de récupérer les information
 
 # Multimédia
 
-## Freebox Crystal (freeCrystal)
-
-Ce plugin permet de récupérer les informations de votre Freebox Crystal.
-Certains éléments sont rendus actifs par Jeedom (Redémarrage des Freebox, présence DHCP) mais nécessitent une installation supplémentaire sur votre serveur.
-
-- [Documentation]({{site.baseurl}}/freeCrystal/{{page.lang}})
-- [Changelog]({{site.baseurl}}/freeCrystal/{{page.lang}}/changelog)
-
-## Télécommande Freebox mini4K (FreeboxMini4k)
-
-Contrôler votre Freebox mini4K
-
-- [Documentation]({{site.baseurl}}/FreeboxMini4k/{{page.lang}})
-- [Changelog]({{site.baseurl}}/FreeboxMini4k/{{page.lang}}/changelog)
-
-## Freebox Révolution (telecfree)
-
-Plugin pour commander le Freebox Player de la Freebox Révolution
-
-- [Documentation]({{site.baseurl}}/telecfree/{{page.lang}})
-- [Changelog]({{site.baseurl}}/telecfree/{{page.lang}}/changelog)
-
-## Plex (plex)
-
-Contrôler vos clients Plex grâce à votre domotique.
-Créer des réveil, musical grâce à l'association de Plex et de Jeedom.
-
-- [Documentation]({{site.baseurl}}/plex/{{page.lang}})
-- [Changelog]({{site.baseurl}}/plex/{{page.lang}}/changelog)
+|                                                                                                           |                                |                                                                                                                                                                                                                                           |                                                                                                                                                                                                                      |
+| --------------------------------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="{{site.baseurl}}/freeCrytal/images/freeCrystal_icon.png" class="pluginLogo" width="100" />      | Freebox Crytal                 | Ce plugin permet de récupérer les informations de votre Freebox Crystal.</br>Certains éléments sont rendus actifs par Jeedom (Redémarrage des Freebox, présence DHCP) mais nécessitent une installation supplémentaire sur votre serveur. | [Documentation]({{site.baseurl}}/freeCrytal/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1139)<br/>[Changelog]({{site.baseurl}}/freeCrytal/{{page.lang}}/changelog)       |
+| <img src="{{site.baseurl}}/FreeboxMini4k/images/FreeboxMini4k_icon.png" class="pluginLogo" width="100" /> | Télécommande Freebox mini4K    | Contrôler votre Freebox mini4K                                                                                                                                                                                                            | [Documentation]({{site.baseurl}}/FreeboxMini4k/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3756)<br/>[Changelog]({{site.baseurl}}/FreeboxMini4k/{{page.lang}}/changelog) |
+| <img src="{{site.baseurl}}/telecfree/images/telecfree_icon.png" class="pluginLogo" width="100" />         | Freebox Révolution (telecfree) | Plugin pour commander le Freebox Player de la Freebox Révolution                                                                                                                                                                          | [Documentation]({{site.baseurl}}/telecfree/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2032)<br/>[Changelog]({{site.baseurl}}/telecfree/{{page.lang}}/changelog)         |
+| <img src="{{site.baseurl}}/plex/images/plex_icon.png" class="pluginLogo" width="100" />                   | Plex                           | CContrôler vos clients Plex grâce à votre domotique. </br> Créer des réveil, musical grâce à l'association de Plex et de Jeedom.                                                                                                          | [Documentation]({{site.baseurl}}/plex/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1380)<br/>[Changelog]({{site.baseurl}}/plex/{{page.lang}}/changelog)                   |
 
 # Organisation
 
