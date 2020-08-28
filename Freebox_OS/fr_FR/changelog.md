@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 - **Freebox Débits**
 
-  - Reprise des commandes suites aux différences des box et des protocoles
+  - Reprise des commandes suites aux différences entre les box et des protocoles
     > Les commandes seront mises à jour lors du scan des équipements standards
   - Ajout des informations ADSL
 
