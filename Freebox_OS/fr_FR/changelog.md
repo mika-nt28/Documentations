@@ -15,7 +15,7 @@ pluginId: Freebox_OS
 
 ## Authentification ou Appairage
 
-> Si vous avez une version inférieure au 25 ou 26/08/2020, il est nécessaire de refaire l'appariage [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
+> **Si vous avez une version inférieure au 25 ou 26/08/2020, il est nécessaire de refaire l’appairage** [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
 
 # Stable
 
