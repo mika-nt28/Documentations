@@ -11,7 +11,7 @@ pluginId: Freebox_OS
 
 > **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineur.
 >
-> **Il est nécessaire d'avoir la Freebox en version 4.2 pour que le plugin fonctionne**
+> **Attention Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 
 ## Authentification ou Appairage
 
@@ -128,7 +128,7 @@ pluginId: Freebox_OS
 
 ## 29/07/2020
 
-> **Il est nécessaire d'avoir la Freebox en version 4.2 pour que le plugin fonctionne**
+> **Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 
 - Réécriture de la partie création des équipements standards
 - **Contrôle Parental**
@@ -147,7 +147,7 @@ pluginId: Freebox_OS
 
 ## 24/07/2020
 
-> **Attention cette version nécessite d'avoir au minimum la version 4.2 sur la Freebox**
+> **Attention Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 >
 > **Il faudra aussi mettre à jour les droits dans la console de la Freebox**
 >

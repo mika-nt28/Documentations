@@ -10,6 +10,8 @@ pluginId: Freebox_OS
 Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA ou POP).
 
 > Toutes les infos ne sont pas encore disponibles pour la Freebox POP
+>
+> **Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
