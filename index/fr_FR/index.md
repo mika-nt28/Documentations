@@ -84,21 +84,15 @@ Ce plugin vous permet d'envoyer des sms à votre portable Free via le service de
 
 # Énergie
 
-## Production Énergie (prosommateur)
-
-L’autoconsommation est le but dans la production d’énergie. Ce plugin est là pour vous y aidé en contrôlant les activations.
-
-- [Documentation]({{site.baseurl}}/prosommateur/{{page.lang}})
-- [Changelog]({{site.baseurl}}/prosommateur/{{page.lang}}/changelog)
+|                                                                                                         |                                         |                                                                                                                              |                                                                                                                                                                                                                    |
+| ------------------------------------------------------------------------------------------------------- | --------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="{{site.baseurl}}/prosommateur/images/prosommateur_icon.png" class="pluginLogo" width="100" /> | Production Énergie <br/> (prosommateur) | L’autoconsommation est le but dans la production d’énergie. Ce plugin est là pour vous y aidé en contrôlant les activations. | [Documentation]({{site.baseurl}}/prosommateur/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3829)<br/>[Changelog]({{site.baseurl}}/prosommateur/{{page.lang}}/changelog) |
 
 # Santée
 
-## Withings / Nokia (withings)
-
-Plugin pour appareils Withings / Nokia, il permet de récupérer les informations des balances withings (poids, masse graisseuse mais pas le CO2) et des bracelets (distance, nombre de pas, heures de sommeil profond, heures de sommeil léger...)
-
-- [Documentation]({{site.baseurl}}/withings/{{page.lang}})
-- [Changelog]({{site.baseurl}}/withings/{{page.lang}}/changelog)
+|                                                                                                 |                                 |                                                                                                                                                                                                                                                        |                                                                                                                                                                                                            |
+| ----------------------------------------------------------------------------------------------- | ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="{{site.baseurl}}/withings/images/withings_icon.png" class="pluginLogo" width="100" /> | Withings <br/> Nokia (withings) | Plugin pour appareils Withings / Nokia, il permet de récupérer les informations des balances<br/> withings (poids, masse graisseuse mais pas le CO2) et des bracelets (distance, nombre de pas, heures de sommeil profond, heures de sommeil léger...) | [Documentation]({{site.baseurl}}/withings/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3400)<br/>[Changelog]({{site.baseurl}}/withings/{{page.lang}}/changelog) |
 
 # Monitoring
 
@@ -132,42 +126,11 @@ Plugin pour appareils Withings / Nokia, il permet de récupérer les information
 
 # Sécurité
 
-|                                                                                                               |                                              |                                                                                                                                                                                                 |                                                                                                                                                                                                                          |
-| ------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
-| <img src="{{site.baseurl}}/facedetection/images/facerecognition_icon.png" class="pluginLogo" width="100" />   | Face detection                               | Ce plugin utilise OpenCv pour détecter les visages sur vos camera.                                                                                                                              | [Documentation]({{site.baseurl}}/facedetection/{{page.lang}})<br/><br/>[Changelog]({{site.baseurl}}/facedetection/{{page.lang}}/changelog)                                                                               |
-| <img src="{{site.baseurl}}/facerecognition/images/facerecognition_icon.png" class="pluginLogo" width="100" /> | Reconnaissance facial<br/> (facerecognition) | Ce plugin utilise OpenCv pour détecter et reconnaitre votre visage. Attention, toute de même aux permissions que vous accordez au plugin car on peut le tromper avec des photos … ou son jumeau | [Documentation]({{site.baseurl}}/facerecognition/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3863)<br/>[Changelog]({{site.baseurl}}/facerecognition/{{page.lang}}/changelog) |  |
-
-## Reconnaissance de chute (falldetector)
-
-Ce plugin utilise OpenCv pour détecter et reconnaitre les situations de chute.an 9
-
-- [Documentation]({{site.baseurl}}/falldetector/{{page.lang}})
-- [Changelog]({{site.baseurl}}/falldetector/{{page.lang}}/changelog)
-
-## Motion (motion)
-
-Motion est un logiciel de détection vidéo et qui permet de diffuser un flux vidéo via internet par le protocole HTTP. C’est une solution simple pour diffuser le flux de sa webcam en ligne ou pour détecter des mouvements dans le champ d’une caméra par exemple.
-Dans ce plugin motion sera utilisé pour ces capacité de détection de mouvement
-
-- [Documentation]({{site.baseurl}}/motion/{{page.lang}})
-- [Changelog]({{site.baseurl}}/motion/{{page.lang}}/changelog)
-
-## OpenALPR (openalpr)
-
-Plugin permanent de faire de la reconnaissance de plaque d’immatriculation avec nos camera
-
-> Attention avec l'usage de ce plugin
-> Seules les autorités publiques (les mairies notamment) peuvent filmer la voie publique.
-> Les particuliers ne peuvent filmer que l’intérieur de leur propriété.
-> Ils ne peuvent pas filmer la voie publique, y compris pour assurer la sécurité de leur véhicule garé devant leur domicile.
-
-- [Documentation]({{site.baseurl}}/openalpr/{{page.lang}})
-- [Changelog]({{site.baseurl}}/openalpr/{{page.lang}}/changelog)
-
-## Acces par QR code (QRacces)
-
-Ce plugin permet de gérer une acces par QRcode.
-Un Qr code est envoyé par mail à l'utilisateur autorisé
-
-- [Documentation]({{site.baseurl}}/QRacces/{{page.lang}})
-- [Changelog]({{site.baseurl}}/QRacces/{{page.lang}}/changelog)
+|                                                                                                               |                                              |                                                                                                                                                                                                                                                                                                                                                                                                                                                       |                                                                                                                                                                                                                          |
+| ------------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="{{site.baseurl}}/facedetection/images/facerecognition_icon.png" class="pluginLogo" width="100" />   | Face detection                               | Ce plugin utilise OpenCv pour détecter les visages sur vos camera.                                                                                                                                                                                                                                                                                                                                                                                    | [Documentation]({{site.baseurl}}/facedetection/{{page.lang}})<br/><br/>[Changelog]({{site.baseurl}}/facedetection/{{page.lang}}/changelog)                                                                               |
+| <img src="{{site.baseurl}}/facerecognition/images/facerecognition_icon.png" class="pluginLogo" width="100" /> | Reconnaissance facial<br/> (facerecognition) | Ce plugin utilise OpenCv pour détecter et reconnaitre votre visage. Attention, toute de même aux permissions que vous accordez au plugin car on peut le tromper avec des photos … ou son jumeau                                                                                                                                                                                                                                                       | [Documentation]({{site.baseurl}}/facerecognition/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3863)<br/>[Changelog]({{site.baseurl}}/facerecognition/{{page.lang}}/changelog) |  |
+| <img src="{{site.baseurl}}/falldetector/images/facerecognition_icon.png" class="pluginLogo" width="100" />    | Reconnaissance facial<br/> (facerecognition) | Ce plugin utilise OpenCv pour détecter et reconnaitre votre visage. Attention, toute de même aux permissions que vous accordez au plugin car on peut le tromper avec des photos … ou son jumeau                                                                                                                                                                                                                                                       | [Documentation]({{site.baseurl}}/falldetector/{{page.lang}})<br/>[Changelog]({{site.baseurl}}/falldetector/{{page.lang}}/changelog)                                                                                      |  |
+| <img src="{{site.baseurl}}/motion/images/motion_icon.png" class="pluginLogo" width="100" />                   | motion                                       | Motion est un logiciel de détection vidéo et qui permet de diffuser<br/> un flux vidéo via internet par le protocole HTTP. C’est une solution simple pour diffuser le flux de <br/>sa webcam en ligne ou pour détecter des mouvements dans le champ d’une caméra par exemple.<br/>Dans ce plugin motion sera utilisé pour ces capacité de détection de mouvement                                                                                      | [Documentation]({{site.baseurl}}/motion/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1542)<br/>[Changelog]({{site.baseurl}}/motion/{{page.lang}}/changelog)                   |  |
+| <img src="{{site.baseurl}}/openalpr/images/openalpr_icon.png" class="pluginLogo" width="100" />               | OpenALPR (openalpr)                          | Plugin permanent de faire de la reconnaissance de plaque d’immatriculation avec nos camera<br/> > Attention avec l'usage de ce plugin<br/> > Seules les autorités publiques (les mairies notamment) peuvent filmer la voie publique. </br> > Les particuliers ne peuvent filmer que l’intérieur de leur propriété. <br/> > Ils ne peuvent pas filmer la voie publique, y compris pour assurer la sécurité de leur véhicule garé devant leur domicile. | [Documentation]({{site.baseurl}}/openalpr/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1613)<br/>[Changelog]({{site.baseurl}}/openalpr/{{page.lang}}/changelog)               |  |
+| <img src="{{site.baseurl}}/QRacces/images/QRacces_icon.png" class="pluginLogo" width="100" />                 | Acces par QR code <br/> (QRacces)            | Ce plugin permet de gérer une acces par QRcode.<br/>Un Qr code est envoyé par mail à l'utilisateur autorisé                                                                                                                                                                                                                                                                                                                                           | [Documentation]({{site.baseurl}}/QRacces/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3758)<br/>[Changelog]({{site.baseurl}}/QRacces/{{page.lang}}/changelog)                 |  |
