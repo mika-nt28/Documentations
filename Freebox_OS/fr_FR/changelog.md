@@ -47,7 +47,7 @@ pluginId: Freebox_OS
 
 - **Player**
 
-  - Certain player ne renvois pas leur nom. Mise en place d'une parade pour pouvoir créer l'équipement
+  - Certains player ne renvoient pas leur nom. Mise en place d'une parade pour pouvoir créer l'équipement
     > Les commandes seront mises à jour lors du scan des équipements standards
   - Ajout d’un message dans les logs, si l’ID du player est vide
 
