@@ -10,6 +10,7 @@ pluginId: Freebox_OS
 ## Important
 
 > **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineur.
+>
 > **Il est nécessaire d'avoir la Freebox en version 4.2 pour que le plugin fonctionne**
 
 ## Authentification ou Appairage
