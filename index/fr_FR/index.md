@@ -111,59 +111,31 @@ Plugin pour appareils Withings / Nokia, il permet de récupérer les information
 
 |                                                                                                           |                                |                                                                                                                                                                                                                                           |                                                                                                                                                                                                                      |
 | --------------------------------------------------------------------------------------------------------- | ------------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="{{site.baseurl}}/freeCrytal/images/freeCrystal_icon.png" class="pluginLogo" width="100" />      | Freebox Crytal                 | Ce plugin permet de récupérer les informations de votre Freebox Crystal.</br>Certains éléments sont rendus actifs par Jeedom (Redémarrage des Freebox, présence DHCP) mais nécessitent une installation supplémentaire sur votre serveur. | [Documentation]({{site.baseurl}}/freeCrytal/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1139)<br/>[Changelog]({{site.baseurl}}/freeCrytal/{{page.lang}}/changelog)       |
+| <img src="{{site.baseurl}}/freeCrytal/images/freecrystal_icon.png" class="pluginLogo" width="100" />      | Freebox Crytal                 | Ce plugin permet de récupérer les informations de votre Freebox Crystal.</br>Certains éléments sont rendus actifs par Jeedom (Redémarrage des Freebox, présence DHCP) mais nécessitent une installation supplémentaire sur votre serveur. | [Documentation]({{site.baseurl}}/freeCrytal/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1139)<br/>[Changelog]({{site.baseurl}}/freeCrytal/{{page.lang}}/changelog)       |
 | <img src="{{site.baseurl}}/FreeboxMini4k/images/FreeboxMini4k_icon.png" class="pluginLogo" width="100" /> | Télécommande Freebox mini4K    | Contrôler votre Freebox mini4K                                                                                                                                                                                                            | [Documentation]({{site.baseurl}}/FreeboxMini4k/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3756)<br/>[Changelog]({{site.baseurl}}/FreeboxMini4k/{{page.lang}}/changelog) |
 | <img src="{{site.baseurl}}/telecfree/images/telecfree_icon.png" class="pluginLogo" width="100" />         | Freebox Révolution (telecfree) | Plugin pour commander le Freebox Player de la Freebox Révolution                                                                                                                                                                          | [Documentation]({{site.baseurl}}/telecfree/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2032)<br/>[Changelog]({{site.baseurl}}/telecfree/{{page.lang}}/changelog)         |
 | <img src="{{site.baseurl}}/plex/images/plex_icon.png" class="pluginLogo" width="100" />                   | Plex                           | CContrôler vos clients Plex grâce à votre domotique. </br> Créer des réveil, musical grâce à l'association de Plex et de Jeedom.                                                                                                          | [Documentation]({{site.baseurl}}/plex/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=1380)<br/>[Changelog]({{site.baseurl}}/plex/{{page.lang}}/changelog)                   |
 
 # Organisation
 
-## Réveil (reveil)
-
-Ce plugin permet de créer des réveils.
-
-- [Documentation]({{site.baseurl}}/reveil/{{page.lang}})
-- [Changelog]({{site.baseurl}}/reveil/{{page.lang}}/changelog)
-
-## Cave à Vin (CaveVin)
-
-Et si on domotisait notre cave à vin !
-Ce plugin Jeedom nous permet de créer virtuellement notre cave, si on veut on peut domotiser la présence de la bouteille.
-
-- [Documentation]({{site.baseurl}}/CaveVin/{{page.lang}})
-- [Changelog]({{site.baseurl}}/CaveVin/{{page.lang}}/changelog)
+|                                                                                                |            |                                                                                                                                                                       |                                                                                                                                                                                                          |
+| ---------------------------------------------------------------------------------------------- | ---------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="{{site.baseurl}}/reveil/images/reveil_icon.png" class="pluginLogo" width="100" />    | Réveil     | Ce plugin permet de créer des réveils.                                                                                                                                | [Documentation]({{site.baseurl}}/reveil/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2775)<br/>[Changelog]({{site.baseurl}}/reveil/{{page.lang}}/changelog)   |
+| <img src="{{site.baseurl}}/CaveVin/images/Cave_vin_icon.png" class="pluginLogo" width="100" /> | Cave à Vin | Et si on domotisait notre cave à vin ! </br>Ce plugin Jeedom nous permet de créer virtuellement notre cave, si on veut on peut domotiser la présence de la bouteille. | [Documentation]({{site.baseurl}}/CaveVin/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2775)<br/>[Changelog]({{site.baseurl}}/CaveVin/{{page.lang}}/changelog) |
 
 # Confort
 
-## SPA Balboa (balboa)
-
-Ce plugin a pour objet de connecter Jeedom à vos Sap **balboa**.
-
-- [Documentation]({{site.baseurl}}/balboa/{{page.lang}})
-- [Changelog]({{site.baseurl}}/balboa/{{page.lang}}/changelog)
-
-## Luminothérapie (luminotherapie)
-
-Ce plugin permet de créer des ambiances lumineuse
-
-- [Documentation]({{site.baseurl}}/luminotherapie/{{page.lang}})
-- [Changelog]({{site.baseurl}}/luminotherapie/{{page.lang}}/changelog)
+|                                                                                                             |                |                                                                  |                                                                                                                                                                                                                        |
+| ----------------------------------------------------------------------------------------------------------- | -------------- | ---------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="{{site.baseurl}}/balboa/images/balboa_icon.png" class="pluginLogo" width="100" />                 | SPA Balboa     | Ce plugin a pour objet de connecter Jeedom à vos Sap **balboa**. | [Documentation]({{site.baseurl}}/balboa/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3712)<br/>[Changelog]({{site.baseurl}}/balboa/{{page.lang}}/changelog)                 |
+| <img src="{{site.baseurl}}/luminotherapie/images/luminotherapie_icon.png" class="pluginLogo" width="100" /> | Luminothérapie | Ce plugin permet de créer des ambiances lumineuse **balboa**.    | [Documentation]({{site.baseurl}}/luminotherapie/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3095)<br/>[Changelog]({{site.baseurl}}/luminotherapie/{{page.lang}}/changelog) |
 
 # Sécurité
 
-## Face detection (facedetection)
-
-Ce plugin utilise OpenCv pour détecter les visages sur vos camera.
-
-- [Documentation]({{site.baseurl}}/facedetection/{{page.lang}})
-- [Changelog]({{site.baseurl}}/facedetection/{{page.lang}}/changelog)
-
-## Reconnaissance facial (facerecognition)
-
-Ce plugin utilise OpenCv pour détecter et reconnaitre votre visage. Attention, toute de même aux permissions que vous accordez au plugin car on peut le tromper avec des photos … ou son jumeau
-
-- [Documentation]({{site.baseurl}}/facerecognition/{{page.lang}})
-- [Changelog]({{site.baseurl}}/facerecognition/{{page.lang}}/changelog)
+|                                                                                                             |                                              |                                                                                                                                                                                                 |                                                                                                                                                                                                                          |
+| ----------------------------------------------------------------------------------------------------------- | -------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| <img src="{{site.baseurl}}/facedetection/images/facerecognition_icon.png" class="pluginLogo" width="100" /> | Face detection                               | Ce plugin utilise OpenCv pour détecter les visages sur vos camera.                                                                                                                              | [Documentation]({{site.baseurl}}/facedetection/{{page.lang}})<br/><br/>[Changelog]({{site.baseurl}}/facedetection/{{page.lang}}/changelog)                                                                               |
+| <img src="{{site.baseurl}}/facerecognition/images/balboa_icon.png" class="pluginLogo" width="100" />        | Reconnaissance facial</br> (facerecognition) | Ce plugin utilise OpenCv pour détecter et reconnaitre votre visage. Attention, toute de même aux permissions que vous accordez au plugin car on peut le tromper avec des photos … ou son jumeau | [Documentation]({{site.baseurl}}/facerecognition/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=3863)<br/>[Changelog]({{site.baseurl}}/facerecognition/{{page.lang}}/changelog) |  |
 
 ## Reconnaissance de chute (falldetector)
 
