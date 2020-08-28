@@ -1,5 +1,5 @@
 ---
-languages: [fr_FR,en_US,es_ES,de_DE]
+languages: [fr_FR, en_US, es_ES, de_DE]
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "/" # the base hostname & protocol for your site
 sass:
@@ -12,13 +12,13 @@ kramdown:
   hard_wrap: false
 highlighter: rouge
 gems:
-- jekyll-paginate
-- jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-seo-tag
 exclude:
-- vendor
+  - vendor
 plugins:
-- jekyll-paginate
-- jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-seo-tag
 title: "Documentation Jeedom"
 description: "Ceci est la documentation, lié à la solution domotique Jeedom."
 author: "Mika"
@@ -35,3 +35,4 @@ community: https://community.jeedom.com
 market: https://market.jeedom.com
 blog: https://blog.jeedom.com
 doc: https://doc.jeedom.com
+market_plugin: https://market.jeedom.com/index.php?v=d&p=market_display&id=

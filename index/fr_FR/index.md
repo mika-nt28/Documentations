@@ -8,28 +8,11 @@ lang: fr_FR
 
 # Protocole domotique
 
-## EIB / KNX (eibd)
-
-Ce plugin permet de communiquer entre Jeedom et votre installation KNX.
-Jeedom deviendra donc un équipement de votre installation.
-Des fonctions d'auto-configuration (auto-include, parser ETS5) ont été implémentées pour permettre une mise en place rapide.
-
-- [Documentation]({{site.baseurl}}/eibd/{{page.lang}})
-- [Changelog]({{site.baseurl}}/eibd/{{page.lang}}/changelog)
-
-## Global Cache (globalcache)
-
-Ce plugin a pour objet de connecter Jeedom à vos équipements **global cache**.
-
-- [Documentation]({{site.baseurl}}/globalcache/{{page.lang}})
-- [Changelog]({{site.baseurl}}/globalcache/{{page.lang}}/changelog)
-
-## Mochad - X10 (mochad)
-
-Ce plugin permet de gérer vos équipements x10 grâce à votre CM15 ou CM19
-
-- [Documentation]({{site.baseurl}}/mochad/{{page.lang}})
-- [Changelog]({{site.baseurl}}/mochad/{{page.lang}}/changelog)
+|                                                                                                       |                                 |                                                                                                                                                                                                                                                                         |                                                                                                                                                                                                                  |
+| ----------------------------------------------------------------------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="{{site.baseurl}}/eibd/images/eibd_icon.png" class="pluginLogo" width="100" />               | EIB / KNX <br/>(eibd)           | Ce plugin permet de communiquer entre Jeedom et votre installation KNX.<br/>Jeedom deviendra donc un équipement de votre installation.<br/>Des fonctions d'auto-configuration (auto-include, parser ETS5) ont été implémentées pour permettre une mise en place rapide. | [Documentation]({{site.baseurl}}/eibd/{{page.lang}})<br/>[Market]({{market_plugin}}203)<br/>[Changelog]({{site.baseurl}}/eibd/{{page.lang}}/changelog)                                                           |
+| <img src="{{site.baseurl}}/globalcache/images/globalcache_icon.png" class="pluginLogo" width="100" /> | Global Cache <br/>(globalcache) | Ce plugin a pour objet de connecter Jeedom à vos équipements **global cache**.                                                                                                                                                                                          | [Documentation]({{site.baseurl}}/globalcache/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=2932)<br/>[Changelog]({{site.baseurl}}/globalcache/{{page.lang}}/changelog) |
+| <img src="{{site.baseurl}}/mochad/images/mochad_icon.png" class="pluginLogo" width="100" />           | Mochad - X10                    | Ce plugin permet de gérer vos équipements x10 grâce à votre CM15 ou CM19                                                                                                                                                                                                | [Documentation]({{site.baseurl}}/mochad/{{page.lang}})<br/>[Market](https://market.jeedom.com/index.php?v=d&p=market_display&id=359)<br/>[Changelog]({{site.baseurl}}/mochad/{{page.lang}}/changelog)            |
 
 # Automatisme
 
