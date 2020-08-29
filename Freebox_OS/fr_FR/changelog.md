@@ -19,6 +19,11 @@ pluginId: Freebox_OS
 
 # Stable
 
+## 30/08/2020
+
+- Corrections Bug Type de générique sur les commandes Wifi Planning
+- Corrections action sur les Commandes Tiles
+
 ## 29/08/2020
 
 - **Freebox Débits**
