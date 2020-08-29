@@ -22,6 +22,7 @@ pluginId: Freebox_OS
 ## 30/08/2020
 
 - Corrections Bug Type de générique sur les commandes Wifi Planning
+- Correction Bug recherche Appareils connectés Wifi Invité
 - Corrections action sur les Commandes Tiles
 - Corrections slider couleur inactif
   > il faudra supprimer la commande slider couleur et faire une recherche des tiles pour avoir cette correction
