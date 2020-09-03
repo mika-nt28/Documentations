@@ -19,6 +19,12 @@ pluginId: Freebox_OS
 
 # Stable
 
+## xx/09/2020
+
+- Possibilité d'inverser les valeurs numériques (Action et Info)
+- Suppression forçage widget Disque et réseau
+- Suppression des Débit 4G
+
 ## 30/08/2020
 
 - Corrections Bug Type de générique sur les commandes Wifi Planning
