@@ -24,6 +24,7 @@ pluginId: Freebox_OS
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
 - Suppression des Débit 4G
+- Player : si lors de la création des players, il n'est pas possible de récupèrer son état alors le player n'est pas créé
 
 ## 30/08/2020
 
