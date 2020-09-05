@@ -24,7 +24,15 @@ pluginId: Freebox_OS
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
 - Suppression des Débit 4G
-- Player : si lors de la création des players, il n'est pas possible de récupèrer son état alors le player n'est pas créé
+- **Player**
+
+  > Il faudra supprimer les équipements après la mise à jour.
+
+  > **Etat (allumé ou éteint)** :
+  >
+  > - La commande est créée uniquement si le player renvoi son état.
+  > - Il faut absolument que le player soit sous tension et pas en veille prolongé. (Révolution)
+  > - Les Player mini4K ne sont pas compatible, les player POP ne sont pas encore compatible
 
 ## 30/08/2020
 
