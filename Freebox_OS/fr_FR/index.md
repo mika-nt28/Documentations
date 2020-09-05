@@ -150,8 +150,9 @@ Les équipements et les commandes suivants vont être créés :
   - API disponible
   - Disponible sur le réseau
   - Etat (allumé ou éteint)
-    > Les player POP ne sont pas encore compatible avec l'API de la Freebox
-    > Les player qui ne renvoient pas leur état ne sont pas créés
+    > La commande est créée uniquement si le player renvoi son état.
+    > Il faut absolument que le player soit sous tension et pas en veille prolongé. (Révolution)
+    > Les Player mini4K ne sont pas compatible, les player POP ne sont pas encore compatible
 - **Système**
   - Update
   - Reboot
