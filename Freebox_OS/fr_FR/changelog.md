@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
-- Suppression des Débit 4G
+- Suppression des Débit 4G (Car les données ne sont pas remontées sur l'API)
 - **Player**
 
   > Il faudra supprimer les équipements après la mise à jour.
