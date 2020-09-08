@@ -6,6 +6,10 @@ pluginId: eibd
 ---
 
 # Stable
+## 08/09/2020
+* Ajout du Template Station Meteo
+* Ajout du parametre de controle dpt 18.xxx
+
 ## 16/07/2020
 * Bugfix nombre de level dans la creation automatique
 * Ajout du FT12cemi
