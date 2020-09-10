@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
-- Suppression des Débits 4G (Car les données ne sont pas remontées sur l'API)
+- Suppression des débits 4G (Les données ne sont pas remontées sur l'API)
 - Résolution du problème d'authentification suite à la nouvelle version du firmaware 4.2.5 des Freebox Serveur
 
 - **Freebox débits**
@@ -36,7 +36,7 @@ pluginId: Freebox_OS
   >
   > - La commande est créée uniquement si le player renvoi son état.
   > - Il faut absolument que le player soit sous tension et pas en veille prolongé. (Révolution)
-  > - Les Player mini4K ne sont pas compatible, les player POP ne sont pas encore compatible
+  > - Le player mini4K ne sont pas compatible, le player POP ne sont pas encore compatible
 
 ## 30/08/2020
 
