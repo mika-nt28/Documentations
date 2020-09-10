@@ -15,16 +15,16 @@ pluginId: Freebox_OS
 
 ## Authentification ou Appairage
 
-> **Si vous avez une version inférieure au 25 ou 26/08/2020, il est nécessaire de refaire l’appairage** [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
+> **Si vous avez une version antérieure au 25 ou 26/08/2020, il est nécessaire de refaire l’appairage** [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
 
 # Stable
 
-## xx/09/2020
+## 10/09/2020
 
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
-- Suppression des Débit 4G (Car les données ne sont pas remontées sur l'API)
-- Résolution problème authentification suite à la nouvelle version de la Freebox Serveur
+- Suppression des Débits 4G (Car les données ne sont pas remontées sur l'API)
+- Résolution du problème d'authentification suite à la nouvelle version du firmaware 4.2.5 des Freebox Serveur
 
 - **Freebox débits**
   - Optimisation de la récupèration des données
