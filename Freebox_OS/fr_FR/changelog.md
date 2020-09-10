@@ -24,7 +24,7 @@ pluginId: Freebox_OS
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
 - Suppression des débits 4G (Les données ne sont pas remontées sur l'API)
-- Résolution du problème d'authentification suite à la nouvelle version du firmaware 4.2.5 des Freebox Serveur
+- Résolution du problème d'authentification suite à la nouvelle version du firmware 4.2.5 des Freebox Serveur
 
 - **Freebox débits**
   - Optimisation de la récupèration des données
