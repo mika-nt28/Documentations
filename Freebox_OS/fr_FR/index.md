@@ -55,7 +55,7 @@ Dans la fenêtre ci-dessous, il est possible de modifier
 - Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
 - Ne pas oublier de cliquer sur **Sauvegarder**
 
-> Il est impératif que votre jeedom soit nommé pour continuer l'appairage du plugin avec votre freebox
+> Il est impératif que votre Jeedom soit nommé pour continuer l'appairage du plugin avec votre Freebox
 
 <p><img src="../images/Freebox_OS_screenshot3.png" alt="Authentification 2" width="300" /></p>
 
@@ -150,9 +150,9 @@ Les équipements et les commandes suivants vont être créés :
   - API disponible
   - Disponible sur le réseau
   - Etat (allumé ou éteint)
-    > La commande est créée uniquement si le player renvoi son état.
-    > Il faut absolument que le player soit sous tension et pas en veille prolongé. (Révolution)
-    > Les Player mini4K ne sont pas compatible, les player POP ne sont pas encore compatible
+    > La commande est créée uniquement si le player renvoie son état.
+    > Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
+    > Les Player mini4K ne sont pas compatibles, les player POP ne sont pas encore compatibles
 - **Système**
   - Update
   - Reboot
@@ -281,7 +281,7 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 # Les tiles
 
-> Chaques équipements ne sont pas forcement intégrés dans le système vue l'évolution de la Freebox
+> Chaque équipement n'est pas forcement intégré dans le système vue l'évolution de la Freebox
 
 Afin de pouvoir intégrer les nouveaux systèmes.
 
@@ -289,7 +289,7 @@ Afin de pouvoir intégrer les nouveaux systèmes.
 - Redémarrer le Démon
 - Faire **_Scan des tiles_**
 
-Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le communauty et fournir les infos suivantes
+Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le community et fournir les infos suivantes
 
 - Faire une copie d'écran de l'équipement
 <p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="800" /></p>
@@ -359,11 +359,11 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
   > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 
-**J'ai les messages suivant qui apparaissent "Missing device_name" ou "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
+**J'ai les messages suivants qui apparaissent "Missing device_name" ou "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
 
 - Votre Jeedom n'a pas de Nom
 
-  > Il est impératif que votre jeedom soit nommé pour continuer l'appairage du plugin avec votre freebox
+  > Il est impératif que votre Jeedom soit nommé pour continuer l'appairage du plugin avec votre Freebox
   >
   > Se rendre dans Réglages -> Système -> Configuration -> onglet Général et mettre un nom
 

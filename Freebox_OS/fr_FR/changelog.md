@@ -9,7 +9,7 @@ pluginId: Freebox_OS
 
 ## Important
 
-> **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineur.
+> **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineurs.
 >
 > **Attention Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 
@@ -27,16 +27,16 @@ pluginId: Freebox_OS
 - Résolution du problème d'authentification suite à la nouvelle version du firmware 4.2.5 des Freebox Serveur
 
 - **Freebox débits**
-  - Optimisation de la récupèration des données
+  - Optimisation de la récupération des données
 - **Player**
 
   > Il faudra supprimer les équipements après la mise à jour.
 
   > **Etat (allumé ou éteint)** :
   >
-  > - La commande est créée uniquement si le player renvoi son état.
-  > - Il faut absolument que le player soit sous tension et pas en veille prolongé. (Révolution)
-  > - Le player mini4K ne sont pas compatible, le player POP ne sont pas encore compatible
+  > - La commande est créée uniquement si le player renvoie son état.
+  > - Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
+  > - Le player mini4K n'est pas compatible, le player POP n'est pas encore compatible
 
 ## 30/08/2020
 
