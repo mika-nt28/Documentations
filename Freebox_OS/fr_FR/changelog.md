@@ -19,7 +19,31 @@ pluginId: Freebox_OS
 
 # Stable
 
-## 10/09/2020
+## xx/09/2020
+
+- **Système**
+
+  - Ajout des infos suivantes
+    - Nom Freebox
+    - Mode Feeebox
+    - Ip
+
+- **Appareils connectés**
+
+  - Ces équipements ne sont disponible uniquement si la Freebox n'est pas mode bridge
+    > Pour ceux qui sont en mode bridge, il faudra manuellement supprimer les deux équipements des appareils connectés (Wifi invité et Lan)
+
+- **CronDaily**
+
+  - Le cron ne fera pas la recherche des appareils connectés si la Freebox est en mode bridge
+    > Ne pas oublier de faire un Scan des équipements standards
+
+- **Appairage**
+
+  - Ajout lien sur chaque fenêtre vers la documentation du plugin
+  - Ajout lien vers l'interface de la Freebox si les Droits ne sont pas OK
+
+## 11/09/2020
 
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
