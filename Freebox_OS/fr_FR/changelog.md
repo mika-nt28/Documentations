@@ -50,7 +50,7 @@ pluginId: Freebox_OS
   - Ajout lien sur chaque fenêtre vers la documentation du plugin
   - Ajout lien vers l'interface de la Freebox si les Droits ne sont pas OK
 
-## 11/09/2020
+## 12/09/2020
 
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
