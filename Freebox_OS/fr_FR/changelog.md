@@ -27,14 +27,21 @@ pluginId: Freebox_OS
     - Nom Freebox
     - Mode Feeebox
     - Ip
+  - Optimisation de la récupèration des données (moins de requêtes)
 
 - **Appareils connectés**
 
   - Ces équipements ne sont disponible uniquement si la Freebox n'est pas mode bridge
     > Pour ceux qui sont en mode bridge, il faudra manuellement supprimer les deux équipements des appareils connectés (Wifi invité et Lan)
 
+- **Cron**
+
+  - Le cron ne s'executera pas si le démon est _nok_
+  - Optimisation du Cron
+
 - **CronDaily**
 
+  - Le cron ne s'executera pas si le démon est _nok_
   - Le cron ne fera pas la recherche des appareils connectés si la Freebox est en mode bridge
     > Ne pas oublier de faire un Scan des équipements standards
 
