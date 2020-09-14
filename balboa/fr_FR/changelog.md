@@ -4,8 +4,10 @@ title: SPA Balboa (balboa)
 lang: fr_FR
 pluginId: balboa
 ---
-
 # Stable
+## 19/08/2020
+* Retour a une connexion direct sur le SPA (plantage de jeedom) 
+
 ## 19/08/2020
 * suppression du cron daily de programmation de la filtration hebdo (plantage de jeedom) 
 
