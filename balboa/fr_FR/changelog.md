@@ -5,7 +5,10 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
-## 19/08/2020
+## 18/09/2020
+* Correction bug emmission d'un ordre
+
+## 14/09/2020
 * Retour a une connexion direct sur le SPA (plantage de jeedom) 
 
 ## 19/08/2020
