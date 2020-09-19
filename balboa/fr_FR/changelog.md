@@ -5,6 +5,9 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 19/09/2020
+* Bugfix erreur serveur 
+
 ## 18/09/2020
 * Correction bug emmission d'un ordre
 
