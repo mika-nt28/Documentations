@@ -33,6 +33,8 @@ pluginId: Freebox_OS
 
   - Ces équipements ne sont disponible uniquement si la Freebox n'est pas mode bridge
     > Pour ceux qui sont en mode bridge, il faudra manuellement supprimer les deux équipements des appareils connectés (Wifi invité et Lan)
+  - Optimisation du refresh et de la création des commandes
+  - Cron Daily : les nouveaux appareils dectectés sont invisble
 
 - **Cron**
 
