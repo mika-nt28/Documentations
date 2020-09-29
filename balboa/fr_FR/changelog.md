@@ -33,3 +33,5 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
+## 29/09/2020
+* Interdiction de mise a jours les temperatures si la valeur reçus est a 255
