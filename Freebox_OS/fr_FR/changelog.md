@@ -201,6 +201,11 @@ pluginId: Freebox_OS
 
 ## 29/07/2020
 
+> **Merci**  
+> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+>
+> Merci Titi_Titi de m'aider à améliorer le plugin
+
 > **Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 
 - Réécriture de la partie création des équipements standards
@@ -225,6 +230,11 @@ pluginId: Freebox_OS
 > **Il faudra aussi mettre à jour les droits dans la console de la Freebox**
 >
 > Attention : La commande Activer/Désactiver du Wifi sera supprimée lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le wifi
+
+> **Merci**  
+> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+>
+> Merci Titi_Titi de m'aider à améliorer le plugin
 
 - Nettoyage Création des commandes
 - Ajout icône pour les batteries
