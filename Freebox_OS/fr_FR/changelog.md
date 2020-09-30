@@ -19,7 +19,12 @@ pluginId: Freebox_OS
 
 # Stable
 
-## xx/09/2020
+## 01/10/2020
+
+> **Merci**  
+> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+>
+> Merci Mips pour l'aide pour l'optimisation du code pour éviter des messages d'erreur
 
 - **Système**
 
@@ -31,8 +36,10 @@ pluginId: Freebox_OS
 
 - **Appareils connectés**
 
-  - Ces équipements ne sont disponible uniquement si la Freebox n'est pas mode bridge
+  - Ces équipements ne sont disponibles uniquement si la Freebox n'est pas mode bridge
     > Pour ceux qui sont en mode bridge, il faudra manuellement supprimer les deux équipements des appareils connectés (Wifi invité et Lan)
+  - Optimisation du refresh et de la création des commandes
+  - Cron Daily : les nouveaux appareils détectés sont invisibles
 
 - **Cron**
 
@@ -49,6 +56,11 @@ pluginId: Freebox_OS
 
   - Ajout lien sur chaque fenêtre vers la documentation du plugin
   - Ajout lien vers l'interface de la Freebox si les Droits ne sont pas OK
+
+- **Optimisation PHP**
+
+  - Résolution des bugs dans les logs en mode info
+  - Résolution des divisions par zéro
 
 ## 12/09/2020
 
@@ -199,6 +211,11 @@ pluginId: Freebox_OS
 
 ## 29/07/2020
 
+> **Merci**  
+> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+>
+> Merci Titi_Titi de m'aider à améliorer le plugin
+
 > **Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 
 - Réécriture de la partie création des équipements standards
@@ -223,6 +240,11 @@ pluginId: Freebox_OS
 > **Il faudra aussi mettre à jour les droits dans la console de la Freebox**
 >
 > Attention : La commande Activer/Désactiver du Wifi sera supprimée lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le wifi
+
+> **Merci**  
+> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+>
+> Merci Titi_Titi de m'aider à améliorer le plugin
 
 - Nettoyage Création des commandes
 - Ajout icône pour les batteries
