@@ -24,7 +24,7 @@ pluginId: Freebox_OS
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
 >
-> Merci Mips pour l'aide pour l'optimisation du code pour éviter des messages d'erreur
+> Merci à Mips de son aide pour l'optimisation du code afin d'éviter des messages d'erreur
 
 - **Système**
 
@@ -36,7 +36,7 @@ pluginId: Freebox_OS
 
 - **Appareils connectés**
 
-  - Ces équipements ne sont disponibles uniquement que si la Freebox n'est pas mode bridge
+  - Ces équipements ne sont disponibles que si la Freebox n'est pas mode bridge
     > Pour ceux qui sont en mode bridge, il faudra manuellement supprimer les deux équipements des appareils connectés (Wifi invité et Lan)
   - Optimisation du refresh et de la création des commandes
   - Cron Daily : les nouveaux appareils détectés sont invisibles
@@ -55,7 +55,7 @@ pluginId: Freebox_OS
 - **Appairage**
 
   - Ajout d'un lien sur chaque fenêtre vers la documentation du plugin
-  - Ajout d'un lien vers l'interface de la Freebox si les Droits ne sont pas OK
+  - Ajout d'un lien vers l'interface de la Freebox si les droits ne sont pas OK
 
 - **Optimisation PHP**
 
