@@ -32,7 +32,7 @@ pluginId: Freebox_OS
     - Nom Freebox
     - Mode Feeebox
     - Ip
-  - Optimisation de la récupèration des données (moins de requêtes)
+  - Optimisation de la récupération des données (moins de requêtes)
 
 - **Appareils connectés**
 
@@ -43,12 +43,12 @@ pluginId: Freebox_OS
 
 - **Cron**
 
-  - Le cron ne s'executera pas si le démon est _nok_
+  - Le cron ne s’exécutera pas si le démon est _nok_
   - Optimisation du Cron
 
 - **CronDaily**
 
-  - Le cron ne s'executera pas si le démon est _nok_
+  - Le cron ne s’exécutera pas si le démon est _nok_
   - Le cron ne fera pas la recherche des appareils connectés si la Freebox est en mode bridge
     > Ne pas oublier de faire un Scan des équipements standards
 
