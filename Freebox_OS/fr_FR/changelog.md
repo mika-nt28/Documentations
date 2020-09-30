@@ -19,7 +19,12 @@ pluginId: Freebox_OS
 
 # Stable
 
-## xx/09/2020
+## 01/10/2020
+
+> **Merci**  
+> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+>
+> Merci Mips pour l'aide pour l'optimisation du code pour éviter des messages d'erreur
 
 - **Système**
 
@@ -51,6 +56,11 @@ pluginId: Freebox_OS
 
   - Ajout lien sur chaque fenêtre vers la documentation du plugin
   - Ajout lien vers l'interface de la Freebox si les Droits ne sont pas OK
+
+- **Optimisation PHP**
+
+  - Résolution des bugs dans les logs en mode info
+  - Résolution des divisions par zéro
 
 ## 12/09/2020
 
