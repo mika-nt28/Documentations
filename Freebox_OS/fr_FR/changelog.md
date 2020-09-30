@@ -50,7 +50,7 @@ pluginId: Freebox_OS
 
   - Le cron ne s’exécutera pas si le démon est _nok_
   - Le cron ne fera pas la recherche des appareils connectés si la Freebox est en mode bridge
-    > Ne pas oublier de faire un Scan des équipements standards
+    > Ne pas oublier de faire un scan des équipements standards
 
 - **Appairage**
 
