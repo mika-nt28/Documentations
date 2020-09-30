@@ -54,8 +54,8 @@ pluginId: Freebox_OS
 
 - **Appairage**
 
-  - Ajout lien sur chaque fenêtre vers la documentation du plugin
-  - Ajout lien vers l'interface de la Freebox si les Droits ne sont pas OK
+  - Ajout d'un lien sur chaque fenêtre vers la documentation du plugin
+  - Ajout d'un lien vers l'interface de la Freebox si les Droits ne sont pas OK
 
 - **Optimisation PHP**
 
