@@ -376,3 +376,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 **J'ai le messages suivant qui apparait "API incorrecte"**
 
 > **Il est nécessaire d'avoir la Freebox en version 4.2 minimun pour que le plugin fonctionne**
+
+**Erreur CronDaily avec des noms d'appareils avec des icônes**
+
+> Il ne faut pas que les noms d'appareils comportent des icônes.
