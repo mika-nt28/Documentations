@@ -19,6 +19,22 @@ pluginId: Freebox_OS
 
 # Stable
 
+## xx/10/2020
+
+> **Merci**  
+> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+>
+> Merci à Mips de son aide pour l'optimisation du code afin d'éviter des messages d'erreur
+
+- **Disque Dur**
+
+  - Prise en compte des améliorations de @mid.sebastien
+
+- **Optimisation**
+  - Freebox Débit : Optimisation du nombre de requête
+  - Amélioration refresh Token pour palier au nouveau Firmware de la Freebox
+  - Corrections de variables non défini pour la partie Tiles
+
 ## 01/10/2020
 
 > **Merci**  
