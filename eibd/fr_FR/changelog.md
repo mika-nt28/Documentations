@@ -6,6 +6,9 @@ pluginId: eibd
 ---
 
 # Stable
+## 12/10/2020
+* Ajout d'une condition de log lovel different de Aucun pour le log du demon
+
 ## 08/09/2020
 * Ajout du Template Station Meteo
 * Ajout du parametre de controle dpt 18.xxx
@@ -47,8 +50,6 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
-## 09/10/2020
-* Ajout d'une condition de log lovel different de Aucun pour le log du demon
 
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
