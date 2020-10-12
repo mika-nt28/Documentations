@@ -55,3 +55,4 @@ pluginId: eibd
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
 * Mise a jours des arboressance d'objet en creation manuel
 * Ajout d'un systeme de parse manuel pour la creation des equipement Template dans l'arboressance
+* Prise en compte des spécifité du plugin lors de la duplication
