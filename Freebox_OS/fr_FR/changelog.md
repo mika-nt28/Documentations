@@ -15,7 +15,7 @@ pluginId: Freebox_OS
 
 ## Authentification ou Appairage
 
-> **Si vous avez une version antérieure au 25 ou 26/08/2020, il est nécessaire de refaire l’appairage** [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
+> **Si vous avez une version antérieure au 26/08/2020, il est nécessaire de refaire l’appairage** [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
 
 # Stable
 
@@ -36,7 +36,7 @@ pluginId: Freebox_OS
 
 - **Optimisation**
 
-  - Freebox Débit : Optimisation du nombre de requête
+  - Freebox Débit : Optimisation du nombre de requêtes
   - Amélioration refresh Token pour palier au nouveau Firmware de la Freebox
   - Corrections de variables non défini pour la partie Tiles
   - Correction des valeurs nulles
