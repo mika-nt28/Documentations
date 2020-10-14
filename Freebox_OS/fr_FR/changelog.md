@@ -31,9 +31,14 @@ pluginId: Freebox_OS
   - Prise en compte des améliorations de @mid.sebastien
 
 - **Optimisation**
+
   - Freebox Débit : Optimisation du nombre de requête
   - Amélioration refresh Token pour palier au nouveau Firmware de la Freebox
   - Corrections de variables non défini pour la partie Tiles
+  - Correction des valeurs nulles
+  - Cron
+    - Cron et Cron journalier (prise en compte si l'équipement est désactivé)
+    - Ajout log supplémentaire en cas d'un problème sur un Cron
 
 ## 01/10/2020
 
