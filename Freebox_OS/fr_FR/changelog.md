@@ -19,10 +19,10 @@ pluginId: Freebox_OS
 
 # Stable
 
-## xx/10/2020
+## 14/10/2020
 
 > **Merci**  
-> Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86 pour leurs aides et leurs retours
+> Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86, Freetronic pour leurs aides et leurs retours
 >
 > Merci à Mips de son aide pour l'optimisation du code afin d'éviter des messages d'erreurs
 
@@ -57,7 +57,6 @@ pluginId: Freebox_OS
     - Nom Freebox
     - Mode Feeebox
     - Ip
-    
   - Optimisation de la récupération des données (moins de requêtes)
 
 - **Appareils connectés**
@@ -96,6 +95,7 @@ pluginId: Freebox_OS
 - Résolution du problème d'authentification suite à la nouvelle version du firmware 4.2.5 des Freebox Serveur
 
 - **Freebox débits**
+
   - Optimisation de la récupération des données
 
 - **Player**
