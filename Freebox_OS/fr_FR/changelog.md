@@ -15,30 +15,39 @@ pluginId: Freebox_OS
 
 ## Authentification ou Appairage
 
-> **Si vous avez une version antérieure au 25 ou 26/08/2020, il est nécessaire de refaire l’appairage** [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
+> **Si vous avez une version antérieure au 26/08/2020, il est nécessaire de refaire l’appairage** [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
 
 # Stable
 
-## xx/10/2020
+## 14/10/2020
 
 > **Merci**  
-> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+> Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86, Freetronic pour leurs aides et leurs retours
 >
-> Merci à Mips de son aide pour l'optimisation du code afin d'éviter des messages d'erreur
+> Merci à Mips de son aide pour l'optimisation du code afin d'éviter des messages d'erreurs
 
 - **Disque Dur**
 
   - Prise en compte des améliorations de @mid.sebastien
 
+  > **Attention Il est nécessaire de modifier la configuration de chaque équipement**
+
+  <p><img src="../images/changelog_disque.png" alt="Disque" width="450" /></p>
+
 - **Optimisation**
-  - Freebox Débit : Optimisation du nombre de requête
+
+  - Freebox Débit : Optimisation du nombre de requêtes
   - Amélioration refresh Token pour palier au nouveau Firmware de la Freebox
-  - Corrections de variables non défini pour la partie Tiles
+  - Corrections de variables non définies pour la partie Tiles
+  - Corrections des valeurs nulles
+  - Cron
+    - Cron et Cron journalier (prise en compte si l'équipement est désactivé)
+    - Ajout log supplémentaire en cas d'un problème sur un Cron
 
 ## 01/10/2020
 
 > **Merci**  
-> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+> Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86 pour leurs aides et leurs retours
 >
 > Merci à Mips de son aide pour l'optimisation du code afin d'éviter des messages d'erreur
 
@@ -86,7 +95,9 @@ pluginId: Freebox_OS
 - Résolution du problème d'authentification suite à la nouvelle version du firmware 4.2.5 des Freebox Serveur
 
 - **Freebox débits**
+
   - Optimisation de la récupération des données
+
 - **Player**
 
   > Il faudra supprimer les équipements après la mise à jour.
@@ -228,7 +239,7 @@ pluginId: Freebox_OS
 ## 29/07/2020
 
 > **Merci**  
-> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+> Merci aux bêta-testeurs : ipapy, Tom's, Olive, jcamus86 pour leurs aides et leurs retours
 >
 > Merci Titi_Titi de m'aider à améliorer le plugin
 
