@@ -22,9 +22,9 @@ pluginId: Freebox_OS
 ## xx/10/2020
 
 > **Merci**  
-> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+> Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86 pour leurs aides et leurs retours
 >
-> Merci à Mips de son aide pour l'optimisation du code afin d'éviter des messages d'erreur
+> Merci à Mips de son aide pour l'optimisation du code afin d'éviter des messages d'erreurs
 
 - **Disque Dur**
 
@@ -38,8 +38,8 @@ pluginId: Freebox_OS
 
   - Freebox Débit : Optimisation du nombre de requêtes
   - Amélioration refresh Token pour palier au nouveau Firmware de la Freebox
-  - Corrections de variables non défini pour la partie Tiles
-  - Correction des valeurs nulles
+  - Corrections de variables non définies pour la partie Tiles
+  - Corrections des valeurs nulles
   - Cron
     - Cron et Cron journalier (prise en compte si l'équipement est désactivé)
     - Ajout log supplémentaire en cas d'un problème sur un Cron
@@ -47,7 +47,7 @@ pluginId: Freebox_OS
 ## 01/10/2020
 
 > **Merci**  
-> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+> Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86 pour leurs aides et leurs retours
 >
 > Merci à Mips de son aide pour l'optimisation du code afin d'éviter des messages d'erreur
 
@@ -57,6 +57,7 @@ pluginId: Freebox_OS
     - Nom Freebox
     - Mode Feeebox
     - Ip
+    
   - Optimisation de la récupération des données (moins de requêtes)
 
 - **Appareils connectés**
@@ -96,6 +97,7 @@ pluginId: Freebox_OS
 
 - **Freebox débits**
   - Optimisation de la récupération des données
+
 - **Player**
 
   > Il faudra supprimer les équipements après la mise à jour.
@@ -237,7 +239,7 @@ pluginId: Freebox_OS
 ## 29/07/2020
 
 > **Merci**  
-> Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
+> Merci aux bêta-testeurs : ipapy, Tom's, Olive, jcamus86 pour leurs aides et leurs retours
 >
 > Merci Titi_Titi de m'aider à améliorer le plugin
 
