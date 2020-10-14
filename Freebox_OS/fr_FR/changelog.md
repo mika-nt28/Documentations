@@ -30,6 +30,10 @@ pluginId: Freebox_OS
 
   - Prise en compte des améliorations de @mid.sebastien
 
+  > **Attention Il est nécessaire de modifier la configuration de chaque équipement**
+
+  <p><img src="../images/changelog_disque.png" alt="Disque" width="450" /></p>
+
 - **Optimisation**
 
   - Freebox Débit : Optimisation du nombre de requête
