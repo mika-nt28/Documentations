@@ -41,8 +41,8 @@ pluginId: Freebox_OS
   - Corrections de variables non définies pour la partie Tiles
   - Corrections des valeurs nulles
   - Cron
-    - Cron et Cron journalier (prise en compte si l'équipement est désactivé)
-    - Ajout log supplémentaire en cas d'un problème sur un Cron
+    - Non exécution des Crons si l'équipement est désactivé
+    - Ajout de log supplémentaire en cas de problème sur un Cron
 
 ## 01/10/2020
 
