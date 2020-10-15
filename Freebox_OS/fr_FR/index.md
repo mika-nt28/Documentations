@@ -11,7 +11,7 @@ Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Fre
 
 > Toutes les infos ne sont pas encore disponibles pour la Freebox POP
 >
-> **Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
+> **Il est nécessaire d'avoir la Freebox Serveur en version 4.2 pour que le plugin fonctionne**
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
@@ -33,7 +33,7 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
 # Installation et Configuration
 
-Une fois le plugin installé et actif. aucune configuration n'est necessaire
+Une fois le plugin installé et actif, aucune configuration n'est nécessaire.
 
 # Appairage (Authentification)
 
@@ -50,7 +50,7 @@ Il faut ensuite suivre les différents écrans pour valider l'appairage
 Dans la fenêtre ci-dessous, il est possible de modifier
 
 - **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : mafreebox.freebox.fr)_
-- **Nom de l'équipement connecté** : Le nom de la Jeedom (ce Champ est vérouillé )
+- **Nom de l'équipement connecté** : Le nom de la Jeedom (ce champ est verrouillé)
 - **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
 - Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
 - Ne pas oublier de cliquer sur **Sauvegarder**
@@ -152,7 +152,7 @@ Les équipements et les commandes suivants vont être créés :
   - Etat (allumé ou éteint)
     > La commande est créée uniquement si le player renvoie son état.
     > Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
-    > Les Player mini4K ne sont pas compatibles, les player POP ne sont pas encore compatibles
+    > Les Player mini4K ne sont pas compatibles, les players POP ne sont pas encore compatibles.
 - **Système**
   - Update
   - Reboot
@@ -168,15 +168,15 @@ Les équipements et les commandes suivants vont être créés :
   - Nombre Appels Manqués / Reçus / Passés
   - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**
-  - Nombre de tâche(s)
-  - Nombre de tâche(s) active(s)
-  - Nombre de tâche(s) en extraction
-  - Nombre de tâche(s) en réparation
-  - Nombre de tâche(s) en vérification
-  - Nombre de tâche(s) en attente
-  - Nombre de tâche(s) en erreur
-  - Nombre de tâche(s) stoppée(s)
-  - Nombre de tâche(s) terminée(s)
+  - Nombre de tâches
+  - Nombre de tâches actives
+  - Nombre de tâches en extraction
+  - Nombre de tâches en réparation
+  - Nombre de tâches en vérification
+  - Nombre de tâches en attente
+  - Nombre de tâches en erreur
+  - Nombre de tâches stoppées
+  - Nombre de tâches terminées
   - Téléchargement en cours
   - Vitesse réception
   - Vitesse émission
@@ -237,7 +237,7 @@ Les valeurs possibles sont :
 - **alert** = La sirène sonne
 
 > le système d'alarme est compatible avec Homebridge et l'application mobile : aucune configuration n'est à faire.
-> Pour permettre l'intégration, des commandes d'infos ont été ajoutées pour permettre d'interagir avec le plugin Alarme
+> Pour permettre l'intégration, des commandes d'infos ont été ajoutées pour permettre d'interagir avec le plugin Alarme.
 >
 > - **Actif** = Info Binaire (1 = Alarme Activée)
 > - **Statut** = Info Binaire (1 = Sirène active)
@@ -355,7 +355,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **J'ai le widget des appareils connectés qui n'est plus disponible**
 
-- Le widget a été remnommé lors de la dernière mise à jour
+- Le widget a été renommé lors de la dernière mise à jour
 
   > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 
@@ -375,7 +375,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **J'ai le messages suivant qui apparait "API incorrecte"**
 
-> **Il est nécessaire d'avoir la Freebox en version 4.2 minimun pour que le plugin fonctionne**
+> **Il est nécessaire d'avoir la Freebox en version 4.2 minimum pour que le plugin fonctionne**
 
 **Erreur CronDaily avec des noms d'appareils avec des icônes**
 
