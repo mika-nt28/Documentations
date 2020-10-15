@@ -168,15 +168,15 @@ Les équipements et les commandes suivants vont être créés :
   - Nombre Appels Manqués / Reçus / Passés
   - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**
-  - Nombre de tâche(s)
-  - Nombre de tâche(s) active(s)
-  - Nombre de tâche(s) en extraction
-  - Nombre de tâche(s) en réparation
-  - Nombre de tâche(s) en vérification
-  - Nombre de tâche(s) en attente
-  - Nombre de tâche(s) en erreur
-  - Nombre de tâche(s) stoppée(s)
-  - Nombre de tâche(s) terminée(s)
+  - Nombre de tâches
+  - Nombre de tâches actives
+  - Nombre de tâches en extraction
+  - Nombre de tâches en réparation
+  - Nombre de tâches en vérification
+  - Nombre de tâches en attente
+  - Nombre de tâches en erreur
+  - Nombre de tâches stoppées
+  - Nombre de tâches terminées
   - Téléchargement en cours
   - Vitesse réception
   - Vitesse émission
