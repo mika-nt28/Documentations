@@ -19,7 +19,7 @@ pluginId: Freebox_OS
 
 # Stable
 
-## xx/10/2020
+## 15/10/2020
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86, Noodom pour leurs aides et leurs retours
@@ -31,6 +31,7 @@ pluginId: Freebox_OS
 - **Wifi**
 
   - Ajout commande wifi WPS
+    > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
 
 - **Tiles**
 
