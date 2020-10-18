@@ -26,7 +26,7 @@ pluginId: Freebox_OS
 
 - **Disque Dur**
 
-  - Réecriture de cette partie afin de prendre en charge les disques avec partition
+  - Réécriture de cette partie afin de prendre en charge les disques avec partition
 
 - **Wifi**
 
