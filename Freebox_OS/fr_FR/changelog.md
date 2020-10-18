@@ -19,6 +19,28 @@ pluginId: Freebox_OS
 
 # Stable
 
+## xx/10/2020
+
+> **Merci**  
+> Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86, Noodom pour leurs aides et leurs retours
+
+- **Disque Dur**
+
+  - Réecriture de cette partie afin de prendre en charge les disques avec partition
+
+- **Wifi**
+
+  - Ajout commande wifi WPS
+
+- **Tiles**
+
+  - Correction Bug sur la création des commandes
+
+- **Optimisation**
+
+  - Prise en compte des versions des équipements pour la mise à jour du plugin
+  - Amélioration log close session
+
 ## 14/10/2020
 
 > **Merci**  
