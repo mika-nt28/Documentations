@@ -4,9 +4,20 @@ title: SPA Balboa (balboa)
 lang: fr_FR
 pluginId: balboa
 ---
-
 # Stable
-# 01/07/2020
+## 19/09/2020
+* Bugfix erreur serveur 
+
+## 18/09/2020
+* Correction bug emmission d'un ordre
+
+## 14/09/2020
+* Retour a une connexion direct sur le SPA (plantage de jeedom) 
+
+## 19/08/2020
+* suppression du cron daily de programmation de la filtration hebdo (plantage de jeedom) 
+
+## 01/07/2020
 * Bugfix mise a jours du filtrage quotidien
 * Conditionnement de la mise a jour de la température du spa uniquement lorsque la pompe de circulation est en route
 
@@ -22,3 +33,5 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
+## 29/09/2020
+* Interdiction de mise a jours les temperatures si la valeur reçus est a 255

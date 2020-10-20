@@ -6,6 +6,13 @@ pluginId: eibd
 ---
 
 # Stable
+## 12/10/2020
+* Ajout d'une condition de log lovel different de Aucun pour le log du demon
+
+## 08/09/2020
+* Ajout du Template Station Meteo
+* Ajout du parametre de controle dpt 18.xxx
+
 ## 16/07/2020
 * Bugfix nombre de level dans la creation automatique
 * Ajout du FT12cemi
@@ -48,3 +55,4 @@ pluginId: eibd
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
 * Mise a jours des arboressance d'objet en creation manuel
 * Ajout d'un systeme de parse manuel pour la creation des equipement Template dans l'arboressance
+* Prise en compte des spécifité du plugin lors de la duplication
