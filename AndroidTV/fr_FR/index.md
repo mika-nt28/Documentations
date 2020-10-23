@@ -1,8 +1,8 @@
 ---
 layout: default
-title: AndroidRemoteControl (AndroidRemoteControl)
+title: Android TV (AndroidTV)
 lang: fr_FR
-pluginId: AndroidRemoteControl
+pluginId: AndroidTV
 ---
 # Description
 
