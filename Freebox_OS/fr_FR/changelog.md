@@ -19,6 +19,11 @@ pluginId: Freebox_OS
 
 # Stable
 
+## 28/10/2020
+
+- Correction refresh état 4G
+- Amélioration Tiles
+
 ## 15/10/2020
 
 > **Merci**  
