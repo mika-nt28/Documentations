@@ -19,7 +19,7 @@ pluginId: Freebox_OS
 
 # Stable
 
-# Version 202011xx
+## Version 202011xx
 
 - Amélioration liste des objets parents
 - Ajout de la page santé pour les équipements
