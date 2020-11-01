@@ -334,7 +334,10 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
-> Ces infos ne sont pas remontées à la Freebox donc impossible de les avoir dans Jeedom.
+> Ces infos ne sont pas :
+>
+> - Remontées à la Freebox donc impossible de les avoir dans Jeedom.
+> - disponible sur la page santé (il est indiqué secteur ou N/A)
 
 **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 

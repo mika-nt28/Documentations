@@ -19,6 +19,12 @@ pluginId: Freebox_OS
 
 # Stable
 
+# Version 202011xx
+
+- Amélioration liste des objets parents
+- Ajout de la page santé pour les équipements
+  > Attention, la batterie n'est pas prise en charge pour certains équipements (Télécommande, Détecteur de mouvement)
+
 ## 28/10/2020
 
 - Correction refresh état 4G
