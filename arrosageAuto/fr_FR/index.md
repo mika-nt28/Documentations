@@ -19,7 +19,7 @@ Une fois configuré :
 
 ## Caractérisation de la source d'eau
 
-* Temps entre 2 branches d'arrosage (s): délai en seconde entre 2 arrosages d'une même programmation
+* Temps entre 2 branches d'arrosage (s): délai en seconde entre 2 branche d'arrosage d'une même programmation qui ont un debit superieur a la pompe
 * Débit de l'arrivée d'eau (mm ou L/h) : débit de votre source
 * Pression maximal de l'arrivée d'eau (Bar) : pression de votre source
 
