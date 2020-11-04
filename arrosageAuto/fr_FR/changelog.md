@@ -5,6 +5,12 @@ lang: fr_FR
 pluginId: arrosageAuto
 ---
 # Stable
+
+## 04/11/2020
+* Correction temps d'arrosage negatif
+* Recherche de la prochaine programmation lorsque le programmation est passé
+* Ajout de l'unité sur la configuration du temps entre 2 branches
+
 ## 03/08/2020
 * Bugfix Programation INF
 
@@ -25,6 +31,3 @@ pluginId: arrosageAuto
 * Correction du défaut a la création des commandes avec le version 4.xxx
 
 # Beta
-## 30/10/2020
-* Correction temps d'arrosage negatif
-* Recherche de la prochaine programmation lorsque le programmation est passé
