@@ -27,6 +27,7 @@ Configuration du plugin et de ses dépendances
 
 Les paramètres de configuration générale sont
 
+* Debug : Met le niveau de log de motion sur 1 lorsqu'il est desactivé et sur 9. Ce parametre donne plus ou moins d'information sur ce qui se passe dans le demon motion
 * Adresse ou motion est installé : Ce champs est complété automatiquement
 * Port de contrôle de motion : C'est le port sur lequel on va se connecter pour mettre à jour la configuration de motion
 * Emplacement du dossier Snapshot: Permet de choisir ou stocker les snapshot (on peut imaginer monté un disque réseau nas)
@@ -60,6 +61,7 @@ Cet onglet est le plus important car nous allons configure notre camera
 #Type de camera
 
 Si votre camera est du type IP alors il vous faudra compléter ses champs
+
 * Url de la Camera : URL du flux vidéo (rtsp://, http://, ..)
 * Login de connexion à la Camera : Saisir le login d'accès
 * Mots de passe de la Camera : Saisir le Mots de pas d'accès
