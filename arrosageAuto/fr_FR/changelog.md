@@ -31,3 +31,6 @@ pluginId: arrosageAuto
 * Correction du défaut a la création des commandes avec le version 4.xxx
 
 # Beta
+## 05/11/2020
+* Ajout de log sur le bilan debit et pression
+* Bugfix sur le temps de declage (temps maximal des branches précédente)
