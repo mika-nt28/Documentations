@@ -34,3 +34,4 @@ pluginId: arrosageAuto
 ## 05/11/2020
 * Ajout de log sur le bilan debit et pression
 * Bugfix sur le temps de declage (temps maximal des branches précédente)
+* Bugfix sur l'initalisation des valeurs dans le decalage pour les branches suivantes
