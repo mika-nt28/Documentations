@@ -18,3 +18,5 @@ pluginId: voletProp
 * Séparation du plugin et sa documentation
 
 # Beta
+## 07/11/2020
+* Bugfix lever du flag mouvement lors d'un detection de fin de course
