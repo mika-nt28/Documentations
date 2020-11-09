@@ -20,3 +20,7 @@ pluginId: voletProp
 # Beta
 ## 07/11/2020
 * Bugfix lever du flag mouvement lors d'un detection de fin de course
+
+## 09/11/2020
+* Interdiction lancement du demon si le temps de montée ou descente est a 0
+* Valeur par defaut a 0 du temps de montée ou descente si non defini
