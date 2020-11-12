@@ -22,6 +22,12 @@ pluginId: withings
 * Message d'alerte lorsque l'on n'arrive pas à rafraichir le token
 
 # Beta
+## 12/11/2020
+* Bugfix sur le lancement du bouton rafraichir
+* Bugfix refraichissement des bouton activer / desactiver le push apres la demande de changement autorisation
+* Ajout d'un flag Push sur la page de santé
+* Ajout d'un flag lien avec withings sur la page de santé
+
 ## 10/11/2020
 * Ajout d'un parametre d'application au commande
 * Ajout d'une selection d'application a ecouté en push
