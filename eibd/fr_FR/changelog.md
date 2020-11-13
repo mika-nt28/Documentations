@@ -6,6 +6,10 @@ pluginId: eibd
 ---
 
 # Stable
+## 13/11/2020
+* Bugfix "PHP Warning:  Illegal string offset 'id' in /var/www/html/plugins/eibd/core/class/eibd.class.php on line 864"
+* Bugfix "PHP Warning:  Illegal string offset 'id' in /var/www/html/plugins/eibd/core/class/eibd.class.php on line 962"
+
 ## 12/10/2020
 * Ajout d'une condition de log lovel different de Aucun pour le log du demon
 
