@@ -17,7 +17,31 @@ pluginId: Freebox_OS
 
 > **Si vous avez une version antérieure au 26/08/2020, il est nécessaire de refaire l’appairage** [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
 
-# Stable
+## Fil d'actualité
+
+> [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
+
+# Changelog
+
+# xx/11/2020 (version Beta)
+
+- **Wifi**
+
+  - Ajout de la prise en charge de la gestion du filtrage des Mac
+  - Possibilité d'ajouter ou supprimer des adresses MAC dans la gestion du filtrage des MAC
+  - Ajout liste des adresses mac filtrer blanches et noires
+
+  > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
+
+- **Appareils connectés**
+
+  - Ajout de la commande pour lancer une **_recherche des nouveaux appareils_** depuis un scénario
+  - Ajout de la commande pour lancer **_Wake on LAN_**, cette fonctionnalité est disponible depuis un scénario (pour répondre à une demande @mguyard)
+    > Pour l'instant il n'est pas possible de sélectionner l'adresse Mac par liste déroulante
+
+- **Général**
+
+  - Optimisation de la création des équipements
 
 ## 06/11/2020
 
@@ -461,7 +485,3 @@ pluginId: Freebox_OS
 ## 27/11/2019
 
 - Ajout des widgets pour la partie mobile
-
-# Beta
-
-> [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
