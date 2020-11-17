@@ -23,3 +23,5 @@ pluginId: voletProp
 * Séparation du plugin et sa documentation
 
 # Beta
+## 17/11/2020
+* Simplification de la synchronisation
