@@ -32,3 +32,6 @@ pluginId: withings
 * Ajout d'un parametre d'application au commande
 * Ajout d'une selection d'application a ecouté en push
 * Activation / Desactivation / Verification du mode push par application necessaire sur la configuration
+
+## 17/11/2020
+* Bugfix des flags de la pages de santé
