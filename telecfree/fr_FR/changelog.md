@@ -6,6 +6,9 @@ pluginId: telecfree
 ---
 
 # Stable
+## 20/11/2020
+* Bugfix affichage des raccourcis sur le widget
+
 ## 19/11/2020
 * Mise a jours du chemin des raccourcis suite a la mise a jours du firmeware de la freebox du 18/11/2020
 * Ajouts des commandes raccourcis 'Prime Video'
