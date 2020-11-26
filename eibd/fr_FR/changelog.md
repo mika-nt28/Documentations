@@ -11,23 +11,23 @@ pluginId: eibd
 * Bugfix "PHP Warning:  Illegal string offset 'id' in /var/www/html/plugins/eibd/core/class/eibd.class.php on line 962"
 
 ## 12/10/2020
-* Ajout d'une condition de log lovel different de Aucun pour le log du demon
+* Ajout d'une condition de log level different de Aucun pour le log du demon
 
 ## 08/09/2020
-* Ajout du Template Station Meteo
-* Ajout du parametre de controle dpt 18.xxx
+* Ajout du Template Station Météo
+* Ajout du paramètre de contrôle dpt 18.xxx
 
 ## 16/07/2020
-* Bugfix nombre de level dans la creation automatique
+* Bugfix nombre de level dans la création automatique
 * Ajout du FT12cemi
-* BugFix Creation et affichage des objets automatiquement
+* BugFix Création et affichage des objets automatiquement
 
 ## 16/06/2020
 * Ajout de log pour l'identification du plantage de demon lorsque les flag sont mauvais
 * Ajout d'un test si FlagWrite actif on renvoie l'info contenue dans jeedom plutot que d'interroger le bus
 
 ## 29/04/2020
-* Mise a jours du Template Lumière avec l'ajout des widgets standard
+* Mise à jours du Template Lumière avec l'ajout des widgets standard
 
 ## 15/04/2020
 * Branche d'installation du GitHub de knxd remplacé
