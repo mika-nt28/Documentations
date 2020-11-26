@@ -36,3 +36,5 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
+## 27/11/2020
+* Ajoute de la personnalisation des actions dans les modes
