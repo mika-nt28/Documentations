@@ -38,6 +38,8 @@ pluginId: Freebox_OS
   - Ajout de la commande pour lancer une **_recherche des nouveaux appareils_** depuis un scénario
   - Ajout de la commande pour lancer **_Wake on LAN_**, cette fonctionnalité est disponible depuis un scénario (pour répondre à une demande @mguyard)
 
+    > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
+
 - **Général**
 
   - Optimisation de la création des équipements
