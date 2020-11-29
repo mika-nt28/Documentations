@@ -6,6 +6,13 @@ pluginId: arrosageAuto
 ---
 # Stable
 
+## 29/11/2020
+* Ajout de log sur le bilan debit et pression
+* Bugfix sur le temps de declage (temps maximal des branches précédente)
+* Bugfix sur l'initalisation des valeurs dans le decalage pour les branches suivantes
+* Bugfix interdiction du decalage si le temps est a 0
+* Bugfix arrosage lorsque trop de pluie la veille
+
 ## 04/11/2020
 * Correction temps d'arrosage negatif
 * Recherche de la prochaine programmation lorsque le programmation est passé
@@ -31,9 +38,3 @@ pluginId: arrosageAuto
 * Correction du défaut a la création des commandes avec le version 4.xxx
 
 # Beta
-## 06/11/2020
-* Ajout de log sur le bilan debit et pression
-* Bugfix sur le temps de declage (temps maximal des branches précédente)
-* Bugfix sur l'initalisation des valeurs dans le decalage pour les branches suivantes
-# 07/11/2020
-* Bugfix interdiction du decalage si le temps est a 0
