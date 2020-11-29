@@ -37,11 +37,12 @@ pluginId: Freebox_OS
 
   - Ajout de la commande pour lancer une **_recherche des nouveaux appareils_** depuis un scénario
   - Ajout de la commande pour lancer **_Wake on LAN_**, cette fonctionnalité est disponible depuis un scénario (pour répondre à une demande @mguyard)
-    > Pour l'instant il n'est pas possible de sélectionner l'adresse Mac par liste déroulante
 
 - **Général**
 
   - Optimisation de la création des équipements
+  - Amélioration général de l'affichage suivant le Template Jeedom
+  - Ajout info bulle sur les commandes
 
 ## 06/11/2020
 

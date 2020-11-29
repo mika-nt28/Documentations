@@ -20,6 +20,7 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
   - Redémarrer votre Freebox
   - Les débits internet
   - L'état de votre connexion
+  - Gestion du filtrage des appels
 - **Téléphone :**
   - Le nombre d'appels en absence
   - Le nombre d'appels passés
@@ -28,6 +29,7 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
   - La place disponible dans vos disques connectés à la Freebox Serveur.
 - **Appareils connectés sur le LAN et le Wifi Invité:**
   - L’état de chaque équipement DHCP
+  - Possibilité d'utiliser la commande **_Wake on LAN_** uniquement par scénario
 - **Domotique (uniquement pour la DELTA) :**
   - Récupère les infos de la maison connectée
 
@@ -133,6 +135,7 @@ Les équipements et les commandes suivants vont être créés :
   - AirMedia Stop
 - **Appareils connectés**
   - Ensemble des appareils connectés à la Freebox
+  - Possibilité d'utiliser la commande **_Wake on LAN_** uniquement par scénario
 - **Disques**
   - Occupation du disque
 - **Freebox Débits**
@@ -186,6 +189,7 @@ Les équipements et les commandes suivants vont être créés :
   - Statut du wifi
   - Wifi On
   - Wifi Off
+  - Gestion du filtrage des appels
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
@@ -211,6 +215,33 @@ Les équipements et les commandes suivants vont être créés :
 - Bloquer
 - Autoriser
 - Bloquer 30min/1h/2h
+
+# Gérer le filtrage des adresses MAC
+
+Cette gestion se fait uniquement par scénario
+
+<p><img src="../images/add_dell_mac_filtrage.png" alt="Recherche des équipements spécifiques" width="800" /></p>
+
+- Adresse Mac : indiquer l'adresse mac de l'appareil
+- Méthode : sélectionner la méthode
+  > - **Ajout**
+  > - **Supprimer**
+- Type de filtrage : sélectionner le filtre
+  > - **Liste blanche**
+  > - **Liste noire**
+- Commentaires
+
+> **A savoir** : l'appareil n'est pas automatiquement supprimer d'une liste si un changement de type de filtrage est fait.
+
+# Fonction Wake on LAN
+
+Cette gestion se fait par la modale depuis le widget des appareils connectés ou depuis un scénario.
+
+<p><img src="../images/wakeonlan.png" alt="Recherche des équipements spécifiques" width="800" /></p>
+
+- Adresse Mac : indiquer l'adresse mac de l'appareil
+- Mot de Passe : indiquer le mot de passe
+  > Si pas de mot de passe, laisser la case vide
 
 # Freebox Delta
 
