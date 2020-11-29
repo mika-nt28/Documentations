@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/11/2020 (version Beta)
+# 29/11/2020 (version Beta)
 
 - **Wifi**
 
