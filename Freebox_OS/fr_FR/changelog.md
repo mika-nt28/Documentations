@@ -23,13 +23,13 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/11/2020 (version Beta)
+# 29/11/2020 (version Beta)
 
 - **Wifi**
 
   - Ajout de la prise en charge de la gestion du filtrage des Mac
   - Possibilité d'ajouter ou supprimer des adresses MAC dans la gestion du filtrage des MAC
-  - Ajout liste des adresses mac filtrer blanches et noires
+  - Ajout du filtrage des des adresses mac : listes blanches / Listes noires (ce filtrage se fait par scénario)
 
   > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
 
@@ -37,11 +37,12 @@ pluginId: Freebox_OS
 
   - Ajout de la commande pour lancer une **_recherche des nouveaux appareils_** depuis un scénario
   - Ajout de la commande pour lancer **_Wake on LAN_**, cette fonctionnalité est disponible depuis un scénario (pour répondre à une demande @mguyard)
-    > Pour l'instant il n'est pas possible de sélectionner l'adresse Mac par liste déroulante
 
 - **Général**
 
   - Optimisation de la création des équipements
+  - Amélioration général de l'affichage suivant le Template Jeedom
+  - Ajout des info bulle sur les commandes
 
 ## 06/11/2020
 
