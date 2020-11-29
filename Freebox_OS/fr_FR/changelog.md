@@ -42,7 +42,7 @@ pluginId: Freebox_OS
 
   - Optimisation de la création des équipements
   - Amélioration général de l'affichage suivant le Template Jeedom
-  - Ajout info bulle sur les commandes
+  - Ajout des info bulle sur les commandes
 
 ## 06/11/2020
 
