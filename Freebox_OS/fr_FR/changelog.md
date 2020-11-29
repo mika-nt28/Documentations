@@ -29,7 +29,7 @@ pluginId: Freebox_OS
 
   - Ajout de la prise en charge de la gestion du filtrage des Mac
   - Possibilité d'ajouter ou supprimer des adresses MAC dans la gestion du filtrage des MAC
-  - Ajout liste des adresses mac filtrer blanches et noires
+  - Ajout du filtrage des des adresses mac : listes blanches / Listes noires
 
   > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
 
