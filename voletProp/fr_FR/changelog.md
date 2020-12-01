@@ -6,6 +6,9 @@ pluginId: voletProp
 ---
 
 # Stable
+## 1/12/2020
+* Simplification de la synchronisation
+
 ## 10/11/2020
 * Bugfix lever du flag mouvement lors d'un detection de fin de course
 * Interdiction lancement du demon si le temps de montée ou descente est a 0
@@ -23,5 +26,3 @@ pluginId: voletProp
 * Séparation du plugin et sa documentation
 
 # Beta
-## 17/11/2020
-* Simplification de la synchronisation
