@@ -5,6 +5,10 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 01/12/2020
+* Ajout de la personnalisation des actions dans les modes
+* Bugfix mise a jours de le température uniquement lorsque la pompe de circulation est active
+
 ## 27/11/2020
 * Interdiction de mise a jours les temperatures si la valeur reçus est a 255
 
@@ -36,5 +40,3 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
-## 27/11/2020
-* Ajoute de la personnalisation des actions dans les modes
