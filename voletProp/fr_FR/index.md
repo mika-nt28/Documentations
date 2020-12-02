@@ -25,7 +25,7 @@ Général
 * Visible : Permet de rendre l'équipement visible dans le Dashboard
 * Activer : Permet d'activer l'équipement
 * Délais minimal : Permet de déterminer le délai entre 2 commandes (Attention plus le délai est grand et plus le petite montée seront impossible).
-* Synchro : Sélectionner les types de synchro que vous souhaité.
+* Synchro : Si cochée, une synchronisation de montée ou descente total sera fait avant le mouvement.
 
 Objet de control du volet
 ---
