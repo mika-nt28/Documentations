@@ -6,7 +6,7 @@ pluginId: voletProp
 ---
 
 # Stable
-## 1/12/2020
+## 2/12/2020
 * Simplification de la synchronisation
 
 ## 10/11/2020
