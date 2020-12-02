@@ -6,6 +6,9 @@ pluginId: openalpr
 ---
 
 # Stable
+## 02/12/2020
+* Bugfix droit sur le fichier de mask
+
 ## 27/05/2020
 * ajout d'un temps maximum d'installation des dépendances 
 ## 20/05/2020
