@@ -6,6 +6,9 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 03/12/2020
+* Ajout de l'activation de la prise de video
+* Bugfix sur le telechargement de photo des visages
 
 ## 17/07/2020
 * Mise a jours du scripte d'installation
