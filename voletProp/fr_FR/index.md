@@ -34,8 +34,8 @@ Objet de control du volet
 * Objet de stop  : Commande Jeedom permettant de contrôler le stop (Action -> Défaut)
 * Objet de descente : Commande Jeedom permettant de contrôler la descente (Action -> Défaut)
 
-> La commande stop n'est pas obligatoire. 
-Dans se cas le plugin attend la même commande de mouvement pour s'arrêter 
+> La commande stop n'est pas obligatoire.
+Lorsque le champs de l'objet Stop n'est pas remplis, le plugin utilisera la même commande de mouvement pour s'arrêter 
 
 Objet d'état du volet
 ---
