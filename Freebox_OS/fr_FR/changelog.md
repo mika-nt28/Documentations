@@ -23,7 +23,18 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 29/11/2020 (version Beta)
+# 03/12/2020 (Beta)
+
+- **Wifi**
+
+  - Correction retour d'état du Wifi
+  - Ajout statut des différentes carte Wifi
+
+  **Général**
+
+  - Correction bouton recherche sur les équipements systèmes
+
+# 29/11/2020
 
 - **Wifi**
 
