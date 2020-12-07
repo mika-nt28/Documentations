@@ -23,7 +23,15 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 03/12/2020 (Beta)
+# 07/12/2020
+
+- **Appareils connectés**
+
+  - Modale "Paramètres de l'appareil connecté"
+    - Correction Bug sur l'affichage des ports
+    - Possibilité de supprimer une redirection de Port
+    - Possibilité pour le **_Wake on LAN_** de mettre un mot de passe
+    - Retour info sur les commandes de type action
 
 - **Wifi**
 
