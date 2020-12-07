@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 07/12/2020
+# 08/12/2020
 
 - **Appareils connectés**
 
