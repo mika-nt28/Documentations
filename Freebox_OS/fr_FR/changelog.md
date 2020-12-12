@@ -23,6 +23,15 @@ pluginId: Freebox_OS
 
 # Changelog
 
+# 13/12/2020
+
+- Correction Bug sur la recherche des équipements Débits
+
+# 09/12/2020
+
+- Correction Bug sur Alarme non fonctionnelle avec Homebridge
+  > Il faut relancer une recherche des Tiles pour résoudre ce problème
+
 # 08/12/2020
 
 - **Appareils connectés**
