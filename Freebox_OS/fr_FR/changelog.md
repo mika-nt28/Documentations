@@ -25,10 +25,11 @@ pluginId: Freebox_OS
 
 # xx/12/2020 (BETA)
 
+- Correction bug sur la création de la caméra
 - Amélioration de la recherche pour les commandes supplémentaires des équipements
-- AMélioration de la fonction Alarme non fonctionnelle avec Homebridge
-  > **Il faut sauvegarder l'équipement du système d'Alarme pour avoir les améliorations**
-  > **Sans cet sauvegarde, le système Homebridge ne fonctionnera plus**
+- Amélioration de la fonction Alarme non fonctionnelle avec Homebridge
+  > - **Il faut sauvegarder l'équipement du système d'Alarme pour avoir les améliorations**
+  > - **Sans cet sauvegarde, le système Homebridge ne fonctionnera plus**
 
 # 13/12/2020
 
