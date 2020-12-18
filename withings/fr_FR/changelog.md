@@ -32,3 +32,6 @@ pluginId: withings
 * Message d'alerte lorsque l'on n'arrive pas à rafraichir le token
 
 # Beta
+## 18/12/2020
+* Ajout de la commande presence dans le lit
+* Gestion des rafraichissements dans le push
