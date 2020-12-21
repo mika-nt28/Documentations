@@ -5,6 +5,9 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 21/12/2020
+* Bugfix Changement de mode sans conditions
+
 ## 01/12/2020
 * Ajout de la personnalisation des actions dans les modes
 * Bugfix mise a jours de le température uniquement lorsque la pompe de circulation est active
