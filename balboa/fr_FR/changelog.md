@@ -5,6 +5,9 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 22/12/2020
+* Bugfix Suppression des conditions dans les modes
+
 ## 21/12/2020
 * Bugfix Changement de mode sans conditions
 
