@@ -216,6 +216,25 @@ Les équipements et les commandes suivants vont être créés :
 - Autoriser
 - Bloquer 30min/1h/2h
 
+# Attribuer une adresse IP fixe
+
+Cette gestion se fait uniquement par scénario
+
+<p><img src="../images/add_dell_ip.png" alt="Recherche des équipements spécifiques" width="800" /></p>
+
+- Adresse Mac : indiquer l'adresse mac de l'appareil
+- Méthode : sélectionner la méthode
+  > - **Ajout**
+  > - **Supprimer**
+  > - **Modifier le commentaire**
+  > - **Modifier le type de générique**
+- IP : indiquer l'adresse IP de l'appareil
+- Nom l'équipement : indiquer le nom de l'appareil
+- Commentaires
+- Type de Périphérique : sélectionner le type de périphérique
+  > - **Liste blanche**
+  > - **Liste noire**
+
 # Gérer le filtrage des adresses MAC
 
 Cette gestion se fait uniquement par scénario
