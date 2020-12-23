@@ -91,18 +91,18 @@ pluginId: Freebox_OS
   - Amélioration général de l'affichage suivant le Template Jeedom
   - Ajout des info bulle sur les commandes
 
-## 06/11/2020
+# 06/11/2020
 
 - Amélioration de la liste des objets parents
 - Ajout de la page santé pour les équipements
   > Attention, la batterie n'est pas prise en charge pour certains équipements (Télécommande, Détecteur de mouvement)
 
-## 28/10/2020
+# 28/10/2020
 
 - Correction du refresh de l'état 4G
 - Amélioration des Tiles
 
-## 15/10/2020
+# 15/10/2020
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86, Noodom pour leurs aides et leurs retours
@@ -125,7 +125,7 @@ pluginId: Freebox_OS
   - Prise en compte des versions des équipements pour la mise à jour du plugin
   - Amélioration log close session
 
-## 14/10/2020
+# 14/10/2020
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86, Freetronic pour leurs aides et leurs retours
@@ -150,7 +150,7 @@ pluginId: Freebox_OS
     - Non exécution des Crons si l'équipement est désactivé
     - Ajout de log supplémentaire en cas de problème sur un Cron
 
-## 01/10/2020
+# 01/10/2020
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86 pour leurs aides et leurs retours
@@ -193,7 +193,7 @@ pluginId: Freebox_OS
   - Résolution des bugs dans les logs en mode info
   - Résolution des divisions par zéro
 
-## 12/09/2020
+# 12/09/2020
 
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
@@ -214,7 +214,7 @@ pluginId: Freebox_OS
   > - Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
   > - Le player mini4K n'est pas compatible, le player POP n'est pas encore compatible
 
-## 30/08/2020
+# 30/08/2020
 
 - Corrections Bug Type de générique sur les commandes Wifi Planning
 - Correction Bug recherche Appareils connectés Wifi Invité
@@ -222,7 +222,7 @@ pluginId: Freebox_OS
 - Corrections slider couleur inactif
   > il faudra supprimer la commande slider couleur et faire une recherche des tiles pour avoir cette correction
 
-## 29/08/2020
+# 29/08/2020
 
 - **Freebox Débits**
 
@@ -263,13 +263,13 @@ pluginId: Freebox_OS
   - Possibilité d'inverser la commande pour les actions de type curseur
     > Il faut avoir la valeur mini et maxi de renseigner pour que cela fonctionne
 
-## 26/08/2020
+# 26/08/2020
 
 - Correction bug routé crantée infinie lors de la mise à jour
 - Correction Bug débit, les débit 4G ne sont plus ajoutés si la carte n'est pas présente
 - Correction ordre des commandes de débit
 
-## 25/08/2020
+# 25/08/2020
 
 > **Important**  
 > **Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu**
@@ -336,13 +336,13 @@ pluginId: Freebox_OS
 - **Equipements Appareils connectés Wifi Invité**
   - Ajout de cet équipement
 
-## 06/08/2020
+# 06/08/2020
 
 > Suite à la mise à jour de la Freebox en 4.2.3
 
 - Correction IP Freebox
 
-## 29/07/2020
+# 29/07/2020
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's, Olive, jcamus86 pour leurs aides et leurs retours
@@ -366,7 +366,7 @@ pluginId: Freebox_OS
   - Affectation des Temps de rafraichissement (cron) différents suivant le type d'équipement.
     > Cela s'appliquera uniquement pour les nouveaux équipements
 
-## 24/07/2020
+# 24/07/2020
 
 > **Attention Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 >
@@ -419,7 +419,7 @@ pluginId: Freebox_OS
   - Corrections bugs sur les sliders de type éclairage
     > Il faut absolument supprimer les commandes pour avoir ce problème résolu
 
-## 05/07/2020
+# 05/07/2020
 
 - Résolution bug transparence équipement réseau + disques
 - Résolution bug Etat HomeAdapters
@@ -435,7 +435,7 @@ pluginId: Freebox_OS
     >   - **URL du Flux** : rtsp://#username#:#password#@#ip#/img/live
     >   - **Nombre d'images par seconde de la vidéo** _(onglet capture)_ : 15
 
-## 02/07/2020
+# 02/07/2020
 
 - **Wifi**
   - Déplacement des commandes vers un équipement spécifique Wifi
@@ -474,7 +474,7 @@ pluginId: Freebox_OS
   - Désactivation de la création des équipements à la première installation
     > il faudra cliquer sur "Scan équipements standards"
 
-## 11/06/2020
+# 11/06/2020
 
 - Bug : Correction Affichage Batterie : Masqué par défaut
 - Bug : Template par défaut pour le sabotage et l'ouverture
@@ -482,11 +482,11 @@ pluginId: Freebox_OS
 - Bug : Détecteur de présence correction des templates et l'inversion des signaux
 - Autorisation de supprimer les commandes
 
-## 09/06/2020
+# 09/06/2020
 
 - Modification remontée alarme batterie lors de la création de la commande
 
-## 07/06 et 08/06/2020
+# 07/06 et 08/06/2020
 
 - Équipement de type "Tiles"
 
@@ -503,7 +503,7 @@ pluginId: Freebox_OS
 - Ajout commande "refresh" => commande masquée par défaut dans les listes des commandes
 - Clean code
 
-## 27/05/2020
+# 27/05/2020
 
 - Ajout info lors de la recherche des Tiles
 - Amélioration affichage des commandes
@@ -511,25 +511,25 @@ pluginId: Freebox_OS
 - Séparation des équipements Home et Tiles dans la liste des équipements
 - Nettoyage des cron à la suppression du plugin
 
-## 03/04/2020
+# 03/04/2020
 
 - Séparation du plugin et sa documentation
 
-## 19/12/2019
+# 19/12/2019
 
 - BugFix Syntax Error
 
-## 11/12/2019
+# 11/12/2019
 
 - BugFix déconnexion en cas de réponse fausse
 - Suppression des équipements réseau en cas de réponse invalide
 
-## 10/12/2019
+# 10/12/2019
 
 - Restructuration de la class API
 - Création d'un cron de rafraichissement du token pour n'avoir qu'une seule session
 - Mise a jour du widget Réseau
 
-## 27/11/2019
+# 27/11/2019
 
 - Ajout des widgets pour la partie mobile
