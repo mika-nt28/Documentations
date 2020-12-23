@@ -25,11 +25,21 @@ pluginId: Freebox_OS
 
 # xx/12/2020 (BETA)
 
-- Correction bug sur la création de la caméra
 - Amélioration de la recherche pour les commandes supplémentaires des équipements
-- Amélioration de la fonction Alarme non fonctionnelle avec Homebridge
-  > - **Il faut sauvegarder l'équipement du système d'Alarme pour avoir les améliorations**
-  > - **Sans cet sauvegarde, le système Homebridge ne fonctionnera plus**
+- Amélioration de l'affichage pour les mobiles de la partie authentification
+
+- **Appareils connectés**
+
+  - Ajout de la commande pour attribuer une **_adresse IP Fixe_** depuis un scénario
+    > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
+
+- **Tiles**
+  - Amélioration de la fonction Alarme non fonctionnelle avec Homebridge
+    > - **Il faut sauvegarder l'équipement du système d'Alarme pour avoir les améliorations**
+    > - **Sans cette sauvegarde, le système Homebridge ne fonctionnera plus**
+  - Inversion de l'état des détecteurs de mouvement pour être compatible avec Homebridge
+    > - **Il faut sauvegarder lancer un Scan Tiles**
+  - Correction bug sur la création de la caméra
 
 # 13/12/2020
 
@@ -44,11 +54,10 @@ pluginId: Freebox_OS
 
 - **Appareils connectés**
 
-  - Modale "Paramètres de l'appareil connecté"
-    - Correction Bug sur l'affichage des ports
-    - Possibilité de supprimer une redirection de Port
-    - Possibilité pour le **_Wake on LAN_** de mettre un mot de passe
-    - Retour info sur les commandes de type action
+  - Ajout de la commande pour lancer une **_recherche des nouveaux appareils_** depuis un scénario
+  - Ajout de la commande pour lancer **_Wake on LAN_**, cette fonctionnalité est disponible depuis un scénario (pour répondre à une demande @mguyard)
+
+    > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
 
 - **Wifi**
 
@@ -64,7 +73,7 @@ pluginId: Freebox_OS
 - **Wifi**
 
   - Ajout de la prise en charge de la gestion du filtrage des Mac
-  - Possibilité d'ajouter ou supprimer des adresses MAC dans la gestion du filtrage des MAC
+  - Possibilité d'ajouter ou supprimer des adresses MAC dans la gestion du filtrage des MAC depuis un scénario
   - Ajout du filtrage des des adresses mac : listes blanches / Listes noires (ce filtrage se fait par scénario)
 
   > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
@@ -249,7 +258,7 @@ pluginId: Freebox_OS
   PLAYER : Freebox-Mini-52ec41c5c8d0bbee -- L'Id est vide donc pas de création de l'équipement (mettre sous tension le player pour résoudre ce problème)
   ```
 
-  - **Tiles**
+- **Tiles**
 
   - Possibilité d'inverser la commande pour les actions de type curseur
     > Il faut avoir la valeur mini et maxi de renseigner pour que cela fonctionne
