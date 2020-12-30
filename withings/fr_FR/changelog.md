@@ -6,6 +6,10 @@ pluginId: withings
 ---
 
 # Stable
+## 30/12/2020
+* Ajout de la commande presence dans le lit
+* Gestion des rafraichissements dans le push
+
 ## 07/12/2020
 * Bugfix sur le lancement du bouton rafraichir
 * Bugfix refraichissement des bouton activer / desactiver le push apres la demande de changement autorisation
@@ -32,6 +36,3 @@ pluginId: withings
 * Message d'alerte lorsque l'on n'arrive pas à rafraichir le token
 
 # Beta
-## 18/12/2020
-* Ajout de la commande presence dans le lit
-* Gestion des rafraichissements dans le push
