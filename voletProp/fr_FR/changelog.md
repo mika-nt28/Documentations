@@ -6,7 +6,10 @@ pluginId: voletProp
 ---
 
 # Stable
-## 2/12/2020
+## 05/01/2021
+* Bugfix mise a jours du sens de mouvement apres la synchronisation
+
+## 02/12/2020
 * Simplification de la synchronisation
 
 ## 10/11/2020
