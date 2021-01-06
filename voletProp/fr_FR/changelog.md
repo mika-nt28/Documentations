@@ -6,7 +6,7 @@ pluginId: voletProp
 ---
 
 # Stable
-## 05/01/2021
+## 06/01/2021
 * Bugfix sens de mouvement apres la synchronisation
 * Bugfix pas des synchronisation si on est deja a 0 ou 100
 * Nettoyage du code et utilisation des commandes de mouvement du plugin dans la logique plutot que directement les commandes configuré
