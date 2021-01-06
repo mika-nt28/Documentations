@@ -55,6 +55,9 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
+## 06/01/2021
+* Mise a jours des droit sur le port au lancement du démon
+
 ## 19/12/2020
 * Ajout d'un systeme de creation d'equipement par template depuis l'arboressance (fonctionnement inverse d'une creation par template)
 
