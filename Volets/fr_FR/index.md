@@ -210,8 +210,8 @@ Si le soleil est au-dessous du minimum ou au-dessus du maximum alors le ratio se
 
 Pour calculer la fermeture proportionnelle du volet par rapport à l'altitude du soleil, le plugin a besoin de calculé l'ange d'ombrage.
 ![introduction01](../images/Ombrage.jpg)
-* Hauteur du mur (m) : Hauteur du mur jusqu'au toit créant l'ombrage
-* Hauteur du seuil de fenêtre (m) : Hauteur du mur jusqu'au seuil de la fenêtre
+* Hauteur de la fenetre (m) : Hauteur de derroulement du volet
+* Hauteur entre fenêtre et le dégagement de toit (m) : Hauteur du haut de la fenêtre jusqu'a la perpendiculariter du degagement de toit
 * Dégagement du toit (m) : Longueur entre le bord du toit et la fenêtre
 
 ### Conditionner
