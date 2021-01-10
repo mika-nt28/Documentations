@@ -35,7 +35,7 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
-  > - **Pour l'ensemble des nouveautés ci-dessous, il faut sauvegarder lancer un Scan Tiles**
+  > - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
 
   - **Caméra**
 
