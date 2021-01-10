@@ -82,6 +82,7 @@ pluginId: Freebox_OS
     - Amélioration de la fonction Alarme non fonctionnelle avec Homebridge
       > - **Il faut sauvegarder l'équipement du système d'Alarme pour avoir les améliorations**
       > - **Sans cette sauvegarde, le système Homebridge ne fonctionnera plus**
+    - Ajout du type de batterie dans l'équipement
 
 # 13/12/2020
 
