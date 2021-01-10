@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/12/2020 (BETA)
+# xx/01/2021 (BETA)
 
 - Amélioration de la recherche pour les commandes supplémentaires des équipements
 - Amélioration de l'affichage pour les mobiles de la partie authentification
@@ -34,12 +34,55 @@ pluginId: Freebox_OS
     > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
 
 - **Tiles**
-  - Amélioration de la fonction Alarme non fonctionnelle avec Homebridge
-    > - **Il faut sauvegarder l'équipement du système d'Alarme pour avoir les améliorations**
-    > - **Sans cette sauvegarde, le système Homebridge ne fonctionnera plus**
-  - Inversion de l'état des détecteurs de mouvement pour être compatible avec Homebridge
-    > - **Il faut sauvegarder lancer un Scan Tiles**
-  - Correction bug sur la création de la caméra
+
+  > - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
+
+  - **Caméra**
+
+    - Ajout de cet équipement dans le plugin avec la possibilité de:
+      - Activer / Désactiver :
+        > - La détection de mouvement
+        > - Activer avec l'Alarme
+        > - Qualité HD
+        > - Retourner verticalement
+        > - Horodatage
+        > - Détection du Bruit
+        > - Flux rtsp
+      - Régler :
+        > - Sensibilité
+        > - Seuil
+        > - Sensibilité du micro
+        > - Volume du micro
+    - La caméra est automatiquement ajoutée dans le plugin caméra si celui-ci est présent
+      > - Correction bug sur la création de la caméra
+
+  - **Télécommande**
+
+    - Ajout du type de batterie dans l'équipement
+
+  - **Détecteur de mouvement / d'ouverture**
+
+    - Ajout des fonctions :
+      - Activer / Désactiver pour :
+        > - Zone temporisée
+        > - Alarme principale
+        > - Alarme secondaire
+    - Inversion de l'état des détecteurs de mouvement pour être compatible avec Homebridge
+    - Ajout du type de batterie dans l'équipement
+
+  - **Alarme**
+
+    - Ajout des fonctions :
+      - Régler :
+        > - Puissance des bips
+        > - Puissance de la sirène
+        > - Délai avant armement
+        > - Délai avec siréne
+        > - Durée de la siréne
+    - Amélioration de la fonction Alarme non fonctionnelle avec Homebridge
+      > - **Il faut sauvegarder l'équipement du système d'Alarme pour avoir les améliorations**
+      > - **Sans cette sauvegarde, le système Homebridge ne fonctionnera plus**
+    - Ajout du type de batterie dans l'équipement
 
 # 13/12/2020
 
