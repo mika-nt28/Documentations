@@ -39,11 +39,11 @@ pluginId: Freebox_OS
 
   - **Caméra**
 
-    - Ajout de cette équipement dans le plugin avec la possibilité :
+    - Ajout de cet équipement dans le plugin avec la possibilité de:
       - Activer / Désactiver :
         > - La détection de mouvement
         > - Activer avec l'Alarme
-        > - Haute qualité HD
+        > - Qualité HD
         > - Retourner verticalement
         > - Horodatage
         > - Détection du Bruit
@@ -60,7 +60,7 @@ pluginId: Freebox_OS
 
     - Ajout du type de batterie dans l'équipement
 
-  - **Détecteur de mouvement / d'Ouverture**
+  - **Détecteur de mouvement / d'ouverture**
 
     - Ajout des fonctions :
       - Activer / Désactiver pour :
