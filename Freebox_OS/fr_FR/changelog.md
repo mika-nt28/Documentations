@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/12/2020 (BETA)
+# xx/01/2021 (BETA)
 
 - Amélioration de la recherche pour les commandes supplémentaires des équipements
 - Amélioration de l'affichage pour les mobiles de la partie authentification
