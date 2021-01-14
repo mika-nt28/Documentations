@@ -55,6 +55,10 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
+## 14/01/2021
+* Bugfix logique de selection Template / Commande depuis l'arboressance
+* Bugfix flag initialisation
+
 ## 06/01/2021
 * Mise a jours des droit sur le port au lancement du démon
 
