@@ -59,6 +59,7 @@ pluginId: Freebox_OS
   - **Télécommande**
 
     - Ajout du type de batterie dans l'équipement
+    - Ajout de la fonction : Activé l'équipement
 
   - **Détecteur de mouvement / d'ouverture**
 
