@@ -25,6 +25,8 @@ pluginId: Freebox_OS
 
 # xx/01/2021 (BETA)
 
+# 22/01/2021
+
 - Amélioration de la recherche pour les commandes supplémentaires des équipements
 - Amélioration de l'affichage pour les mobiles de la partie authentification
 
@@ -54,7 +56,7 @@ pluginId: Freebox_OS
         > - Sensibilité du micro
         > - Volume du micro
     - La caméra est automatiquement ajoutée dans le plugin caméra si celui-ci est présent
-      > - Correction bug sur la création de la caméra
+      > - Correction bug sur la création de la caméra dans le plugin CAMERA
 
   - **Télécommande**
 
