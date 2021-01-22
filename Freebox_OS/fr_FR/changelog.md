@@ -25,6 +25,16 @@ pluginId: Freebox_OS
 
 # xx/01/2021 (BETA)
 
+# 23/01/2021
+
+- **Tiles**
+
+  > - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
+
+  - **Alarme**
+
+    - Correction Bug non actualisation des états pour Homebridge
+
 # 22/01/2021
 
 - Amélioration de la recherche pour les commandes supplémentaires des équipements
