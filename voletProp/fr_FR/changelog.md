@@ -31,5 +31,8 @@ pluginId: voletProp
 * Séparation du plugin et sa documentation
 
 # Beta
+## 22/01/2021
+* Attente en proportionnel gérer par le demon => Stop possible a tout moment
+
 ## 08/01/2021
 * Suppression du parametre d'utilisation de l'etat du plugin (automatique si on a pas de retour d'etat)
