@@ -88,7 +88,7 @@ pluginId: Freebox_OS
     - Ajout des fonctions :
       - Régler :
         > - Puissance des bips
-        > - Puissance de la sirène
+        > - Puissance de la siréne
         > - Délai avant armement
         > - Délai avec siréne
         > - Durée de la siréne
