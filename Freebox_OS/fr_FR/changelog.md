@@ -23,7 +23,24 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/01/2021 (BETA)
+# 24/01/2021 (BETA)
+
+- **Equipement standard**
+
+  - Ajout équipement "Afficheur LCD"
+
+> - **\_Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
+
+- **Tiles**
+
+  - **Homeadapteur**
+
+    - Amélioration de l'update des commandes
+    - Correction Bug sur la création des commandes
+
+  - **Page santée**
+    - Amélioration affichage
+    - Correction Bug des niveaux des batteries pour les télécommandes de l'alarme
 
 # 23/01/2021
 
