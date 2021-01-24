@@ -29,7 +29,7 @@ pluginId: Freebox_OS
 
   - Ajout équipement "Afficheur LCD"
 
-> - **\_Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
+> - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
 
 - **Tiles**
 
