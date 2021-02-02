@@ -31,6 +31,9 @@ pluginId: voletProp
 * Séparation du plugin et sa documentation
 
 # Beta
+## 02/02/2021
+* Bugfix Charge CPU a cause du demon
+
 ## 22/01/2021
 * Attente en proportionnel gérer par le demon => Stop possible a tout moment
 
