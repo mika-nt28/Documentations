@@ -55,6 +55,10 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
+## 04/02/2021
+* Interdiction d'envoyer une requet si demon NOK
+* Mise en place du temps d'attente entre 2 commande READ
+
 ## 21/01/2021
 * Ajout du nom du nouvelle equipement dans la selection Template / Commande depuis l'arboressance
 * Désactivation de l'option lorsque deja utilisé
