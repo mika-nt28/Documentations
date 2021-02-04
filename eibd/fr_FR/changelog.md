@@ -58,6 +58,8 @@ pluginId: eibd
 ## 04/02/2021
 * Interdiction d'envoyer une requet si demon NOK
 * Mise en place du temps d'attente entre 2 commande READ
+* Bugfix retour d'etat en creation template dans arbo
+* Ajout du parent dans la creation template dans l'arbo
 
 ## 21/01/2021
 * Ajout du nom du nouvelle equipement dans la selection Template / Commande depuis l'arboressance
