@@ -23,7 +23,10 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 24/01/2021 (BETA)
+# 10/02/2021 (BETA)
+
+- Affichage tableau Core v4.2 (beta)
+- Correction recherche contrôle Parental
 
 - **Equipement standard**
 
