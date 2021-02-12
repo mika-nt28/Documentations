@@ -31,6 +31,9 @@ pluginId: voletProp
 * Séparation du plugin et sa documentation
 
 # Beta
+## 12/02/2021
+* Suppression du temps d'attente et du STOP dans une synchro 0 ou  100%
+
 ## 02/02/2021
 * Bugfix Charge CPU a cause du demon
 
