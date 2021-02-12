@@ -6,6 +6,9 @@ pluginId: ChauffeEau
 ---
 
 # Stable
+## 12/02/2021
+* Evalution du temps additionnel
+
 ## 25/06/2020
 * Interdiction de la repetition si on est a moins de 60 seconde de la repetition
 
