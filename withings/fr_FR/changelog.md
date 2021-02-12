@@ -6,6 +6,9 @@ pluginId: withings
 ---
 
 # Stable
+## 11/02/2021
+* BugFix filtrage des mise a jours PUSH
+
 ## 30/12/2020
 * Ajout de la commande presence dans le lit
 * Gestion des rafraichissements dans le push
