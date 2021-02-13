@@ -23,14 +23,14 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 10/02/2021 (BETA)
+# 13/02/2021
 
 - Affichage tableau Core v4.2 (beta)
 - Correction recherche contrôle Parental
 
 - **Equipement standard**
 
-  - Ajout équipement "Afficheur LCD" uniquement pour les box révolutions
+  - Ajout équipement "Afficheur LCD" uniquement pour les Freebox révolutions
 
 > - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
 
