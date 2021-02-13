@@ -21,7 +21,7 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
   - Les débits internet
   - L'état de votre connexion
   - Gestion du filtrage des appels
-- **Téléphone :**
+- **Téléphone :** sur les dernieres 24h
   - Le nombre d'appels en absence
   - Le nombre d'appels passés
   - Le nombre d'appels reçus
@@ -167,7 +167,7 @@ Les équipements et les commandes suivants vont être créés :
   - board name
   - serial
   - 4G si la carte est présente dans la Freebox
-- **Téléphone**
+- **Téléphone** sur les dernieres 24h
   - Nombre Appels Manqués / Reçus / Passés
   - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**

@@ -30,7 +30,7 @@ pluginId: Freebox_OS
 
 - **Equipement standard**
 
-  - Ajout équipement "Afficheur LCD"
+  - Ajout équipement "Afficheur LCD" uniquement pour les box révolutions
 
 > - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
 
