@@ -6,6 +6,9 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 14/02/2021
+* Suppression du multi-threading provoquant une instabilité (Sera remis en place lorsqu'il sera plus stable)
+
 ## 03/12/2020
 * Ajout de l'activation de la prise de video
 * Bugfix sur le telechargement de photo des visages
