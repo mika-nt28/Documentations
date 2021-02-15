@@ -23,7 +23,11 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 13/02/2021
+# 16/02/2021
+
+- Ajout menu Debug pour les box prenant en charge les Tiles (freebox Delta)
+
+# 14/02/2021
 
 - Affichage tableau Core v4.2 (beta)
 - Correction recherche contrôle Parental
