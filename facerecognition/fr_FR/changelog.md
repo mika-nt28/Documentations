@@ -105,5 +105,7 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 15/02/2021
+* Gestion du  multi-treading
 
 # A venir
