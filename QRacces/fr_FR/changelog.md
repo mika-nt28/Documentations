@@ -14,6 +14,8 @@ pluginId: QRacces
 * Ajout d'un parametre d'activation de prise de video
 
 # Beta
+## 15/02/2021
+* Gestion du  multi-treading
 
 # A venir
 * Envoie du QRcode par tous plugin de transmission d'image
