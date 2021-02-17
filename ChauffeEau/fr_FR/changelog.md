@@ -6,6 +6,9 @@ pluginId: ChauffeEau
 ---
 
 # Stable
+## 17/02/2021
+* BugFix Selection de commande
+
 ## 12/02/2021
 * Evalution du temps additionnel
 
