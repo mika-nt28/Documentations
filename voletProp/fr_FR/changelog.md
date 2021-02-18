@@ -31,6 +31,9 @@ pluginId: voletProp
 * Séparation du plugin et sa documentation
 
 # Beta
+## 18/02/2021
+* Debug du demon en proportionel pour leberation des commandes manuel
+
 ## 12/02/2021
 * Suppression du temps d'attente et du STOP dans une synchro 0 ou  100%
 
