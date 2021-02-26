@@ -31,6 +31,9 @@ pluginId: voletProp
 * Séparation du plugin et sa documentation
 
 # Beta
+## 26/02/2021
+* Ajout d'un test du parmetre de mouvement avant un monté ou une descente manuel pour executer un stop et mettre a jours la position
+
 ## 18/02/2021
 * Debug du demon en proportionel pour leberation des commandes manuel
 
