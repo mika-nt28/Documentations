@@ -23,6 +23,13 @@ pluginId: Freebox_OS
 
 # Changelog
 
+# 27/02/2021 (BETA)
+
+- Correction Bug création des caméras
+  > **Attention Il est possible que les caméras soient créee en double**
+- Amélioration Cron refresh Token
+- Amélioration Deamon
+
 # 16/02/2021
 
 - Ajout menu Debug pour les box prenant en charge les Tiles (freebox Delta)
