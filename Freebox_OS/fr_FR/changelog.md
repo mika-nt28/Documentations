@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 02/03/2021 (BETA)
+# 03/03/2021 (BETA)
 
 - Correction Bug création des caméras
   > **Attention Il est possible que les caméras soient créee en double**
@@ -33,8 +33,6 @@ pluginId: Freebox_OS
   > - Air Média
   > - Appareils connectés
   > - Appareils connectés Wifi Invité
-  > - Ensemble des players
-  > - Partage Windows - Mac
   > - Téléchargements
   > - Wifi
 
