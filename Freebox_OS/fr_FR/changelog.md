@@ -23,12 +23,18 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 27/02/2021 (BETA)
+# 03/03/2021 (BETA)
 
 - Correction Bug création des caméras
   > **Attention Il est possible que les caméras soient créee en double**
 - Amélioration Cron refresh Token
 - Amélioration Deamon
+- Mode Bridge : Non création des équipements suivants
+  > - Air Média
+  > - Appareils connectés
+  > - Appareils connectés Wifi Invité
+  > - Téléchargements
+  > - Wifi
 
 # 16/02/2021
 
