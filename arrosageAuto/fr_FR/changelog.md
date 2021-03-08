@@ -5,6 +5,8 @@ lang: fr_FR
 pluginId: arrosageAuto
 ---
 # Stable
+## 08/03/2021
+* Suppression de la baisse de pression en fonction de l'angle d'ouverture
 
 ## 29/11/2020
 * Ajout de log sur le bilan debit et pression
