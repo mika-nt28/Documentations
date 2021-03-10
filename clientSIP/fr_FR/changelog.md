@@ -6,6 +6,9 @@ pluginId: clientSIP
 ---
 
 # Stable
+## 10/03/2021
+* Dubug REGISTER avec 3CX (autentification par proxy)
+* 
 ## 01/05/2020
 * Suppression des dépendance avec le plugin play TTS
 * Ajout du moteur play TTS
