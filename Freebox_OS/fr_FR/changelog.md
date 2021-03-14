@@ -48,8 +48,7 @@ pluginId: Freebox_OS
 - **Equipement standard**
 
   - Ajout équipement "Afficheur LCD" uniquement pour les Freebox révolutions
-
-> - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
+    > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
 
 - **Tiles**
 
@@ -66,7 +65,7 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
-  > - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
+  > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
 
   - **Alarme**
 
@@ -84,7 +83,7 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
-  > - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
+  > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
 
   - **Caméra**
 
