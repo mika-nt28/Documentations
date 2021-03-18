@@ -50,9 +50,21 @@ Chaque condition de la liste formera un ET
 
 Action
 ---
-Vous pouvez configurer le séquencement de votre réveil.
-Pour chaque action il est possible de mettre un délai (positif si on veut le décaler dans le futur et négatif dans le passée)
-Chaque action configurée sera vérifiée et/ou exécutée dans l'ordre choisi.
+Vous pouvez configurer le séquencement de votre réveil, en triant l'ordre de déclanchemente des actions.
+Pour chaque action il est possible de mettre un délai d'attente de son execution 
 
 ![introduction01](../images/ConfigurationAction.jpg)
 
+FAQ
+====
+Peut on interdir un reveil lorsque je suis en congé
+---
+Les conditions sont votre meilleurs amis pour controler les declanchement du reveil
+
+Est il possible de mettre un delais negatif
+---
+Non on ne remonte pas dans le temps
+
+Peut on dynamiquement changer la programmation
+---
+Oui, a chaque programmation, on dispose d'un lien vers l'api 
