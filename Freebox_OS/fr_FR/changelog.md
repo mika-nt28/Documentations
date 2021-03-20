@@ -23,8 +23,10 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 03/03/2021 (BETA)
+# 20/03/2021 (BETA)
 
+- Amélioration création des équipements (gestion des doublons)
+- Amélioration liste des équipements
 - Correction Bug création des caméras
   > **Attention Il est possible que les caméras soient créee en double**
 - Amélioration Cron refresh Token
