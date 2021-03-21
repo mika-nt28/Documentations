@@ -23,8 +23,11 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 03/03/2021 (BETA)
+# 20/03/2021 (BETA)
 
+- Amélioration création des équipements (gestion des doublons)
+- Amélioration liste des équipements
+- Ajout Cron pour les actions pour palier a la lenteur de la Freebox
 - Correction Bug création des caméras
   > **Attention Il est possible que les caméras soient créee en double**
 - Amélioration Cron refresh Token
@@ -48,8 +51,7 @@ pluginId: Freebox_OS
 - **Equipement standard**
 
   - Ajout équipement "Afficheur LCD" uniquement pour les Freebox révolutions
-
-> - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
+    > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
 
 - **Tiles**
 
@@ -66,7 +68,7 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
-  > - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
+  > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
 
   - **Alarme**
 
@@ -84,7 +86,7 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
-  > - **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
+  > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan Tiles**
 
   - **Caméra**
 
