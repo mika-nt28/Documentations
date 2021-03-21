@@ -27,6 +27,7 @@ pluginId: Freebox_OS
 
 - Amélioration création des équipements (gestion des doublons)
 - Amélioration liste des équipements
+- Ajout Cron pour les actions pour palier a la lenteur de la Freebox
 - Correction Bug création des caméras
   > **Attention Il est possible que les caméras soient créee en double**
 - Amélioration Cron refresh Token
