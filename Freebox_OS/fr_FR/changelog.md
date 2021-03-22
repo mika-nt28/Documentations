@@ -39,6 +39,8 @@ pluginId: Freebox_OS
   > - Téléchargements
   > - Wifi
 
+> **Pour l'ensemble des nouveautés ci-dessus, il faut lancer l'ensemble des scans**
+
 # 16/02/2021
 
 - Ajout menu Debug pour les box prenant en charge les Tiles (freebox Delta)
