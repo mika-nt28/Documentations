@@ -23,21 +23,27 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 20/03/2021 (BETA)
+# 01/04/2021 (BETA)
 
 - Amélioration création des équipements (gestion des doublons)
 - Amélioration liste des équipements
-- Ajout Cron pour les actions pour palier a la lenteur de la Freebox
-- Correction Bug création des caméras
-  > **Attention Il est possible que les caméras soient créee en double**
+- Ajout Cron pour les actions pour palier a la lenteur de la Freebox (merci @Nebz et @Foulek57)
 - Amélioration Cron refresh Token
 - Amélioration Deamon
 - Mode Bridge : Non création des équipements suivants
+
   > - Air Média
   > - Appareils connectés
   > - Appareils connectés Wifi Invité
   > - Téléchargements
   > - Wifi
+
+  - **Tiles**
+  - Ajout Cron pour l'actualisation de l'ensemble des équipements (merci @Nebz et @Foulek57)
+  - Correction Bug création des caméras
+    > **Attention Il est possible que les caméras soient créee en double**
+  - Correction Bug création des Prises
+  - Ajout Icône pour les équipement (merci @Skillix)
 
 > **Pour l'ensemble des nouveautés ci-dessus, il faut lancer l'ensemble des scans**
 

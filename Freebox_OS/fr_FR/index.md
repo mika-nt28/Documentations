@@ -201,6 +201,8 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 <p><img src="../images/recherche_commandes.png" alt="Recherche des équipements spécifiques" width="800" /></p>
 
+> Un Cron Journalier permet automatiquement de chercher les nouveaux équipements
+
 # Le contrôle parental
 
 Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
@@ -431,3 +433,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 **Erreur CronDaily avec des noms d'appareils avec des icônes**
 
 > Il ne faut pas que les noms d'appareils comportent des icônes.
+
+**Les nouveaux "Appareils connectés" et "Appareils connectés Wifi Invité" n'apparaissent pas lors de l'actualisation de l'équipement**
+
+> Les nouveaux équipements ne sont pas ajoutés lors de l'actualisation mais uniquement avec le Cron Journalier
