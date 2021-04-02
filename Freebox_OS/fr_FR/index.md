@@ -304,10 +304,10 @@ Les valeurs possibles sont :
 > Le plugin remonte l'historique de la télécommande, il affichera la dernière action faite par la télécommande.
 
 - Les valeurs possibles sont :
-  > - **null** ou **0** = Aucun état
-  > - **1** = Alarme principale
-  > - **2** = Désactivation
-  > - **3** = Alarme secondaire
+  > **null** ou **0** = Aucun état
+  > **1** = Alarme principale
+  > **2** = Désactivation
+  > **3** = Alarme secondaire
 
 ## Les caméras
 
@@ -317,11 +317,10 @@ Les valeurs possibles sont :
 
 # Temps de rafraichissement (cron) des équipements
 
-Il est possible de modifier le cron de rafraichissement de chaque équipement, par défaut :
-
-    - Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron réglé à 5 minutes**
-    - Disque Dur = **Cron réglé à 1 heure**
-    - Ensemble des Tiles sauf FREEBOX - Télécommande (Alarme) = **Cron réglé à 1 minute**
+- Il est possible de modifier le cron de rafraichissement de chaque équipement, par défaut :
+  > Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron réglé à 5 minutes**
+  > Disque Dur = **Cron réglé à 1 heure**
+  > Ensemble des Tiles sauf FREEBOX - Télécommande (Alarme) = **Cron réglé à 1 minute**
 
 > Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
 > Les commandes d'action ne sont pas concernées par ce cron.
@@ -334,11 +333,11 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 > Chaque équipement n'est pas forcement intégré dans le système vue l'évolution de la Freebox
 
-Afin de pouvoir intégrer les nouveaux systèmes.
+- Afin de pouvoir intégrer les nouveaux systèmes, il faut :
 
-    - Mettre le plugin en mode débug
-    - Redémarrer le Démon
-    - Faire **_Scan des tiles_**
+  > Mettre le plugin en mode débug
+  > Redémarrer le Démon
+  > Faire **_Scan des tiles_**
 
 Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le community et fournir les infos suivantes
 
@@ -386,7 +385,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
 - ces infos ne sont pas remontées à la Freebox donc impossible de les avoir dans Jeedom.
-  > - Elles ne sont donc pas disponibles sur la page santé (il est indiqué secteur ou N/A)
+  > Elles ne sont donc pas disponibles sur la page santé (il est indiqué secteur ou N/A)
 
 **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 
