@@ -133,10 +133,10 @@ Les équipements et les commandes suivants vont être créés :
   - Player actuel AirMedia
   - AirMedia Start
   - AirMedia Stop
-- **Appareils connectés**
+- **Appareils connectés** et **Appareils connectés Wifi Invité**
   - Ensemble des appareils connectés à la Freebox
   - Possibilité d'utiliser la commande **_Wake on LAN_** uniquement par scénario
-- **Disques**
+- **Disque Dur**
   - Occupation du disque
 - **Freebox Débits**
   - Freebox rate down
@@ -156,6 +156,11 @@ Les équipements et les commandes suivants vont être créés :
     > La commande est créée uniquement si le player renvoie son état.
     > Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
     > Les Player mini4K ne sont pas compatibles, les players POP ne sont pas encore compatibles.
+- **Partage Windows - Mac**
+  - Activer / Désactiver le Partage de fichiers Mac
+  - Activer / Désactiver le Partage de fichiers Windows
+  - Activer / Désactiver le Partage Imprimante
+  - Activer / Désactiver Partage FTP
 - **Système**
   - Update
   - Reboot
@@ -224,18 +229,16 @@ Cette gestion se fait uniquement par scénario
 
 <p><img src="../images/add_dell_ip.png" alt="Recherche des équipements spécifiques" width="800" /></p>
 
-- Adresse Mac : indiquer l'adresse mac de l'appareil
-- Méthode : sélectionner la méthode
+- Adresse Mac : Indiquer l'adresse mac de l'appareil
+- Méthode : Sélectionner la méthode
   > - **Ajout**
   > - **Supprimer**
   > - **Modifier le commentaire**
   > - **Modifier le type de générique**
-- IP : indiquer l'adresse IP de l'appareil
-- Nom l'équipement : indiquer le nom de l'appareil
+- IP : Indiquer l'adresse IP de l'appareil
+- Nom l'équipement : Indiquer le nom de l'appareil
 - Commentaires
-- Type de Périphérique : sélectionner le type de périphérique
-  > - **Liste blanche**
-  > - **Liste noire**
+- Type de Périphérique : Sélectionner le type de périphérique
 
 # Gérer le filtrage des adresses MAC
 
@@ -243,7 +246,7 @@ Cette gestion se fait uniquement par scénario
 
 <p><img src="../images/add_dell_mac_filtrage.png" alt="Recherche des équipements spécifiques" width="800" /></p>
 
-- Adresse Mac : indiquer l'adresse mac de l'appareil
+- Adresse Mac : Indiquer l'adresse mac de l'appareil
 - Méthode : sélectionner la méthode
   > - **Ajout**
   > - **Supprimer**
