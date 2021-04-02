@@ -38,12 +38,13 @@ pluginId: Freebox_OS
   > - Téléchargements
   > - Wifi
 
-  - **Tiles**
-  - Ajout Cron pour l'actualisation de l'ensemble des équipements (merci @Nebz et @Foulek57)
-  - Correction Bug création des caméras
-    > **Attention Il est possible que les caméras soient créee en double**
-  - Correction Bug création des Prises
-  - Ajout Icône pour les équipement (merci @Skillix)
+**Tiles**
+
+- Ajout Cron pour l'actualisation de l'ensemble des équipements (merci @Nebz et @Foulek57)
+- Correction Bug création des caméras
+  > **Attention Il est possible que les caméras soient créee en double**
+- Correction Bug création des Prises
+- Ajout Icône pour les équipement (merci @Skillix)
 
 > **Pour l'ensemble des nouveautés ci-dessus, il faut lancer l'ensemble des scans**
 
