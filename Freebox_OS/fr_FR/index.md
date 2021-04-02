@@ -303,12 +303,11 @@ Les valeurs possibles sont :
 
 > Le plugin remonte l'historique de la télécommande, il affichera la dernière action faite par la télécommande.
 
-> Les valeurs possibles sont :
-
-- **null** ou **0** = Aucun état
-- **1** = Alarme principale
-- **2** = Désactivation
-- **3** = Alarme secondaire
+- Les valeurs possibles sont :
+  > - **null** ou **0** = Aucun état
+  > - **1** = Alarme principale
+  > - **2** = Désactivation
+  > - **3** = Alarme secondaire
 
 ## Les caméras
 
@@ -316,16 +315,13 @@ Les valeurs possibles sont :
 
 ![Recherche des équipements spécifique Freebox delta](../images/msg_camera.png)
 
-> La caméra ne sera pas visible dans le plugin Freebox.
-> Si le message n'apparait pas, vérifier les droits sur l'OS de la Freebox
-
 # Temps de rafraichissement (cron) des équipements
 
 Il est possible de modifier le cron de rafraichissement de chaque équipement, par défaut :
 
-    > - Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron réglé à 5 minutes**
-    > - Disque Dur = **Cron réglé à 1 heure**
-    > - Ensemble des Tiles sauf FREEBOX - Télécommande (Alarme) = **Cron réglé à 1 minute**
+    - Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron réglé à 5 minutes**
+    - Disque Dur = **Cron réglé à 1 heure**
+    - Ensemble des Tiles sauf FREEBOX - Télécommande (Alarme) = **Cron réglé à 1 minute**
 
 > Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
 > Les commandes d'action ne sont pas concernées par ce cron.
@@ -340,9 +336,9 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 Afin de pouvoir intégrer les nouveaux systèmes.
 
-    > Mettre le plugin en mode débug
-    > Redémarrer le Démon
-    > Faire **_Scan des tiles_**
+    - Mettre le plugin en mode débug
+    - Redémarrer le Démon
+    - Faire **_Scan des tiles_**
 
 Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le community et fournir les infos suivantes
 
@@ -383,9 +379,9 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **Je n'ai pas le message d'autorisation qui apparait sur la Freebox**
 
-Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
+- Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
 
-    ![Association](../images/freebox_association.png)
+  ![Association](../images/freebox_association.png)
 
 **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
@@ -399,7 +395,7 @@ Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre
 
 **J'ai le message "Version d’API inconnue"**
 
-    > Le micrologiciel de la Freebox doit être au minimun en version 4.2.x.
+- Le micrologiciel de la Freebox doit être au minimun en version 4.2.x.
 
 **J'ai le message "unknown host, use ip address or mafreebox.freebox.fr" et le Demon NOK**
 
@@ -410,9 +406,9 @@ Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre
 
 **J'ai le widget des appareils connectés qui n'est plus disponible**
 
-    > Le widget a été renommé lors de la dernière mise à jour
+- Le widget a été renommé lors de la dernière mise à jour
 
-    > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
+  > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 
 **J'ai les messages suivants qui apparaissent "Missing device_name" ou "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
 
@@ -430,12 +426,12 @@ Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre
 
 **J'ai le messages suivant qui apparait "API incorrecte"**
 
-    > **Il est nécessaire d'avoir la Freebox en version 4.2 minimum pour que le plugin fonctionne**
+**Il est nécessaire d'avoir la Freebox en version 4.2 minimum pour que le plugin fonctionne**
 
 **Erreur CronDaily avec des noms d'appareils avec des icônes**
 
-    > Il ne faut pas que les noms d'appareils comportent des icônes.
+- Il ne faut pas que les noms d'appareils comportent des icônes.
 
 **Les nouveaux "Appareils connectés" et "Appareils connectés Wifi Invité" n'apparaissent pas lors de l'actualisation de l'équipement**
 
-    > Les nouveaux équipements ne sont pas ajoutés lors de l'actualisation mais uniquement avec le Cron Journalier
+- Les nouveaux équipements ne sont pas ajoutés lors de l'actualisation mais uniquement avec le Cron Journalier
