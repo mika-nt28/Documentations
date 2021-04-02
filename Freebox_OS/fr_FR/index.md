@@ -340,9 +340,9 @@ Il est possible de modifier le cron de rafraichissement de chaque équipement, p
 
 Afin de pouvoir intégrer les nouveaux systèmes.
 
-    > - Mettre le plugin en mode débug
-    > - Redémarrer le Démon
-    > - Faire **_Scan des tiles_**
+    > Mettre le plugin en mode débug
+    > Redémarrer le Démon
+    > Faire **_Scan des tiles_**
 
 Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le community et fournir les infos suivantes
 
@@ -383,19 +383,19 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **Je n'ai pas le message d'autorisation qui apparait sur la Freebox**
 
-    > Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
+Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
 
     ![Association](../images/freebox_association.png)
 
 **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
-    > - ces infos ne sont pas remontées à la Freebox donc impossible de les avoir dans Jeedom.
-    > - Elles ne sont donc pas disponibles sur la page santé (il est indiqué secteur ou N/A)
+- ces infos ne sont pas remontées à la Freebox donc impossible de les avoir dans Jeedom.
+  > - Elles ne sont donc pas disponibles sur la page santé (il est indiqué secteur ou N/A)
 
 **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 
-    > Il n'est pas possible de commander directement cette sirène
-    > [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
+- Il n'est pas possible de commander directement cette sirène
+  > [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
 
 **J'ai le message "Version d’API inconnue"**
 
@@ -403,11 +403,10 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **J'ai le message "unknown host, use ip address or mafreebox.freebox.fr" et le Demon NOK**
 
-    > Suite à la mise à jour de la Freebox 4.2.3
-    >
-    > Free a changé l'adresse de la Freebox **_mafreebox.free.fr_**, celle-ci ne fonctionne plus il faut remplacer par **_mafreebox.freebox.fr_**
-    >
-    > Voir le paragraphe **Installation et Configuration**
+- Suite à la mise à jour de la Freebox 4.2.3
+  > Free a changé l'adresse de la Freebox **_mafreebox.free.fr_**, celle-ci ne fonctionne plus il faut remplacer par **_mafreebox.freebox.fr_**
+  >
+  > Voir le paragraphe **Installation et Configuration**
 
 **J'ai le widget des appareils connectés qui n'est plus disponible**
 
