@@ -411,9 +411,9 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **J'ai le widget des appareils connectés qui n'est plus disponible**
 
-- Le widget a été renommé lors de la dernière mise à jour
+> Le widget a été renommé lors de la dernière mise à jour
 
-  > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
+> Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 
 **J'ai les messages suivants qui apparaissent "Missing device_name" ou "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
 
