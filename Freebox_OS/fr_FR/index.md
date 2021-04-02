@@ -216,12 +216,11 @@ Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les dif
 
 <p><img src="../images/recherche_parental.png" alt="Recherche des contrôles parentaux" width="60" /></p>
 
-Les équipements et les commandes suivants vont être créés :
-
-- Etat
-- Bloquer
-- Autoriser
-- Bloquer 30min/1h/2h
+- Les équipements et les commandes suivants vont être créés :
+  > - Etat
+  > - Bloquer
+  > - Autoriser
+  > - Bloquer 30min/1h/2h
 
 # Attribuer une adresse IP fixe
 
