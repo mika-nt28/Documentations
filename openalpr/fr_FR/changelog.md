@@ -24,4 +24,7 @@ pluginId: openalpr
 * Vérification si le fichier de configuration alprd existe après la vérification de la configuration
 ## 03/04/2020
 * Séparation du plugin et sa documentation
+
 # Beta
+## 07/04/2021
+* Mise a jours de l'affichage des snapshots
