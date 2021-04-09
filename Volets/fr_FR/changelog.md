@@ -6,6 +6,9 @@ pluginId: Volets
 ---
 
 # Stable
+## 09/04/2021
+* Bugfix gestion de saison dans la gestion Evenement
+
 ## 30/12/2020
 * BugFix sortie de gestion evenementiel 
 * BugFix inversion de sens du volet en gestion Azimut pra RatioVertical
