@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 02/04/2021 (BETA)
+# 12/04/2021 (BETA)
 
 - Amélioration création des équipements (gestion des doublons)
 - Amélioration liste des équipements
@@ -45,6 +45,7 @@ pluginId: Freebox_OS
   > **Attention Il est possible que les caméras soient créee en double**
 - Correction Bug création des Prises
 - Ajout Icône pour les équipement (merci @Skillix)
+- Amélioration gestion des différents types de volet
 
 > **Pour l'ensemble des nouveautés ci-dessus, il faut lancer l'ensemble des scans**
 
