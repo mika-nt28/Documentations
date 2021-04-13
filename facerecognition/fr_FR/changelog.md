@@ -6,6 +6,10 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 13/04/2021
+* Gestion du  multi-treading
+* Bugfix prise de video
+
 ## 14/02/2021
 * Suppression du multi-threading provoquant une instabilité (Sera remis en place lorsqu'il sera plus stable)
 
@@ -105,11 +109,5 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-## 16/02/2021
-* Modification du démon pour prise en charge des url snapshot
-* Configuration des cameras disponnible depuis le menu general (manque la sauvegarde)
-
-## 15/02/2021
-* Gestion du  multi-treading
 
 # A venir
