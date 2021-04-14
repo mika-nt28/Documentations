@@ -58,3 +58,10 @@ Délais
 
 * Temps total : Temps total que met le volet pour une fermeture ou une ouverture
 * Temps de décollement : Temps avant lequel le volet se décolle du sol
+
+FAQ
+===
+
+Configuration avec les volets Somfy RTS
+-------------------------------------
+Supprimez la fonction MY du volet, elle est incompatible avec le plugin
