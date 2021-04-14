@@ -6,6 +6,12 @@ pluginId: voletProp
 ---
 
 # Stable
+## 15/04/2021
+* Ajout d'un test du parmetre de mouvement avant un monté ou une descente manuel pour executer un stop et mettre a jours la position
+* Suppression du temps d'attente et du STOP dans une synchro 0 ou  100%
+* Attente en proportionnel gérer par le demon => Stop possible a tout moment
+* Suppression du parametre d'utilisation de l'etat du plugin (automatique si on a pas de retour d'etat)
+
 ## 06/01/2021
 * Bugfix sens de mouvement apres la synchronisation
 * Bugfix pas des synchronisation si on est deja a 0 ou 100
@@ -31,20 +37,3 @@ pluginId: voletProp
 * Séparation du plugin et sa documentation
 
 # Beta
-## 26/02/2021
-* Ajout d'un test du parmetre de mouvement avant un monté ou une descente manuel pour executer un stop et mettre a jours la position
-
-## 18/02/2021
-* Debug du demon en proportionel pour leberation des commandes manuel
-
-## 12/02/2021
-* Suppression du temps d'attente et du STOP dans une synchro 0 ou  100%
-
-## 02/02/2021
-* Bugfix Charge CPU a cause du demon
-
-## 22/01/2021
-* Attente en proportionnel gérer par le demon => Stop possible a tout moment
-
-## 08/01/2021
-* Suppression du parametre d'utilisation de l'etat du plugin (automatique si on a pas de retour d'etat)
