@@ -8,6 +8,7 @@ pluginId: prosommateur
 # Stable
 ## 03/01/2021
 * Bugfix : Correction bug sur la sauvegarde des gestions
+* 
 ## 27/07/2020
 * Correction enregisterement des actions et conditions
 
@@ -15,4 +16,5 @@ pluginId: prosommateur
 * Séparation du plugin et sa documentation
 
 # Beta
-
+## 15/03/2021
+* Bugfix execution des commandes
