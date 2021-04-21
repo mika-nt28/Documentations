@@ -46,3 +46,7 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
+## 22/04/2021
+* Netoyage du code
+* Creation de commande groupé (Etat + actions)
+* Commande toogle passé en commande unitaire
