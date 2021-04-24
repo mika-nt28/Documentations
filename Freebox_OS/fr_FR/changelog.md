@@ -27,9 +27,7 @@ pluginId: Freebox_OS
 
 - Amélioration création des équipements (gestion des doublons)
 - Amélioration liste des équipements
-- Ajout Cron pour les actions pour palier a la lenteur de la Freebox (merci @Nebz et @Foulek57)
-- Amélioration Cron refresh Token
-- Amélioration Deamon
+- Correction Bugs création des équipements systèmes sur les box Révolution
 - Mode Bridge : Non création des équipements suivants
 
   > - Air Média
@@ -37,6 +35,35 @@ pluginId: Freebox_OS
   > - Appareils connectés Wifi Invité
   > - Téléchargements
   > - Wifi
+
+  - **Amélioration CRON/DEMON**
+
+    - Amélioration Démon
+    - Ajout Cron pour les actions pour palier a la lenteur de la Freebox (merci @Nebz et @Foulek57)
+    - Amélioration Cron refresh Token
+    - Ajout Cron refresh global pour la partie domotique
+
+  - **Amélioration suite Firmware Freebox 4.3**
+
+    - **Contrôle parental**
+
+      - Mise à jour du contrôle des droits lors de l'appairage
+
+    - **Système**
+
+      - Ajout Info Langue de la freebox
+
+    - **Appareils connectés**
+
+      - Prise en compte des nouveaux types de périphériques (Véhicule connectées)
+
+    - **VM**
+
+      - Ajout équipement (Etat, Start, Stop, Redémarrer et d'autres infos)
+
+    - **Partage Windows/mac**
+      - Possibilité d'activer SMBv2
+      - si SMBv2 actif, les commandes de partage d'imprimante seront supprimées lors de la prochaine mise à jour de l'équipement.
 
 **Tiles**
 

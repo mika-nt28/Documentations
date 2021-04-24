@@ -11,7 +11,7 @@ Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Fre
 
 > Toutes les infos ne sont pas encore disponibles pour la Freebox POP
 >
-> **Il est nécessaire d'avoir la Freebox Serveur en version 4.2 pour que le plugin fonctionne**
+> **Il est nécessaire d'avoir la Freebox Serveur en version 4.3 pour que le plugin fonctionne**
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
