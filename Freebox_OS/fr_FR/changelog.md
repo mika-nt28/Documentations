@@ -25,9 +25,11 @@ pluginId: Freebox_OS
 
 # xx/04/2021 (BETA)
 
+> **Il est nécessaire d'avoir la Freebox Serveur en version 4.3 pour que le plugin fonctionne**
+
 - Amélioration création des équipements (gestion des doublons)
 - Amélioration liste des équipements
-- Correction Bugs création des équipements systèmes sur les box Révolution
+- Correction Bugs création des équipements systèmes sur la Freebox révolution
 - Mode Bridge : Non création des équipements suivants
 
   > - Air Média
