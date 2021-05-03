@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/04/2021 (BETA)
+# xx/05/2021 (BETA)
 
 > **Il est nécessaire d'avoir la Freebox Serveur en version 4.3 pour que le plugin fonctionne**
 
@@ -65,7 +65,8 @@ pluginId: Freebox_OS
 
     - **Partage Windows/mac**
       - Possibilité d'activer SMBv2
-      - si SMBv2 actif, les commandes de partage d'imprimante seront supprimées lors de la prochaine mise à jour de l'équipement.
+        > si SMBv2 actif, les commandes de partage d'imprimante seront supprimées lors de la prochaine mise à jour de l'équipement.
+        > Attention si vous activez cette fonction, les sauvegardes jeedom peuvent ne plus fonctionner si vous sauvegarder sur la freebox
 
 **Tiles**
 
@@ -75,6 +76,8 @@ pluginId: Freebox_OS
 - Correction Bug création des Prises
 - Ajout Icône pour les équipement (merci @Skillix)
 - Amélioration gestion des différents types de volet
+  > - Ajout Toggle pour certain types de volet
+  > - Correction bug sur invertion des commandes numériques
 
 > **Pour l'ensemble des nouveautés ci-dessus, il faut lancer l'ensemble des scans**
 
