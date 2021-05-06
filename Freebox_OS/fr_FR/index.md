@@ -300,23 +300,24 @@ Les valeurs possibles sont :
 
 ## Les caméras
 
-> les caméras sont créées, avec votre accord, dans le plugin caméra, si celui-ci est installé.
-
-![Recherche des équipements spécifique Freebox delta](../images/msg_camera.png)
+> les caméras sont créées automatiquement si le plugin caméra est installé
 
 # Temps de rafraichissement (cron) des équipements
 
 - Il est possible de modifier le cron de rafraichissement de chaque équipement, par défaut :
   > Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron réglé à 5 minutes**
   > Disque Dur = **Cron réglé à 1 heure**
-  > Ensemble des Tiles sauf FREEBOX - Télécommande (Alarme) = **Cron réglé à 1 minute**
 
 > Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
 > Les commandes d'action ne sont pas concernées par ce cron.
 
 > Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
 
-<p><img src="../images/cron.png" alt="Temps de rafraichissement" width="800" /></p>
+- Depuis la version du plugin 20210507,
+  > Un Cron d'actualisation global est actif par défaut pour la partie domotique
+  >
+  > <p><img src="../images/cron_tiles.png" alt="Temps de rafraichissement" width="800" /></p>
+  > si cette option n'est pas actif, le réglage du cron = **Cron réglé à 1 minute**
 
 # Les tiles
 
