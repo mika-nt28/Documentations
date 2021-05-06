@@ -84,6 +84,7 @@ Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attri
 ## Lier les pièces Freebox avec les Objets Jeedom
 
 > Cette fenêtre n'apparait uniquement que si la Freebox est une DELTA
+>
 > Il est possible d'activer ou désactiver le cron "Actualisation Globale des Tiles"
 
 <p><img src="../images/Freebox_OS_screenshot6.png" alt="Authentification 4" width="300" /></p>
