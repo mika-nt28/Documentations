@@ -19,7 +19,7 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/05/2021 (BETA)
+# 06/05/2021
 
 - Amélioration création des équipements (gestion des doublons)
 - Amélioration liste des équipements
