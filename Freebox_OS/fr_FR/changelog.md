@@ -37,7 +37,6 @@ pluginId: Freebox_OS
   - Amélioration Démon
   - Ajout Cron pour les actions pour palier a la lenteur de la Freebox (merci @Nebz et @Foulek57)
   - Amélioration Cron refresh Token
-  - Ajout Cron refresh global pour la partie domotique
 
 - **Amélioration suite Firmware Freebox 4.3**
 
@@ -57,21 +56,23 @@ pluginId: Freebox_OS
 
     - Ajout équipement (Etat, Start, Stop, Redémarrer et d'autres infos)
 
-  - **Partage Windows/mac**
+  - **Partage Windows/Mac**
     - Possibilité d'activer SMBv2
       > si SMBv2 actif, les commandes de partage d'imprimante seront supprimées lors de la prochaine mise à jour de l'équipement.
+      >
       > Attention si vous activez cette fonction, les sauvegardes jeedom peuvent ne plus fonctionner si vous sauvegarder sur la freebox
 
 **Tiles**
 
-- Ajout Cron pour l'actualisation de l'ensemble des équipements (merci @Nebz et @Foulek57)
+- Ajout Cron refresh global pour la partie domotique (merci @Nebz et @Foulek57)
 - Correction Bug création des caméras
-  > **Attention Il est possible que les caméras soient créee en double**
+  > **Attention Il est possible que les caméras soient créee en double dans le plugin Camera**
 - Correction Bug création des Prises
 - Ajout Icône pour les équipement (merci @Skillix)
 - Amélioration gestion des différents types de volet
   > - Ajout Toggle pour certain types de volet
   > - Correction bug sur invertion des commandes numériques
+  >   [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673/54?u=jag)
 
 > **Pour l'ensemble des nouveautés ci-dessus, il faut lancer l'ensemble des scans**
 
