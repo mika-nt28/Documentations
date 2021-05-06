@@ -11,11 +11,7 @@ pluginId: Freebox_OS
 
 > **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineurs.
 >
-> **Attention Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
-
-## Authentification ou Appairage
-
-> **Si vous avez une version antérieure au 26/08/2020, il est nécessaire de refaire l’appairage** [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
+> **Attention Il est nécessaire d'avoir la Freebox serveur en version 4.3 pour que le plugin fonctionne**
 
 ## Fil d'actualité
 
@@ -24,8 +20,6 @@ pluginId: Freebox_OS
 # Changelog
 
 # xx/05/2021 (BETA)
-
-> **Il est nécessaire d'avoir la Freebox Serveur en version 4.3 pour que le plugin fonctionne**
 
 - Amélioration création des équipements (gestion des doublons)
 - Amélioration liste des équipements
@@ -38,35 +32,35 @@ pluginId: Freebox_OS
   > - Téléchargements
   > - Wifi
 
-  - **Amélioration CRON/DEMON**
+- **Amélioration CRON/DEMON**
 
-    - Amélioration Démon
-    - Ajout Cron pour les actions pour palier a la lenteur de la Freebox (merci @Nebz et @Foulek57)
-    - Amélioration Cron refresh Token
-    - Ajout Cron refresh global pour la partie domotique
+  - Amélioration Démon
+  - Ajout Cron pour les actions pour palier a la lenteur de la Freebox (merci @Nebz et @Foulek57)
+  - Amélioration Cron refresh Token
+  - Ajout Cron refresh global pour la partie domotique
 
-  - **Amélioration suite Firmware Freebox 4.3**
+- **Amélioration suite Firmware Freebox 4.3**
 
-    - **Contrôle parental**
+  - **Contrôle parental**
 
-      - Mise à jour du contrôle des droits lors de l'appairage
+    - Mise à jour du contrôle des droits lors de l'appairage
 
-    - **Système**
+  - **Système**
 
-      - Ajout Info Langue de la freebox
+    - Ajout Info Langue de la freebox
 
-    - **Appareils connectés**
+  - **Appareils connectés**
 
-      - Prise en compte des nouveaux types de périphériques (Véhicule connectées)
+    - Prise en compte des nouveaux types de périphériques (Véhicule connectées)
 
-    - **VM**
+  - **VM**
 
-      - Ajout équipement (Etat, Start, Stop, Redémarrer et d'autres infos)
+    - Ajout équipement (Etat, Start, Stop, Redémarrer et d'autres infos)
 
-    - **Partage Windows/mac**
-      - Possibilité d'activer SMBv2
-        > si SMBv2 actif, les commandes de partage d'imprimante seront supprimées lors de la prochaine mise à jour de l'équipement.
-        > Attention si vous activez cette fonction, les sauvegardes jeedom peuvent ne plus fonctionner si vous sauvegarder sur la freebox
+  - **Partage Windows/mac**
+    - Possibilité d'activer SMBv2
+      > si SMBv2 actif, les commandes de partage d'imprimante seront supprimées lors de la prochaine mise à jour de l'équipement.
+      > Attention si vous activez cette fonction, les sauvegardes jeedom peuvent ne plus fonctionner si vous sauvegarder sur la freebox
 
 **Tiles**
 
