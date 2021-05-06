@@ -35,7 +35,7 @@ pluginId: Freebox_OS
 - **Amélioration CRON/DEMON**
 
   - Amélioration Démon
-  - Ajout Cron pour les actions pour palier a la lenteur de la Freebox (merci @Nebz et @Foulek57)
+  - Ajout Cron pour les actions pour palier à la lenteur de la Freebox (merci @Nebz et @Foulek57)
   - Amélioration Cron refresh Token
 
 - **Amélioration suite Firmware Freebox 4.3**
@@ -66,7 +66,7 @@ pluginId: Freebox_OS
 
 - Ajout Cron refresh global pour la partie domotique (merci @Nebz et @Foulek57)
 - Correction Bug création des caméras
-  > **Attention Il est possible que les caméras soient créee en double dans le plugin Camera**
+  > **Attention Il est possible que les caméras soient créees en double dans le plugin Camera**
 - Correction Bug création des Prises
 - Ajout Icône pour les équipement (merci @Skillix)
 - Amélioration gestion des différents types de volet
