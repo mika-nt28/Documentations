@@ -84,6 +84,7 @@ Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attri
 ## Lier les pièces Freebox avec les Objets Jeedom
 
 > Cette fenêtre n'apparait uniquement que si la Freebox est une DELTA
+> Il est possible d'activer ou désactiver le cron "Actualisation Globale des Tiles"
 
 <p><img src="../images/Freebox_OS_screenshot6.png" alt="Authentification 4" width="300" /></p>
 
@@ -139,10 +140,7 @@ Les équipements et les commandes suivants vont être créés :
 - **Disque Dur**
   - Occupation du disque
 - **Freebox Débits**
-  - Freebox rate down
-  - Freebox rate up
-  - Freebox bandwidth up
-  - Freebox bandwidth down
+  - Freebox rate down, rate up, bandwidth up, bandwidth down
   - Freebox media
   - Freebox state
 - **Player**
@@ -157,10 +155,8 @@ Les équipements et les commandes suivants vont être créés :
     > Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
     > Les Player mini4K ne sont pas compatibles, les players POP ne sont pas encore compatibles.
 - **Partage Windows - Mac**
-  - Activer / Désactiver le Partage de fichiers Mac
-  - Activer / Désactiver le Partage de fichiers Windows
-  - Activer / Désactiver le Partage Imprimante
-  - Activer / Désactiver Partage FTP
+  - Activer / Désactiver le Partage de fichiers Mac, Windows, FTP
+  - Activer / Désactiver le Partage Imprimante (disponible uniquement si SMBv2 n'est pas actif)
 - **Système**
   - Update
   - Reboot
@@ -177,23 +173,17 @@ Les équipements et les commandes suivants vont être créés :
   - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**
   - Nombre de tâches
-  - Nombre de tâches actives
-  - Nombre de tâches en extraction
-  - Nombre de tâches en réparation
-  - Nombre de tâches en vérification
-  - Nombre de tâches en attente
-  - Nombre de tâches en erreur
-  - Nombre de tâches stoppées
-  - Nombre de tâches terminées
+  - Nombre de tâches actives, en extraction, en réparation, en vérification, en attente, en erreur, stoppées, terminées
   - Téléchargement en cours
-  - Vitesse réception
-  - Vitesse émission
-  - Start DL
-  - Stop DL
+  - Vitesse réception, émission
+  - Start, Stop
+- **VM** (uniquement pour les freebox compatible)
+  - Statut
+  - Action possible : Stop, Redémarrer, Start
+  - info : Nb de CPU, Adresse Mac, Mémoire, Port USB, Ecran Virtuel, Type de Disque
 - **Wifi**
   - Statut du wifi
-  - Wifi On
-  - Wifi Off
+  - Wifi On Off
   - Gestion du filtrage des appels
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
