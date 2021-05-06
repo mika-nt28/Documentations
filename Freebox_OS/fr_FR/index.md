@@ -306,19 +306,21 @@ Les valeurs possibles sont :
 # Temps de rafraichissement (cron) des équipements
 
 - Il est possible de modifier le cron de rafraichissement de chaque équipement, par défaut :
-  > Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron réglé à 5 minutes**
-  > Disque Dur = **Cron réglé à 1 heure**
 
-> Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
-> Les commandes d'action ne sont pas concernées par ce cron.
+  > Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron sera réglé à 5 minutes**
+  >
+  > Disque Dur = **Cron sera réglé à 1 heure**
+
+- Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
+  > Les commandes d'action ne sont pas concernées par ce cron.
 
 > Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
 
-- Depuis la version du plugin 20210507,
-  > Un Cron d'actualisation global est actif par défaut pour la partie domotique
+- Depuis la version du plugin 20210507, pour la **partie domotique**
+  > Un Cron d'actualisation global est activé par défaut
   >
   > <p><img src="../images/cron_tiles.png" alt="Temps de rafraichissement" width="800" /></p>
-  > si cette option n'est pas actif, le réglage du cron = **Cron réglé à 1 minute**
+  > si cette option est désactivé, le **Cron sera réglé à 1 minute**
 
 # Les tiles
 
@@ -328,7 +330,9 @@ Les valeurs possibles sont :
 
   > Mettre le plugin en mode débug
   > Redémarrer le Démon
-  > Faire **_Scan des tiles_**
+  > Faire **_Debug Tiles_**
+
+<p><img src="../images/debug.png" alt="Debug Tiles" width="60" /></p>
 
 Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le community et fournir les infos suivantes
 
@@ -416,7 +420,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **J'ai le messages suivant qui apparait "API incorrecte"**
 
-**Il est nécessaire d'avoir la Freebox en version 4.2 minimum pour que le plugin fonctionne**
+**Il est nécessaire d'avoir la Freebox en version 4.3 minimum pour que le plugin fonctionne**
 
 **Erreur CronDaily avec des noms d'appareils avec des icônes**
 
