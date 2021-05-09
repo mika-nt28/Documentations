@@ -19,6 +19,11 @@ pluginId: Freebox_OS
 
 # Changelog
 
+# 10/05/2021
+
+- Correction Action contrôle parental
+- Amélioration action tiles (type bool)
+
 # 08/05/2021
 
 - Correction Reset Appairage
