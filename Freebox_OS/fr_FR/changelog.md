@@ -19,6 +19,10 @@ pluginId: Freebox_OS
 
 # Changelog
 
+# xx/05/2021 (BETA)
+
+- Modification fonctionnement inversion Slider
+
 # 10/05/2021
 
 - Correction Action contrôle parental
