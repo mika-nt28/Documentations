@@ -19,7 +19,7 @@ Une fois configuré :
 
 ## Caractérisation de la source d'eau
 
-* Temps entre 2 branches d'arrosage : délai en minutes entre 2 arrosages d'une même programmation
+* Temps entre 2 branches d'arrosage (s): délai en seconde entre 2 branche d'arrosage d'une même programmation qui ont un debit superieur a la pompe
 * Débit de l'arrivée d'eau (mm ou L/h) : débit de votre source
 * Pression maximal de l'arrivée d'eau (Bar) : pression de votre source
 
@@ -69,13 +69,33 @@ Maintenant nous pouvons configurer notre zone d'arrosage.
 * Catégorie : déclare l'équipement dans une catégorie,
 * Visible : permet de rendre l'équipement visible dans le dashboard,
 * Activer : permet d'activer l'équipement,
-* Type d'arrosage : sélectionner le type de plantation à arroser,
-* Débit d'arrosage : saisir le débit des turbines ou goutte à goutte.
-* Superficie : saisir la superficie de la zone
 
-Calcul du débit pour un goutte à goutte :
+## Configuration des arroserurs
 
-Débit (mm/h) = (10 000 x débit du goutteur (L/h))/(Espacement latéral (cm) x Espacement des goutteurs (cm))
+Pour que le plugin soit capable d'estimer le debit et pression des chaques branche, nous devons faire la liste des arroseurs avec leurs caacteristiques
+
+> Le plugins prevois des configurations par defaut des arroseurs, s'il n'existe pas et que vous voulez partager vos mesures / recherche il est possible d'en ajouter
+
+![Général](../images/MesArroseurs.jpg)
+
+* Arroseur : choisir l'arroseur ou en manuel
+* Type d'arrosage : sélectionner le type de plantation à arroser (uniquement lorsque l'arroseur n'est pas connue)
+* Débit: saisir le débit des turbines ou goutte à goutte. (uniquement lorsque l'arroseur n'est pas connue)
+* Pression minimal : saisir la pression des turbines ou goutte à goutte.(uniquement lorsque l'arroseur n'est pas connue)
+* Parametre : defini si dessous
+
+Pour les tuyeres :
+* Angle d'arrosage
+
+Pour les turbines :
+* Distance d'arrosage
+* Angle d'arrosage
+
+Pour les  goutte à goutte :
+* Espacement latéral (cm) : longueur de la branche
+* Espacement des goutteurs (cm) : distance entre 2 gouteur
+
+> Débit (mm/h) = (10 000 x débit du goutteur (L/h))/(Espacement latéral (cm) x Espacement des goutteurs (cm))
 
 ## Conditions
 

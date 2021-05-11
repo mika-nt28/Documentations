@@ -6,6 +6,9 @@ pluginId: openalpr
 ---
 
 # Stable
+## 02/12/2020
+* Bugfix droit sur le fichier de mask
+
 ## 27/05/2020
 * ajout d'un temps maximum d'installation des dépendances 
 ## 20/05/2020
@@ -21,4 +24,7 @@ pluginId: openalpr
 * Vérification si le fichier de configuration alprd existe après la vérification de la configuration
 ## 03/04/2020
 * Séparation du plugin et sa documentation
+
 # Beta
+## 07/04/2021
+* Mise a jours de l'affichage des snapshots

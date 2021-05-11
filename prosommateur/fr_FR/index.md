@@ -40,7 +40,8 @@ Les autorisations sont hiérarchiques, c'est à dire que la puissance produite d
 Pour configurer une gestion il faudra saisir
 * Consommation autorisé (W): La puissance nominal de l'équipements a activé
 * Tolérance (W): La puissance de consommation du réseau autorisé
-* Le temps de maintien: ce paramètre permet de stabiliser la production, on autorise un temps (s) sur lequel on maintien l'activation
+* Type de filtrage de la production: pour éviter les coupures liée a la production, le plugin embarque un lissage de la production sur une heure ou un temps de maintiens
+* Le temps de maintiens: ce paramètre permet de stabiliser la production, on autorise un temps (s) sur lequel on maintien l'activation
 
 Condition
 ----------

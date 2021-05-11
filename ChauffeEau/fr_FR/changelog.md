@@ -6,6 +6,12 @@ pluginId: ChauffeEau
 ---
 
 # Stable
+## 17/02/2021
+* BugFix Selection de commande
+
+## 12/02/2021
+* Evalution du temps additionnel
+
 ## 25/06/2020
 * Interdiction de la repetition si on est a moins de 60 seconde de la repetition
 
@@ -28,3 +34,5 @@ Ajout d'un déclencheur pour le changement de mode.
 Ce déclencheur est très utile pour la notification par exemple.
 
 # Beta
+## 22/03/2021
+* Autorisation de la mise a jours de la date de départ (Date de fin - Temps de chauffe) tans que le cycle n'est pas commancée

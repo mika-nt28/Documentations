@@ -5,6 +5,19 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 22/12/2020
+* Bugfix Suppression des conditions dans les modes
+
+## 21/12/2020
+* Bugfix Changement de mode sans conditions
+
+## 01/12/2020
+* Ajout de la personnalisation des actions dans les modes
+* Bugfix mise a jours de le température uniquement lorsque la pompe de circulation est active
+
+## 27/11/2020
+* Interdiction de mise a jours les temperatures si la valeur reçus est a 255
+
 ## 19/09/2020
 * Bugfix erreur serveur 
 
@@ -33,5 +46,7 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
-## 29/09/2020
-* Interdiction de mise a jours les temperatures si la valeur reçus est a 255
+## 22/04/2021
+* Netoyage du code
+* Creation de commande groupé (Etat + actions)
+* Commande toogle passé en commande unitaire

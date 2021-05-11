@@ -6,6 +6,9 @@ pluginId: motion
 ---
 
 # Stable
+## 05/11/2020
+* Ajout d'un champs de configuration pour limité les log de debug
+
 ## 07/04/2020
 * Libération du forçage de Template sur la commande
 

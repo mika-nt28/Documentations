@@ -12,4 +12,5 @@ pluginId: luminotherapie
 * Séparation du plugin et sa documentation
 
 # Beta
-
+## 06/05/2021
+* Déplacement des ambiances dans le répertroire data pour qu'il ne soit pas supprimer par le core lors de la mise a jour

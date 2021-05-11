@@ -67,7 +67,9 @@ Voici les détails de la configuration du plugin :
 * Nom de la personne : nom de l'équipement Withings
 * Objet parent : nom de l'objet auquel rattacher l'équipement
 * Activer/Visible : permet d'activer l'équipement (ne pas oublier de le faire sinon vous n'aurez aucune donnée) et de le rendre visible sur le Dashboard
-* Mode push : une fois activé, il permet à Jeedom de recevoir en temps réel les informations de Wihtings (par défaut il peut y avoir jusqu'à 30 min de délai). Attention activer ce mode nécessite d'avoir bien configuré la partie réseau (et de manière durable !!!)
+* Mode push : une fois activé, il permet à Jeedom de recevoir en temps réel les informations de Wihtings (par défaut il peut y avoir jusqu'à 30 min de délai). 
+
+> Attention, pour pouvoir activer le mode Push, il est nécesaire d'avoir bien configuré la partie réseau (et de manière durable !!!) et liée a un utilisateur withings
 
 Pensez à sauvegarder votre équipement avant de poursuivre
 
@@ -85,9 +87,16 @@ Une fois choisi, il faut autoriser l'application Jeedom à accéder à cet utili
 
 Commandes
 ---------
+
+Il vous appartient de choisir les informations que vous souhaitez faire remonter du cloud Withings.
+Pour cela il vous faut cree une commande jeedom par information
+
+> Les commandes sont liée a un utilisateur et pas a son equipement
+
+> IMC est calculé par le plugin et pas remonté par le cloud withings, il est donc impératif d'ajouté en complément la taille et le poid
+
 ![introduction01](../images/withings_screenshot_Commande.jpg)
 
-Il vous appartient de choisir les informations que vous souhaitez faire remonter en ajoutant une commande configurer ainsi
 
 * Nom : permet de personnaliser le nom de la commande
 * Type : choisir l'information que l'on souhaite
@@ -184,5 +193,6 @@ Withings a une sécurité sur le callback qui doit être identique au callback r
 Je n'ai plus de synchronisation après un arrêt long du serveur ou une restauration
 ---------------------------------------------------------------------------------
 
-La synchronisation fait une demande de Tocken avec une durée de validité (Généralement 30min)
+La synchronisation fait une demande de yoken avec une durée de validité (Généralement 30min)
 Si cette validité a été dépassé, il n'est plus possible de régénère un nouveau token et il faut donc refaire une synchro d'utilisateur
+Pour reconnaitre se defaut la configuration de l'utilisateur n'a plus de bouton au mode push car il ne se connecte plus

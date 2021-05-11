@@ -31,6 +31,16 @@ Des fonctions d'auto-configuration (auto-include, parser ETS) ont été impléme
 * `Type de passerelle` : Indiquez le type de passerelle
 * `Adresse de la passerelle` : Indiquez l'adresse IP de la passerelle
 
+#### Type de passerelle
+
+* **ip** KNXD / EIBD se connecte avec un protocole EIBnet/IP Routing utilisant l'adresse multidiffusion (Mettre l'adresse de la passerelle sur l'adresse ip ***224.0.23.12***) . 
+* **ipt** KNXD / EIBD se connecte avec un protocole EIBnet/IP Tunneling sur une passerelle EIBnet/IP.* 
+* **iptn** KNXD / EIBD se connecte avec un protocole EIBnet/IP Tunneling sur une passerelle EIBnet/IP utilisant le mode de NAT.
+* **ft12** KNXD / EIBD se connecte avec une ligne en série avec le protocole FT1.2 à un BCU2
+* **bcu1s** KNXD / EIBD se connecte avec une ligne en série avec le protocole PEI16 sur un BCU
+* **tpuarts** KNXD / EIBD se connecte avec une ligne TPUART (utilisant une interface en série) 
+* **usb** KNXD / EIBD se connecte avec une interface USB KNX
+
 ### Options
 * `Niveau d'adresse de groupe (GAD)` : Sélectionnez le niveau de GAD choisi lors de la programmation des équipements
 

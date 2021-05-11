@@ -25,7 +25,7 @@ Général
 * Visible : Permet de rendre l'équipement visible dans le Dashboard
 * Activer : Permet d'activer l'équipement
 * Délais minimal : Permet de déterminer le délai entre 2 commandes (Attention plus le délai est grand et plus le petite montée seront impossible).
-* Synchro : Sélectionner les types de synchro que vous souhaité.
+* Synchro : Si cochée, une synchronisation de montée ou descente total sera fait avant le mouvement.
 
 Objet de control du volet
 ---
@@ -34,8 +34,8 @@ Objet de control du volet
 * Objet de stop  : Commande Jeedom permettant de contrôler le stop (Action -> Défaut)
 * Objet de descente : Commande Jeedom permettant de contrôler la descente (Action -> Défaut)
 
-> La commande stop n'est pas obligatoire. 
-Dans se cas le plugin attend la même commande de mouvement pour s'arrêter 
+> La commande stop n'est pas obligatoire.
+Lorsque le champs de l'objet Stop n'est pas remplis, le plugin utilisera la même commande de mouvement pour s'arrêter 
 
 Objet d'état du volet
 ---
@@ -58,3 +58,10 @@ Délais
 
 * Temps total : Temps total que met le volet pour une fermeture ou une ouverture
 * Temps de décollement : Temps avant lequel le volet se décolle du sol
+
+FAQ
+===
+
+Configuration avec les volets Somfy RTS
+-------------------------------------
+Supprimez la fonction MY du volet, elle est incompatible avec le plugin

@@ -6,6 +6,17 @@ pluginId: Volets
 ---
 
 # Stable
+## 09/04/2021
+* Bugfix gestion de saison dans la gestion Evenement
+
+## 30/12/2020
+* BugFix sortie de gestion evenementiel 
+* BugFix inversion de sens du volet en gestion Azimut pra RatioVertical
+* Fusion Gestion Conditionnel et Evenementiel (Les 2 sont toujours active, mais la gestion Evenementiel verifie ses condtions 
+* Inverstion du ratio pour qu'il soit un pourcentage d'ouverture
+* Bugfix Jour / Nuit par planning
+* Creation d'un nouveau calcul du ratioVertical
+
 ## 25/06/2020
 * Bugfix Jour / Nuit par planning
 
@@ -21,26 +32,3 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
-## 08/07/2020
-* BugFix sortie de gestion evenementiel 
-* BugFix inversion de sens du volet en gestion Azimut pra RatioVertical
-
-## 06/07/2020
-* Mise a jours des parametre de configuration du calcul RatioVertical
-* Mise a jours du calcul de RatioVertical pour garder la logique de hauteur entre le seuil de toit et le bas de la feunetre
-* Fusion Gestion Conditionnel et Evenementiel (Les 2 sont toujours active, mais la gestion Evenementiel verifie ses condtions 
-
-## 25/06/2020
-* Inverstion du ratio pour qu'il soit un pourcentage d'ouverture
-* Bugfix Jour / Nuit par planning
-
-## 24/06/2020
-* Correction du calcul, la hauteur calculé est la hauteur entre le sous toit et le soleil sur le mur alors que precedement utilisé du sol au soleil sur le mur
-* Mise  a jours du ratioVertical par rapport au nouveau calcul de hauteur
-
-## 23/06/2020
-* Reapplication du calcul initial pour retrouver un comportement initial
-* Mise en log du nouveau cacul avec suppression des arrondies superflux apportant toujours un calcule erroné.
-
-## 08/06/2020
-* Creation d'un nouveau calcul du ratioVertical
