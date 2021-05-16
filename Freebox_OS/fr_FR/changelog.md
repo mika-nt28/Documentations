@@ -23,6 +23,7 @@ pluginId: Freebox_OS
 
 - Modification fonctionnement inversion Slider
 - Correction commande ON et OFF pour l'ensemble des commandes du WIFI
+- Correction Template version Mobile
 
 # 10/05/2021
 
