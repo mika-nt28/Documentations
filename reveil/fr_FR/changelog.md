@@ -14,6 +14,9 @@ pluginId: reveil
 * BugFix lorsqu'il n'y a aucun délai
 
 # Beta
+## 18/05/2021
+* Ajout d'une foncton de tri des actions avec leur delais
+
 ## 19/03/2021
 * Suppression du cron
 * Ajout d'un parametre unité de temps
