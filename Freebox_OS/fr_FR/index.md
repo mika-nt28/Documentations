@@ -76,7 +76,7 @@ Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attri
 
 - Voir la section des Droits d'accès (dans cette documentation) pour modifier les droits sur la Freebox
 - Une fois les droits réglés, cliquer sur le bouton **Vérification des droits**
-  > Si les droits sont OK, le bouton va disparaitre
+  > Si les droits sont OK, le bouton va **suivant** deviendra visible
   > Les droits obligatoires sont en gras
 
 <p><img src="../images/Freebox_OS_screenshot5.png" alt="Authentification 4" width="300" /></p>
