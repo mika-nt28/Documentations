@@ -19,7 +19,7 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/05/2021 (BETA)
+# 23/05/2021 (BETA)
 
 - Correction fonctionnement inversion Slider
 - Correction commande ON et OFF pour l'ensemble des commandes du WIFI
