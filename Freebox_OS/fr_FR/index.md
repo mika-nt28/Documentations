@@ -431,3 +431,9 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 **Les nouveaux "Appareils connectés" et "Appareils connectés Wifi Invité" n'apparaissent pas lors de l'actualisation de l'équipement**
 
 - Les nouveaux équipements ne sont pas ajoutés lors de l'actualisation mais uniquement avec le Cron Journalier
+
+**Je n'ai pas de message dans les logs en mode debug**
+
+- Pour la partie Tile vu que le rafraichissement se fait plusieurs fois par minute, pour éviter de remplir les logs. Aucun message n'apparait dans les logs
+
+  > Pour avoir des logs, sur un équipement il faut cliquer sur le bouton "Rafraichir" de l'équipement

@@ -19,7 +19,12 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 23/05/2021 (BETA)
+# xx/05/2021 (BETA)
+
+- Correction problème CRON arreté lors d'un refresh du Token
+- Modification du statut de la commande "Erreur" de l'alarme si sa valeur est nulle
+
+# 23/05/2021
 
 - Correction fonctionnement inversion Slider
 - Correction commande ON et OFF pour l'ensemble des commandes du WIFI
