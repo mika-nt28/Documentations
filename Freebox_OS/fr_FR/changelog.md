@@ -22,7 +22,8 @@ pluginId: Freebox_OS
 # xx/05/2021 (BETA)
 
 - Correction problème CRON arreté lors d'un refresh du Token
-- Modification du statut de la commande "Erreur" de l'alarme si sa valeur est nulle
+- Modification du valeur de la commande "Erreur" de l'alarme si sa valeur est nulle
+- Amélioration recherche des appareils connectés
 
 # 23/05/2021
 
