@@ -6,6 +6,16 @@ pluginId: eibd
 ---
 
 # Stable
+
+## 03/06/2021
+* Interdiction d'envoyer une requet si demon NOK
+* Mise en place du temps d'attente entre 2 commande READ
+* Creation template dans l'arbo (fonction en tedt
+* Désactivation de l'option lorsque deja utilisé
+* Bugfix Read d'un gad
+* Bugfix flag initialisation
+* Mise a jours des droit sur le port USB au lancement du démon
+
 ## 03/12/2020
 * Bugfix "PHP Warning:  Illegal string offset 'id' in /var/www/html/plugins/eibd/core/class/eibd.class.php on line 864"
 * Bugfix "PHP Warning:  Illegal string offset 'id' in /var/www/html/plugins/eibd/core/class/eibd.class.php on line 962"
@@ -55,26 +65,7 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
-## 04/02/2021
-* Interdiction d'envoyer une requet si demon NOK
-* Mise en place du temps d'attente entre 2 commande READ
-* Bugfix retour d'etat en creation template dans arbo
-* Ajout du parent dans la creation template dans l'arbo
 
-## 21/01/2021
-* Ajout du nom du nouvelle equipement dans la selection Template / Commande depuis l'arboressance
-* Désactivation de l'option lorsque deja utilisé
-* Bugfix Read d'un gad
-
-## 14/01/2021
-* Bugfix logique de selection Template / Commande depuis l'arboressance
-* Bugfix flag initialisation
-
-## 06/01/2021
-* Mise a jours des droit sur le port USB au lancement du démon
-
-## 19/12/2020
-* Ajout d'un systeme de creation d'equipement par template depuis l'arboressance (fonctionnement inverse d'une creation par template)
 
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
