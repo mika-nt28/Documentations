@@ -34,5 +34,9 @@ Ajout d'un déclencheur pour le changement de mode.
 Ce déclencheur est très utile pour la notification par exemple.
 
 # Beta
+## 23/06/2021
+* Simulation de température: Ajout de parametrage des douches bain
+
+
 ## 22/03/2021
 * Autorisation de la mise a jours de la date de départ (Date de fin - Temps de chauffe) tans que le cycle n'est pas commancée
