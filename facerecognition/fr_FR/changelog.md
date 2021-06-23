@@ -109,5 +109,9 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 23/06/2021
+* Restructuration du code python 
+* Ajout d'un parametre (non configurable) sur le nombre d'image détécté pour filtre le fausse détéction
+
 
 # A venir
