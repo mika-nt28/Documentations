@@ -19,7 +19,18 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/05/2021 (BETA)
+# xx/07/2021 (BETA)
+
+# 27/06/2021
+
+- **Freebox Débits**
+
+  - Correction problème refresh des données fibre optique sur les freebox révolution
+
+- **Téléchargements**
+
+  - Correction problème sur les commandes de mode du téléchargement
+    > **Les anciennes commandes seront supprimer lors de la mise jour, il faudra lancer le Scan équipements standards pour avoir la nouvelle commande**
 
 # 28/05/2021
 
