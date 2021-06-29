@@ -117,13 +117,13 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 <p><img src="../images/freebox_gestion_acces_1.png" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
 
 - Cliquer sur l'onglet **Applications**
-- Dans la liste, choisir l'Application déclarée lors de l'installation du Plugin _(par défaut : Jeedom Core)_
+- Dans la liste, choisir l'Application déclarée lors de l'installation du Plugin _(par défaut : Plugin Freebox OS)_
 
-<p><img src="../images/freebox_gestion_acces_2.jpg" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
+<p><img src="../images/freebox_gestion_acces_2.jpg" alt="Paramètres de gestion des accès de la Freebox" width="500" /></p>
 
 - **Autoriser tous les droits d'accès**
 
-<p><img src="../images/modification_droit.png" alt="Modification des droits d'accès spécifiques" width="600" /></p>
+<p><img src="../images/modification_droit.png" alt="Modification des droits d'accès spécifiques" width="500" /></p>
 
 # Les équipements standards
 
@@ -377,7 +377,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
 
-<p><img src="../images/freebox_association.png" alt="Association" width="400" /></p>
+<p><img src="../images/freebox_association.png" alt="Association" width="500" /></p>
 
 **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
