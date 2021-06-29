@@ -110,7 +110,7 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 - Se connecter à l'interface de la Freebox (http://mafreebox.freebox.fr)
 - Ouvrir les paramètres de la Freebox
 
-<p><img src="../images/freebox_para.png" alt="MParamètres de la Freebox" width="60" /></p>
+<p><img src="../images/freebox_para.png" alt="Paramètres de la Freebox" width="100" /></p>
 
 - Ouvrir la gestion des accès de la Freebox _(ce réglage se trouve dans le mode avancé)_
 
