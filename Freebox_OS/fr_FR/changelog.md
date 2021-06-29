@@ -30,7 +30,7 @@ pluginId: Freebox_OS
 - **Téléchargements**
 
   - Correction problème sur les commandes de mode du téléchargement
-    > **Les anciennes commandes seront supprimer lors de la mise jour, il faudra lancer le Scan équipements standards pour avoir la nouvelle commande**
+    > **Les anciennes commandes seront supprimées lors de la mise jour, il faudra lancer le Scan équipements standards pour avoir la nouvelle commande**
 
 # 28/05/2021
 
