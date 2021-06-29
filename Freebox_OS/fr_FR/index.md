@@ -377,7 +377,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
 
-<p><img src="../images/freebox_association.png" alt="Association" width="400" /></p>
+<p><img src="../images/freebox_association.png" alt="Association" width="500" /></p>
 
 **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
