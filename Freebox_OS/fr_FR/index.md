@@ -289,7 +289,7 @@ Les valeurs possibles sont :
 > - **Actif** = Info Binaire (1 = Alarme Activée)
 > - **Statut** = Info Binaire (1 = Sirène active)
 
-<p><img src="../images/alarme_dashboard.png" alt="Statut de l'alarme" width="100" /></p>
+<p><img src="../images/alarme_dashboard.png" alt="Statut de l'alarme" width="250" /></p>
 
 ## Statut de la télécommande
 
