@@ -271,7 +271,7 @@ Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des dif
 
 > Le plugin remonte l'état de l'alarme par la commande "Etat de l alarme"
 
-![Temps de rafraichissement](../images/alarme_statut.png)
+![Etat de l'alarme](../images/alarme_statut.png)
 Les valeurs possibles sont :
 
 - **idle** = Alarme désactivée
@@ -289,7 +289,7 @@ Les valeurs possibles sont :
 > - **Actif** = Info Binaire (1 = Alarme Activée)
 > - **Statut** = Info Binaire (1 = Sirène active)
 
-![Temps de rafraichissement](../images/alarme_dashboard.png)
+<p><img src="../images/alarme_dashboard.png" alt="Statut de l'alarme" width="100" /></p>
 
 ## Statut de la télécommande
 
