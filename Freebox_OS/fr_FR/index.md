@@ -117,13 +117,13 @@ Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation d
 <p><img src="../images/freebox_gestion_acces_1.png" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
 
 - Cliquer sur l'onglet **Applications**
-- Dans la liste, choisir l'Application déclarée lors de l'installation du Plugin _(par défaut : Jeedom Core)_
+- Dans la liste, choisir l'Application déclarée lors de l'installation du Plugin _(par défaut : Plugin Freebox OS)_
 
-<p><img src="../images/freebox_gestion_acces_2.jpg" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
+<p><img src="../images/freebox_gestion_acces_2.jpg" alt="Paramètres de gestion des accès de la Freebox" width="500" /></p>
 
 - **Autoriser tous les droits d'accès**
 
-<p><img src="../images/modification_droit.png" alt="Modification des droits d'accès spécifiques" width="600" /></p>
+<p><img src="../images/modification_droit.png" alt="Modification des droits d'accès spécifiques" width="500" /></p>
 
 # Les équipements standards
 
