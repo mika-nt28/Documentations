@@ -5,6 +5,11 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 01/07/2021
+* Netoyage du code
+* Creation de commande groupé (Etat + actions)
+* Commande toogle passé en commande unitaire
+
 ## 22/12/2020
 * Bugfix Suppression des conditions dans les modes
 
@@ -46,7 +51,4 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
-## 22/04/2021
-* Netoyage du code
-* Creation de commande groupé (Etat + actions)
-* Commande toogle passé en commande unitaire
+
