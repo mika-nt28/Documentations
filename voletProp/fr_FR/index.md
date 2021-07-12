@@ -62,6 +62,6 @@ Délais
 FAQ
 ===
 
-Configuration avec les volets Somfy RTS
+Mes volets Somfy RTS remonte tout seul
 -------------------------------------
 Supprimez la fonction MY du volet, elle est incompatible avec le plugin
