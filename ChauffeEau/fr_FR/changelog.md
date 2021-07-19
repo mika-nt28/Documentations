@@ -6,6 +6,11 @@ pluginId: ChauffeEau
 ---
 
 # Stable
+## 19/07/2021
+* BugFix non démarrage du chauffe-eau lorsqu'une condition n'est pas active
+* BugFix Simulation de température Forcage de la date de valeur meme si pas de changement de valeur
+* Forcage du nettoyage des cron
+
 ## 01/07/2021
 * Simulation de température: Ajout des conditions au paramettrage
 * Simulation de température: Ajout de parametrage des douches bain
