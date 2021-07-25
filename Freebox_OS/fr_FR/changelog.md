@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # xx/07/2021 (BETA)
 
+- Correction bug sur les commandes des VM
+- Correction Airmedia
+- Amélioration pour Core 4.2
+
 # 27/06/2021
 
 - **Freebox Débits**
