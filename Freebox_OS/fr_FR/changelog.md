@@ -21,7 +21,7 @@ pluginId: Freebox_OS
 
 # xx/08/2021 (BETA)
 
-# 28/07/2021 (BETA)
+# 29/07/2021 (BETA)
 
 - Correction bug sur les commandes des VM
 - Correction Airmedia
