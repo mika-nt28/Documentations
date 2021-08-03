@@ -21,7 +21,11 @@ pluginId: Freebox_OS
 
 # xx/08/2021 (BETA)
 
-# 29/07/2021 (BETA)
+# 04/08/2021
+
+- Correction bug sur le refresh de l'alarme
+
+# 29/07/2021
 
 - Correction bug sur les commandes des VM
 - Correction Airmedia
