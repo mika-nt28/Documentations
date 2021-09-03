@@ -32,3 +32,6 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 04/09/2021
+* Bugfix Rechargement de la saison des evenements
+* Bugfix Affichage des retour a la ligne dans les conditions multiples
