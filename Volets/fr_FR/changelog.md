@@ -35,3 +35,4 @@ pluginId: Volets
 ## 04/09/2021
 * Bugfix Rechargement de la saison des evenements
 * Bugfix Affichage des retour a la ligne dans les conditions multiples
+* Bugfix Widget Soleil dans la fenetre (Remplacement par un widget core personalisé)
