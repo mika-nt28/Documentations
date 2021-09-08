@@ -6,6 +6,11 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 08/09/2021
+* Restructuration du code python 
+* Ajout d'un parametre (non configurable) sur le nombre d'image détécté (10) pour filtre le fausse détéction
+* Ajout d'un pannel pour mobile
+
 ## 13/04/2021
 * Gestion du  multi-treading
 * Bugfix prise de video
@@ -109,9 +114,5 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-## 23/06/2021
-* Restructuration du code python 
-* Ajout d'un parametre (non configurable) sur le nombre d'image détécté pour filtre le fausse détéction
-
 
 # A venir
