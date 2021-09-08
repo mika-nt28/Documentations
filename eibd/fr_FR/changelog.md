@@ -6,6 +6,9 @@ pluginId: eibd
 ---
 
 # Stable
+## 08/09/2021
+* Déplacement des templates
+* Ajout equipement compatible pour https://compatibility.jeedom.com/
 
 ## 03/06/2021
 * Interdiction d'envoyer une requet si demon NOK
