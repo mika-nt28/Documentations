@@ -6,6 +6,11 @@ pluginId: Volets
 ---
 
 # Stable
+## 08/09/2021
+* Bugfix Rechargement de la saison des evenements
+* Bugfix Affichage des retour a la ligne dans les conditions multiples
+* Bugfix Widget Soleil dans la fenetre (Remplacement par un widget core personalisé)
+
 ## 09/04/2021
 * Bugfix gestion de saison dans la gestion Evenement
 
@@ -32,7 +37,3 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
-## 04/09/2021
-* Bugfix Rechargement de la saison des evenements
-* Bugfix Affichage des retour a la ligne dans les conditions multiples
-* Bugfix Widget Soleil dans la fenetre (Remplacement par un widget core personalisé)
