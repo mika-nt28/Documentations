@@ -6,6 +6,9 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 14/09/2021
+* Bugfix rafraichissement image camera
+* 
 ## 08/09/2021
 * Restructuration du code python 
 * Ajout d'un parametre (non configurable) sur le nombre d'image détécté (10) pour filtre le fausse détéction
@@ -114,5 +117,8 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
+## 14/09/2021
+* Ajout de la reconnaissance d'objet MobileNetSSD
+* Bugfix rafraichissement image camera
 
 # A venir
