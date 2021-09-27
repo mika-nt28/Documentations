@@ -611,3 +611,9 @@ Le script de démarrage fonctionne mal avec cette passerelle.
 Il faut utiliser cette ligne pour lancer EIBD
 
 > EIBD -D -S -T -t1023 -i usb:1:6:1:0:0 -e 1.1.128 -R -u
+
+## Je n'arrive pas configurer ma box JEEDOM ATLAS PRO
+
+Pour la connexion au bus KNX avec la box **Jeedom ATLAS PRO** il faut choisir les options si dessous
+* Type de passerelle **FT12- CEM1** 
+* Adresse **/dev/ttsy1**
