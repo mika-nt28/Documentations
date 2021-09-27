@@ -616,4 +616,4 @@ Il faut utiliser cette ligne pour lancer EIBD
 
 Pour la connexion au bus KNX avec la box **Jeedom ATLAS PRO** il faut choisir les options si dessous
 * Type de passerelle **FT12- CEM1** 
-* Adresse **/dev/ttsy1**
+* Adresse **/dev/ttyS2**
