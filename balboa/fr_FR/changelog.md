@@ -5,6 +5,9 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 28/09/2021
+* Bugfix message en cas de connexion impossible
+
 ## 01/07/2021
 * Netoyage du code
 * Creation de commande groupé (Etat + actions)
@@ -52,3 +55,7 @@ pluginId: balboa
 
 # Beta
 
+## 28/09/2021
+* Ajout de la connexion par le cloud
+* Monitor de data pour sur le local (nettoyage des log)
+* Bugfix message en cas de connexion impossible
