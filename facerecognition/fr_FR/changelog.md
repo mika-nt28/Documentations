@@ -6,6 +6,14 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 02/19/2021
+* Ajout du parametre "Nombre d'image détecté"
+* Suppression de la sensibilité a l'import d'une photo (utilisation de la sensibilité de la premiere camera)
+* Taille maximum sur l'affichage l'image de la camera en apprentissage
+* Bugfix transmission detection Jeedom
+* Ajout de la reconnaissance d'objet MobileNetSSD
+* Bugfix rafraichissement image camera
+
 ## 14/09/2021
 * Bugfix rafraichissement image camera
 * 
@@ -117,15 +125,6 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-## 21/09/2021
-* Debug de la reconnaissance d'objet
-* Ajout du parametre "Nombre d'image détecté"
-* Suppression de la sensibilité a l'import d'une photo (utilisation de la sensibilité de la premiere camera)
-* Taille maximum sur l'image de la camera en apprentissage
-* Bugfix transmission detection Jeedom
 
-## 14/09/2021
-* Ajout de la reconnaissance d'objet MobileNetSSD
-* Bugfix rafraichissement image camera
 
 # A venir
