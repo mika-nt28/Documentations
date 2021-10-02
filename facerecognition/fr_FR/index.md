@@ -30,6 +30,7 @@ Vous pouvez configurer vos cameras (une après l’autre) simplement en cliquant
 * Port du démon: Il est impératif de saisir un port libre différent pour chaque caméra, celui-ci interagit avec le démon dynamiquement (mise à jour des visage reconnus, prise de snapshots etc…)
 * FrameRate: Permet de déterminer combien d'image par seconde le plugin va analyser (plus le framerate est élevé plus il consomme du CPU). Le Frame rate ne doit pas être supérieur au framerate de la camera
 * Sensibilité : Permet de régler la qualité de détection. Plus il est important et plus la détection est stricte
+* Nombre d'image détecté: Afin de stabiliser la detection ce parametre permet de definir le nombre d'image détécter avant l'execution des actions
 * Taille minimal du visage a la détection (pixel) : Permet de spécifier la taille minimal sur la photo que doit avoir un visage
 * Authentification : on saisit les identifiants de connexion si besoin.
 * URL de connexion (rtsp://) : On saisis son url (attention de ne pas se tromper ici, je ne peux pas vous aider à cause du nombre immense de caméra qui existent)
@@ -132,6 +133,7 @@ Il est également possible de renforcer l'autorisation d'un utilisateur grâce �
 ## Exécuter les actions
 
 Lorsque le visage sera reconnu, que l’utilisateur est activé, qu'il soit autorisé sur le planning, et qu'il remplisse toutes les conditions, le plugin permet d’exécuter des actions.
+Une detection d'objet a ete ajouté et permet de filtrer les actions Visage + tous les objets lister
 
 > Ouverture du portail, alerte, ...
 
