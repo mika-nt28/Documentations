@@ -19,7 +19,9 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/08/2021 (BETA)
+# xx/10/2021 (BETA)
+
+- renommage dossier image a fin de répondre au nouvelle exigence du Core
 
 # 04/08/2021
 
