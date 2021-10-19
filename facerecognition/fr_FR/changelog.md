@@ -6,6 +6,10 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 20/10/2021
+* Bugfix import de photo pour l'apprentissage
+* Bugfix figeage du demon sans fichier de data (pas d'apprentisage par camera du coup)
+
 ## 02/19/2021
 * Ajout du parametre "Nombre d'image détecté"
 * Suppression de la sensibilité a l'import d'une photo (utilisation de la sensibilité de la premiere camera)
