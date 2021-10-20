@@ -129,6 +129,7 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-
+## 20/10/2021
+* Ajout des parametre de configuration de la détéction d'objet (activation et confidence)
 
 # A venir
