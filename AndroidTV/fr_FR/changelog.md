@@ -19,3 +19,5 @@ Mise a jours proposé par @Wators
 Permiere version en stable
 
 # Beta
+## 27/10/2021
+* Evaluation de la valeur de la Chaine pour utiliser une variable
