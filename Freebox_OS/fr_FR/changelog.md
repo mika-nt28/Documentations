@@ -19,9 +19,10 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/10/2021 (BETA)
+# xx/11/2021 (BETA)
 
 - renommage dossier image a fin de répondre au nouvelle exigence du Core
+- Ajout option "Actualisation individuelle des commandes" pour la partie tiles
 
 # 04/08/2021
 
