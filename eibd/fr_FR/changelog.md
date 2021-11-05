@@ -6,6 +6,9 @@ pluginId: eibd
 ---
 
 # Stable
+## 05/11/2021
+* Bugfix création automatique non fonctionnel (déplacement vers le répertoire data)
+
 ## 08/09/2021
 * Déplacement des templates
 * Ajout equipement compatible pour https://compatibility.jeedom.com/
