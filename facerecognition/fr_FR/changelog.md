@@ -6,6 +6,9 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 14/11/2021
+* Ajout des parametre de configuration de la détéction d'objet (activation et confidence)
+
 ## 20/10/2021
 * Bugfix import de photo pour l'apprentissage
 * Bugfix figeage du demon sans fichier de data (pas d'apprentisage par camera du coup)
@@ -129,7 +132,5 @@ pluginId: facerecognition
 * Mise a jours de droit sur les dossier
 
 # Beta
-## 20/10/2021
-* Ajout des parametre de configuration de la détéction d'objet (activation et confidence)
 
 # A venir
