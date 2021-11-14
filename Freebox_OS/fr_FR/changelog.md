@@ -21,8 +21,8 @@ pluginId: Freebox_OS
 
 # xx/11/2021 (BETA)
 
-- renommage dossier image a fin de répondre au nouvelle exigence du Core
-- Ajout option "Actualisation individuelle des commandes" pour la partie tiles
+- Renommage dossier image a fin de répondre au nouvelle exigence du Core
+- Correction problème d'éffacement de variable dans le cache
 
 # 04/08/2021
 
