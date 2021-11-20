@@ -23,6 +23,13 @@ pluginId: Freebox_OS
 
 - Renommage dossier image a fin de répondre au nouvelle exigence du Core
 - Correction problème d'éffacement de variable dans le cache
+- Amélioration création équipement caméra
+- Correction bug sur les commandes ON et OFF de la partie titles
+- Ajout Freeplug,
+  > - Info Rôle du Freeplug
+  > - Action Reset
+  >   **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
+  >   Pour avoir les freeplugs, il faut absolument qu'ils soient associés
 
 # 04/08/2021
 
