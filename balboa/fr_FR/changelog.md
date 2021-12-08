@@ -54,6 +54,11 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
+## 08/12/2021
+* BugFix controle des pompes
+* BugFix Monitor
+* BugFix Connexion cloud
+
 
 ## 28/09/2021
 * Ajout de la connexion par le cloud
