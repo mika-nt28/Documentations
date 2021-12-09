@@ -18,7 +18,9 @@ Rendez-vous sur la pages de configuration du plugin Plugins => Confort => SPA Ba
 Comme partout dans jeedom vous avez le bouton "Ajouter" qui vas vous crée votre équipement
 
 * Nom de l'équipement : Nom saisi lors de la création de l'equipement, mais peut être encore modifié
+* Type de connexion : Sélectionner la méthode de connexion locale / cloud
 * Adresse IP de l'equipement : Adresse IP du module wifi de votre SPA
+* Identifiant cloud : Saisir vos identifiants de connexion BWA
 * Objet parent : Objet Jeedom associé à votre SPA
 * Catégorie : choisissez la catégorie dans laquelle vous souhaiter regrouper votre SPA
 * Etat du widget : Paramètre de visibilité et d'activation de votre equipement
@@ -38,11 +40,7 @@ Pour chaque mode, il est possible de le conditionner, c'est à dire de définir 
 Chaque condition peut être activé ou non.
 Nous pouvons autoriser le plugin à surveiller que nos conditions soient réunies pour exécuter automatiquement le mode, si le champs *Activer si condition vrai* est coché
 
-Pour chaque mode on vient déterminer les actions sur notre SPA
-
-* Température de consigne du SPA
-* Activation de la pompe 1 du SPA
-* Activation de la pompe 2 du SPA
+Pour chaque mode vous ajoutez toute les actions sur SPA ou autre
 
 Les mode peuvent être déclenché par :
 * Ses condition si le champs *Activer si condition vrai* est coché
@@ -62,7 +60,7 @@ Pour ajouter un créneaux, vous cliquer et glisser vers la fin du créneaux
 
 # Commandes
 
-Voici toute les commandes qui sont automatiquement crée lors de l'ajout d'un SPA
+Voici toute les commandes qui sont automatiquement crée lors de l'ajout d'un SPA, il est possible d'en créer des supplémentaires. 
 
 * Température : Température actuel de l'eau de votre SPA
 * Consigne / Etat Consigne : Consigne de chauffage actuel de votre SPA
