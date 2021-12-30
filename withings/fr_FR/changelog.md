@@ -6,6 +6,9 @@ pluginId: withings
 ---
 
 # Stable
+## 30/12/2021
+* Ajout de la commande someil paradoxal 
+
 ## 11/02/2021
 * BugFix filtrage des mise a jours PUSH
 
