@@ -5,6 +5,12 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 27/01/2022
+* Ajout de l'affichage de la caracterisation du chauffage
+* Ajout de la mise a jours du temps de chauffe (temperature actuel / Temperature de consigne / Caracterisitque de chauffe) => En test
+* Bugfix rafraichissement des valeurs apres mise a jours (plus d'attente de batch de controle
+* Mise a jours de la température uniquement si la pompe de circulation est en marche
+
 ## 28/09/2021
 * Bugfix message en cas de connexion impossible
 
