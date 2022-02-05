@@ -37,3 +37,6 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 05/02/2022
+* Mise a jours de la gestion Jour/Nuit
+* Bugfix warning php
