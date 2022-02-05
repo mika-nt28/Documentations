@@ -43,3 +43,7 @@ pluginId: arrosageAuto
 * Correction du défaut a la création des commandes avec le version 4.xxx
 
 # Beta
+## 05/02/2022
+* Ajout de la commande info pluviometrie
+* Ajout de la commande temps apres correction du coeficient
+* Refonte de la gestion des plantations
