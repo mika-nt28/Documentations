@@ -6,6 +6,9 @@ pluginId: withings
 ---
 
 # Stable
+## 17/02/2022
+* Ajout de plusieurs commande pour le someil
+
 ## 23/01/2022
 * BugFix utilisation d'un proxy
 
