@@ -5,6 +5,14 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 17/02/2022
+* Mise a jours des widget Pompe de circulation et blower avec des icones jeedom
+* Bugfix ordenancement des actions
+* Bugfix affichage des options des actions (avant sauvgarde)
+* Bugfix Mise a jours des lists d'action sur les pompes => on peut mettre a jours les etats que l'on a besoin
+* Mise a jours par un etat de mode null lorqu'il y a une action manuel
+
+
 ## 27/01/2022
 * Ajout de l'affichage de la caracterisation du chauffage
 * Ajout de la mise a jours du temps de chauffe (temperature actuel / Temperature de consigne / Caracterisitque de chauffe) => En test
