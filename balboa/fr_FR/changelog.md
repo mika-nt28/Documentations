@@ -68,13 +68,6 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
-## 08/12/2021
-* BugFix controle des pompes
-* BugFix Monitor
-* BugFix Connexion cloud
-
-
-## 28/09/2021
-* Ajout de la connexion par le cloud
-* Monitor de data pour sur le local (nettoyage des log)
-* Bugfix message en cas de connexion impossible
+## 26/02/2022
+* Ajout  au mode la configuration de condition de déclanchement
+* Ajout au mode la configuration d'actions Spa pret (a la consigne)
