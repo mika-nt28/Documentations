@@ -6,6 +6,11 @@ pluginId: withings
 ---
 
 # Stable
+## 26/02/2022 Mise a jour proposé a @MADomotique
+* Ajout des commandes de sommeil manquante
+* Mise a jours des commande sommeil dépressier par withings
+* Bugfix sur les remonte sommeil
+
 ## 17/02/2022
 * Ajout de plusieurs commande pour le someil
 
