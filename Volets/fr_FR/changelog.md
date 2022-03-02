@@ -6,6 +6,10 @@ pluginId: Volets
 ---
 
 # Stable
+## 03/03/2022
+* Mise a jours de la gestion Jour/Nuit
+* Bugfix warning php
+
 ## 08/09/2021
 * Bugfix Rechargement de la saison des evenements
 * Bugfix Affichage des retour a la ligne dans les conditions multiples
@@ -37,6 +41,3 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
-## 05/02/2022
-* Mise a jours de la gestion Jour/Nuit
-* Bugfix warning php
