@@ -5,6 +5,10 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 03/03/2022
+* Ajout  au mode la configuration de condition de déclanchement
+* Ajout au mode la configuration d'actions Spa pret (a la consigne)
+
 ## 17/02/2022
 * Mise a jours des widget Pompe de circulation et blower avec des icones jeedom
 * Bugfix ordenancement des actions
@@ -68,6 +72,3 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
-## 26/02/2022
-* Ajout  au mode la configuration de condition de déclanchement
-* Ajout au mode la configuration d'actions Spa pret (a la consigne)
