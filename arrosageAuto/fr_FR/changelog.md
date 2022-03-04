@@ -44,9 +44,10 @@ pluginId: arrosageAuto
 
 # Beta
 ## 04/03/2022
-* refonte de la configuration des arroseur
-* mise à jour du panel avec configuration des plantation des arroseurs par branche 
+* Refonte de la configuration des arroseur
+* Mise à jour du panel avec configuration des plantation des arroseurs par branche 
 * Mise à jour de la formule pluviométrie des turbines 
+* Coeficient appliqué sur la pluviometrie
 
 ## 05/02/2022
 * Ajout de la commande info pluviometrie
