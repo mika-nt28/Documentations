@@ -57,7 +57,7 @@ pluginId: eibd
 * Synonyme anglais sur les Templates
 * Ajout de la catégorie sur les Templates
 * Correction bug création automatique unitaire des objets
-* Recherche des gad dans les groupes de la vue bâtiment
+* Recherche des gad dans les groupes de la vue bât(souiment
 * Bugfix DPT 19.xxx
 
 ## 13/12/2019
@@ -71,7 +71,12 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
-
+## 07/03/2022
+* Ajout des passerelles ISP200REG,YH101 et 1168 dans les passerelles compatible
+* Suppression de l'installation d'EIBD (sources plus disponnible)
+* Utilisation de l'installeur de dépendance 4.2
+* Démmarage de knxd par systemd
+* BugFix programmation par ETS Mode routing actif par defaut
 
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
