@@ -19,7 +19,9 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/01/2022 (BETA)
+# xx/03/2022 (BETA)
+
+# 17/03/2022
 
 - Modification création commande Homeadapter
 - Correction bug Groupe Freeplug
