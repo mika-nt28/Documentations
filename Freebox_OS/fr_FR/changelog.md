@@ -19,12 +19,16 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/01/2022 (BETA)
+# xx/03/2022 (BETA)
+
+# 17/03/2022
 
 - Modification création commande Homeadapter
 - Correction bug Groupe Freeplug
 - Ajout commande ON/OFF => home adapter mais attente réponse Free
 - Modification recherche Network avec mise a jour des noms des équipements
+- Mise à jour création commande network
+- Correction nom des VM lors de la création
 
 # 06/12/2021
 
