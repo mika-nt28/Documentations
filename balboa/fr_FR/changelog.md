@@ -5,6 +5,9 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 22/03/2022
+* Ajout de la découverte automatique des spas
+
 ## 03/03/2022
 * Ajout  au mode la configuration de condition de déclanchement
 * Ajout au mode la configuration d'actions Spa pret (a la consigne)
