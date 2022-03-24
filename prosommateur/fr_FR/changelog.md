@@ -20,3 +20,5 @@ pluginId: prosommateur
 * Séparation du plugin et sa documentation
 
 # Beta
+## 24/03/2022
+* Ajout d'une configuration sur la durée du lissage de production
