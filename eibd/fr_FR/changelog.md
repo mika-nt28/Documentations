@@ -6,6 +6,14 @@ pluginId: eibd
 ---
 
 # Stable
+## 31/03/2022
+* Ajout des passerelles ISP200REG,YH101 et 1168 dans les passerelles compatible
+* Suppression de l'installation d'EIBD (sources plus disponnible)
+* Utilisation de l'installeur de dépendance 4.2
+* Démmarage de knxd par systemd
+* BugFix programmation par ETS Mode routing actif par defaut
+* Gestion des flag forcer (en fonction du type de commande le plugin active les flag obligatoires au fonctionnement et interdit la modification au flag inutile) 
+
 ## 05/11/2021
 * Bugfix création automatique non fonctionnel (déplacement vers le répertoire data)
 
@@ -71,12 +79,6 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
-## 07/03/2022
-* Ajout des passerelles ISP200REG,YH101 et 1168 dans les passerelles compatible
-* Suppression de l'installation d'EIBD (sources plus disponnible)
-* Utilisation de l'installeur de dépendance 4.2
-* Démmarage de knxd par systemd
-* BugFix programmation par ETS Mode routing actif par defaut
 
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
