@@ -79,6 +79,12 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
+## 04/04/2022
+* Mise a jours du script d'installation, suppression de knxd avant une nouvelle installation
+* Nettoyage des parametres de démarage knxd
+* Controle de démarrage démon knxd par systemctl
+* Ajout du port de connexion passerelle IP parametrable
+* Ajout du cron10 sur la configuration cyclique
 
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
