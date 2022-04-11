@@ -86,6 +86,9 @@ pluginId: eibd
 * Ajout du port de connexion passerelle IP parametrable
 * Ajout du cron10 sur la configuration cyclique
 
+## 12/04/2022
+* Ajout des champs de configuration NAT
+
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
 * Prise en compte des spécifité du plugin lors de la duplication
