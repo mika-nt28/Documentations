@@ -19,7 +19,10 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# xx/03/2022 (BETA)
+# 18/04/2022 (BETA)
+
+- Modification liste des Appels
+- Ajout info sur les disques dur
 
 # 17/03/2022
 
