@@ -23,6 +23,7 @@ pluginId: Freebox_OS
 
 - Modification liste des Appels
 - Ajout info sur les disques dur
+- Possibilité de désactiver la mise à jour des commandes Network (Il est déconseillé de le faire cela peut poser des problème en cas de commande en doublw)
 
 # 17/03/2022
 
