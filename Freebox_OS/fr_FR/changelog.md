@@ -24,7 +24,7 @@ pluginId: Freebox_OS
 - Modification de la liste des Appels
 - Ajout info sur les disques dur
 - Suppression Cron jour
-- Possibilité de désactiver la mise à jour des commandes Network (Il est déconseillé de le faire cela peut poser des problème en cas de commande en double)
+- Possibilité de désactiver la mise à jour des commandes Network (Il est déconseillé de le faire, cela peut poser des problèmes en cas de commande en double)
 - Suppression Cron jour
   > - un cron spécifique est paramétrable dans les équipements de type "Disque", "Appareils connectés", "Homeadapter"
   > - si le champs "Ajout des nouvelles commandes" est laissé vide, les nouvelles commandes ne seront pas ajoutées
