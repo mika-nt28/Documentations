@@ -6,6 +6,9 @@ pluginId: eibd
 ---
 
 # Stable
+## 10/05/2022
+* Ajout d'un scripte de nettoyage pré-install
+
 ## 12/04/2022
 * Mise a jours du script d'installation, suppression de knxd avant une nouvelle installation
 * Nettoyage des parametres de démarage knxd
