@@ -19,22 +19,24 @@ Des fonctions d'auto-configuration (auto-include, parser ETS) ont été impléme
 ![Page de configuration général](../images/eibd_screenshot_Configuration.jpg)
 
 * `Interface de communication` : Choisir l'interface avec laquelle nous allons nous connecter au bus
-  * `EIBD` : N'est plus maintenu (non recommandé)
-  * `KNXd` : Reprise d'EIBD et maintenu (recommandé)
+  * `KNXD` : Démon de communication KNX (Débian Buster minimum)
   * `Manuel` : si EIBD est installé sur une autre machine
 
 ### Manuel
 * `Adresse IP` : Indiquez l'adresse IP de la machine sur lequel tourne EIBD.
 * `Port` : Indiquez le port de connexion EIBD (Par défaut 6720)
 
-### KNXd ou EIBD
+### KNXD
 * `Type de passerelle` : Indiquez le type de passerelle
 * `Adresse de la passerelle` : Indiquez l'adresse IP de la passerelle
+* `Port de la passerelle` : Indiquez le port de la passerelle
+
+> Pou le passerl de type ipt(n) et USB, le plugin embarque une recherche automatique (a utiliser de préference)
 
 #### Type de passerelle
 
-* **ip** KNXD / EIBD se connecte avec un protocole EIBnet/IP Routing utilisant l'adresse multidiffusion (Mettre l'adresse de la passerelle sur l'adresse ip ***224.0.23.12***) . 
-* **ipt** KNXD / EIBD se connecte avec un protocole EIBnet/IP Tunneling sur une passerelle EIBnet/IP.* 
+* **ip** KNXD  se connecte avec un protocole EIBnet/IP Routing utilisant l'adresse multidiffusion
+* **ipt** KNXD se connecte avec un protocole EIBnet/IP Tunneling sur une passerelle EIBnet/IP
 * **iptn** KNXD / EIBD se connecte avec un protocole EIBnet/IP Tunneling sur une passerelle EIBnet/IP utilisant le mode de NAT.
 * **ft12** KNXD / EIBD se connecte avec une ligne en série avec le protocole FT1.2 à un BCU2
 * **bcu1s** KNXD / EIBD se connecte avec une ligne en série avec le protocole PEI16 sur un BCU
@@ -58,18 +60,11 @@ Attention, ces connexions sont aussi mappées sur votre bus KNX (voir paramètre
 * `Visibilité du serveur KNX` : le serveur KNX virtuel répond à une requête permettant de découvrir les passerelles par un multicast IP dédié au KNX (224.0.23.12).
 Cette fonctionnalité est présente dans ETS et liste automatiquement toutes les passerelles sur le réseau locale. En désactivant cette option, le démon ne répondra plus.
 * `Mode Routing` et `Mode Tunnelling` : permet au démon de devenir un router KNX virtuel.
-Le mode Routing permet d’écouter et de réponde au multicast IP dédié au KNX (224.0.23.12)
-Le mode Tunnelling permet de se connecter depuis un client IP comme ETS vers le BUS en passant par le démon.
-Utile si la passerelle IP n’autorise qu’une connexion simultanée et si elle est déjà utilisée par Jeedom.
 
 ## Installation des dépendances
 
-Pour faciliter la mise en place des dépendances, Jeedom va gérer seul l'installation de la suite logicielle EIBD/KNXd.
-
-Dans la cadre réservé aux dépendances, vous allez voir le statut de l'installation.
-Vous avez aussi la possibilité de consulter le log d'installation en temps réel
-L'installation d'EIBD/KNXd peut être longue en fonction des performances de la machine qui l'exécute.
-Attention, la compilation est gourmande en ressources et peut entrainer des ralentissements dans votre Jeedom
+Pour faciliter la mise en place des dépendances, Jeedom va gérer seul l'installation de la suite logiciel KNXD.
+l'installation de knxd se fait par des paquet Débian (Buster minimum)
 
 ![Installation des dépendances](../images/Installation_dependance.jpg)
 
@@ -161,7 +156,7 @@ Certain Template, comme celui présenté on des options, pour ajouter une option
 
 # Flag  Lecture / Read
 
-* Actif : Si le participant voit sur le bus un télégramme de type "Lecture / Read" qui correspond à cet objet (= l'objet est lié à l'adresse de groupe de destination du télégramme) alors le participant va répondre en envoyant sur le bus la valeur actuelle de l'objet.
+* Actif : Si Jeedom voit sur le bus un télégramme de type "Lecture / Read" qui correspond à cet objet (= l'objet est lié à l'adresse de groupe de destination du télégramme) alors le participant va répondre en envoyant sur le bus la valeur actuelle de l'objet.
 * Inactif : Le participant ne réagira à aucun télégramme de type "Lecture / Read" qui correspond à cet objet.
 
 Pour chaque adresse de groupe, au maximum UN seul objet doit avoir son flag "Lecture/Read" actif, tous les autre objet de cette même adresse de groupe doivent être inactifs, sinon une interrogation de la valeur donnerait plus d'une réponse qui pourraient être discordantes.
@@ -172,7 +167,7 @@ Cas simple : 3 boutons poussoir et un relais qui allume ou éteint une lampe, c'
 
 ## Flag  Écriture / Write
 
-* Actif : La valeur de cette commande sera modifiée si un participant envoie sur le bus un télégramme de type "Écriture/Write" qui
+* Actif : La valeur de la commande jeedom associé au GAD sera modifiée si un participant envoie sur le bus un télégramme de type "Écriture/Write" qui
 correspond à cet objet (= l'objet est lié à l'adresse de groupe de destination du télégramme).
 * Inactif : La valeur de cet objet NE sera PAS modifiée, même si un participant envoie sur le bus un télégramme de type "Écriture/Write" qui correspond à cet objet.
 
@@ -187,7 +182,7 @@ Exemples d'objets pour lesquels le flag "Écriture/Write" est généralement INA
 
 ## Flag  Transmission / Transmit
 
-* Actif : Si pour une raison quelconque (sauf la réception d'un télégramme « Écriture/Write » vers cet objet) la valeur de cette commande venait à être modifiée, le participant va envoyer sur le bus un télégramme de type "Écriture/Write" contenant la nouvelle valeur, vers la première adresse de groupe liée à cet objet.
+* Actif : Si la valeur de commande venait à être modifiée, Jeedom va envoyer sur le bus un télégramme de type "Écriture/Write" contenant la nouvelle valeur, vers la première adresse de groupe liée à cet objet.
 * Inactif : Le participant n'envoie aucun télégramme sur le bus quand le retour d'état est modifié.
 
 Exemples d'objets pour lesquels le flag "Transmission/Transmit" est généralement actif.
@@ -214,16 +209,12 @@ Exemples d'objets pour lesquels le flag "Mise-à-jour/Update" est généralement
 
 ## Flag  Read-on-Init / Initialisation
 
-* Actif : Au démarrage du Bus Monitor, un télégramme de type "Lecture de la valeur" qui correspond à cet objet sera envoyé sur le bus qui mettra à jour Jeedom
+* Actif : Au démarrage du Bus Monitor, un télégramme de type "Lecture/Read" pour une info ou "Écriture/Write" pour une action sera envoyé sur le bus qui mettra à jour Jeedom
 * Inactif : Pas de mise à jour.
 
 Exemples d'objets pour lesquels le flag "Read-on-Init/Initialisation" est généralement actif :
-* Si la commande est de type info
-* Si le flag "Écriture/Write" actif.
-
-Exemples d'objets pour lesquels le flag "Read-on-Init/Initialisation" est généralement inactif :
-* Tous les commande qui ont le flag "Lecture/Read" actif.
-* Tous les commande qui ont un type action
+* Pour les commandes de type info il faut un Flag "Lecture/Read" actif sur le un device KNX (pas sur Jeedom)
+* Pour les commandes de type action il faut un retour d'etat venant d'un autre plugin jeedom (associer a un Flag "Transmettre") ou une valeur par défaut
 
 ![Configuration des Flags](../images/Configuration_commande_flag.jpg)
 
@@ -350,7 +341,6 @@ Pour cela, il suffit de configurer votre commande ainsi:
 * Activer le flag "Lecture"
 
 ## Mode cyclique
-
 
 Vous avez besoin de lire un état ou d'envoyer une valeur sur le bus de manière cyclique (comme une horloge ou un état à une vanne thermostatique)
 Rien de plus simple, il suffit de choisir une base de temps sur votre commande de type action, le plugin fait le reste.
@@ -595,6 +585,28 @@ Pas pour le moment
 
 # FAQ
 
+## Je n'arrive pas a installer les dépendances ?
+Pour installer les dépendances il faut etre a minima sur un DEBIAN Buster.
+Le plugin utilise les paquet embarqué a partir de cette version
+
+## Le plugin ne trouve pas ma passerelle IP ?
+* Verifier que votre passerelle est correctement connecter
+* Verifier que votre passerelle est sur le meme reseau que jeedom 
+
+## Je n'arrive pas configurer ma box JEEDOM ATLAS PRO
+Pour la connexion au bus KNX avec la box **Jeedom ATLAS PRO** il faut choisir les options si dessous
+* Type de passerelle **FT12- CEM1** 
+* Adresse **/dev/ttyS2**
+
+## Le démon ne démarre pas
+* Verifier que les dépendances soit vert
+* Verifier l'accecibilité de la passerelle
+* Verifier l'alimentation du bus knx
+
+## Je n'ai pas de retour d'etat
+* Vérifer que la configuration et le lancement du démon
+* Verifier la configuration de vos Equipements sur les Flag Init et Transmetre
+
 ## Comment créer une commande pour allumer la lumière alors que physiquement, je n'ai pas d’interrupteur ?
 
 Sous Jeedom, nous pouvons créer des interrupteurs virtuels en configurant une commande de type action.
@@ -604,16 +616,3 @@ Les éléments importants pour envoyer des informations sur le bus avec Jeedom s
 * Le DPT pour son encodage
 On verra apparaître sur le Bus Monitor la commande envoyée avec l'adresse physique d'EIBD
 
-
-## Je n'arrive pas à émettre une information avec ma passerelle Hager th102 ?
-
-Le script de démarrage fonctionne mal avec cette passerelle.
-Il faut utiliser cette ligne pour lancer EIBD
-
-> EIBD -D -S -T -t1023 -i usb:1:6:1:0:0 -e 1.1.128 -R -u
-
-## Je n'arrive pas configurer ma box JEEDOM ATLAS PRO
-
-Pour la connexion au bus KNX avec la box **Jeedom ATLAS PRO** il faut choisir les options si dessous
-* Type de passerelle **FT12- CEM1** 
-* Adresse **/dev/ttyS2**
