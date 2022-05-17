@@ -41,3 +41,8 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 18/05/2022
+* Refonte du calcul du ratioVertical 
+- Gestion par ombrage, toujours fermé car l'ombrage par du bas
+- Gestion ensoleilement directe, calcul de la proportion d'ouverture
+* BugFix passage en gestion de nuit a la sortie d'un evenement / condition
