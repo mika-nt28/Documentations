@@ -41,6 +41,10 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 19/05/2022
+* Ajout d'une sortie d'Azimuth (Jour/Nuit) si les conditions ne sont pas remplis
+* Déplacement du calcul du ratioVertical sur la gestion Azimuth
+
 ## 18/05/2022
 * Refonte du calcul du ratioVertical 
 - Gestion par ombrage, toujours fermé car l'ombrage par du bas
