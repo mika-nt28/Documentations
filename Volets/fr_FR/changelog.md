@@ -6,6 +6,9 @@ pluginId: Volets
 ---
 
 # Stable
+## 31/05/2022
+* Ajout en local des librairies carte openLayers
+
 ## 03/03/2022
 * Mise a jours de la gestion Jour/Nuit
 * Bugfix warning php
@@ -41,6 +44,11 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 31/05/2022
+* Ajout en local des librairies carte openLayers
+* Mise a jours du calcul du ratioVertical par obrage (toujours fermé si l'ombre ne cache pas la fenetre)
+* Mise a jours du calcul du ratioVertical par ensoleillement directe (Calcule toujours pour l'été)
+
 ## 19/05/2022
 * Ajout d'une sortie d'Azimuth (Jour/Nuit) si les conditions ne sont pas remplis
 * Déplacement du calcul du ratioVertical sur la gestion Azimuth
