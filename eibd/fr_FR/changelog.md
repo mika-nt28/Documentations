@@ -5,7 +5,11 @@ lang: fr_FR
 pluginId: eibd
 ---
 
-# Stable
+# Stable.
+## 24/06/2022
+* BugFix affichage des log de knxd
+* BugFix DPT 251.600
+
 ## 10/05/2022
 * Ajout d'un scripte de nettoyage pré-install
 
