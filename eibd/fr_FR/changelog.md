@@ -6,9 +6,10 @@ pluginId: eibd
 ---
 
 # Stable.
-## 24/06/2022
+## 23/06/2022
 * BugFix affichage des log de knxd
 * BugFix DPT 251.600
+* Droit sur la passerelle interne avec ft12cemi
 
 ## 10/05/2022
 * Ajout d'un scripte de nettoyage pré-install
