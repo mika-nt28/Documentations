@@ -21,6 +21,13 @@ pluginId: Freebox_OS
 
 # (BETA)
 
+- Passage de l'API en version V9
+  > - pour le Wifi
+  > - Pour les appareils connectés
+  >   ATTENTION POUR l'INSTANT LA BETA N'EST PAS COMPATIBLE AVEC LES FREEBOX REVOLUTION
+- Correction de la lecture des ports
+- Correction Ajout mac adresse en liste noire ou blanche
+
 # 30/04/2022
 
 - Modification de la liste des Appels
