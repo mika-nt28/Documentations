@@ -75,5 +75,8 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
+## 08/07/2022
+* Refonte du plugin  pour integration de la class de connexion pour ControlMySpa
+
 ## 07/07/2022
 * Ajout d'un class de connexion pour ControlMySpa (En test de connexion uniquement)
