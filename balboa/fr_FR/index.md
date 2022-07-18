@@ -23,9 +23,9 @@ Comme partout dans jeedom vous avez le bouton "Ajouter" qui vas vous crée votre
 Si-dessous, les champs de configuration qui sont a presonaliser dans les 2 cas de creation
 
 * Nom de l'équipement : Nom saisi lors de la création de l'equipement, mais peut être encore modifié
-* Type de connexion : Sélectionner la méthode de connexion locale / cloud
+* Type de connexion : Sélectionner la méthode de connexion locale / cloud / ControlMySPA
 * Adresse IP de l'equipement : Adresse IP du module wifi de votre SPA (automatiquement renseigné par la détéction automatique
-* Identifiant cloud : Saisir vos identifiants de connexion BWA
+* Identifiant cloud / ControlMySPA : Saisir vos identifiants de connexion BWA / ControlMySPA
 * Objet parent : Objet Jeedom associé à votre SPA
 * Catégorie : choisissez la catégorie dans laquelle vous souhaiter regrouper votre SPA
 * Etat du widget : Paramètre de visibilité et d'activation de votre equipement
@@ -34,7 +34,7 @@ Si-dessous, les champs de configuration qui sont a presonaliser dans les 2 cas d
 
 ![Page de configuration d'un SPA](../images/balboa_screenshot_Equipement.jpg)
 
->  Unité de temps et Unité de température, ne fonctionne pas en mode CLOUD
+>  Unité de temps et Unité de température, ne fonctionne pas en mode CLOUD/ ControlMySPA
 
 ## Création de mode de fonctionnement
 
