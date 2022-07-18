@@ -11,7 +11,7 @@ Ce plugin a pour objet de connecter Jeedom à vos SPA __balboa__.
 
 # Configuration
 
-![Page de configuration des SPA](../images/balboa_screenshot_Configuration.jpg)
+![Page de configuration du plugin Balboa](../images/balboa_screenshot_Configuration.jpg)
 
 ## Ajout d'un SPA
 
