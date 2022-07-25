@@ -5,11 +5,14 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 26/07/2022
+* Ajout du support ContrôlMySpa
+
 ## 22/03/2022
 * Ajout de la découverte automatique des spas
 
 ## 03/03/2022
-* Ajout  au mode la configuration de condition de déclanchement
+* Ajout au mode la configuration de condition de déclanchement
 * Ajout au mode la configuration d'actions Spa pret (a la consigne)
 
 ## 17/02/2022
@@ -75,8 +78,3 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
-## 08/07/2022
-* Refonte du plugin  pour integration de la class de connexion pour ControlMySpa
-
-## 07/07/2022
-* Ajout d'un class de connexion pour ControlMySpa (En test de connexion uniquement)
