@@ -1,4 +1,7 @@
 # Stable
+## 26/07/2022
+* Ajout de SALTO
+
 ## 21/07/2021
 Mise a jours proposé par @Wators
 * Ajout des commandes Chaine + et Chaine - et regroupé Volume+ et -.
@@ -19,5 +22,3 @@ Mise a jours proposé par @Wators
 Permiere version en stable
 
 # Beta
-## 27/10/2021
-* Evaluation de la valeur de la Chaine pour utiliser une variable
