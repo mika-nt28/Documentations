@@ -12,6 +12,8 @@ pluginId: QRacces
 * Ajout d'une tempo de 1s apres l'annalyse de l'image pour baisser la consomation CPU (Beta a voir la dégradation de la détéction)
 * Mise a jours de l'affichage de l'image par evenement apres l'ecriture par le demon
 * Dependance installé par package
+* Envoie du QRcode par tous plugin de transmission d'image
+* Acces a la configuration planning du widget
 
 ## 26/07/2022
 * BugFix affichage du QRcode dans la configuration utilisateur
@@ -26,6 +28,8 @@ pluginId: QRacces
 
 # Beta
 
+## 03/08/2022
+* Envoie du QRcode par tous plugin de transmission d'image (toutes les commande de type message sont compatible mais seul certain plugin sont capable de transmetre une image)
+* BugFix de l'image QRcode affiché dans le core de message HTML
+
 # A venir
-* Envoie du QRcode par tous plugin de transmission d'image
-* Acces a la configuration planning du widget
