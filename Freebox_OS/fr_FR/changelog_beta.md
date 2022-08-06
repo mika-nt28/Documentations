@@ -19,11 +19,11 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
-# 06/08/2022
+# 07/08/2022
 
-- Création Cron semaine pour rechercher version API valable
-- Utilisation de la derniere version API valide pour l'ensemble des équipements
-- Ajout bouton dans la modale "Appairage" pour rechercher la version API
+- Création d'un Cron semaine pour rechercher la version de l'API valide
+- Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
+- Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
 
 - **Network**
 
@@ -32,12 +32,12 @@ pluginId: Freebox_OS
 
 - **Airmedia**
 
-  - Réecriture complète de cette partie
+  - Réécriture complète de cette partie
   - Les anciennes commandes seront supprimées car non compatible
 
 - **Tiles**
 
-  - Correction refresh équipement si le cron global n'est pas actif
+  - Correction du refresh équipement si le cron global n’est pas actif
 
 # A TESTER
 
