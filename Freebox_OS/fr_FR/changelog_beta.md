@@ -19,13 +19,25 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
-# 03/07/2022
+# 06/08/2022
 
 - Création Cron semaine pour rechercher version API valable
 - Utilisation de la derniere version API valide pour l'ensemble des équipements
-- Correction de la lecture des ports
-- Correction Ajout mac adresse en liste noire ou blanche
 - Ajout bouton dans la modale "Appairage" pour rechercher la version API
+
+- **Network**
+
+  - Correction de la lecture des ports
+  - Correction Ajout mac adresse en liste noire ou blanche
+
+- **Airmedia**
+
+  - Réecriture complète de cette partie
+  - Les anciennes commandes seront supprimées car non compatible
+
+- **Tiles**
+
+  - Correction refresh équipement si le cron global n'est pas actif
 
 # A TESTER
 
