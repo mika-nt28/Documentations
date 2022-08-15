@@ -19,7 +19,7 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
-# 07/08/2022
+# 07/08/2022 et 15/08/2022
 
 - Création d'un Cron semaine pour rechercher la version de l'API valide
 - Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
@@ -39,7 +39,11 @@ pluginId: Freebox_OS
 
   - Correction du refresh équipement si le cron global n’est pas actif
 
+- **Appareils connectés** (15/08/2022)
+  - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
+  - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de future amélioration
+
 # A TESTER
 
-- Mise a jour des valeurs du Wifi et les appareils connectés
-- Lecture des redirections des ports
+- Recherche des appareils connectés (y compris Wifi)
+- Vérifier que si le type de périphérique est changé dans la freebox, est bien prise en compte dans Jeedom
