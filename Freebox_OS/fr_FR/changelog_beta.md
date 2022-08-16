@@ -40,8 +40,13 @@ pluginId: Freebox_OS
   - Correction du refresh équipement si le cron global n’est pas actif
 
 - **Appareils connectés** (15/08/2022)
+
   - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
   - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de future amélioration
+
+- **Contrôle Parental** (17.08.2022)
+
+- Correction bug sur la recherche des nouveaux contrôles
 
 # A TESTER
 
