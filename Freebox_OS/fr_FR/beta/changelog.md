@@ -54,8 +54,7 @@ pluginId: Freebox_OS
     > - "Ajout - Supprimer filtrage Mac" pour l'équipement "WIFI"
 
 - **Contrôle Parental** (17.08.2022)
-
-- Correction bug sur la recherche des nouveaux contrôles
+  - Correction bug sur la recherche des nouveaux contrôles
 
 # A TESTER
 
