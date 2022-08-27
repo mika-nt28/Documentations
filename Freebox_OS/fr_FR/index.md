@@ -438,3 +438,12 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 > - Pour la partie Tile vu que le rafraichissement se fait plusieurs fois par minute, pour éviter de remplir les logs. Aucun message n'apparait dans les logs
 >
 > Pour avoir des logs, sur un équipement il faut cliquer sur le bouton "Rafraichir" de l'équipement
+
+**J'ai le message METHODE OBSOLETE => MERCI DE REGARDER LA DOCUMENTATION**
+
+> Les commandes pour changer pour la partie network, il est necessaire de changer la methode Voir le paragraphe "Attribuer une adresse IP fixe"
+
+> Les commandes suivantes seront supprimer lors de la prochaine mise à jour :
+>
+> - "Ajout - Supprimer filtrage Mac" pour l'équipement "WIFI"
+> - "Ajouter supprimer IP Fixe" pour les équipements "Appareils connectés" et "Appareils connectés Wifi Invité"
