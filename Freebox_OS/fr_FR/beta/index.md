@@ -89,7 +89,7 @@ Il faut avoir les valeurs les champs suivants renseignés
 
   > - **Wake on LAN**
 
-  - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
   - Commentaires : permet de saisir un mot de passe
+  - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
 
 Cette gestion se fait par la modale depuis le widget des appareils connectés ou depuis un scénario.

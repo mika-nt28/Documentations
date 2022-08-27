@@ -61,3 +61,4 @@ pluginId: Freebox_OS
 
 - Recherche des appareils connectés (y compris Wifi)
 - Vérifier que si le type de périphérique est changé dans la freebox, est bien prise en compte dans Jeedom
+- Tester le nouveau systeme de commande pour mettre les IP
