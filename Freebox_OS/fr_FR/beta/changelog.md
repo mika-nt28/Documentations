@@ -19,7 +19,7 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
-# 07/08/2022 et 15/08/2022
+# 07/08/2022, 15/08/2022, 28/08/2022
 
 - Création d'un Cron semaine pour rechercher la version de l'API valide
 - Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
@@ -39,10 +39,19 @@ pluginId: Freebox_OS
 
   - Correction du refresh équipement si le cron global n’est pas actif
 
-- **Appareils connectés** (15/08/2022)
+- **Appareils connectés** (28/08/2022)
 
   - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
   - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de future amélioration
+  - Ajout de nouvelle commande pour mettre IP fixe et choisir les types de périphérique
+    > - Les anciennes commandes seront supprimer lors de la prochaine mise à jour
+    > - "Ajouter supprimer IP Fixe" pour les équipements "Appareils connectés" et "Appareils connectés Wifi Invité"
+
+- **Wifi** (28/08/2022)
+
+  - Ajout de nouvelle commande Gérer le filtrage des adresses MAC
+    > - Les anciennes commandes seront supprimer lors de la prochaine mise à jour
+    > - "Ajout - Supprimer filtrage Mac" pour l'équipement "WIFI"
 
 - **Contrôle Parental** (17.08.2022)
 
