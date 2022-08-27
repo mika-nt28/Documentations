@@ -15,9 +15,13 @@ Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Fre
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
-# Attribuer une adresse IP fixe / Gérer le filtrage des addresses MAC / Fonction Wake on LAN
+# Gestion réseau
 
-Il est possible de faire cela avec les commandes depuis les équipements appareils connectés
+Cet équipement permet de :
+
+> - Attribuer une adresse IP fixe
+> - Gérer le filtrage des addresses MAC
+> - Fonction Wake on LAN
 
 <p><img src="../../images/Modif_equip_IP.png" alt="Modification des équipements" width="800" /></p>
 
@@ -43,7 +47,7 @@ Il est possible de faire cela avec les commandes depuis les équipements apparei
 - Sélection Type de périphérique : Sélectionner le type de périphérique
 - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
 
-## Attribuer une adresse IP
+## Attribuer une adresse IP ou changer le type de périphérique
 
 Il faut avoir les valeurs les champs suivants renseignés
 
@@ -63,6 +67,8 @@ Il faut avoir les valeurs les champs suivants renseignés
 - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
 
 ## Gérer le filtrage des adresses MAC
+
+<p><img src="../../images/Modif_equip_filtrage.png" alt="Modification des équipements" width="800" /></p>
 
 Il est possible de faire cela avec les commandes depuis les équipements appareils connectés ou wifi
 Il faut avoir les valeurs les champs suivants renseignés
@@ -84,12 +90,14 @@ Il faut avoir les valeurs les champs suivants renseignés
 
 ## Fonction Wake on LAN
 
+<p><img src="../../images/Modif_equip_wol.png" alt="Modification des équipements" width="800" /></p>
+
 - Sélectionner l'appareil connecté
 - Sélection modification Appareil avec une valeur suivante
 
   > - **Wake on LAN**
 
-  - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
   - Commentaires : permet de saisir un mot de passe
+  - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
 
 Cette gestion se fait par la modale depuis le widget des appareils connectés ou depuis un scénario.

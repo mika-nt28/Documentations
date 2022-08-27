@@ -25,6 +25,14 @@ pluginId: Freebox_OS
 - Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
 - Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
 
+- **Gestion réseau**
+
+- Nouvel équipement
+- il réuni plusieurs commandes partagées dans plusieurs équipements
+
+  > - Gérer le filtrage mac pour le wifi
+  > - Ajouter - supprimer une IP Fixe” pour les équipements
+
 - **Network**
 
   - Correction de la lecture des ports
@@ -42,22 +50,21 @@ pluginId: Freebox_OS
 - **Appareils connectés** (28/08/2022)
 
   - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
-  - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de future amélioration
-  - Ajout de nouvelle commande pour mettre IP fixe et choisir les types de périphérique
-    > - Les anciennes commandes seront supprimer lors de la prochaine mise à jour
-    > - "Ajouter supprimer IP Fixe" pour les équipements "Appareils connectés" et "Appareils connectés Wifi Invité"
+  - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de futures améliorations
+  - Les commandes suivantes seront supprimer lors de la prochaine mise a jour car elle est désormais intégré dans la gestion réseau :
+    > - "Ajouter supprimer IP Fixe"
+    > - "Wake on LAN"
 
 - **Wifi** (28/08/2022)
 
-  - Ajout de nouvelle commande Gérer le filtrage des adresses MAC
-    > - Les anciennes commandes seront supprimer lors de la prochaine mise à jour
-    > - "Ajout - Supprimer filtrage Mac" pour l'équipement "WIFI"
+  > - La commande "Ajout - Supprimer filtrage Mac" sera supprimer lors de la prochaine mise à jour car elle est désormais intégré dans la gestion réseau
 
 - **Contrôle Parental** (17.08.2022)
-
-- Correction bug sur la recherche des nouveaux contrôles
+  - Correction du bug sur la recherche des nouveaux contrôles
 
 # A TESTER
 
 - Recherche des appareils connectés (y compris Wifi)
-- Vérifier que si le type de périphérique est changé dans la freebox, est bien prise en compte dans Jeedom
+- Tester les nouvelles commandes de l'équipement **Gestion réseau**
+  > - Vérifier que si le type de périphérique est changé dans la Freebox, est bien pris en compte dans Jeedom
+  > - Tester le nouveau systeme de commande pour mettre les IP
