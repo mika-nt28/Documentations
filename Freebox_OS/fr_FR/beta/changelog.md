@@ -24,6 +24,7 @@ pluginId: Freebox_OS
 - Création d'un Cron semaine pour rechercher la version de l'API valide
 - Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
 - Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
+- Ajout fonctionnalité core V4.3
 
 - **Gestion réseau**
 
