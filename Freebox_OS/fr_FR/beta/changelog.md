@@ -19,7 +19,7 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
-# 07/08/2022, 15/08/2022, 28/08/2022
+# 07/08/2022, 15/08/2022, 28/08/2022, 19/09/2022, 21/09/2022, 22/09/2022
 
 - Création d'un Cron semaine pour rechercher la version de l'API valide
 - Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
@@ -47,6 +47,7 @@ pluginId: Freebox_OS
 - **Tiles**
 
   - Correction du refresh équipement si le cron global n’est pas actif
+  - Uniquement pour la beta (21.09.2022): Ajout de log pour tester
 
 - **Appareils connectés** (28/08/2022)
 
@@ -62,6 +63,11 @@ pluginId: Freebox_OS
 
 - **Contrôle Parental** (17.08.2022)
   - Correction du bug sur la recherche des nouveaux contrôles
+
+- **Appairage** (21.09.2022, 22/09/2022)
+  - Ajout Bouton pour ignorer la vérification des droits 
+
+
 
 # A TESTER
 
