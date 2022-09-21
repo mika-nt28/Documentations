@@ -26,8 +26,8 @@ pluginId: Freebox_OS
 - Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
 - Ajout fonctionnalité core V4.3
 
-- **Gestion réseau**
 
+- **Gestion réseau**
 - Nouvel équipement
 - il réuni plusieurs commandes partagées dans plusieurs équipements
 
@@ -63,6 +63,7 @@ pluginId: Freebox_OS
 
 - **Contrôle Parental** (17.08.2022)
   - Correction du bug sur la recherche des nouveaux contrôles
+
 
 - **Appairage** (21.09.2022, 22/09/2022)
   - Ajout Bouton pour ignorer la vérification des droits 
