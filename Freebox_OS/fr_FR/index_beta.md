@@ -276,3 +276,195 @@ Il faut avoir les valeurs les champs suivants renseignés
   - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
 
 Cette gestion se fait par la modale depuis le widget des appareils connectés ou depuis un scénario.
+
+# Freebox Delta
+
+> La Freebox Delta permet d'avoir un pack de sécurité ainsi que la connexion avec certains équipements.
+
+Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des différents équipements connectés vont être créés
+
+<p><img src="../images/recherche_tiles.png" alt="Recherche des équipements spécifiques Freebox delta" width="60" /></p>
+
+## Statut Alarme
+
+> Le plugin remonte l'état de l'alarme par la commande "Etat de l alarme"
+
+![Etat de l'alarme](../images/alarme_statut.png)
+Les valeurs possibles sont :
+
+- **idle** = Alarme désactivée
+- **alarm_1_arming** = L'alarme principale est activée, c'est un compte à rebours lorsque seuls les capteurs ne se trouvant pas dans la zone peuvent déclencher l'alerte
+- **alarm_2_arming** = L'alarme partielle est activée, c'est un compte à rebours lorsque seuls les capteurs ne se trouvant pas dans la zone peuvent déclencher l'alerte
+- **alarm_1_armed** = Alarme totale activée
+- **alarm_2_armed** = Alarme partielle activée
+- **alarm1_alert_timer** = L'alarme principale a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
+- **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
+- **alert** = La sirène sonne
+
+> le système d'alarme est compatible avec Homebridge et l'application mobile : aucune configuration n'est à faire.
+> Pour permettre l'intégration, des commandes d'infos ont été ajoutées pour permettre d'interagir avec le plugin Alarme.
+>
+> - **Actif** = Info Binaire (1 = Alarme Activée)
+> - **Statut** = Info Binaire (1 = Sirène active)
+
+<p><img src="../images/alarme_dashboard.png" alt="Statut de l'alarme" width="250" /></p>
+
+## Statut de la télécommande
+
+> Le plugin remonte l'historique de la télécommande, il affichera la dernière action faite par la télécommande.
+
+- Les valeurs possibles sont :
+  > **null** ou **0** = Aucun état
+  > **1** = Alarme principale
+  > **2** = Désactivation
+  > **3** = Alarme secondaire
+
+## Les caméras
+
+> les caméras sont créées automatiquement si le plugin caméra est installé
+
+# Temps de rafraichissement (cron) des équipements
+
+- Il est possible de modifier le cron de rafraichissement de chaque équipement, par défaut :
+
+  > Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron sera réglé à 5 minutes**
+  >
+  > Disque Dur = **Cron sera réglé à 1 heure**
+
+- Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
+  > Les commandes d'action ne sont pas concernées par ce cron.
+
+> Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
+
+- Depuis la version du plugin 20210507, pour la **partie domotique**
+  > Un Cron d'actualisation global est activé par défaut
+  >
+  > <p><img src="../images/cron_tiles.png" alt="Temps de rafraichissement" width="800" /></p>
+  > si cette option est désactivé, le **Cron sera réglé à 1 minute**
+
+# Les tiles
+
+> Chaque équipement n'est pas forcement intégré dans le système vue l'évolution de la Freebox
+
+- Afin de pouvoir intégrer les nouveaux systèmes, il faut :
+
+  > Mettre le plugin en mode débug
+  > Redémarrer le Démon
+  > Faire **_Debug Tiles_**
+
+<p><img src="../images/debug.png" alt="Debug Tiles" width="60" /></p>
+
+Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le community et fournir les infos suivantes
+
+- Faire une copie d'écran de l'équipement
+<p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="800" /></p>
+
+- Faire une copie d'écran des commandes de l'équipement
+<p><img src="../images/tiles2.png" alt="Equipement tiles 2" width="800" /></p>
+
+- Fournir les logs sous forme de texte et non une copie d'écran
+  > [Voir le paragraphe **11** Formatez correctement](https://community.jeedom.com/t/comment-nous-aider-a-vous-aider-ou-comment-poser-une-bonne-question/34932)
+
+```
+    [2020-08-24 07:37:41][DEBUG] : ┌───────── Commande trouvée pour l'équipement FREEBOX : FREEBOX - Eclairage Canapé -- Pièce : Salon (Node ID 9)
+[2020-08-24 07:37:41][DEBUG] : │ Label : Enclenché -- Name : switch_state
+[2020-08-24 07:37:41][DEBUG] : │ Type (eq) : light -- Action (eq): intensity_picker
+[2020-08-24 07:37:41][DEBUG] : │ Index : 0 -- Value Type : bool -- Access : rw
+[2020-08-24 07:37:41][DEBUG] : │ Valeur actuelle :
+[2020-08-24 07:37:41][DEBUG] : │ Range : ----- -- Range color : -
+[2020-08-24 07:37:41][DEBUG] : │ Name: Etat -- Type : info -- LogicalID : 0 -- Template Widget / Ligne : core::light/0-- Type de générique : LIGHT_STATE -- Inverser : 0 -- Icône :  -- Min/Max : default/default
+[2020-08-24 07:37:41][DEBUG] : │ No Repeat pour l'info avec le nom : Etat
+[2020-08-24 07:37:41][DEBUG] : │ Name: On -- Type : action -- LogicalID : PB_On -- Template Widget / Ligne : core::light/1-- Type de générique : LIGHT_ON -- Inverser : 0 -- Icône :  -- Min/Max : default/default
+[2020-08-24 07:37:41][DEBUG] : │ Name: Off -- Type : action -- LogicalID : PB_Off -- Template Widget / Ligne : core::light/0-- Type de générique : LIGHT_OFF -- Inverser : 0 -- Icône :  -- Min/Max : default/default
+[2020-08-24 07:37:41][DEBUG] : └─────────
+[2020-08-24 07:37:41][DEBUG] : ┌───────── Commande trouvée pour l'équipement FREEBOX : FREEBOX - Eclairage Canapé -- Pièce : Salon (Node ID 9)
+[2020-08-24 07:37:41][DEBUG] : │ Label : Luminosité -- Name : luminosity
+[2020-08-24 07:37:41][DEBUG] : │ Type (eq) : light -- Action (eq): intensity_picker
+[2020-08-24 07:37:41][DEBUG] : │ Index : 2 -- Value Type : int -- Access : rw
+[2020-08-24 07:37:41][DEBUG] : │ Valeur actuelle : 254
+[2020-08-24 07:37:41][DEBUG] : │ Range : ----- -- Range color : -
+[2020-08-24 07:37:41][DEBUG] : │ Name: Etat Luminosité -- Type : info -- LogicalID : 2 -- Template Widget / Ligne : /0-- Type de générique : LIGHT_COLOR -- Inverser : 0 -- Icône :  -- Min/Max : 0/255
+[2020-08-24 07:37:41][DEBUG] : │ No Repeat pour l'info avec le nom : Etat Luminosité
+[2020-08-24 07:37:41][DEBUG] : │ Name: Luminosité -- Type : action -- LogicalID : 2 -- Template Widget / Ligne : default/0-- Type de générique : LIGHT_SET_COLOR -- Inverser : 0 -- Icône :  -- Min/Max : 0/255
+[2020-08-24 07:37:41][DEBUG] : └─────────
+```
+
+# Troubleshotting
+
+**Je n'ai pas le message d'autorisation qui apparait sur la Freebox**
+
+> Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
+
+<p><img src="../images/freebox_association.png" alt="Association" width="500" /></p>
+
+**Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
+
+> ces infos ne sont pas remontées à la Freebox donc impossible de les avoir dans Jeedom.
+
+> Elles ne sont donc pas disponibles sur la page santé (il est indiqué secteur ou N/A)
+
+**Je ne peux pas commander la sirène de l'alarme de la Freebox**
+
+> Il n'est pas possible de commander directement cette sirène
+> [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
+
+**J'ai le message "Version d’API inconnue"**
+
+> **Il est nécessaire d'avoir la Freebox en version 4.3 minimum pour que le plugin fonctionne**
+  > - Une détection automatique de la version API de la freebox est lancée une fois par semaine.
+  > - Il est possible de le lancer directement depuis l'écran d'Appairage
+
+<p><img src="../images/reset_API1.png" alt="Reset API Freebox" width="500" /></p>
+
+<p><img src="../images/reset_API2.png" alt="Reset API Freebox" width="500" /></p>
+
+**J'ai le message "unknown host, use ip address or mafreebox.freebox.fr" et le Demon NOK**
+
+- Suite à la mise à jour de la Freebox 4.2.3
+  > Free a changé l'adresse de la Freebox **_mafreebox.free.fr_**, celle-ci ne fonctionne plus il faut remplacer par **_mafreebox.freebox.fr_**
+  >
+  > Voir le paragraphe **Installation et Configuration**
+
+**J'ai le widget des appareils connectés qui n'est plus disponible**
+
+> Le widget a été renommé lors d'une mise à jour'
+>
+> Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
+
+**J'ai les messages suivants qui apparaissent "Missing device_name" ou "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
+
+> **Votre Jeedom n'a pas de Nom**
+
+> Il est impératif que votre Jeedom soit nommé pour continuer l'appairage du plugin avec votre Freebox
+>
+> Se rendre dans Réglages -> Système -> Configuration -> onglet Général et mettre un nom
+
+> Recommencer ensuite l'authentification en n'oubliant pas de faire un reset de la configuration
+
+> <p><img src="../images/nom_jeedom_1.png" alt="Missing device_name" width="800" /></p>
+
+> <p><img src="../images/nom_jeedom_2.png" alt="Nom Jeedom" width="800" /></p>
+
+
+**Erreur CronDaily avec des noms d'appareils avec des icônes**
+
+> - Il ne faut pas que les noms d'appareils comportent des icônes.
+
+**Les nouveaux "Appareils connectés" et "Appareils connectés Wifi Invité" n'apparaissent pas lors de l'actualisation de l'équipement**
+
+> - Les nouveaux équipements ne sont pas ajoutés lors de l'actualisation mais uniquement avec le Cron Journalier
+
+**Je n'ai pas de message dans les logs en mode debug**
+
+> - Pour la partie Tile vu que le rafraichissement se fait plusieurs fois par minute, pour éviter de remplir les logs. Aucun message n'apparait dans les logs
+>
+> Pour avoir des logs, sur un équipement il faut cliquer sur le bouton "Rafraichir" de l'équipement
+
+**J'ai le message METHODE OBSOLETE => MERCI DE REGARDER LA DOCUMENTATION**
+
+> Les commandes pour changer pour la partie network, il est necessaire de changer la methode Voir le paragraphe "Gestion réseau"
+
+> Les commandes suivantes seront supprimer lors de la prochaine mise à jour :
+>
+> - "Ajout - Supprimer filtrage Mac" pour l'équipement "WIFI"
+> - "Ajouter supprimer IP Fixe" pour les équipements "Appareils connectés" et "Appareils connectés Wifi Invité"
