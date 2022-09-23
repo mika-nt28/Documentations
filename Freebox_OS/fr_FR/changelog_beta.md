@@ -21,6 +21,8 @@ pluginId: Freebox_OS
 
 # 07/08/2022, 15/08/2022, 28/08/2022, 19/09/2022, 21/09/2022, 22/09/2022
 
+ > **Il est necessaire de lancer un "reset API Freebox" après chaque mise à jour beta (voir documentation beta)** 
+
 - Création d'un Cron semaine pour rechercher la version de l'API valide
 - Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
 - Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
@@ -29,8 +31,10 @@ pluginId: Freebox_OS
 
 - **Gestion réseau**
 
-- Nouvel équipement
-- il réuni plusieurs commandes partagées dans plusieurs équipements
+  > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer le scan "Scan équipements standard"**
+
+  - Nouvel équipement
+  - il réuni plusieurs commandes partagées dans plusieurs équipements
 
   > - Gérer le filtrage mac pour le wifi
   > - Ajouter - supprimer une IP Fixe” pour les équipements
@@ -42,8 +46,10 @@ pluginId: Freebox_OS
 
 - **Airmedia**
 
-  - Réécriture complète de cette partie
-  - Les anciennes commandes seront supprimées car non compatible
+  > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer le scan "Scan équipements standard"**
+
+    - Réécriture complète de cette partie
+    - Les anciennes commandes seront supprimées car non compatible
 
 - **Tiles**
 
@@ -68,6 +74,7 @@ pluginId: Freebox_OS
 
 - **Appairage** (21.09.2022, 22/09/2022)
   - Ajout Bouton pour ignorer la vérification des droits 
+  - Ajout Bouton pour faire un reset de l'API de la freebox
 
 
 
@@ -76,4 +83,4 @@ pluginId: Freebox_OS
 - Recherche des appareils connectés (y compris Wifi)
 - Tester les nouvelles commandes de l'équipement **Gestion réseau**
   > - Vérifier que si le type de périphérique est changé dans la Freebox, est bien pris en compte dans Jeedom
-  > - Tester le nouveau systeme de commande pour mettre les IP
+  > - Tester le nouveau système de commande pour mettre les IP
