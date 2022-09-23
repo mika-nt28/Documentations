@@ -29,8 +29,8 @@ pluginId: Freebox_OS
 
 - **Gestion réseau**
 
-- Nouvel équipement
-- il réuni plusieurs commandes partagées dans plusieurs équipements
+  - Nouvel équipement
+  - il réuni plusieurs commandes partagées dans plusieurs équipements
 
   > - Gérer le filtrage mac pour le wifi
   > - Ajouter - supprimer une IP Fixe” pour les équipements
@@ -76,4 +76,4 @@ pluginId: Freebox_OS
 - Recherche des appareils connectés (y compris Wifi)
 - Tester les nouvelles commandes de l'équipement **Gestion réseau**
   > - Vérifier que si le type de périphérique est changé dans la Freebox, est bien pris en compte dans Jeedom
-  > - Tester le nouveau systeme de commande pour mettre les IP
+  > - Tester le nouveau système de commande pour mettre les IP
