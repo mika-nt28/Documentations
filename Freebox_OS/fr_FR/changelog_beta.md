@@ -28,6 +28,7 @@ pluginId: Freebox_OS
 
 
 - **Gestion réseau**
+
 - Nouvel équipement
 - il réuni plusieurs commandes partagées dans plusieurs équipements
 
