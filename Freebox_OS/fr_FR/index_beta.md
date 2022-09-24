@@ -284,7 +284,7 @@ Il faut avoir les valeurs les champs suivants renseignés
   > - **Modifier Liste blanche Wifi**
 
 - Commentaires : permet de saisir un commentaire ou un mot de passe
-- Modifier l'appareil : Permet d'envoyer la modification sur la freebox
+- Modifier l'appareil : Permet d'envoyer la modification sur la Freebox
 
 > **A savoir** : l'appareil n'est pas automatiquement supprimer d'une liste si un changement de type de filtrage est fait.
 
@@ -297,8 +297,8 @@ Il faut avoir les valeurs les champs suivants renseignés
 
   > - **Wake on LAN**
 
-  - Commentaires : permet de saisir un mot de passe
-  - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
+- Commentaires : permet de saisir un mot de passe
+- Modifier l'appareil : Permet d'envoyer la modification sur la Freebox
 
 Cette gestion se fait par la modale depuis le widget des appareils connectés ou depuis un scénario.
 
