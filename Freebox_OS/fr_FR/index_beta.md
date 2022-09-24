@@ -266,7 +266,7 @@ Il faut avoir les valeurs les champs suivants renseignés
 - Sélection Type de périphérique : Sélectionner le type de périphérique
 - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
 
-## Gérer le filtrage des adresses MAC
+## Gérer le filtrage des adresses MAC (WIFI)
 
 <p><img src="../images/Modif_equip_filtrage.png" alt="Modification des équipements" width="800" /></p>
 
