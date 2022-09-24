@@ -463,9 +463,10 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **J'ai le message METHODE OBSOLETE => MERCI DE REGARDER LA DOCUMENTATION**
 
-> Les commandes pour changer pour la partie network, il est necessaire de changer la methode Voir le paragraphe "Gestion réseau"
+> Les commandes ont changées dans la partie network, il est donc necessaire de changer la methode pour utiliser les commandes ci-dessous. *Voir le paragraphe "Gestion réseau"*
 
 > Les commandes suivantes seront supprimer lors de la prochaine mise à jour :
 >
-> - "Ajout - Supprimer filtrage Mac" pour l'équipement "WIFI"
-> - "Ajouter supprimer IP Fixe" pour les équipements "Appareils connectés" et "Appareils connectés Wifi Invité"
+> - **"Ajout - Supprimer filtrage Mac"** pour l'équipement *WIFI*
+> - **"Ajouter supprimer IP Fixe"** pour les équipements *Appareils connectés* et *Appareils connectés Wifi Invité*
+> - **"Wake on LAN"** pour les équipements *Appareils connectés* et *Appareils connectés Wifi Invité*
