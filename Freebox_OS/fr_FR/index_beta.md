@@ -189,6 +189,31 @@ Les équipements et les commandes suivants vont être créés :
   - Wifi On Off
   - Gestion du filtrage des appels
 
+# Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
+
+Ces quatre équipements sont vides par défaut lors de leur création sauf pour le système qui intègre les infos communes à toutes les Freebox.
+
+Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
+
+> Le plugin recherchera et créera les différentes commandes associées
+
+<p><img src="../images/recherche_commandes.png" alt="Recherche des équipements spécifiques" width="800" /></p>
+
+> Un Cron Journalier permet automatiquement de chercher les nouveaux équipements
+
+# Le contrôle parental
+
+Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
+
+> Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
+
+<p><img src="../images/recherche_parental.png" alt="Recherche des contrôles parentaux" width="60" /></p>
+
+- Les équipements et les commandes suivants vont être créés :
+  > - Etat
+  > - Bloquer
+  > - Autoriser
+  > - Bloquer 30min/1h/2h
 
 # Gestion réseau
 
@@ -463,9 +488,10 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 **J'ai le message METHODE OBSOLETE => MERCI DE REGARDER LA DOCUMENTATION**
 
-> Les commandes pour changer pour la partie network, il est necessaire de changer la methode Voir le paragraphe "Gestion réseau"
+> Les commandes ont changées dans la partie network, il est donc necessaire de changer la methode pour utiliser les commandes ci-dessous. *Voir le paragraphe "Gestion réseau"*
 
 > Les commandes suivantes seront supprimer lors de la prochaine mise à jour :
 >
-> - "Ajout - Supprimer filtrage Mac" pour l'équipement "WIFI"
-> - "Ajouter supprimer IP Fixe" pour les équipements "Appareils connectés" et "Appareils connectés Wifi Invité"
+> - **"Ajout - Supprimer filtrage Mac"** pour l'équipement *WIFI*
+> - **"Ajouter supprimer IP Fixe"** pour les équipements *Appareils connectés* et *Appareils connectés Wifi Invité*
+> - **"Wake on LAN"** pour les équipements *Appareils connectés* et *Appareils connectés Wifi Invité*
