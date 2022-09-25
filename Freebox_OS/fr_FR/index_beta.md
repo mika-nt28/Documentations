@@ -222,32 +222,11 @@ Cet équipement permet de :
 > - Attribuer une adresse IP fixe
 > - Gérer le filtrage des addresses MAC
 > - Fonction Wake on LAN
+> - Modifier le type de périphérique
 
-<p><img src="../images/Modif_equip_IP.png" alt="Modification des équipements" width="800" /></p>
+## Attribuer une adresse IP
 
-- Sélectionner l'appareil connecté : Choisir par mis la liste le nom de l'équipement
-- Sélection modification Appareil : Sélectionner la modification voulue
-
-  > - **Ajouter IP fixe**
-  > - **Supprimer IP fixe**
-  > - **Modifier l'équipement**
-  > - **Modifier le type de périphérique**
-  > - **Modifier l'équipement**
-  > - **Ajouter Liste noire Wifi**
-  > - **Ajouter Liste blanche Wifi**
-  > - **Supprimer Liste noire Wifi**
-  > - **Supprimer Liste blanche Wifi**
-  > - **Modifier Liste noire Wifi**
-  > - **Modifier Liste blanche Wifi**
-  > - **Wake on LAN**
-
-- Choix IP : Indiquer l'adresse IP de l'appareil
-- Sélection Nom Appareil : Indiquer le nom de l'appareil
-- Commentaires : permet de saisir soit un commentaire ou un mot de passe
-- Sélection Type de périphérique : Sélectionner le type de périphérique
-- Modifier l'appareil : Permet d'envoyer la modification sur la freebox
-
-## Attribuer une adresse IP ou changer le type de périphérique
+<p><img src="../images/Modif_equip_IP_FIXE.png" alt="Modification IP" width="800" /></p>
 
 Il faut avoir les valeurs les champs suivants renseignés
 
@@ -256,14 +235,26 @@ Il faut avoir les valeurs les champs suivants renseignés
 
   > - **Ajouter IP fixe**
   > - **Supprimer IP fixe**
-  > - **Modifier l'équipement**
-  > - **Modifier le type de périphérique**
-  > - **Modifier l'équipement**
+  > - **Modifier IP l'équipement**
 
 - Choix IP : Indiquer l'adresse IP de l'appareil
 - Sélection Nom Appareil : Indiquer le nom de l'appareil
-- Commentaires : permet de saisir un commentaire
+- Commentaires : permet de saisir un commentaire (Option)
+
+
+## Changer le type de périphérique
+
+<p><img src="../images/Modif_equip_type.png" alt="Modification des équipements" width="800" /></p>
+
+Il faut avoir les valeurs les champs suivants renseignés
+
+- Sélectionner l'appareil connecté
+- Sélection modification Appareil avec une valeur suivante
+
+  > - **Modifier le type de périphérique**
+
 - Sélection Type de périphérique : Sélectionner le type de périphérique
+- Commentaires : permet de saisir un commentaire
 - Modifier l'appareil : Permet d'envoyer la modification sur la freebox
 
 ## Gérer le filtrage des adresses MAC (WIFI)
