@@ -19,7 +19,7 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
-# 07/10/2022,
+# 08/10/2022,
 
 - **Fixer**
 
@@ -28,7 +28,7 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
-  - Ajout texte d'information pour l'actualisation globale des titles
+  - Ajout texte d'information pour l'actualisation globale des titles dans le cas de volet SOMFY
 
 
 # 07/08/2022, 15/08/2022, 28/08/2022, 19/09/2022, 21/09/2022, 22/09/2022
