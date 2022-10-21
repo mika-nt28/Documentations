@@ -19,6 +19,10 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
+# 21/10/2022,
+
+- Arrêt des crons actifs lors du refreshToken
+
 # 08/10/2022,
 
 - **Fixer**
