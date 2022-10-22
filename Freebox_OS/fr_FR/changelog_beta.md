@@ -76,7 +76,7 @@ pluginId: Freebox_OS
 
   - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
   - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de futures améliorations
-  - Les commandes suivantes seront supprimer lors de la prochaine mise a jour car elle est désormais intégré dans la gestion réseau :
+  - Les commandes suivantes seront supprimer lors de la prochaine mise a jour car elles sont désormais intégré dans la gestion réseau :
     > - "Ajouter supprimer IP Fixe"
     > - "Wake on LAN"
 
@@ -98,5 +98,5 @@ pluginId: Freebox_OS
 
 - Recherche des appareils connectés (y compris Wifi)
 - Tester les nouvelles commandes de l'équipement **Gestion réseau**
-  > - Vérifier que si le type de périphérique est changé dans la Freebox, est bien pris en compte dans Jeedom
+  > - Vérifier que si le type de périphérique est changé dans la Freebox, est bien pris en compte dans Jeedom.
   > - Tester le nouveau système de commande pour mettre les IP
