@@ -189,6 +189,22 @@ Les équipements et les commandes suivants vont être créés :
   - Wifi On Off
   - Gestion du filtrage des appels
 
+# Le contrôle parental
+
+Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
+
+> Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
+
+<p><img src="../images/recherche_parental.png" alt="Recherche des contrôles parentaux" width="60" /></p>
+
+- Les équipements et les commandes suivants vont être créés :
+  
+  > - Etat
+  > - Bloquer
+  > - Autoriser
+  > - Bloquer 30min/1h/2h
+
+
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
 Ces quatre équipements sont vides par défaut lors de leur création sauf pour le système qui intègre les infos communes à toutes les Freebox.
@@ -201,19 +217,6 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Un Cron Journalier permet automatiquement de chercher les nouveaux équipements
 
-# Le contrôle parental
-
-Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
-
-> Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
-
-<p><img src="../images/recherche_parental.png" alt="Recherche des contrôles parentaux" width="60" /></p>
-
-- Les équipements et les commandes suivants vont être créés :
-  > - Etat
-  > - Bloquer
-  > - Autoriser
-  > - Bloquer 30min/1h/2h
 
 # Gestion réseau
 
