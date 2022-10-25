@@ -19,6 +19,67 @@ pluginId: Freebox_OS
 
 # Changelog
 
+# 26/10/2022,
+
+- **Version Mini Jeedom**
+
+> Dernière version compatible core 4.0
+
+- **Général**
+
+- Arrêt des crons actifs lors du refreshToken
+- Création d'un Cron semaine pour rechercher la version de l'API valide
+- Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
+- Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
+- Ajout fonctionnalité core V4.3
+
+- **Airmedia**
+
+  > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer le scan "Scan équipements standard"**
+
+    > Réécriture complète de cette partie
+    > Les anciennes commandes seront supprimées car non compatible
+
+- **Appairage** (21.09.2022, 22/09/2022)
+  - Ajout Bouton pour ignorer la vérification des droits 
+  - Ajout Bouton pour faire un reset de l'API de la freebox
+
+- **Appareils connectés** (28/08/2022)
+
+  - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
+  - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de futures améliorations
+  - Les commandes suivantes seront supprimer lors de la prochaine mise a jour car elles sont désormais intégré dans la gestion réseau :
+
+    > "Ajouter supprimer IP Fixe"
+    > "Wake on LAN"
+
+- **Gestion réseau**
+
+  > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer le scan "Scan équipements standard"**
+
+  - Nouvel équipement
+  - il réuni plusieurs commandes partagées dans plusieurs équipements
+
+  > - Gérer le filtrage mac pour le wifi
+  > - Ajouter - supprimer une IP Fixe” pour les équipements
+
+- **Contrôle Parental** (17.08.2022)
+  - Correction du bug sur la recherche des nouveaux contrôles
+
+- **Network**
+
+  - Correction de la lecture des ports
+  - Correction Ajout mac adresse en liste noire ou blanche
+
+- **Tiles**
+
+  - Ajout texte d'information pour l'actualisation globale des titles dans le cas de volet SOMFY
+  - Correction du refresh équipement si le cron global n’est pas actif
+
+- **Wifi**
+
+  > La commande "Ajout - Supprimer filtrage Mac" sera supprimer lors de la prochaine mise à jour car elle est désormais intégré dans la gestion réseau
+
 # 30/04/2022
 
 - Modification de la liste des Appels
@@ -26,6 +87,7 @@ pluginId: Freebox_OS
 - Suppression Cron jour
 - Possibilité de désactiver la mise à jour des commandes Network (Il est déconseillé de le faire, cela peut poser des problèmes en cas de commande en double)
 - Suppression Cron jour
+
   > - un cron spécifique est paramétrable dans les équipements de type "Disque", "Appareils connectés", "Homeadapter"
   > - si le champs "Ajout des nouvelles commandes" est laissé vide, les nouvelles commandes ne seront pas ajoutées
 
@@ -45,6 +107,7 @@ pluginId: Freebox_OS
 - Amélioration création équipement caméra
 - Correction bug sur les commandes ON et OFF de la partie titles
 - Ajout Freeplug,
+
   > - Info Rôle du Freeplug
   > - Action Reset
   >   **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
@@ -136,7 +199,7 @@ pluginId: Freebox_OS
       >
       > Attention si vous activez cette fonction, les sauvegardes jeedom peuvent ne plus fonctionner si vous sauvegarder sur la freebox
 
-**Tiles**
+- **Tiles**
 
 - Ajout Cron refresh global pour la partie domotique (merci @Nebz et @Foulek57)
 - Correction Bug création des caméras
@@ -144,6 +207,7 @@ pluginId: Freebox_OS
 - Correction Bug création des Prises
 - Ajout Icône pour les équipement (merci @Skillix)
 - Amélioration gestion des différents types de volet
+
   > - Ajout Toggle pour certain types de volet
   > - Correction bug sur invertion des commandes numériques
   >   [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673/54?u=jag)
@@ -203,6 +267,7 @@ pluginId: Freebox_OS
 
     - Ajout de cet équipement dans le plugin avec la possibilité de:
       - Activer / Désactiver :
+
         > - La détection de mouvement
         > - Activer avec l'Alarme
         > - Qualité HD
@@ -210,12 +275,16 @@ pluginId: Freebox_OS
         > - Horodatage
         > - Détection du Bruit
         > - Flux rtsp
+
       - Régler :
+
         > - Sensibilité
         > - Seuil
         > - Sensibilité du micro
         > - Volume du micro
+
     - La caméra est automatiquement ajoutée dans le plugin caméra si celui-ci est présent
+
       > - Correction bug sur la création de la caméra dans le plugin CAMERA
 
   - **Télécommande**
@@ -227,9 +296,11 @@ pluginId: Freebox_OS
 
     - Ajout des fonctions :
       - Activer / Désactiver pour :
+
         > - Zone temporisée
         > - Alarme principale
         > - Alarme secondaire
+
     - Inversion de l'état des détecteurs de mouvement pour être compatible avec Homebridge
     - Ajout du type de batterie dans l'équipement
 
@@ -237,14 +308,18 @@ pluginId: Freebox_OS
 
     - Ajout des fonctions :
       - Régler :
+
         > - Puissance des bips
         > - Puissance de la siréne
         > - Délai avant armement
         > - Délai avec siréne
         > - Durée de la siréne
+
     - Amélioration de la fonction Alarme non fonctionnelle avec Homebridge
+
       > - **Il faut sauvegarder l'équipement du système d'Alarme pour avoir les améliorations**
       > - **Sans cette sauvegarde, le système Homebridge ne fonctionnera plus**
+
     - Ajout du type de batterie dans l'équipement
 
 # 13/12/2020
@@ -270,7 +345,7 @@ pluginId: Freebox_OS
   - Correction retour d'état du Wifi
   - Ajout statut des différentes carte Wifi
 
-  **Général**
+- **Général**
 
   - Correction bouton recherche sur les équipements systèmes
 
@@ -601,7 +676,9 @@ pluginId: Freebox_OS
   - Correction Bug widget Alarme Freebox
   - Ajout du nom et de l'icône pour les modes
   - Création des commandes spécifiques pour l'intégrer dans Homebridge
+
     > - Il est fortement conseillé de supprimer cet équipement pour avoir les nouvelles commandes
+
 - **Télécommande Alarme**
   - Remontée du dernier état
 - **Système**
