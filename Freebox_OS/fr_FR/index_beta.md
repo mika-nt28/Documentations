@@ -189,6 +189,22 @@ Les équipements et les commandes suivants vont être créés :
   - Wifi On Off
   - Gestion du filtrage des appels
 
+# Le contrôle parental
+
+Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
+
+> Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
+
+<p><img src="../images/recherche_parental.png" alt="Recherche des contrôles parentaux" width="60" /></p>
+
+- Les équipements et les commandes suivants vont être créés :
+  
+  > - Etat
+  > - Bloquer
+  > - Autoriser
+  > - Bloquer 30min/1h/2h
+
+
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
 Ces quatre équipements sont vides par défaut lors de leur création sauf pour le système qui intègre les infos communes à toutes les Freebox.
@@ -201,19 +217,6 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Un Cron Journalier permet automatiquement de chercher les nouveaux équipements
 
-# Le contrôle parental
-
-Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
-
-> Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
-
-<p><img src="../images/recherche_parental.png" alt="Recherche des contrôles parentaux" width="60" /></p>
-
-- Les équipements et les commandes suivants vont être créés :
-  > - Etat
-  > - Bloquer
-  > - Autoriser
-  > - Bloquer 30min/1h/2h
 
 # Gestion réseau
 
@@ -349,8 +352,8 @@ Les valeurs possibles sont :
 
 - Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
   > Les commandes d'action ne sont pas concernées par ce cron.
-
-> Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
+  >
+  > Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
 
 - Depuis la version du plugin 20210507, pour la **partie domotique**
   > Un Cron d'actualisation global est activé par défaut
@@ -361,7 +364,7 @@ Les valeurs possibles sont :
 
 # Les tiles
 
-> Chaque équipement n'est pas forcement intégré dans le système vue l'évolution de la Freebox
+*Chaque équipement n'est pas forcement intégré dans le système vue l'évolution de la Freebox*S
 
 - Afin de pouvoir intégrer les nouveaux systèmes, il faut :
 
@@ -429,7 +432,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - **J'ai le message "Version d’API inconnue"**
 
-> **Il est nécessaire d'avoir la Freebox en version 4.3 minimum pour que le plugin fonctionne**
+  > **Il est nécessaire d'avoir la Freebox en version 4.3 minimum pour que le plugin fonctionne**
 
   > - Une détection automatique de la version API de la freebox est lancée une fois par semaine.
   > - Il est possible de le lancer directement depuis l'écran d'Appairage
@@ -493,15 +496,9 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - **A quoi corresponde les différents moteurs de tâches**
 
-  - **RefreshToken**
-    > Permet de raffraichir l'accès a la freebox
-  
-  - **FreeboxPUT**
-    > Permet de faire les actions sur la freebox
-
-  - **FreeboxAPI**
+  > - **RefreshToken** : Permet de raffraichir l'accès a la freebox
+  > **FreeboxPUT** : Permet de faire les actions sur la freebox
+  > - **FreeboxAPI** :
     > Permet de tester de vérifier la dernière version de l'API de la freebox
     > un contrôle est fait une fois par semaine
-
-  - **FreeboxGET**
-    > Permet de récupèrer les données de type info sur la freebox
+  > - **FreeboxGET** : Permet de récupèrer les données de type info de la partie domotique
