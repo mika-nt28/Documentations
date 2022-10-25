@@ -497,8 +497,11 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 - **A quoi corresponde les différents moteurs de tâches**
 
   > - **RefreshToken** : Permet de raffraichir l'accès a la freebox
+  >
   > **FreeboxPUT** : Permet de faire les actions sur la freebox
+  >
   > - **FreeboxAPI** :
     > Permet de tester de vérifier la dernière version de l'API de la freebox
     > un contrôle est fait une fois par semaine
+  >
   > - **FreeboxGET** : Permet de récupèrer les données de type info de la partie domotique
