@@ -498,7 +498,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
   > - **RefreshToken** : Permet de raffraichir l'accès a la freebox
   >
-  > **FreeboxPUT** : Permet de faire les actions sur la freebox
+  > - **FreeboxPUT** : Permet de faire les actions sur la freebox
   >
   > - **FreeboxAPI** :
     > Permet de tester de vérifier la dernière version de l'API de la freebox
