@@ -189,6 +189,22 @@ Les équipements et les commandes suivants vont être créés :
   - Wifi On Off
   - Gestion du filtrage des appels
 
+# Le contrôle parental
+
+Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
+
+> Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
+
+<p><img src="../images/recherche_parental.png" alt="Recherche des contrôles parentaux" width="60" /></p>
+
+- Les équipements et les commandes suivants vont être créés :
+  
+  > - Etat
+  > - Bloquer
+  > - Autoriser
+  > - Bloquer 30min/1h/2h
+
+
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
 Ces quatre équipements sont vides par défaut lors de leur création sauf pour le système qui intègre les infos communes à toutes les Freebox.
@@ -201,63 +217,84 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Un Cron Journalier permet automatiquement de chercher les nouveaux équipements
 
-# Le contrôle parental
 
-Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les différents équipements système de la Freebox.
+# Gestion réseau
 
-> Ces contrôles ont été implantés avec la version 4.2 de la Freebox.
+Cet équipement permet de :
 
-<p><img src="../images/recherche_parental.png" alt="Recherche des contrôles parentaux" width="60" /></p>
+> - Attribuer une adresse IP fixe
+> - Gérer le filtrage des addresses MAC
+> - Fonction Wake on LAN
+> - Modifier le type de périphérique
 
-- Les équipements et les commandes suivants vont être créés :
-  > - Etat
-  > - Bloquer
-  > - Autoriser
-  > - Bloquer 30min/1h/2h
+## Attribuer une adresse IP
 
-# Attribuer une adresse IP fixe
+<p><img src="../images/Modif_equip_IP_FIXE.png" alt="Modification IP" width="800" /></p>
 
-Cette gestion se fait uniquement par scénario
+Il faut avoir les valeurs les champs suivants renseignés
 
-<p><img src="../images/add_dell_ip.png" alt="Recherche des équipements spécifiques" width="800" /></p>
+- Sélectionner l'appareil connecté
+- Sélection modification Appareil avec une valeur suivante
 
-- Adresse Mac : Indiquer l'adresse mac de l'appareil
-- Méthode : Sélectionner la méthode
-  > - **Ajout**
-  > - **Supprimer**
-  > - **Modifier le commentaire**
-  > - **Modifier le type de générique**
-- IP : Indiquer l'adresse IP de l'appareil
-- Nom l'équipement : Indiquer le nom de l'appareil
-- Commentaires
-- Type de Périphérique : Sélectionner le type de périphérique
+  > - **Ajouter IP fixe**
+  > - **Supprimer IP fixe**
+  > - **Modifier IP l'équipement**
 
-# Gérer le filtrage des adresses MAC
+- Choix IP : Indiquer l'adresse IP de l'appareil
+- Sélection Nom Appareil : Indiquer le nom de l'appareil
+- Commentaires : permet de saisir un commentaire (Option)
 
-Cette gestion se fait uniquement par scénario
 
-<p><img src="../images/add_dell_mac_filtrage.png" alt="Recherche des équipements spécifiques" width="800" /></p>
+## Changer le type de périphérique
 
-- Adresse Mac : Indiquer l'adresse mac de l'appareil
-- Méthode : sélectionner la méthode
-  > - **Ajout**
-  > - **Supprimer**
-- Type de filtrage : sélectionner le filtre
-  > - **Liste blanche**
-  > - **Liste noire**
-- Commentaires
+<p><img src="../images/Modif_equip_type.png" alt="Modification des équipements" width="800" /></p>
+
+Il faut avoir les valeurs les champs suivants renseignés
+
+- Sélectionner l'appareil connecté
+- Sélection modification Appareil avec une valeur suivante
+
+  > - **Modifier le type de périphérique**
+
+- Sélection Type de périphérique : Sélectionner le type de périphérique
+- Commentaires : permet de saisir un commentaire
+- Modifier l'appareil : Permet d'envoyer la modification sur la freebox
+
+## Gérer le filtrage des adresses MAC (WIFI)
+
+<p><img src="../images/Modif_equip_filtrage.png" alt="Modification des équipements" width="800" /></p>
+
+Il est possible de faire cela avec les commandes depuis les équipements appareils connectés ou wifi
+Il faut avoir les valeurs les champs suivants renseignés
+
+- Sélectionner l'appareil connecté
+- Sélection modification Appareil avec une valeur suivante
+
+  > - **Ajouter Liste noire Wifi**
+  > - **Ajouter Liste blanche Wifi**
+  > - **Supprimer Liste noire Wifi**
+  > - **Supprimer Liste blanche Wifi**
+  > - **Modifier Liste noire Wifi**
+  > - **Modifier Liste blanche Wifi**
+
+- Commentaires : permet de saisir un commentaire ou un mot de passe
+- Modifier l'appareil : Permet d'envoyer la modification sur la Freebox
 
 > **A savoir** : l'appareil n'est pas automatiquement supprimer d'une liste si un changement de type de filtrage est fait.
 
-# Fonction Wake on LAN
+## Fonction Wake on LAN
+
+<p><img src="../images/Modif_equip_wol.png" alt="Modification des équipements" width="800" /></p>
+
+- Sélectionner l'appareil connecté
+- Sélection modification Appareil avec une valeur suivante
+
+  > - **Wake on LAN**
+
+- Commentaires : permet de saisir un mot de passe
+- Modifier l'appareil : Permet d'envoyer la modification sur la Freebox
 
 Cette gestion se fait par la modale depuis le widget des appareils connectés ou depuis un scénario.
-
-<p><img src="../images/wakeonlan.png" alt="Recherche des équipements spécifiques" width="800" /></p>
-
-- Adresse Mac : indiquer l'adresse mac de l'appareil
-- Mot de Passe : indiquer le mot de passe
-  > Si pas de mot de passe, laisser la case vide
 
 # Freebox Delta
 
@@ -274,14 +311,14 @@ Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des dif
 ![Etat de l'alarme](../images/alarme_statut.png)
 Les valeurs possibles sont :
 
-- **idle** = Alarme désactivée
-- **alarm_1_arming** = L'alarme principale est activée, c'est un compte à rebours lorsque seuls les capteurs ne se trouvant pas dans la zone peuvent déclencher l'alerte
-- **alarm_2_arming** = L'alarme partielle est activée, c'est un compte à rebours lorsque seuls les capteurs ne se trouvant pas dans la zone peuvent déclencher l'alerte
-- **alarm_1_armed** = Alarme totale activée
-- **alarm_2_armed** = Alarme partielle activée
-- **alarm1_alert_timer** = L'alarme principale a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
-- **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
-- **alert** = La sirène sonne
+> **idle** = Alarme désactivée
+> **alarm_1_arming** = L'alarme principale est activée, c'est un compte à rebours lorsque seuls les capteurs ne se trouvant pas dans la zone peuvent déclencher l'alerte
+> **alarm_2_arming** = L'alarme partielle est activée, c'est un compte à rebours lorsque seuls les capteurs ne se trouvant pas dans la zone peuvent déclencher l'alerte
+> **alarm_1_armed** = Alarme totale activée
+> **alarm_2_armed** = Alarme partielle activée
+> **alarm1_alert_timer** = L'alarme principale a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
+> **alarm2_alert_timer** = L'alarme de nuit a été déclenchée par un capteur dans le fuseau horaire et la sirène sonnera après un compte à rebours
+> **alert** = La sirène sonne
 
 > le système d'alarme est compatible avec Homebridge et l'application mobile : aucune configuration n'est à faire.
 > Pour permettre l'intégration, des commandes d'infos ont été ajoutées pour permettre d'interagir avec le plugin Alarme.
@@ -315,18 +352,19 @@ Les valeurs possibles sont :
 
 - Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
   > Les commandes d'action ne sont pas concernées par ce cron.
-
-> Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
+  >
+  > Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
 
 - Depuis la version du plugin 20210507, pour la **partie domotique**
   > Un Cron d'actualisation global est activé par défaut
   >
   > <p><img src="../images/cron_tiles.png" alt="Temps de rafraichissement" width="800" /></p>
+  >
   > si cette option est désactivé, le **Cron sera réglé à 1 minute**
 
 # Les tiles
 
-> Chaque équipement n'est pas forcement intégré dans le système vue l'évolution de la Freebox
+*Chaque équipement n'est pas forcement intégré dans le système vue l'évolution de la Freebox*S
 
 - Afin de pouvoir intégrer les nouveaux systèmes, il faut :
 
@@ -339,9 +377,11 @@ Les valeurs possibles sont :
 Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le community et fournir les infos suivantes
 
 - Faire une copie d'écran de l'équipement
+
 <p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="800" /></p>
 
 - Faire une copie d'écran des commandes de l'équipement
+
 <p><img src="../images/tiles2.png" alt="Equipement tiles 2" width="800" /></p>
 
 - Fournir les logs sous forme de texte et non une copie d'écran
@@ -373,77 +413,95 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 # Troubleshotting
 
-**Je n'ai pas le message d'autorisation qui apparait sur la Freebox**
+- **Je n'ai pas le message d'autorisation qui apparait sur la Freebox**
 
-> Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
+  > Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
+  >
+  > <p><img src="../images/freebox_association.png" alt="Association" width="500" /></p>
 
-<p><img src="../images/freebox_association.png" alt="Association" width="500" /></p>
+- **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
-**Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
+  > ces infos ne sont pas remontées à la Freebox donc impossible de les avoir dans Jeedom.
+  >
+  > Elles ne sont donc pas disponibles sur la page santé (il est indiqué secteur ou N/A)
 
-> ces infos ne sont pas remontées à la Freebox donc impossible de les avoir dans Jeedom.
+- **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 
-> Elles ne sont donc pas disponibles sur la page santé (il est indiqué secteur ou N/A)
+  > Il n'est pas possible de commander directement cette sirène
+  > [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
 
-**Je ne peux pas commander la sirène de l'alarme de la Freebox**
+- **J'ai le message "Version d’API inconnue"**
 
-> Il n'est pas possible de commander directement cette sirène
-> [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
+  > **Il est nécessaire d'avoir la Freebox en version 4.3 minimum pour que le plugin fonctionne**
 
-**J'ai le message "Version d’API inconnue"**
+  > - Une détection automatique de la version API de la freebox est lancée une fois par semaine.
+  > - Il est possible de le lancer directement depuis l'écran d'Appairage
+  > - Il est actuellement obligatoire de faire le reset de la clef API a chaque mise à jour
+  >
+  > <p><img src="../images/reset_API1.png" alt="Reset API Freebox" width="500" /></p>
+  >
+  > <p><img src="../images/reset_API2.png" alt="Reset API Freebox" width="500" /></p>
 
-> Le micrologiciel de la Freebox doit être au minimun en version 4.2.x.
+- **J'ai le message "unknown host, use ip address or mafreebox.freebox.fr" et le Demon NOK**
 
-**J'ai le message "unknown host, use ip address or mafreebox.freebox.fr" et le Demon NOK**
-
-- Suite à la mise à jour de la Freebox 4.2.3
+  - Suite à la mise à jour de la Freebox 4.2.3
   > Free a changé l'adresse de la Freebox **_mafreebox.free.fr_**, celle-ci ne fonctionne plus il faut remplacer par **_mafreebox.freebox.fr_**
   >
   > Voir le paragraphe **Installation et Configuration**
 
-**J'ai le widget des appareils connectés qui n'est plus disponible**
+- **J'ai le widget des appareils connectés qui n'est plus disponible**
 
-> Le widget a été renommé lors de la dernière mise à jour
->
-> Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
+  > Le widget a été renommé lors d'une mise à jour'
+  >
+  > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 
-**J'ai les messages suivants qui apparaissent "Missing device_name" ou "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
+- **J'ai les messages suivants qui apparaissent "Missing device_name" ou "Votre Jeedom n'a pas de Nom, il est impossible de continuer" lors de l'appairage**
 
-> **Votre Jeedom n'a pas de Nom**
+  > **Votre Jeedom n'a pas de Nom**
+  >
+  > Il est impératif que votre Jeedom soit nommé pour continuer l'appairage du plugin avec votre Freebox
+  >
+  > Se rendre dans Réglages -> Système -> Configuration -> onglet Général et mettre un nom
+  >
+  > Recommencer ensuite l'authentification en n'oubliant pas de faire un reset de la configuration
+  >
+  > <p><img src="../images/nom_jeedom_1.png" alt="Missing device_name" width="800" /></p>
+  >
+  > <p><img src="../images/nom_jeedom_2.png" alt="Nom Jeedom" width="800" /></p>
 
-> Il est impératif que votre Jeedom soit nommé pour continuer l'appairage du plugin avec votre Freebox
->
-> Se rendre dans Réglages -> Système -> Configuration -> onglet Général et mettre un nom
 
-> Recommencer ensuite l'authentification en n'oubliant pas de faire un reset de la configuration
+- **Erreur CronDaily avec des noms d'appareils avec des icônes**
 
-> <p><img src="../images/nom_jeedom_1.png" alt="Missing device_name" width="800" /></p>
+  > - Il ne faut pas que les noms d'appareils comportent des icônes.
 
-> <p><img src="../images/nom_jeedom_2.png" alt="Nom Jeedom" width="800" /></p>
+- **Les nouveaux "Appareils connectés" et "Appareils connectés Wifi Invité" n'apparaissent pas lors de l'actualisation de l'équipement**
 
-**J'ai le messages suivant qui apparait "API incorrecte"**
+  > - Les nouveaux équipements ne sont pas ajoutés lors de l'actualisation mais uniquement avec le Cron Journalier
 
-> **Il est nécessaire d'avoir la Freebox en version 4.3 minimum pour que le plugin fonctionne**
+- **Je n'ai pas de message dans les logs en mode debug**
 
-**Erreur CronDaily avec des noms d'appareils avec des icônes**
+  > - Pour la partie Tile vu que le rafraichissement se fait plusieurs fois par minute, pour éviter de remplir les logs. Aucun message n'apparait dans les logs
+  >
+  > Pour avoir des logs, sur un équipement il faut cliquer sur le bouton "Rafraichir" de l'équipement
 
-> - Il ne faut pas que les noms d'appareils comportent des icônes.
+- **J'ai le message METHODE OBSOLETE => MERCI DE REGARDER LA DOCUMENTATION**
 
-**Les nouveaux "Appareils connectés" et "Appareils connectés Wifi Invité" n'apparaissent pas lors de l'actualisation de l'équipement**
+  > Les commandes ont changées dans la partie network, il est donc necessaire de changer la methode pour utiliser les commandes ci-dessous. *Voir le paragraphe "Gestion réseau"*
+  >
+  > Les commandes suivantes seront supprimer lors de la prochaine mise à jour :
+  >
+  > - **"Ajout - Supprimer filtrage Mac"** pour l'équipement *WIFI*
+  > - **"Ajouter supprimer IP Fixe"** pour les équipements *Appareils connectés* et *Appareils connectés Wifi Invité*
+  > - **"Wake on LAN"** pour les équipements *Appareils connectés* et *Appareils connectés Wifi Invité*
 
-> - Les nouveaux équipements ne sont pas ajoutés lors de l'actualisation mais uniquement avec le Cron Journalier
+- **A quoi corresponde les différents moteurs de tâches**
 
-**Je n'ai pas de message dans les logs en mode debug**
-
-> - Pour la partie Tile vu que le rafraichissement se fait plusieurs fois par minute, pour éviter de remplir les logs. Aucun message n'apparait dans les logs
->
-> Pour avoir des logs, sur un équipement il faut cliquer sur le bouton "Rafraichir" de l'équipement
-
-**J'ai le message METHODE OBSOLETE => MERCI DE REGARDER LA DOCUMENTATION**
-
-> Les commandes pour changer pour la partie network, il est necessaire de changer la methode Voir le paragraphe "Attribuer une adresse IP fixe"
-
-> Les commandes suivantes seront supprimer lors de la prochaine mise à jour :
->
-> - "Ajout - Supprimer filtrage Mac" pour l'équipement "WIFI"
-> - "Ajouter supprimer IP Fixe" pour les équipements "Appareils connectés" et "Appareils connectés Wifi Invité"
+  > - **RefreshToken** : Permet de raffraichir l'accès a la freebox
+  >
+  > **FreeboxPUT** : Permet de faire les actions sur la freebox
+  >
+  > - **FreeboxAPI** :
+    > Permet de tester de vérifier la dernière version de l'API de la freebox
+    > un contrôle est fait une fois par semaine
+  >
+  > - **FreeboxGET** : Permet de récupèrer les données de type info de la partie domotique

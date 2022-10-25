@@ -21,7 +21,7 @@ pluginId: Freebox_OS
 
 # 26/10/2022,
 
-- **Version Mini Jeedom**
+- **Version Mini Core Jeedom**
 
 > Dernière version compatible core 4.0
 
