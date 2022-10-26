@@ -19,7 +19,13 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 26/10/2022,
+# 27/10/2022
+
+- **Wifi**
+
+  - Correction Bug état des cartes Wifi
+  
+# 26/10/2022
 
 - **Version Mini Core Jeedom**
 
