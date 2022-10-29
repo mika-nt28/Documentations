@@ -19,11 +19,11 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
-# 27/10/2022
+# 29/10/2022
 
-- **Wifi**
+- **Contrôle parental**
 
-  - Correction Bug état des cartes Wifi
+  - Correction Bug "API NON COMPATIBLE : Version d’API inconnue" lors d'une action
 
 # A TESTER
 
