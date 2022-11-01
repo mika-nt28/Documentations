@@ -19,11 +19,11 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
-# 29/10/2022
+# 02/11/2022
 
-- **Contrôle parental**
+- **Appareils connectés**
 
-  - Correction Bug "API NON COMPATIBLE : Version d’API inconnue" lors d'une action
+  - Correction Bug sur la modale de redirection des ports
 
 # A TESTER
 
