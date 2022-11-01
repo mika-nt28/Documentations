@@ -19,6 +19,12 @@ pluginId: Freebox_OS
 
 # Changelog
 
+# 02/11/2022
+
+- **Appareils connectés**
+
+  - Correction Bug sur la modale de redirection des ports
+
 # 29/10/2022
 
 - **Contrôle parental**
