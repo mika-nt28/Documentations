@@ -154,7 +154,7 @@ Certain Template, comme celui présenté on des options, pour ajouter une option
 
 # Flags
 
-# Flag  Lecture / Read
+## Flag  Lecture / Read
 
 * Actif : Si Jeedom voit sur le bus un télégramme de type "Lecture / Read" qui correspond à cet objet (= l'objet est lié à l'adresse de groupe de destination du télégramme) alors le participant va répondre en envoyant sur le bus la valeur actuelle de l'objet.
 * Inactif : Le participant ne réagira à aucun télégramme de type "Lecture / Read" qui correspond à cet objet.
@@ -582,6 +582,17 @@ Pas pour le moment
 ### Commandes
 
 * Valeur *[Pas de Synonyme]
+
+# DPT spécifique
+## Utilisation du DPT235.001
+
+Ce DPT remonte 10 Tarif diférents que le plugin vas séparé
+Dans un premier temps il vas falloir crée des commande virtuel pour chaque tarif
+* Soit par le plugin virtuel 
+* Soit directement sur le plugin KNX avec le 13.010 sans GAD ou avec le GAD impossible 255/255/255 
+
+Une derniere commande est a créer avec le DPT 235.001. Sur cette commande l'option "ActiveElectricalEnergy" apparait et il doit etre saisi dans l'ordre  les 10 commande tarif et séparé par '|'
+![Configuration du GAD 235](../images/GAD235.jpg)
 
 # FAQ
 
