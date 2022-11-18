@@ -592,7 +592,8 @@ Dans un premier temps il vas falloir crée des commande virtuel pour chaque tari
 * Soit directement sur le plugin KNX avec le 13.010 sans GAD ou avec le GAD impossible 255/255/255 
 
 Une derniere commande est a créer avec le DPT 235.001. Sur cette commande l'option "ActiveElectricalEnergy" apparait et il doit etre saisi dans l'ordre  les 10 commande tarif et séparé par '|'
-![Configuration du GAD 235](../images/GAD235.jpg)
+
+![Configuration du GAD 235](../images/GAD235.jpeg)
 
 # FAQ
 
