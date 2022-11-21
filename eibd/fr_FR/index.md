@@ -52,14 +52,17 @@ Des fonctions d'auto-configuration (auto-include, parser ETS) ont été impléme
 
 ![Paramètre de configuration avancée](../images/ConfigurationAvance.png)
 
-* `Nom du serveur KNX` : donne un nom au service KNXd quand il est utilisé (uniquement pour KNXd donc)
-* `Adresse Physique du démon (PA)` : permet de fixer le début d'une plage d'adresses physiques (libres !) au démon sur votre bus KNX.
+* `Adresse multicast du serveur KNX` : Adresse du reseau KNX en multicast (Routing), l'adresse est identique pour la connexion (IP) et pour le serveur KNXD
+* `Nom du serveur KNX` : donne un nom au serveur KNXD, visible sur le reseau.
+* `Adresse Physique du démon (PA)` : permet de fixer le début d'une plage d'adresses physiques (***Attention Toute la plage d'adresse doit etre libres !***) au démon sur votre bus KNX.
 Le paramètre suivant défini aussi la taille de cette plage
 * `Nombres de connexions autorisées sur le serveur du démon` : donne le nombre de connexions autorisées.
 Attention, ces connexions sont aussi mappées sur votre bus KNX (voir paramètre précédent)
+* `Filtre serveur KNX` : Un filtre est ajouté a serveur KNX pour autorisé la programmation par ETS
 * `Visibilité du serveur KNX` : le serveur KNX virtuel répond à une requête permettant de découvrir les passerelles par un multicast IP dédié au KNX (224.0.23.12).
 Cette fonctionnalité est présente dans ETS et liste automatiquement toutes les passerelles sur le réseau locale. En désactivant cette option, le démon ne répondra plus.
 * `Mode Routing` et `Mode Tunnelling` : permet au démon de devenir un router KNX virtuel.
+* `Temps d'attente entre 2 envois (ms)` : Permet de difinir le temps d'attente a la fin de chaque envoie
 
 ## Installation des dépendances
 
