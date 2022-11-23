@@ -6,6 +6,9 @@ pluginId: eibd
 ---
 
 # Stable.
+## 23/11/2022
+* Niveau de log KNXD adapté par rapport au niveau de log du plugin
+ 
 ## 23/06/2022
 * BugFix affichage des log de knxd
 * BugFix DPT 251.600
