@@ -41,9 +41,9 @@ pluginId: Freebox_OS
 
 # 27/10/2022
 
-- **Wifi**
+- **Wi-Fi**
 
-  - Correction Bug état des cartes Wifi
+  - Correction Bug état des cartes Wi-Fi
   
 # 26/10/2022
 
@@ -86,7 +86,7 @@ pluginId: Freebox_OS
   - Nouvel équipement
   - il réuni plusieurs commandes partagées dans plusieurs équipements
 
-  > - Gérer le filtrage mac pour le wifi
+  > - Gérer le filtrage mac pour le Wi-Fi
   > - Ajouter - supprimer une IP Fixe” pour les équipements
 
 - **Contrôle Parental** (17.08.2022)
@@ -102,7 +102,7 @@ pluginId: Freebox_OS
   - Ajout texte d'information pour l'actualisation globale des titles dans le cas de volet SOMFY
   - Correction du refresh équipement si le cron global n’est pas actif
 
-- **Wifi**
+- **Wi-Fi**
 
   > La commande "Ajout - Supprimer filtrage Mac" sera supprimer lors de la prochaine mise à jour car elle est désormais intégré dans la gestion réseau
 
@@ -169,9 +169,9 @@ pluginId: Freebox_OS
 # 23/05/2021
 
 - Correction fonctionnement inversion Slider
-- Correction commande ON et OFF pour l'ensemble des commandes du WIFI
+- Correction commande ON et OFF pour l'ensemble des commandes du Wi-Fi
 - Correction Template Network version Mobile
-- Amélioration commande Wifi WPS
+- Amélioration commande Wi-Fi WPS
 
 # 10/05/2021
 
@@ -191,9 +191,9 @@ pluginId: Freebox_OS
 
   > - Air Média
   > - Appareils connectés
-  > - Appareils connectés Wifi Invité
+  > - Appareils connectés Wi-Fi Invité
   > - Téléchargements
-  > - Wifi
+  > - Wi-Fi
 
 - **Amélioration CRON/DEMON**
 
@@ -366,10 +366,10 @@ pluginId: Freebox_OS
 
     > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
 
-- **Wifi**
+- **Wi-Fi**
 
-  - Correction retour d'état du Wifi
-  - Ajout statut des différentes carte Wifi
+  - Correction retour d'état du Wi-Fi
+  - Ajout statut des différentes carte Wi-Fi
 
 - **Général**
 
@@ -377,7 +377,7 @@ pluginId: Freebox_OS
 
 # 29/11/2020
 
-- **Wifi**
+- **Wi-Fi**
 
   - Ajout de la prise en charge de la gestion du filtrage des Mac
   - Possibilité d'ajouter ou supprimer des adresses MAC dans la gestion du filtrage des MAC depuis un scénario
@@ -418,9 +418,9 @@ pluginId: Freebox_OS
 
   - Réécriture de cette partie afin de prendre en charge les disques avec partition
 
-- **Wifi**
+- **Wi-Fi**
 
-  - Ajout commande wifi WPS
+  - Ajout commande Wi-Fi WPS
     > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
 
 - **Tiles**
@@ -475,7 +475,7 @@ pluginId: Freebox_OS
 - **Appareils connectés**
 
   - Ces équipements ne sont disponibles que si la Freebox n'est pas mode bridge
-    > Pour ceux qui sont en mode bridge, il faudra manuellement supprimer les deux équipements des appareils connectés (Wifi invité et Lan)
+    > Pour ceux qui sont en mode bridge, il faudra manuellement supprimer les deux équipements des appareils connectés (Wi-Fi invité et Lan)
   - Optimisation du refresh et de la création des commandes
   - Cron Daily : les nouveaux appareils détectés sont invisibles
 
@@ -523,8 +523,8 @@ pluginId: Freebox_OS
 
 # 30/08/2020
 
-- Corrections Bug Type de générique sur les commandes Wifi Planning
-- Correction Bug recherche Appareils connectés Wifi Invité
+- Corrections Bug Type de générique sur les commandes Wi-Fi Planning
+- Correction Bug recherche Appareils connectés Wi-Fi Invité
 - Corrections action sur les Commandes Tiles
 - Corrections slider couleur inactif
   > il faudra supprimer la commande slider couleur et faire une recherche des tiles pour avoir cette correction
@@ -626,9 +626,9 @@ pluginId: Freebox_OS
   - Ajout info flux RSS
 - **Disque Dur**
   - Suppression du widget actuel et utilisation du widget core par défaut
-- **Wifi**
-  - Suppression de la commande Activer/Désactiver du Wifi
-    > il faut utiliser les commandes ON et OFF pour gérer le wifi
+- **Wi-Fi**
+  - Suppression de la commande Activer/Désactiver du Wi-Fi
+    > il faut utiliser les commandes ON et OFF pour gérer le Wi-Fi
 - **Caméra**
   - Amélioration des réglages de la Caméra
     > il faut supprimer l'équipement pour avoir les nouveaux réglages
@@ -640,7 +640,7 @@ pluginId: Freebox_OS
 - **Freebox débits**
   - Ajout info de l’IPV4 et IPV6
     > Il faut refaire une recherche des équipements standards pour avoir cette info
-- **Equipements Appareils connectés Wifi Invité**
+- **Equipements Appareils connectés Wi-Fi Invité**
   - Ajout de cet équipement
 
 # 06/08/2020
@@ -679,7 +679,7 @@ pluginId: Freebox_OS
 >
 > **Il faudra aussi mettre à jour les droits dans la console de la Freebox**
 >
-> Attention : La commande Activer/Désactiver du Wifi sera supprimée lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le wifi
+> Attention : La commande Activer/Désactiver du Wi-Fi sera supprimée lors des prochaines mises à jour, il faudra utiliser les commandes ON et OFF pour gérer le Wi-Fi
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
@@ -713,9 +713,9 @@ pluginId: Freebox_OS
 - **4G**
   - Ajout commande pour activer/désactiver la 4G sur la box
     > Les commandes sont ajoutées uniquement si la carte est détectée
-- **Wifi**
+- **Wi-Fi**
   - Ajout Planning => Etat + Activation + Désactiver
-  - Ajout type de générique pour le Wifi (afin de le commander via Homebridge)
+  - Ajout type de générique pour le Wi-Fi (afin de le commander via Homebridge)
 - **Contrôle Parental**
   - Ajout du contrôle parental => Etat
   - Ajout des commandes débloquer / bloquer (30min/1h/2h)
@@ -746,11 +746,11 @@ pluginId: Freebox_OS
 
 # 02/07/2020
 
-- **Wifi**
-  - Déplacement des commandes vers un équipement spécifique Wifi
+- **Wi-Fi**
+  - Déplacement des commandes vers un équipement spécifique Wi-Fi
     > Attention cet équipement est désactivé par défaut
   - Ajout icône pour les commandes ON et OFF
-  - Ajout widget pour l'état et l'action on/OFF du wifi (uniquement pour la V4)
+  - Ajout widget pour l'état et l'action on/OFF du Wi-Fi (uniquement pour la V4)
   - Passage de l'API de V3 à V5
 - **Téléphone**
   - Amélioration du widget
@@ -816,7 +816,7 @@ pluginId: Freebox_OS
 
 - Ajout info lors de la recherche des Tiles
 - Amélioration affichage des commandes
-- Migration commande API Wifi de V3 à V5
+- Migration commande API Wi-Fi de V3 à V5
 - Séparation des équipements Home et Tiles dans la liste des équipements
 - Nettoyage des cron à la suppression du plugin
 
