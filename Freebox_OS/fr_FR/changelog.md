@@ -19,6 +19,14 @@ pluginId: Freebox_OS
 
 # Changelog
 
+# 24/11/2022
+
+- **Général**
+
+- l'API passe désormais en v9 par défaut pour l'ensemble des box (c'est compatible avec la Freebox révolution)
+- Ajout dans le message "API NON COMPATIBLE : Version d'API inconnu" du chemin de la requête
+
+
 # 02/11/2022
 
 - **Appareils connectés**
