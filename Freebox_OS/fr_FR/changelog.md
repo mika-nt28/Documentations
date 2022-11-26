@@ -19,6 +19,12 @@ pluginId: Freebox_OS
 
 # Changelog
 
+# 27/11/2022
+
+- **Général**
+
+- Possibilité de faire un reset de la version API en v9 sans avoir fait le test
+
 # 24/11/2022
 
 - **Général**
