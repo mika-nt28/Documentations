@@ -11,7 +11,7 @@ Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Fre
 
 > Toutes les infos ne sont pas encore disponibles pour la Freebox POP
 >
-> **Il est nécessaire d'avoir la Freebox Serveur en version 4.3 pour que le plugin fonctionne**
+> **Il est nécessaire d'avoir la Freebox Serveur en version 4.7 pour que le plugin fonctionne**
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
@@ -432,15 +432,10 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - **J'ai le message "Version d’API inconnue"**
 
-  > **Il est nécessaire d'avoir la Freebox en version 4.3 minimum pour que le plugin fonctionne**
+  > **Il est nécessaire d'avoir la Freebox en version 4.7 minimum pour que le plugin fonctionne**
 
   > - Une détection automatique de la version API de la freebox est lancée une fois par semaine.
-  > - Il est possible de le lancer directement depuis l'écran d'Appairage
-  > - Il est actuellement obligatoire de faire le reset de la clef API a chaque mise à jour
-  >
-  > <p><img src="../images/reset_API1.png" alt="Reset API Freebox" width="500" /></p>
-  >
-  > <p><img src="../images/reset_API2.png" alt="Reset API Freebox" width="500" /></p>
+  
 
 - **J'ai le message "unknown host, use ip address or mafreebox.freebox.fr" et le Demon NOK**
 
