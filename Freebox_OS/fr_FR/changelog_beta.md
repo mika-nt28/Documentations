@@ -34,8 +34,6 @@ pluginId: Freebox_OS
 
 - Migration vers la nouvelle API pour l'agrégation 4G/xDSL.
 
- > La fonction activer/désactiver l'agrégation ne fonctionne pas suite a un problème API
-
 - **Général**
 
 - l'API passe désormais par une variable par défaut pour l'ensemble des box
@@ -43,7 +41,5 @@ pluginId: Freebox_OS
 
 # A TESTER
 
-- "Tout marquer comme lu" et "Vider le journal d appels" de la fonction télépho
-- 
-
-
+- "Tout marquer comme lu" et "Vider le journal d appels" de la fonction téléphone
+- “aggregation” 4G a tester
