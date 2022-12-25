@@ -19,6 +19,16 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
+# 25/12/2022
+
+- **Freebox Player**
+- Correction Bug statut équipement
+- Ajout info dans log pour différentier les players
+- Suppression refresh après ajout des équipements
+
+- **Freeplug**
+- Correction du type d'équipement
+
 # 10/12/2022
 
 - **Santé**
