@@ -19,6 +19,11 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
+# 29/12/2022
+
+- **Tiles**
+- Correction Bug enregistrement équipement si Cron global Actif
+
 # 25/12/2022
 
 - **Freebox Player**
