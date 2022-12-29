@@ -40,10 +40,9 @@ pluginId: Freebox_OS
 - Ajout warning si DEMON est NOK
 - Ajout warning si équipement est désactivé
 
-
 - **Téléphone**
 
-- Changement des fonctions "Vider le journal d appels" et "Tout marquer comme lu" 
+- Changement des fonctions "Vider le journal d appels" et "Tout marquer comme lu"
 
 - **Freebox Débits**
 
@@ -53,8 +52,7 @@ pluginId: Freebox_OS
 
 - l'API passe désormais par une variable par défaut pour l'ensemble des box
 
-
 # A TESTER
 
 - "Tout marquer comme lu" et "Vider le journal d appels" de la fonction téléphone
-- “aggregation” 4G a tester
+- “aggregation” 4G à tester
