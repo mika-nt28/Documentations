@@ -23,38 +23,38 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
- > - Correction Bug enregistrement équipement si Cron global Actif
+    > - Correction Bug enregistrement équipement si Cron global Actif
 
 # 25/12/2022
 
 - **Freebox Player**
 
- > - Correction Bug statut équipement
- > - Ajout info dans log pour différentier les players
- > - Suppression refresh après ajout des équipements
+    > - Correction Bug statut équipement
+    > - Ajout info dans log pour différentier les players
+    > - Suppression refresh après ajout des équipements
 
 - **Freeplug**
 
- > - Correction du type d'équipement
+    > - Correction du type d'équipement
 
 # 10/12/2022
 
 - **Santé**
 
- > - Ajout warning si DEMON est NOK
- > - Ajout warning si équipement est désactivé
+    > - Ajout warning si DEMON est NOK
+    > - Ajout warning si équipement est désactivé
 
 - **Téléphone**
 
- > - Changement des fonctions "Vider le journal d appels" et "Tout marquer comme lu"
+    > - Changement des fonctions "Vider le journal d appels" et "Tout marquer comme lu"
 
 - **Freebox Débits**
 
- > - Migration vers la nouvelle API pour l'agrégation 4G/xDSL.
+    > - Migration vers la nouvelle API pour l'agrégation 4G/xDSL.
 
 - **Général**
 
- > - l'API passe désormais par une variable par défaut pour l'ensemble des box
+    > - l'API passe désormais par une variable par défaut pour l'ensemble des box
 
 # A TESTER
 
