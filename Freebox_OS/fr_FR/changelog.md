@@ -19,38 +19,40 @@ pluginId: Freebox_OS
 
 # Changelog
 
-# 27/11/2022
+# 2022
+
+## 27/11/2022
 
 - **Général**
 
   > - Possibilité de faire un reset de la version API en v9 sans avoir fait le test
 
-# 24/11/2022
+## 24/11/2022
 
 - **Général**
 
   > - l'API passe désormais en v9 par défaut pour l'ensemble des box (c'est compatible avec la Freebox révolution)
   > - Ajout dans le message "API NON COMPATIBLE : Version d'API inconnu" du chemin de la requête
 
-# 02/11/2022
+## 02/11/2022
 
 - **Appareils connectés**
 
   > - Correction Bug sur la modale de redirection des ports
 
-# 29/10/2022
+## 29/10/2022
 
 - **Contrôle parental**
 
   > - Correction Bug "API NON COMPATIBLE : Version d’API inconnue" lors d'une action
 
-# 27/10/2022
+## 27/10/2022
 
 - **Wi-Fi**
 
   > - Correction Bug état des cartes Wi-Fi
   
-# 26/10/2022
+## 26/10/2022
 
 - **Version Mini Core Jeedom**
 
@@ -113,7 +115,7 @@ pluginId: Freebox_OS
 
   > La commande "Ajout - Supprimer filtrage Mac" sera supprimer lors de la prochaine mise à jour car elle est désormais intégré dans la gestion réseau
 
-# 30/04/2022
+## 30/04/2022
 
 > - Modification de la liste des Appels
 > - Ajout info sur les disques dur
@@ -124,7 +126,7 @@ pluginId: Freebox_OS
   > - un cron spécifique est paramétrable dans les équipements de type "Disque", "Appareils connectés", "Homeadapter"
   > - si le champs "Ajout des nouvelles commandes" est laissé vide, les nouvelles commandes ne seront pas ajoutées
 
-# 17/03/2022
+## 17/03/2022
 
 > - Modification création commande Homeadapter
 > - Correction bug Groupe Freeplug
@@ -133,7 +135,9 @@ pluginId: Freebox_OS
 > - Mise à jour création commande network
 > - Correction nom des VM lors de la création
 
-# 06/12/2021
+# 2021 
+
+## 06/12/2021
 
 > - Renommage dossier image a fin de répondre au nouvelle exigence du Core
 > - Correction problème d'éffacement de variable dans le cache
@@ -146,17 +150,17 @@ pluginId: Freebox_OS
   >   **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
   >   Pour avoir les freeplugs, il faut absolument qu'ils soient associés
 
-# 04/08/2021
+## 04/08/2021
 
 - Correction bug sur le refresh de l'alarme
 
-# 29/07/2021
+## 29/07/2021
 
 - Correction bug sur les commandes des VM
 - Correction Airmedia
 - Amélioration pour Core 4.2
 
-# 27/06/2021
+## 27/06/2021
 
 - **Freebox Débits**
 
@@ -167,29 +171,29 @@ pluginId: Freebox_OS
   > - Correction problème sur les commandes de mode du téléchargement
     > **Les anciennes commandes seront supprimées lors de la mise jour, il faudra lancer le Scan équipements standards pour avoir la nouvelle commande**
 
-# 28/05/2021
+## 28/05/2021
 
 - Correction problème CRON arreté et non redémarré lors d'un refresh du Token
 - Modification du valeur de la commande "Erreur" de l'alarme si sa valeur est nulle
 - Amélioration recherche des appareils connectés
 
-# 23/05/2021
+## 23/05/2021
 
 - Correction fonctionnement inversion Slider
 - Correction commande ON et OFF pour l'ensemble des commandes du Wi-Fi
 - Correction Template Network version Mobile
 - Amélioration commande Wi-Fi WPS
 
-# 10/05/2021
+## 10/05/2021
 
 - Correction Action contrôle parental
 - Amélioration action tiles (type bool)
 
-# 08/05/2021
+## 08/05/2021
 
 - Correction Reset Appairage
 
-# 07/05/2021
+## 07/05/2021
 
 - Amélioration création des équipements (gestion des doublons)
 - Amélioration liste des équipements
@@ -210,36 +214,37 @@ pluginId: Freebox_OS
 
 - **Amélioration suite Firmware Freebox 4.3**
 
-  - **Contrôle parental**
+- **Contrôle parental**
 
-    - Mise à jour du contrôle des droits lors de l'appairage
+  > - Mise à jour du contrôle des droits lors de l'appairage
 
-  - **Système**
+- **Système**
 
-    - Ajout Info Langue de la freebox
+ > - Ajout Info Langue de la freebox
 
-  - **Appareils connectés**
+- **Appareils connectés**
 
-    - Prise en compte des nouveaux types de périphériques (Véhicule connectées)
+  > - Prise en compte des nouveaux types de périphériques (Véhicule connectées)
 
-  - **VM**
+- **VM**
 
-    - Ajout équipement (Etat, Start, Stop, Redémarrer et d'autres infos)
+  > - Ajout équipement (Etat, Start, Stop, Redémarrer et d'autres infos)
 
-  - **Partage Windows/Mac**
-    - Possibilité d'activer SMBv2
+- **Partage Windows/Mac**
+
+  > - Possibilité d'activer SMBv2
       > si SMBv2 actif, les commandes de partage d'imprimante seront supprimées lors de la prochaine mise à jour de l'équipement.
       >
       > Attention si vous activez cette fonction, les sauvegardes jeedom peuvent ne plus fonctionner si vous sauvegarder sur la freebox
 
 - **Tiles**
 
-- Ajout Cron refresh global pour la partie domotique (merci @Nebz et @Foulek57)
-- Correction Bug création des caméras
-  > **Attention Il est possible que les caméras soient créees en double dans le plugin Camera**
-- Correction Bug création des Prises
-- Ajout Icône pour les équipement (merci @Skillix)
-- Amélioration gestion des différents types de volet
+  > - Ajout Cron refresh global pour la partie domotique (merci @Nebz et @Foulek57)
+  >- Correction Bug création des caméras
+    > **Attention Il est possible que les caméras soient créees en double dans le plugin Camera**
+  > - Correction Bug création des Prises
+  > - Ajout Icône pour les équipement (merci @Skillix)
+  > - Amélioration gestion des différents types de volet
 
   > - Ajout Toggle pour certain types de volet
   > - Correction bug sur invertion des commandes numériques
@@ -247,18 +252,18 @@ pluginId: Freebox_OS
 
 > **Pour l'ensemble des nouveautés ci-dessus, il faut lancer l'ensemble des scans**
 
-# 16/02/2021
+## 16/02/2021
 
 - Ajout menu Debug pour les box prenant en charge les Tiles (freebox Delta)
 
-# 14/02/2021
+## 14/02/2021
 
 - Affichage tableau Core v4.2 (beta)
 - Correction recherche contrôle Parental
 
 - **Equipement standard**
 
-  - Ajout équipement "Afficheur LCD" uniquement pour les Freebox révolutions
+  > - Ajout équipement "Afficheur LCD" uniquement pour les Freebox révolutions
     > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer un Scan équipements standards**
 
 - **Tiles**
@@ -272,7 +277,7 @@ pluginId: Freebox_OS
     - Amélioration affichage
     - Correction Bug des niveaux des batteries pour les télécommandes de l'alarme
 
-# 23/01/2021
+## 23/01/2021
 
 - **Tiles**
 
@@ -282,7 +287,7 @@ pluginId: Freebox_OS
 
     - Correction Bug non actualisation des états pour Homebridge
 
-# 22/01/2021
+## 22/01/2021
 
 - Amélioration de la recherche pour les commandes supplémentaires des équipements
 - Amélioration de l'affichage pour les mobiles de la partie authentification
@@ -355,16 +360,18 @@ pluginId: Freebox_OS
 
     - Ajout du type de batterie dans l'équipement
 
-# 13/12/2020
+# 2020
+
+## 13/12/2020
 
 - Correction Bug sur la recherche des équipements Débits
 
-# 09/12/2020
+## 09/12/2020
 
 - Correction Bug sur Alarme non fonctionnelle avec Homebridge
   > Il faut relancer une recherche des Tiles pour résoudre ce problème
 
-# 08/12/2020
+## 08/12/2020
 
 - **Appareils connectés**
 
@@ -382,7 +389,7 @@ pluginId: Freebox_OS
 
   - Correction bouton recherche sur les équipements systèmes
 
-# 29/11/2020
+## 29/11/2020
 
 - **Wi-Fi**
 
@@ -405,18 +412,18 @@ pluginId: Freebox_OS
   - Amélioration général de l'affichage suivant le Template Jeedom
   - Ajout des info bulle sur les commandes
 
-# 06/11/2020
+## 06/11/2020
 
 - Amélioration de la liste des objets parents
 - Ajout de la page santé pour les équipements
   > Attention, la batterie n'est pas prise en charge pour certains équipements (Télécommande, Détecteur de mouvement)
 
-# 28/10/2020
+## 28/10/2020
 
 - Correction du refresh de l'état 4G
 - Amélioration des Tiles
 
-# 15/10/2020
+## 15/10/2020
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86, Noodom pour leurs aides et leurs retours
@@ -439,7 +446,7 @@ pluginId: Freebox_OS
   - Prise en compte des versions des équipements pour la mise à jour du plugin
   - Amélioration log close session
 
-# 14/10/2020
+## 14/10/2020
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86, Freetronic pour leurs aides et leurs retours
@@ -464,7 +471,7 @@ pluginId: Freebox_OS
     - Non exécution des Crons si l'équipement est désactivé
     - Ajout de log supplémentaire en cas de problème sur un Cron
 
-# 01/10/2020
+## 01/10/2020
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's, Olive, Jcamus86 pour leurs aides et leurs retours
@@ -507,7 +514,7 @@ pluginId: Freebox_OS
   - Résolution des bugs dans les logs en mode info
   - Résolution des divisions par zéro
 
-# 12/09/2020
+## 12/09/2020
 
 - Possibilité d'inverser les valeurs numériques (Action et Info)
 - Suppression forçage widget Disque et réseau
@@ -528,7 +535,7 @@ pluginId: Freebox_OS
   > - Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
   > - Le player mini4K n'est pas compatible, le player POP n'est pas encore compatible
 
-# 30/08/2020
+## 30/08/2020
 
 - Corrections Bug Type de générique sur les commandes Wi-Fi Planning
 - Correction Bug recherche Appareils connectés Wi-Fi Invité
@@ -536,7 +543,7 @@ pluginId: Freebox_OS
 - Corrections slider couleur inactif
   > il faudra supprimer la commande slider couleur et faire une recherche des tiles pour avoir cette correction
 
-# 29/08/2020
+## 29/08/2020
 
 - **Freebox Débits**
 
@@ -577,13 +584,13 @@ pluginId: Freebox_OS
   - Possibilité d'inverser la commande pour les actions de type curseur
     > Il faut avoir la valeur mini et maxi de renseigner pour que cela fonctionne
 
-# 26/08/2020
+## 26/08/2020
 
 - Correction bug routé crantée infinie lors de la mise à jour
 - Correction Bug débit, les débit 4G ne sont plus ajoutés si la carte n'est pas présente
 - Correction ordre des commandes de débit
 
-# 25/08/2020
+## 25/08/2020
 
 > **Important**  
 > **Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu**
@@ -650,13 +657,13 @@ pluginId: Freebox_OS
 - **Equipements Appareils connectés Wi-Fi Invité**
   - Ajout de cet équipement
 
-# 06/08/2020
+## 06/08/2020
 
 > Suite à la mise à jour de la Freebox en 4.2.3
 
 - Correction IP Freebox
 
-# 29/07/2020
+## 29/07/2020
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's, Olive, jcamus86 pour leurs aides et leurs retours
@@ -680,7 +687,7 @@ pluginId: Freebox_OS
   - Affectation des Temps de rafraichissement (cron) différents suivant le type d'équipement.
     > Cela s'appliquera uniquement pour les nouveaux équipements
 
-# 24/07/2020
+## 24/07/2020
 
 > **Attention Il est nécessaire d'avoir la Freebox serveur en version 4.2 pour que le plugin fonctionne**
 >
@@ -735,7 +742,7 @@ pluginId: Freebox_OS
   - Corrections bugs sur les sliders de type éclairage
     > Il faut absolument supprimer les commandes pour avoir ce problème résolu
 
-# 05/07/2020
+## 05/07/2020
 
 - Résolution bug transparence équipement réseau + disques
 - Résolution bug Etat HomeAdapters
@@ -751,7 +758,7 @@ pluginId: Freebox_OS
     >   - **URL du Flux** : rtsp://#username#:#password#@#ip#/img/live
     >   - **Nombre d'images par seconde de la vidéo** _(onglet capture)_ : 15
 
-# 02/07/2020
+## 02/07/2020
 
 - **Wi-Fi**
   - Déplacement des commandes vers un équipement spécifique Wi-Fi
@@ -790,7 +797,7 @@ pluginId: Freebox_OS
   - Désactivation de la création des équipements à la première installation
     > il faudra cliquer sur "Scan équipements standards"
 
-# 11/06/2020
+## 11/06/2020
 
 - Bug : Correction Affichage Batterie : Masqué par défaut
 - Bug : Template par défaut pour le sabotage et l'ouverture
@@ -798,11 +805,11 @@ pluginId: Freebox_OS
 - Bug : Détecteur de présence correction des templates et l'inversion des signaux
 - Autorisation de supprimer les commandes
 
-# 09/06/2020
+## 09/06/2020
 
 - Modification remontée alarme batterie lors de la création de la commande
 
-# 07/06 et 08/06/2020
+## 07/06 et 08/06/2020
 
 - Équipement de type "Tiles"
 
@@ -819,7 +826,7 @@ pluginId: Freebox_OS
 - Ajout commande "refresh" => commande masquée par défaut dans les listes des commandes
 - Clean code
 
-# 27/05/2020
+## 27/05/2020
 
 - Ajout info lors de la recherche des Tiles
 - Amélioration affichage des commandes
@@ -827,25 +834,27 @@ pluginId: Freebox_OS
 - Séparation des équipements Home et Tiles dans la liste des équipements
 - Nettoyage des cron à la suppression du plugin
 
-# 03/04/2020
+## 03/04/2020
 
 - Séparation du plugin et sa documentation
 
-# 19/12/2019
+# 2019
+
+## 19/12/2019
 
 - BugFix Syntax Error
 
-# 11/12/2019
+## 11/12/2019
 
 - BugFix déconnexion en cas de réponse fausse
 - Suppression des équipements réseau en cas de réponse invalide
 
-# 10/12/2019
+## 10/12/2019
 
 - Restructuration de la class API
 - Création d'un cron de rafraichissement du token pour n'avoir qu'une seule session
 - Mise a jour du widget Réseau
 
-# 27/11/2019
+## 27/11/2019
 
 - Ajout des widgets pour la partie mobile
