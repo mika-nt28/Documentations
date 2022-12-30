@@ -23,46 +23,46 @@ pluginId: Freebox_OS
 
 - **Général**
 
- - Possibilité de faire un reset de la version API en v9 sans avoir fait le test
+  > - Possibilité de faire un reset de la version API en v9 sans avoir fait le test
 
 # 24/11/2022
 
 - **Général**
 
- - l'API passe désormais en v9 par défaut pour l'ensemble des box (c'est compatible avec la Freebox révolution)
- - Ajout dans le message "API NON COMPATIBLE : Version d'API inconnu" du chemin de la requête
+  > - l'API passe désormais en v9 par défaut pour l'ensemble des box (c'est compatible avec la Freebox révolution)
+  > - Ajout dans le message "API NON COMPATIBLE : Version d'API inconnu" du chemin de la requête
 
 # 02/11/2022
 
 - **Appareils connectés**
 
-  - Correction Bug sur la modale de redirection des ports
+  > - Correction Bug sur la modale de redirection des ports
 
 # 29/10/2022
 
 - **Contrôle parental**
 
-  - Correction Bug "API NON COMPATIBLE : Version d’API inconnue" lors d'une action
+  > - Correction Bug "API NON COMPATIBLE : Version d’API inconnue" lors d'une action
 
 # 27/10/2022
 
 - **Wi-Fi**
 
-  - Correction Bug état des cartes Wi-Fi
+  > - Correction Bug état des cartes Wi-Fi
   
 # 26/10/2022
 
 - **Version Mini Core Jeedom**
 
-> Dernière version compatible core 4.0
+  > - Dernière version compatible core 4.0
 
 - **Général**
 
-- Arrêt des crons actifs lors du refreshToken
-- Création d'un Cron semaine pour rechercher la version de l'API valide
-- Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
-- Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
-- Ajout fonctionnalité core V4.3
+  > - Arrêt des crons actifs lors du refreshToken
+  > - Création d'un Cron semaine pour rechercher la version de l'API valide
+  > - Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
+  > - Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
+  > - Ajout fonctionnalité core V4.3
 
 - **Airmedia**
 
@@ -72,14 +72,15 @@ pluginId: Freebox_OS
     > Les anciennes commandes seront supprimées car non compatible
 
 - **Appairage** (21.09.2022, 22/09/2022)
-  - Ajout Bouton pour ignorer la vérification des droits
-  - Ajout Bouton pour faire un reset de l'API de la freebox
+  
+  > - Ajout Bouton pour ignorer la vérification des droits
+  > - Ajout Bouton pour faire un reset de l'API de la freebox
 
 - **Appareils connectés** (28/08/2022)
 
-  - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
-  - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de futures améliorations
-  - Les commandes suivantes seront supprimer lors de la prochaine mise a jour car elles sont désormais intégré dans la gestion réseau :
+  > - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
+  > - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de futures améliorations
+  > - Les commandes suivantes seront supprimer lors de la prochaine mise a jour car elles sont désormais intégré dans la gestion réseau :
 
     > "Ajouter supprimer IP Fixe"
     > "Wake on LAN"
@@ -95,17 +96,18 @@ pluginId: Freebox_OS
   > - Ajouter - supprimer une IP Fixe” pour les équipements
 
 - **Contrôle Parental** (17.08.2022)
-  - Correction du bug sur la recherche des nouveaux contrôles
+  
+  > - Correction du bug sur la recherche des nouveaux contrôles
 
 - **Network**
 
-  - Correction de la lecture des ports
-  - Correction Ajout mac adresse en liste noire ou blanche
+  > - Correction de la lecture des ports
+  > - Correction Ajout mac adresse en liste noire ou blanche
 
 - **Tiles**
 
-  - Ajout texte d'information pour l'actualisation globale des titles dans le cas de volet SOMFY
-  - Correction du refresh équipement si le cron global n’est pas actif
+  > - Ajout texte d'information pour l'actualisation globale des titles dans le cas de volet SOMFY
+  > - Correction du refresh équipement si le cron global n’est pas actif
 
 - **Wi-Fi**
 
@@ -113,31 +115,31 @@ pluginId: Freebox_OS
 
 # 30/04/2022
 
-- Modification de la liste des Appels
-- Ajout info sur les disques dur
-- Suppression Cron jour
-- Possibilité de désactiver la mise à jour des commandes Network (Il est déconseillé de le faire, cela peut poser des problèmes en cas de commande en double)
-- Suppression Cron jour
+> - Modification de la liste des Appels
+> - Ajout info sur les disques dur
+> - Suppression Cron jour
+> - Possibilité de désactiver la mise à jour des commandes Network (Il est déconseillé de le faire, cela peut poser des problèmes en cas de commande en double)
+> - Suppression Cron jour
 
   > - un cron spécifique est paramétrable dans les équipements de type "Disque", "Appareils connectés", "Homeadapter"
   > - si le champs "Ajout des nouvelles commandes" est laissé vide, les nouvelles commandes ne seront pas ajoutées
 
 # 17/03/2022
 
-- Modification création commande Homeadapter
-- Correction bug Groupe Freeplug
-- Ajout commande ON/OFF => home adapter mais attente réponse Free
-- Modification recherche Network avec mise a jour des noms des équipements
-- Mise à jour création commande network
-- Correction nom des VM lors de la création
+> - Modification création commande Homeadapter
+> - Correction bug Groupe Freeplug
+> - Ajout commande ON/OFF => home adapter mais attente réponse Free
+> - Modification recherche Network avec mise a jour des noms des équipements
+> - Mise à jour création commande network
+> - Correction nom des VM lors de la création
 
 # 06/12/2021
 
-- Renommage dossier image a fin de répondre au nouvelle exigence du Core
-- Correction problème d'éffacement de variable dans le cache
-- Amélioration création équipement caméra
-- Correction bug sur les commandes ON et OFF de la partie titles
-- Ajout Freeplug,
+> - Renommage dossier image a fin de répondre au nouvelle exigence du Core
+> - Correction problème d'éffacement de variable dans le cache
+> - Amélioration création équipement caméra
+> - Correction bug sur les commandes ON et OFF de la partie titles
+> - Ajout Freeplug,
 
   > - Info Rôle du Freeplug
   > - Action Reset
@@ -158,11 +160,11 @@ pluginId: Freebox_OS
 
 - **Freebox Débits**
 
-  - Correction problème refresh des données fibre optique sur les freebox révolution
+  > - Correction problème refresh des données fibre optique sur les freebox révolution
 
 - **Téléchargements**
 
-  - Correction problème sur les commandes de mode du téléchargement
+  > - Correction problème sur les commandes de mode du téléchargement
     > **Les anciennes commandes seront supprimées lors de la mise jour, il faudra lancer le Scan équipements standards pour avoir la nouvelle commande**
 
 # 28/05/2021
