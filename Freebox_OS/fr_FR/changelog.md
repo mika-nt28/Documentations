@@ -23,15 +23,14 @@ pluginId: Freebox_OS
 
 - **Général**
 
-- Possibilité de faire un reset de la version API en v9 sans avoir fait le test
+ - Possibilité de faire un reset de la version API en v9 sans avoir fait le test
 
 # 24/11/2022
 
 - **Général**
 
-- l'API passe désormais en v9 par défaut pour l'ensemble des box (c'est compatible avec la Freebox révolution)
-- Ajout dans le message "API NON COMPATIBLE : Version d'API inconnu" du chemin de la requête
-
+ - l'API passe désormais en v9 par défaut pour l'ensemble des box (c'est compatible avec la Freebox révolution)
+ - Ajout dans le message "API NON COMPATIBLE : Version d'API inconnu" du chemin de la requête
 
 # 02/11/2022
 
@@ -73,7 +72,7 @@ pluginId: Freebox_OS
     > Les anciennes commandes seront supprimées car non compatible
 
 - **Appairage** (21.09.2022, 22/09/2022)
-  - Ajout Bouton pour ignorer la vérification des droits 
+  - Ajout Bouton pour ignorer la vérification des droits
   - Ajout Bouton pour faire un reset de l'API de la freebox
 
 - **Appareils connectés** (28/08/2022)
