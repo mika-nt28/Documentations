@@ -56,3 +56,7 @@ pluginId: arrosageAuto
 * Correction du défaut a la création des commandes avec le version 4.xxx
 
 # Beta
+## 04/01/2023
+* Ajout des label et des aides sur les paramètres arroseurs
+* Mise a jours de l'initialisation des arroseur
+* Ajout d'une recherche  differetnt de l'equipement par défaut sur le pannel
