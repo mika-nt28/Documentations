@@ -19,6 +19,13 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
+# 2023
+
+## 15/01/2023
+
+- Modification non variable cache pour utiliser le format Core "pluginid::custom_key"
+
+
 # 2022
 
 ## 29/12/2022
