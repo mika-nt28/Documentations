@@ -21,9 +21,10 @@ pluginId: Freebox_OS
 
 # 2023
 
+## 15/01/2023
+
 - Modification non variable cache pour utiliser le format Core "pluginid::custom_key"
 
-## 15/01/2023
 
 # 2022
 
