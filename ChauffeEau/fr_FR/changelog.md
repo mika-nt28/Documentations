@@ -6,6 +6,10 @@ pluginId: ChauffeEau
 ---
 
 # Stable
+## 23/01/2023
+* BugFix creation de cron douche (Arret et redemarrage complet du demon a la sauvegarde
+
+
 ## 19/07/2021
 * BugFix non démarrage du chauffe-eau lorsqu'une condition n'est pas active
 * BugFix Simulation de température Forcage de la date de valeur meme si pas de changement de valeur
@@ -44,3 +48,5 @@ Ajout d'un déclencheur pour le changement de mode.
 Ce déclencheur est très utile pour la notification par exemple.
 
 # Beta
+## 01/02/2023
+* BugFix Arret de la chauffe a la consigne ou 30 min apres (En test)
