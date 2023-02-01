@@ -50,3 +50,5 @@ Ce déclencheur est très utile pour la notification par exemple.
 # Beta
 ## 01/02/2023
 * BugFix Arret de la chauffe a la consigne ou 30 min apres (En test)
+## 26/01/2023
+* Modification de l'etat du demon lorsque l'on a pas d'etat chauffe-eau ou Temperature eau
