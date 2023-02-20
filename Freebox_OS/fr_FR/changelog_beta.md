@@ -21,51 +21,10 @@ pluginId: Freebox_OS
 
 # 2023
 
-## 15/01/2023
+## 21/02/2023
 
-- Modification non variable cache pour utiliser le format Core "pluginid::custom_key"
-
-
-# 2022
-
-## 29/12/2022
-
-- **Tiles**
-
-    > - Correction Bug enregistrement équipement si Cron global Actif
-
-## 25/12/2022
-
-- **Freebox Player**
-
-    > - Correction Bug statut équipement
-    > - Ajout info dans log pour différentier les players
-    > - Suppression refresh après ajout des équipements
-
-- **Freeplug**
-
-    > - Correction du type d'équipement
-
-## 10/12/2022
-
-- **Santé**
-
-    > - Ajout warning si DEMON est NOK
-    > - Ajout warning si équipement est désactivé
-
-- **Téléphone**
-
-    > - Changement des fonctions "Vider le journal d appels" et "Tout marquer comme lu"
-
-- **Freebox Débits**
-
-    > - Migration vers la nouvelle API pour l'agrégation 4G/xDSL.
-
-- **Général**
-
-    > - l'API passe désormais par une variable par défaut pour l'ensemble des box
+- Correction variable indéfini
 
 # A TESTER
 
-- "Tout marquer comme lu" et "Vider le journal d appels" de la fonction téléphone
-- “aggregation” 4G à tester
+- Actualisation des appareils connectés 
