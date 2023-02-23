@@ -6,6 +6,9 @@ pluginId: luminotherapie
 ---
 
 # Stable
+## 23/02/2023
+* Bloquer l'emission d'une valeur si ientique a la precedente
+
 ## 21/02/2023
 * BugFix Temps des blans sur les ambiances par défaut
 * BugFix telechargement de partage des ambiances
