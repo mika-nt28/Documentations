@@ -21,9 +21,10 @@ pluginId: Freebox_OS
 
 # 2023
 
-## 21/02/2023
+## 04/03/2023
 
 - Correction variable indéfini
+- Correction typo usage pour le market
 
 ## 10/02/2023
 
