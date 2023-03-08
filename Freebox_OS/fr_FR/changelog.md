@@ -9,13 +9,13 @@ pluginId: Freebox_OS
 
 ## Important
 
-> **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineurs.
+> **_Pour rappel_**, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineurs.
 >
-> **Attention Il est nécessaire d'avoir la Freebox serveur en version 4.7 pour que le plugin fonctionne**
+> **Attention :il est nécessaire d'avoir le serveur Freebox en version 4.7 pour que le plugin fonctionne.**
 
 ## Fil d'actualité
 
-> [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
+> [Voir le fil d'actualité du plugin sur community](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
 
 # Changelog
 
@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 ## 04/03/2023
 
-- Correction variable indéfini
+- Correction variable indéfinie
 - Correction typo usage pour le market
 
 ## 10/02/2023
@@ -40,7 +40,7 @@ pluginId: Freebox_OS
 - **Freebox Player**
 
     > - Correction Bug statut équipement
-    > - Ajout info dans log pour différentier les players
+    > - Ajout info dans log pour différencier les players
     > - Suppression refresh après ajout des équipements
 
 - **Freeplug**
@@ -112,7 +112,7 @@ pluginId: Freebox_OS
   > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer le scan "Scan équipements standard"**
 
     > Réécriture complète de cette partie
-    > Les anciennes commandes seront supprimées car non compatible
+    > Les anciennes commandes seront supprimées car non compatibles
 
 - **Appairage** (21.09.2022, 22/09/2022)
   
@@ -133,7 +133,7 @@ pluginId: Freebox_OS
   > **Pour l'ensemble des nouveautés ci-dessous, il faut lancer le scan "Scan équipements standard"**
 
   - Nouvel équipement
-  - il réuni plusieurs commandes partagées dans plusieurs équipements
+  - Il réunit plusieurs commandes partagées dans plusieurs équipements
 
   > - Gérer le filtrage mac pour le Wi-Fi
   > - Ajouter - supprimer une IP Fixe” pour les équipements
@@ -180,7 +180,7 @@ pluginId: Freebox_OS
 
 ## 06/12/2021
 
-> - Renommage dossier image a fin de répondre au nouvelle exigence du Core
+> - Renommage dossier image afin de répondre au nouvelle exigence du Core
 > - Correction problème d'éffacement de variable dans le cache
 > - Amélioration création équipement caméra
 > - Correction bug sur les commandes ON et OFF de la partie titles
@@ -214,7 +214,7 @@ pluginId: Freebox_OS
 
 ## 28/05/2021
 
-- Correction problème CRON arreté et non redémarré lors d'un refresh du Token
+- Correction problème CRON arrêté et non redémarré lors d'un refresh du Token
 - Modification du valeur de la commande "Erreur" de l'alarme si sa valeur est nulle
 - Amélioration recherche des appareils connectés
 
