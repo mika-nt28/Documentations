@@ -58,7 +58,7 @@ Configuration du plugin et de ses dépendances
 ### Configuration avancée de OpenAlpr
 
 La configuration des paramètres peut être défini avec l'utilitaire openalpr-utils-calibrate.exe sur windows avec une image de la camera.
-[Vous pouvez télécharger les outils pour windows x64](https://objects.githubusercontent.com/github-production-release-asset-2e65be/14259343/efa28254-76b6-11e5-97c4-aea73c468132?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAIWNJYAX4CSVEH53A%2F20230309%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230309T065902Z&X-Amz-Expires=300&X-Amz-Signature=6591597919dceb7ceecb5efa77778944275f276fbfd27e427076e3ad378fefac&X-Amz-SignedHeaders=host&actor_id=5501935&key_id=0&repo_id=14259343&response-content-disposition=attachment%3B%20filename%3Dopenalpr-2.2.0-win-64bit.zip&response-content-type=application%2Foctet-stream)
+[Vous pouvez télécharger les outils pour windows x64](https://github.com/openalpr/openalpr/releases/download/v2.3.0/openalpr-2.3.0-win-64bit.zip)
 
 * state_id_img_size_percent:
 * ocr_img_size_percent:
