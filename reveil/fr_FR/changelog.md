@@ -6,6 +6,11 @@ pluginId: reveil
 ---
 
 # Stable
+##22/03/2023
+* Refonte de démon
+* Action par déclancheur
+* Condition par déclancheur
+
 ## 22/09/2021
 * Ajout d'une foncton de tri des actions avec leur delais
 * Suppression du cron
