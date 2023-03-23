@@ -6,10 +6,12 @@ pluginId: porte
 ---
 
 # Stable
+## 23/03/2023-  Premiere version 
+* Création automatique des commandes Ouvert/Stop/Fermé séparé
+* La configuration du plugin permet de gérer Multi commande ou  1 commande avec Ouvert/Stop/Fermé (d'autre type pouront etre ajouté
+* Gestion automatique de la Fermeture
+* Pourcentage d'ouverture
+
 
 # Beta
-## 16/03/2023
-* Premiere version avec les commandes Ouvert/Stop/Fermé séparé
-* Multi commande ou  1 commande avec Ouvert/Stop/Fermé
-* Fermeture automatique
-* Pourcentage d'ouverture
+
