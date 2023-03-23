@@ -19,7 +19,7 @@ La page de configuration est assez simple.
 Général
 ---
 
-* Nom du volet : Le nom a déjà été paramétrée mais vous avez la possibilité de la changer
+* Nom : Le nom a déjà été paramétrée mais vous avez la possibilité de la changer
 * Objet parent : Ce paramétré permet d'ajouter l'équipement dans un objet Jeedom
 * Catégorie : Déclare l'équipement dans une catégorie
 * Visible : Permet de rendre l'équipement visible dans le Dashboard
@@ -35,18 +35,16 @@ Objet de controle
 > La commande stop n'est pas obligatoire.
 Lorsque le champs de l'objet Stop n'est pas remplis, le plugin utilisera la même commande de mouvement pour s'arrêter 
 
-Objet d'état du volet
+Objet d'état
 ---
 
-Les états de mouvement sont définis comme une condition, c'est à dire qu'il faut définir un objet (de votre équipement connecter au volet) ainsi qu'un opérande et une valeur.
-* Utiliser les états surs :
- * Les mouvement Jeedom : Permet, si cochée de mettre à jours la hauteur par le retour d'état, ou sinon de forcer la valeur demander
-
+Les états de mouvement sont définis comme une condition, c'est à dire qu'il faut définir un objet ainsi qu'un opérande et une valeur.
+* Utiliser les états sur :
+* Les mouvement Jeedom : Permet, si cochée de mettre à jours la hauteur par le retour d'état, ou sinon de forcer la valeur demander
 * Condition d'état de l'ouverture : Cette état indique au plugin une ouverture **Option**
 * Condition d'état d'une fermeture  : Cette état indique au plugin une fermeture **Option**
-* Condition d'état arrêt  : Cette état indique au plugin un arrêt de mouvement **Option**
-
-* Fin de course  :  Commande Jeedom représentant la fin de course(info -> Binaire :1 = fermée)
+* Condition d'état arrêt : Cette état indique au plugin un arrêt de mouvement **Option**
+* Condition Fin de course :  Commandes Jeedom représentant les fins de course (info -> Binaire :1 = fermée/ouvert) **Option**
 
 > Tout les état ne sont pas obligatoires. 
 Elle doivent corresponde à ce qui est disponible sur votre actionneur. 
