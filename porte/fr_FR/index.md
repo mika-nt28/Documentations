@@ -9,10 +9,16 @@ Description
 ===
 Ce plugin a pour but de permettre de gérer ses ouvrant 
 
-Paramétrage d'un ourvran
+Paramétrage du plugin
 ===
+![Parmaetrage du plugin](../images/screenshot_porte_configurationPlugin.jpg)
 
-![introduction01](../images/Configuration.jpg)
+Le plugin n'a besoin d'aucune configuration.
+Vous avez juste dans cette partie les options habituel de Jeedom
+
+Paramétrage d'un ourvrant
+===
+![Liste des équipement configuré](../images/screenshot_porte_Equipements.jpg)
 
 La page de configuration est assez simple.
 
@@ -24,6 +30,8 @@ Général
 * Catégorie : Déclare l'équipement dans une catégorie
 * Visible : Permet de rendre l'équipement visible dans le Dashboard
 * Activer : Permet d'activer l'équipement
+
+![Configuration de l'automatisme](../images/screenshot_porte_ConfigurationEquipement.jpg)
 
 Objet de controle
 ---
