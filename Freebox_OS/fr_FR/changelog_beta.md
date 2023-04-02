@@ -21,10 +21,10 @@ pluginId: Freebox_OS
 
 # 2023
 
-## 21/02/2023
+## 03/04/2023
 
-- Correction variable indéfini
+- Correction pour core 4.4
+- Version mini Core pour le plugin est 4.2
 
 # A TESTER
 
-- Actualisation des appareils connectés 
