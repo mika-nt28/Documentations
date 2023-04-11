@@ -5,6 +5,11 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 12/04/2023
+* Suppression de la pompe de circulation des equipements par defaut
+* Suppression de la pompe 2 des equipements par defaut
+* Autorisation de la mise a jours de la temperature du spa par la mise en route de la pompe 1
+
 ## 26/07/2022
 * Ajout du support ContrôlMySpa
 
