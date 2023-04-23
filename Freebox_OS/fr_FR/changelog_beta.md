@@ -21,10 +21,16 @@ pluginId: Freebox_OS
 
 # 2023
 
+## 24/04/2023
+
+- Amélioration gestion de l'inversion des commandes binaires (utilisation de la commande d'inversion du CORE)
+
+> ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES
+
 ## 03/04/2023
 
 - Correction pour core 4.4
-- Version mini Core pour le plugin est 4.2
+- Version mini Core pour le plugin est 4.0
 
 # A TESTER
 
