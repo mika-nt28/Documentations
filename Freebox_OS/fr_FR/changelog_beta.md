@@ -23,7 +23,9 @@ pluginId: Freebox_OS
 
 ## 24/04/2023
 
-- Amélioration gestion de l'inversion des commandes binaires (utilisation de la commande d'inversion du CORE)
+- Suppression des commandes obsolètes
+
+- Amélioration gestion de l'inversion des commandes binaires pour la partie TITLES(utilisation de la commande d'inversion du CORE)
 
 > ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES
 
