@@ -21,6 +21,11 @@ pluginId: Freebox_OS
 
 # 2023
 
+## 17/06/2023
+
+- Ajout info de débit (Reçu et Emis)
+
+
 ## 24/04/2023
 
 - Suppression des commandes obsolètes
