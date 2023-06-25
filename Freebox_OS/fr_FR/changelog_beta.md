@@ -21,6 +21,15 @@ pluginId: Freebox_OS
 
 # 2023
 
+## 25/06/2023
+
+- Correction Bug update commande info de type TITLES
+
+## 17/06/2023
+
+- Ajout info de débit (Reçu et Emis)
+
+
 ## 24/04/2023
 
 - Suppression des commandes obsolètes
