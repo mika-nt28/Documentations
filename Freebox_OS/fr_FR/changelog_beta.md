@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 ## 26/06/2023
 
-- Correction Bug update mise à jour des commandes de type info pour la partie TITLES
+- Correction Bug mise à jour des commandes de type info pour la partie TITLES
 - Ajout info de débit (Reçu et Emis)
 
 
