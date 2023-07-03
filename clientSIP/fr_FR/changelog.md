@@ -22,3 +22,7 @@ pluginId: clientSIP
 
 ## 03/04/2020
 * Séparation du plugin et sa documentation
+
+# Beta
+## 03/07/2023
+* Refonte du plugin et passage sur une demon python (Tous doit etre a revalider et a tester, 
