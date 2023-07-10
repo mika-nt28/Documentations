@@ -24,6 +24,12 @@ pluginId: clientSIP
 * Séparation du plugin et sa documentation
 
 # Beta
+## 11/07/2023
+* Ajout de la lecture de message en reception d'appel
+* Ajout de messages liste par DTMF et diffusé en audio
+* Ajout du retour d'execution des DTMF
+* Boucle d'attente DTMF a 30s max
+  
 ## 06/07/2023
 * BugFix arret du demon
 * Remontées des états du client (Etat appel / Etat connexion)
