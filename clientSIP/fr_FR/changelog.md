@@ -24,6 +24,11 @@ pluginId: clientSIP
 * Séparation du plugin et sa documentation
 
 # Beta
+## 14/07/2023
+* BugFix sur la récupération des messages d'appel
+* Message texte transmis au demon (plus de conversion TTS par PHP)
+* Diffusion du message TTS sur le canal du télephone (A tester)
+
 ## 11/07/2023
 * Ajout de la lecture de message en reception d'appel
 * Ajout de messages liste par DTMF et diffusé en audio
@@ -36,7 +41,11 @@ pluginId: clientSIP
 * Remplacement du format de convertion TTS MP3 vers WAVE pour une compatibilité directe a la diffusion (suppression de 2 conversion)
 * Ajout d'un lecteur de fichier wave et diffusion a travers la connexion RTP (non tester)
 * BugFix commande DTMF dans le bon champs
-* Ajout de messages liste par DTMF (non gérer dans le message audio diffusé)
+
+# A venir
+* Ajout du Speach to text (Google ou autre a définir)
+* Couplage avec les interagtion Jeedom
+* Ajout des Tag dans les messages (#dtmf#, #value#, ...)
 
 ## 03/07/2023
 * Refonte du plugin et passage sur une demon python (Tous doit etre a revalider et a tester, 
