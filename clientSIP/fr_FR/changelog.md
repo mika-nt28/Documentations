@@ -12,7 +12,7 @@ pluginId: clientSIP
 
 ## 10/03/2021
 * Dubug REGISTER avec 3CX (autentification par proxy)
-* 
+  
 ## 01/05/2020
 * Suppression des dépendance avec le plugin play TTS
 * Ajout du moteur play TTS
@@ -24,6 +24,11 @@ pluginId: clientSIP
 * Séparation du plugin et sa documentation
 
 # Beta
+## 21/07/2023
+* Conversion du fichier audio TTS au format PCMU (A tester)
+* Evaluation des messages (possibilité d'ajouter des commande jeedom et tag #dtmf#)
+* Bugfix action dtmf (a verifier)
+  
 ## 14/07/2023
 * BugFix sur la récupération des messages d'appel
 * Message texte transmis au demon (plus de conversion TTS par PHP)
@@ -42,10 +47,12 @@ pluginId: clientSIP
 * Ajout d'un lecteur de fichier wave et diffusion a travers la connexion RTP (non tester)
 * BugFix commande DTMF dans le bon champs
 
+## 03/07/2023
+* Refonte du plugin et passage sur une demon python (Tous doit etre a revalider et a tester,
+
 # A venir
 * Ajout du Speach to text (Google ou autre a définir)
 * Couplage avec les interagtion Jeedom
 * Ajout des Tag dans les messages (#dtmf#, #value#, ...)
+* Mode Ask
 
-## 03/07/2023
-* Refonte du plugin et passage sur une demon python (Tous doit etre a revalider et a tester, 
