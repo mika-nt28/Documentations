@@ -21,6 +21,12 @@ pluginId: Freebox_OS
 
 # 2023
 
+## 01/09/2023
+
+- Reprise création commande download
+- Reprise création commande système
+- Correction variable non défini
+
 ## 26/06/2023
 
 - Correction Bug mise à jour des commandes de type info pour la partie TITLES
