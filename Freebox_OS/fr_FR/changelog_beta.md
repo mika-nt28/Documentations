@@ -26,6 +26,7 @@ pluginId: Freebox_OS
 - Reprise création commande download
 - Reprise création commande système
 - Correction variable non défini
+- Correction bug IP4 pour les équipements désactivés
 
 ## 26/06/2023
 
