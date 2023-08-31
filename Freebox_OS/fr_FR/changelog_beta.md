@@ -28,6 +28,10 @@ pluginId: Freebox_OS
 - Correction variable non défini
 - Correction bug IP4 pour les équipements désactivés
 
+- Bouton Télécommande alarme, la valeur du bouton est toujours répété
+
+> ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES
+
 ## 26/06/2023
 
 - Correction Bug mise à jour des commandes de type info pour la partie TITLES
