@@ -26,7 +26,13 @@ pluginId: Freebox_OS
 - Reprise création commande download
 - Reprise création commande système
 - Correction variable non défini
+
+- **Appareils connectés**
+
 - Correction bug IP4 pour les équipements désactivés
+- Ajout de l'IP4 si l'appareil a une adresse fixe
+
+- **Tiles**
 
 - Bouton Télécommande alarme, la valeur du bouton est toujours répété
 
@@ -34,13 +40,20 @@ pluginId: Freebox_OS
 
 ## 26/06/2023
 
+- **Tiles**
+
 - Correction Bug mise à jour des commandes de type info pour la partie TITLES
+
+- **Débit**
+
 - Ajout info de débit (Reçu et Emis)
 
 
 ## 24/04/2023
 
 - Suppression des commandes obsolètes
+
+- **Tiles**
 
 - Amélioration gestion de l'inversion des commandes binaires pour la partie TITLES(utilisation de la commande d'inversion du CORE)
 
