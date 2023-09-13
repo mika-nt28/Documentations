@@ -21,6 +21,12 @@ pluginId: Freebox_OS
 
 # 2023
 
+## 13/09/2023
+
+- Fin de la reprise des équipements pour le Core 4.4 (uniquement pour les nouveaux équipements)
+- Ajout lien vers communauty
+- Amélioration log Tiles 
+
 ## 01/09/2023
 
 - Reprise création commande download
