@@ -21,11 +21,24 @@ pluginId: Freebox_OS
 
 # 2023
 
+## 25/09/2023
+
+- Amélioration info vers communauty pour le Core 4.4
+
+- **Tiles**
+ 
+- Amélioration gestion de la valeur de la télécommande de l'alarme
+
+> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
+
 ## 13/09/2023
 
 - Fin de la reprise des équipements pour le Core 4.4 (uniquement pour les nouveaux équipements)
-- Ajout lien vers communauty
-- Amélioration log Tiles 
+- Ajout lien vers communauty pour le Core 4.4
+
+- **Tiles**
+
+- Amélioration log Tiles
 
 ## 01/09/2023
 
@@ -40,9 +53,9 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
-- Bouton Télécommande alarme, la valeur du bouton est toujours répété
+- Bouton Télécommande de l'alarme, la valeur du bouton est toujours répété
 
-> ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES
+> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
 
 ## 26/06/2023
 
