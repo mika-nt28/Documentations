@@ -27,9 +27,9 @@ pluginId: Freebox_OS
 
 - **Tiles**
  
-- Amélioration gestion de la valeur de la télécommande de l'alarme
+    - Amélioration gestion de la valeur de la télécommande de l'alarme
 
-> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
+    > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
 
 ## 13/09/2023
 
@@ -38,7 +38,7 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
-- Amélioration log Tiles
+    - Amélioration log Tiles
 
 ## 01/09/2023
 
@@ -48,24 +48,23 @@ pluginId: Freebox_OS
 
 - **Appareils connectés**
 
-- Correction bug IP4 pour les équipements désactivés
-- Ajout de l'IP4 si l'appareil a une adresse fixe
+    - Correction bug IP4 pour les équipements désactivés
+    - Ajout de l'IP4 si l'appareil a une adresse fixe
 
 - **Tiles**
 
-- Bouton Télécommande de l'alarme, la valeur du bouton est toujours répété
-
-> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
+    - Bouton Télécommande de l'alarme, la valeur du bouton est toujours répété
+    > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
 
 ## 26/06/2023
 
 - **Tiles**
 
-- Correction Bug mise à jour des commandes de type info pour la partie TITLES
+    - Correction Bug mise à jour des commandes de type info pour la partie TITLES
 
 - **Débit**
 
-- Ajout info de débit (Reçu et Emis)
+    - Ajout info de débit (Reçu et Emis)
 
 
 ## 24/04/2023
@@ -74,9 +73,8 @@ pluginId: Freebox_OS
 
 - **Tiles**
 
-- Amélioration gestion de l'inversion des commandes binaires pour la partie TITLES(utilisation de la commande d'inversion du CORE)
-
-> ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES
+    - Amélioration gestion de l'inversion des commandes binaires pour la partie TITLES(utilisation de la commande d'inversion du CORE)
+    > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
 
 ## 03/04/2023
 
