@@ -6,7 +6,7 @@ pluginId: reveil
 ---
 
 # Stable
-##22/03/2023
+## 22/03/2023
 * Refonte de démon
 * Action par déclancheur
 * Condition par déclancheur
@@ -25,4 +25,7 @@ pluginId: reveil
 * BugFix lorsqu'il n'y a aucun délai
 
 # Beta
-
+## 05/10/2023
+* Ajout du nom sur la programmation
+* Ajout de l'autorisation de programmation Action
+* Ajout de l'autorisation de programmation Condition
