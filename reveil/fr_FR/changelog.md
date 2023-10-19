@@ -6,6 +6,13 @@ pluginId: reveil
 ---
 
 # Stable
+## 16/10/2023
+* BugFix execution des actions dans le delais
+* Ajout du nom sur la programmation **Nouvelle configuration requise**
+* Utilisation de l'input heure sur la programmation **Nouvelle configuration requise**
+* Ajout de l'autorisation de programmation sur les actions Action **Nouvelle configuration requise**
+* Ajout de l'autorisation de programmation Condition **Nouvelle configuration requise**
+  
 ## 22/03/2023
 * Refonte de démon
 * Action par déclancheur
@@ -25,7 +32,6 @@ pluginId: reveil
 * BugFix lorsqu'il n'y a aucun délai
 
 # Beta
-## 05/10/2023
-* Ajout du nom sur la programmation
-* Ajout de l'autorisation de programmation Action
-* Ajout de l'autorisation de programmation Condition
+
+# A venir
+* Configuration d'un reveil unique.
