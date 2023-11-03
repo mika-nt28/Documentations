@@ -6,6 +6,12 @@ pluginId: reveil
 ---
 
 # Stable
+## 03/11/2023
+* Renommage de la programmation reprecuté sur les options actions/condition
+* Ajout d'un champs de programation unique/programmé
+* Ajout d'un champs de programation sur une date unique
+* Mise a jours du core du plugin pour géré les nouveau parametre
+
 ## 16/10/2023
 * BugFix execution des actions dans le delais
 * Ajout du nom sur la programmation **Nouvelle configuration requise**
@@ -34,4 +40,3 @@ pluginId: reveil
 # Beta
 
 # A venir
-* Configuration d'un reveil unique.
