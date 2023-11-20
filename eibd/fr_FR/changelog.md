@@ -6,6 +6,9 @@ pluginId: eibd
 ---
 
 # Stable.
+## 21/11/2023
+* mise a jour du dpt 17.xxx
+
 ## 23/11/2022
 * Niveau de log KNXD adapté par rapport au niveau de log du plugin
  
