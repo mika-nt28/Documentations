@@ -26,7 +26,7 @@ pluginId: Freebox_OS
 - Amélioration info vers communauty pour le Core 4.4
 
 - **Tiles**
- 
+   
     - Amélioration gestion de la valeur de la télécommande de l'alarme
 
     > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
