@@ -21,6 +21,35 @@ pluginId: Freebox_OS
 
 # 2023
 
+## 17/12/2023
+
+- Amélioration info vers communauty pour le Core 4.4
+- Amélioration des équipements pour le Core 4.4
+- Reprise création commande download
+- Reprise création commande système
+- Correction variable non défini
+- Suppression des commandes obsolètes
+
+- **Tiles**
+   
+    - Amélioration gestion de la valeur de la télécommande de l'alarme
+    - Bouton Télécommande de l'alarme, la valeur du bouton est toujours répété
+    - Amélioration log Tiles
+    - Correction Bug mise à jour des commandes de type info pour la partie TITLES
+    - Amélioration gestion de l'inversion des commandes binaires pour la partie TITLES(utilisation de la commande d'inversion du CORE)
+
+    > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
+
+- **Appareils connectés**
+
+    - Correction bug IP4 pour les équipements désactivés
+    - Ajout de l'IP4 si l'appareil a une adresse fixe
+
+- **Débit**
+
+    - Ajout info de débit (Reçu et Emis)
+
+
 ## 04/03/2023
 
 - Correction variable indéfinie
