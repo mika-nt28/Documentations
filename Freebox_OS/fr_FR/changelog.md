@@ -11,7 +11,7 @@ pluginId: Freebox_OS
 
 > **_Pour rappel_**, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineurs.
 >
-> **Attention :il est nécessaire d'avoir le serveur Freebox en version 4.7 pour que le plugin fonctionne.**
+> **Attention : Il est nécessaire d'avoir le serveur Freebox en version 4.7 pour que le plugin fonctionne.**
 
 ## Fil d'actualité
 
@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 ## 17/12/2023
 
-- Amélioration info vers communauty pour le Core 4.4
+- Amélioration info vers community pour le Core 4.4
 - Amélioration des équipements pour le Core 4.4
 - Reprise création commande download
 - Reprise création commande système
@@ -318,7 +318,7 @@ pluginId: Freebox_OS
 
   > - Ajout Toggle pour certain types de volet
   > - Correction bug sur invertion des commandes numériques
-  >   [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673/54?u=jag)
+  >   [Voir le fil d'actualité du plugin sur community](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673/54?u=jag)
 
 > **Pour l'ensemble des nouveautés ci-dessus, il faut lancer l'ensemble des scans**
 

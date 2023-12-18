@@ -9,13 +9,13 @@ pluginId: Freebox_OS
 
 ## Important
 
-> **_Pour rappel_** s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineurs.
+> **_Pour rappel_**, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineurs.
 >
-> **Attention Il est nécessaire d'avoir la Freebox serveur en version 4.7 pour que le plugin fonctionne**
+> **Attention : Il est nécessaire d'avoir la Freebox serveur en version 4.7 pour que le plugin fonctionne.**
 
 ## Fil d'actualité
 
-> [Voir le fil d'actualité du plugin sur communauty](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
+> [Voir le fil d'actualité du plugin sur community](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
 
 # Changelog BETA
 
@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 ## 25/09/2023
 
-- Amélioration info vers communauty pour le Core 4.4
+- Amélioration info vers community pour le Core 4.4
 
 - **Tiles**
    
@@ -34,7 +34,7 @@ pluginId: Freebox_OS
 ## 13/09/2023
 
 - Fin de la reprise des équipements pour le Core 4.4 (uniquement pour les nouveaux équipements)
-- Ajout lien vers communauty pour le Core 4.4
+- Ajout lien vers community pour le Core 4.4
 
 - **Tiles**
 
