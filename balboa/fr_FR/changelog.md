@@ -5,6 +5,43 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 12/04/2023
+* Suppression de la pompe de circulation des equipements par defaut
+* Suppression de la pompe 2 des equipements par defaut
+* Autorisation de la mise a jours de la temperature du spa par la mise en route de la pompe 1
+
+## 26/07/2022
+* Ajout du support ContrôlMySpa
+
+## 22/03/2022
+* Ajout de la découverte automatique des spas
+
+## 03/03/2022
+* Ajout au mode la configuration de condition de déclanchement
+* Ajout au mode la configuration d'actions Spa pret (a la consigne)
+
+## 17/02/2022
+* Mise a jours des widget Pompe de circulation et blower avec des icones jeedom
+* Bugfix ordenancement des actions
+* Bugfix affichage des options des actions (avant sauvgarde)
+* Bugfix Mise a jours des lists d'action sur les pompes => on peut mettre a jours les etats que l'on a besoin
+* Mise a jours par un etat de mode null lorqu'il y a une action manuel
+
+
+## 27/01/2022
+* Ajout de l'affichage de la caracterisation du chauffage
+* Ajout de la mise a jours du temps de chauffe (temperature actuel / Temperature de consigne / Caracterisitque de chauffe) => En test
+* Bugfix rafraichissement des valeurs apres mise a jours (plus d'attente de batch de controle
+* Mise a jours de la température uniquement si la pompe de circulation est en marche
+
+## 28/09/2021
+* Bugfix message en cas de connexion impossible
+
+## 01/07/2021
+* Netoyage du code
+* Creation de commande groupé (Etat + actions)
+* Commande toogle passé en commande unitaire
+
 ## 22/12/2020
 * Bugfix Suppression des conditions dans les modes
 
@@ -46,7 +83,3 @@ pluginId: balboa
 * Séparation du plugin et sa documentation
 
 # Beta
-## 22/04/2021
-* Netoyage du code
-* Creation de commande groupé (Etat + actions)
-* Commande toogle passé en commande unitaire

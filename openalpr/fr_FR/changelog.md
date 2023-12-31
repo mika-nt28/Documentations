@@ -6,11 +6,16 @@ pluginId: openalpr
 ---
 
 # Stable
+## 08/09/2021
+* Mise a jours de l'affichage des snapshots
+* Bugfix sur les declanchement de groupe par camera
+
 ## 02/12/2020
 * Bugfix droit sur le fichier de mask
 
 ## 27/05/2020
-* ajout d'un temps maximum d'installation des dépendances 
+* ajout d'un temps maximum d'installation des dépendances
+ 
 ## 20/05/2020
 * Correction envoie de snapshot par action
 * Ajout de l'aide contextuel dans la configuration
@@ -20,11 +25,11 @@ pluginId: openalpr
 * Exécution des actions uniquement au changement d'état de la plaque
 * Refonte de la boucle d'attente
 * Limite de la recherche par flotte ** au plaque complète
+
 ## 01/05/2020
 * Vérification si le fichier de configuration alprd existe après la vérification de la configuration
+
 ## 03/04/2020
 * Séparation du plugin et sa documentation
 
 # Beta
-## 07/04/2021
-* Mise a jours de l'affichage des snapshots

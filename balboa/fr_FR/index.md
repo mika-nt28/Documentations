@@ -11,14 +11,21 @@ Ce plugin a pour objet de connecter Jeedom à vos SPA __balboa__.
 
 # Configuration
 
+![Page de configuration du plugin Balboa](../images/balboa_screenshot_Configuration.jpg)
 
 ## Ajout d'un SPA
 
 Rendez-vous sur la pages de configuration du plugin Plugins => Confort => SPA Balboa
-Comme partout dans jeedom vous avez le bouton "Ajouter" qui vas vous crée votre équipement
+
+Il existe 2 solution pour ajouter un SPA a jeedom
+Comme partout dans jeedom vous avez le bouton "Ajouter" qui vas vous crée votre équipement, au la decouverte automatique qui vas crée automatiquement tous les spa qui reponde.
+
+Si-dessous, les champs de configuration qui sont a presonaliser dans les 2 cas de creation
 
 * Nom de l'équipement : Nom saisi lors de la création de l'equipement, mais peut être encore modifié
-* Adresse IP de l'equipement : Adresse IP du module wifi de votre SPA
+* Type de connexion : Sélectionner la méthode de connexion locale / cloud / ControlMySPA
+* Adresse IP de l'equipement : Adresse IP du module wifi de votre SPA (automatiquement renseigné par la détéction automatique
+* Identifiant cloud / ControlMySPA : Saisir vos identifiants de connexion BWA / ControlMySPA
 * Objet parent : Objet Jeedom associé à votre SPA
 * Catégorie : choisissez la catégorie dans laquelle vous souhaiter regrouper votre SPA
 * Etat du widget : Paramètre de visibilité et d'activation de votre equipement
@@ -27,6 +34,8 @@ Comme partout dans jeedom vous avez le bouton "Ajouter" qui vas vous crée votre
 
 ![Page de configuration d'un SPA](../images/balboa_screenshot_Equipement.jpg)
 
+>  Unité de temps et Unité de température, ne fonctionne pas en mode CLOUD/ ControlMySPA
+
 ## Création de mode de fonctionnement
 
 Pour automatiser plus facilement notre SPA, le plugin propose la création de mode.
@@ -34,19 +43,14 @@ Il est possible d'ajouter autant de mode que l'on souhaite.
 
 ![Création d'un mode pour notre SPA](../images/balboa_screenshot_Mode.jpg)
 
-Pour chaque mode, il est possible de le conditionner, c'est à dire de définir des conditions pour lequel on autorise l'exécution du mode.
-Chaque condition peut être activé ou non.
-Nous pouvons autoriser le plugin à surveiller que nos conditions soient réunies pour exécuter automatiquement le mode, si le champs *Activer si condition vrai* est coché
+Les modes peuvent etre automatiquement déclanché par des conditions évalué toute les minutes.
+Pour que le mode soit autrisé automatiquement toute les conditions doivent etre remplis
 
-Pour chaque mode on vient déterminer les actions sur notre SPA
+Pour chaque mode une deuxieme serie de condition évalué uniquement lors d'une demande de changement de mode 
+Pour que le mode soit autrisé  toute les conditions doivent etre remplis
 
-* Température de consigne du SPA
-* Activation de la pompe 1 du SPA
-* Activation de la pompe 2 du SPA
-
-Les mode peuvent être déclenché par :
-* Ses condition si le champs *Activer si condition vrai* est coché
-* Gere en externe par jeedom grâce à la commande *Mode actif / Mode du SPA*
+Lorsque le mode est autorisé toutes les actions de changement de mode sont executé.
+Apres un changement de mode et lorsque la température est a 1°c de la température de consigne alors les actions "Pret" sont executé
 
 ## Programmation hebdomadaire des filtrations
 
@@ -60,9 +64,11 @@ Pour ajouter un créneaux, vous cliquer et glisser vers la fin du créneaux
 
 > Pour supprimer un créneaux, utiliser le clic droit
 
+> Ne fonctionne pas en mode CLOUD
+
 # Commandes
 
-Voici toute les commandes qui sont automatiquement crée lors de l'ajout d'un SPA
+Voici toute les commandes qui sont automatiquement crée lors de l'ajout d'un SPA, il est possible d'en créer des supplémentaires. 
 
 * Température : Température actuel de l'eau de votre SPA
 * Consigne / Etat Consigne : Consigne de chauffage actuel de votre SPA

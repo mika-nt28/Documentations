@@ -6,6 +6,37 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 03/08/2022
+* Accecibilité de la configuration camera sur la page de configuration des utilisateurs et sur le panel
+* Refonte de la présentation du panel
+* Mise a jours du planning depuis le panel
+* Ajout d'une tempo de 1s apres l'annalyse de l'image pour baisser la consomation CPU (Beta a voir la dégradation de la détéction)
+* Mise a jours de l'affichage de l'image par evenement apres l'ecriture par le demon
+* Dependance installé par package
+
+## 14/11/2021
+* Ajout des parametre de configuration de la détéction d'objet (activation et confidence)
+
+## 20/10/2021
+* Bugfix import de photo pour l'apprentissage
+* Bugfix figeage du demon sans fichier de data (pas d'apprentisage par camera du coup)
+
+## 02/19/2021
+* Ajout du parametre "Nombre d'image détecté"
+* Suppression de la sensibilité a l'import d'une photo (utilisation de la sensibilité de la premiere camera)
+* Taille maximum sur l'affichage l'image de la camera en apprentissage
+* Bugfix transmission detection Jeedom
+* Ajout de la reconnaissance d'objet MobileNetSSD
+* Bugfix rafraichissement image camera
+
+## 14/09/2021
+* Bugfix rafraichissement image camera
+* 
+## 08/09/2021
+* Restructuration du code python 
+* Ajout d'un parametre (non configurable) sur le nombre d'image détécté (10) pour filtre le fausse détéction
+* Ajout d'un pannel pour mobile
+
 ## 13/04/2021
 * Gestion du  multi-treading
 * Bugfix prise de video

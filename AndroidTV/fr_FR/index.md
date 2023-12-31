@@ -103,8 +103,8 @@ Le plugin installe le paquet debian 'adb-tools'
 ## Je ne vois pas l'option "débogage par reseau", que faire ?
 
 > Sur certains appareils Android, cette option est désactivée et le port 5555 servant a ADB n'est pas ouvert par défaut, pour remedier a cela il faut executer les commandes suivantes
-> - Activer le debogage USB et connecter l'appareil a votre ordinateur (ou Jeedom) en USB.
-> - Si vous utiliser un  ordinateur il faudra telecharger l'application (minimal adb and fast boot).
+> - Pour les freebox il faut toujours activer le debogage USB et connecter l'appareil a votre ordinateur (ou Jeedom) en USB.
+> - Activer le debogage par reseaux.
 > - Assurez vous que l'appareil est bien reconnu par l'ordinateur avec la commande "adb devices" (Votre appareil devrait etre listé)
 > - Lancer la commande "adb tcpip 5555" (cette commande ouvre le port 5555)
 > - Vous pouvez maintenant deconnecter le cable USB et profiter de votre plugin.

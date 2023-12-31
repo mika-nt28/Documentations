@@ -1,4 +1,16 @@
 # Stable
+## 26/07/2022
+* Ajout de SALTO
+
+## 21/07/2021
+Mise a jours proposé par @Wators
+* Ajout des commandes Chaine + et Chaine - et regroupé Volume+ et -.
+* Ajout d'un volet au widget pour la gestion des ports HDMI.
+* Ajout de l'Mac address pour pouvoir faire un wol sur la TV en cas de veille profonde
+* Mise a jours de l'affichage la gestion des commandes, info, app et Hdmi.
+* Mise a jours de la gestion des icônes
+
+
 ## 15/03/2021
 * Suppression du cron plugin et création d'un cron par equipement a surveiller
 * Ajout d'un bouton ajouter pour creation manuel d'une application (certainement des parametres a ajouté par defaut pour que cela fonctionne correctement)

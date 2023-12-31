@@ -6,6 +6,9 @@ pluginId: prosommateur
 ---
 
 # Stable
+## 26/07/2022
+* Ajout d'une configuration sur la durée du lissage de production
+* 
 ## 20/04/2021
 * Initialisation de l'etat de gestion a Off au démarrage du démon / sauvgarde
 * BugFix execution des actions

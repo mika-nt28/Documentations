@@ -5,6 +5,19 @@ lang: fr_FR
 pluginId: arrosageAuto
 ---
 # Stable
+## 15/09/2022 - Refontes du plugin général (configuration a reprendre si besoin)
+* Coeficient forcé a 100% lors de la sauvegarde
+* Correction des unité d'affichage
+* Ajout de parametre manquant au model Tuyere, Turbine et Oscillant - Temps et distance
+* Bugfix calcul de pluviometrie Tuyere pour prise en compte de la surface couverte
+* Bugfix calcul de pluviometrie Turbine et Oscillant pour prise en compte de la surface couverte et du temps de mouvement
+* Refonte de la configuration des arroseur
+* Mise à jour du panel avec configuration des plantation des arroseurs par branche  
+* Coeficient appliqué sur la pluviometrie
+* Ajout de la commande info pluviometrie
+* Ajout de la commande temps apres correction du coeficient
+* Refonte de la gestion des plantations
+
 ## 12/04/2021
 * Bugfix reprogrammation
 
@@ -43,3 +56,7 @@ pluginId: arrosageAuto
 * Correction du défaut a la création des commandes avec le version 4.xxx
 
 # Beta
+## 04/01/2023
+* Ajout des label et des aides sur les paramètres arroseurs
+* Mise a jours de l'initialisation des arroseur
+* Ajout d'une recherche  differetnt de l'equipement par défaut sur le pannel

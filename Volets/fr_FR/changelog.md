@@ -6,6 +6,18 @@ pluginId: Volets
 ---
 
 # Stable
+## 31/05/2022
+* Ajout en local des librairies carte openLayers
+
+## 03/03/2022
+* Mise a jours de la gestion Jour/Nuit
+* Bugfix warning php
+
+## 08/09/2021
+* Bugfix Rechargement de la saison des evenements
+* Bugfix Affichage des retour a la ligne dans les conditions multiples
+* Bugfix Widget Soleil dans la fenetre (Remplacement par un widget core personalisé)
+
 ## 09/04/2021
 * Bugfix gestion de saison dans la gestion Evenement
 
@@ -32,3 +44,17 @@ pluginId: Volets
 * Ajout du support de configuration par Jeedom
 
 # Beta
+## 31/05/2022
+* Ajout en local des librairies carte openLayers
+* Mise a jours du calcul du ratioVertical par obrage (toujours fermé si l'ombre ne cache pas la fenetre)
+* Mise a jours du calcul du ratioVertical par ensoleillement directe (Calcule toujours pour l'été)
+
+## 19/05/2022
+* Ajout d'une sortie d'Azimuth (Jour/Nuit) si les conditions ne sont pas remplis
+* Déplacement du calcul du ratioVertical sur la gestion Azimuth
+
+## 18/05/2022
+* Refonte du calcul du ratioVertical 
+- Gestion par ombrage, toujours fermé car l'ombrage par du bas
+- Gestion ensoleilement directe, calcul de la proportion d'ouverture
+* BugFix passage en gestion de nuit a la sortie d'un evenement / condition
