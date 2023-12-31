@@ -6,6 +6,30 @@ pluginId: reveil
 ---
 
 # Stable
+## 03/11/2023
+* Renommage de la programmation reprecuté sur les options actions/condition
+* Ajout d'un champs de programation unique/programmé
+* Ajout d'un champs de programation sur une date unique
+* Mise a jours du core du plugin pour géré les nouveau parametre
+
+## 16/10/2023
+* BugFix execution des actions dans le delais
+* Ajout du nom sur la programmation **Nouvelle configuration requise**
+* Utilisation de l'input heure sur la programmation **Nouvelle configuration requise**
+* Ajout de l'autorisation de programmation sur les actions Action **Nouvelle configuration requise**
+* Ajout de l'autorisation de programmation Condition **Nouvelle configuration requise**
+  
+## 22/03/2023
+* Refonte de démon
+* Action par déclancheur
+* Condition par déclancheur
+
+## 22/09/2021
+* Ajout d'une foncton de tri des actions avec leur delais
+* Suppression du cron
+* Ajout d'un parametre unité de temps
+* Creation d'un démon pour delais en seconde
+
 ## 03/04/2020
 * Séparation du plugin et sa documentation
 
@@ -14,8 +38,5 @@ pluginId: reveil
 * BugFix lorsqu'il n'y a aucun délai
 
 # Beta
-## 19/03/2021
-* Suppression du cron
-* Ajout d'un parametre unité de temps
-* Creation d'un démon pour delais en seconde
-* Suppression des delais négatif
+
+# A venir

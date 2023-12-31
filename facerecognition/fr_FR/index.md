@@ -28,22 +28,30 @@ Vous pouvez configurer vos cameras (une après l’autre) simplement en cliquant
 * Nom : On donne un nom à notre camera.
 * Activation du démon: Permet de choisir si une caméra configuré est utilisée ou non.
 * Port du démon: Il est impératif de saisir un port libre différent pour chaque caméra, celui-ci interagit avec le démon dynamiquement (mise à jour des visage reconnus, prise de snapshots etc…)
-* FrameRate: Permet de déterminer combien d'image par seconde le plugin va analyser (plus le framerate est élevé plus il consomme du CPU). Le Frame rate ne doit pas être supérieur au framerate de la camera
 * Sensibilité : Permet de régler la qualité de détection. Plus il est important et plus la détection est stricte
-* Taille minimal du visage a la détection (pixel) : Permet de spécifier la taille minimal sur la photo que doit avoir un visage
+* Nombre d'image détecté: Afin de stabiliser la detection ce parametre permet de definir le nombre d'image détécter avant l'execution des actions
 * Authentification : on saisit les identifiants de connexion si besoin.
 * URL de connexion (rtsp://) : On saisis son url (attention de ne pas se tromper ici, je ne peux pas vous aider à cause du nombre immense de caméra qui existent)
 
-> La sensibilité couplé à la taille minimal permette d'obtenir un stabilité dans le détection et limiter les faux positif.
+> La sensibilité, taille minimal, et lenombre d'image détecté permette d'obtenir un stabilité dans le détection et limiter les faux positif.
 Plus les paramètres sont stricts, et la précision de la détection important mais il est plus difficile d'avoir une détection.
 C'est propre a chacun de trouvé le meilleur compromis
 
-> Exemple Taille 110x110, sensibilité 13, framerate 5
+## Configuration détection des visages
+
+* Nombre de thread : Permet de déterminer le nombre d'image annalyser simultanement (attention ce paramettre charge le CPU, il est deconseiller de configurer plus de thread que de coeur CPU disponible)
+* Taille minimal du visage a la détection (pixel) : Permet de spécifier la taille minimal sur la photo que doit avoir un visage
+
+## Configuration détection d'objet
+
+* Détecter les objets : Cette option permet d'activer la detection d'objet en meme temps que la reconnaissance de visage
+* Confidence de la detection d'objet : permet d'imposer un seuil de validité de la reconnaisance d'objet (entre 0  et 100)
 
 ## Configuration de prise de vue
 
 Il est possible que le plugin enregistre un snapshot a chaque détection.
 * Prendre des Snapshot lors d'une détection : Autorise le plugin à sauvegarder la prise de vue
+* Prendre une video lors de la detection: Autorise la creation de vidéo de la détection
 * Emplacement du dossier Snapshot : Spécifie le dossier où enregistrer les snapshots
 * Surveiller la taille du dossier Snapshot de chaque camera : Autorise la surveillance et la suppression des snapshots les plus vieux
 * Taille du dossier Snapshot de chaque camera (Mo) : Taille maximal que peut contenir le dossier
@@ -132,6 +140,7 @@ Il est également possible de renforcer l'autorisation d'un utilisateur grâce �
 ## Exécuter les actions
 
 Lorsque le visage sera reconnu, que l’utilisateur est activé, qu'il soit autorisé sur le planning, et qu'il remplisse toutes les conditions, le plugin permet d’exécuter des actions.
+Une detection d'objet a ete ajouté et permet de filtrer les actions Visage + tous les objets lister
 
 > Ouverture du portail, alerte, ...
 

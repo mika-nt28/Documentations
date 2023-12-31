@@ -26,51 +26,57 @@ Pour faciliter la mise en place des dépendance, Jeedom vas gérer seul l’inst
 
 Dans le cadre réservé aux dépendances, vous allez avoir le statut de l’installation. Nous avons aussi la possibilité de consulté le log d’installation en temps réel.
 
-![introduction01](../images/Installation_dependance.jpg)
+![Installation des_dependances](../images/Installation_dependance.jpg)
+
+Nous pouvons voir le statut de configuration et d’activation d’OpenALPR dans le cadre "Démon"
 
 Configuration du plugin et de ses dépendances
 ----------------------------------------------
 
-![introduction01](../images/openalpr_screenshot_configuration.jpg)
+![Configuration du démon ALPRD](../images/openalpr_screenshot_configuration.jpg)
 
-Les paramètre de configuration général sont:
-
+### Configuration du demon
+* Pays du formats des plaques: Choisir le pays du format
+* Format de la plaque : Choisir le format des plaquese
+* Nom du site surveiller: Nom du de la zone couverte pars les cameras
+* Temps entre 2 detections (s) : Saisir le temps avant la lever de la commande de détéction
 * Création automatique de plaque inconnue: Permet à Jeedom de créer une commande pour les plaques non reconnue
-* Activer le Snapshot: Permet de déterminer si on veut des snapshot des détectons
-* Choisir l'emplacement par défaut des snapshot
-* Choisir les commandes d'alerte (mail, slack...) séparer par des &&
-* Choisir le nombre d'images envoyé
-* Personnalisé les paramètre par défaut de OpenAlpr
+* Nombre de thread: Nombre d'image annalysé simultanément
+* Nombre de plaque maximum : Nombre de possibilité de plaque remontée par la détection
+* Repertoire Snapshot : Choisir l'emplacement par défaut des snapshot
+* Taille du dossier Snapshot (Mo) : Taille maximal du dossier de snapshot
+* Activer le Snapshot : Permet de déterminer si on veut des snapshot des détectons
 
-*  state_id_img_size_percent
-*  ocr_img_size_percent
-*  Calibrage de votre camera améliore la précision de la détection dans les cas où des plaques d'immatriculation sont capturés à un angle raide (Utilisez l'utilitaire openalpr-utils-calibration pour calibrer votre camera fixe pour ajuster un angle )
-*  La détection ignorera plaques qui sont trop grands. Ceci est une bonne technique de l'efficacité à utiliser si les plaques vont être à une distance fixe de la caméra (par exemple, vous ne verrez jamais plaques qui remplissent la totalité de l'image
-*  Augmentation détection d'itération est le pourcentage que le cadre de LBP augmente chaque itération. Il doit être supérieur à 1,0. Une valeur de 1,01 signifie augmentation de 1%, 1,10 augmentation de 10% de chaque fois. Ainsi, une augmentation de 1% serait ~ 10x plus lent que 10% à traiter, mais il a une plus grande chance de l'atterrissage directement sur la plaque et d'obtenir une détection forte
-*  La force minimale de détection détermine comment assurer l'algorithme de détection doit être avant de signaler qu'une région de la plaque existe. Techniquement, cela correspond à LBP voisins les plus proches (par exemple, combien de détectives sont regroupés autour de la même zone). Par exemple, 2 = très indulgent, 9 = très stricte
-*  La détection n'a pas nécessairement besoin d'une image de très haute résolution pour détecter les plaques. En utilisant une image d'entrée plus petit doit encore trouver les plaques et le fera plus rapidement. Peaufiner les valeurs de max_detection_input va redimensionner l'image d'entrée si elle est plus grande que ces tailles (exprimées en pixels
-*  Technique utilisée pour trouver des régions de plaque d'immatriculation d'une image. La valeur peut être réglée sur les résultats doivent correspondre un textpattern de post-traitement si un modèle est disponible.
-*  Contourne la détection de la plaque. Si elle est positionnée à 1, la bibliothèque suppose que chaque zone prévue est une zone de la plaque susceptible.
-*  OpenALPR peut balayer la même image plusieurs fois avec randomisation différent. Mettre ce paramètre à une valeur plus grande que 1 peut augmenter la précision, mais augmentera le temps de traitement linéaire
-*  OpenALPR détecte les cultures de plaque à contraste élevé et utilise une technique de détection de bord alternatif. Mettre cette option à 0.0 classerait toutes les images comme contraste élevé, la mise à 1.0 classerait pas d'images comme contraste élevé.
-*  max_plate_angle_degrees
-*  ocr_min_font_point
-*  Minimum de confiance OCR à considérer(%)
-*  Tout caractère OCR inférieur à ce paramètre sera ignorée.
-*  Mode Débug
+
+### Configuration des Cameras
 * Ajouter une caméra : Permet d’ajouter une camera
-* Réseau Jeedom: Permet de déterminer sur quel Jeedom l’analyse va se faire
-* Plugin source camera: détermine la manière de configurer une camera
+* Nom: Donner un nom a votre caméra
 * Url de la Camera: adresse du flux de votre camera
 * Login de connexion à la Camera
 * Mots de passe de la Camera
 
-Nous pouvons voir le statu de configuration et d’activation d’OpenALPR dans le cadre "Démon"
+### Configuration avancée de OpenAlpr
+
 La configuration des paramètres peut être défini avec l'utilitaire openalpr-utils-calibrate.exe sur windows avec une image de la camera.
+[Vous pouvez télécharger les outils pour windows x64](https://github.com/openalpr/openalpr/releases/download/v2.3.0/openalpr-2.3.0-win-64bit.zip)
 
-![introduction01](../images/Status_Demon.jpg)
-Si tous les voyant sont au vert, nous pouvons passée à la suite
-
+* state_id_img_size_percent:
+* ocr_img_size_percent:
+* Masque de capture: Pemet de limiter la detection dans une certaine zone
+* Calibration: Le calibrage de votre caméra améliore la précision de la détection dans les cas où les plaques du véhicule sont capturées à un angle prononcé. Utilisez l'utilitaire openalpr-utils-calibrate pour calibrer votre caméra fixe afin de l'ajuster à un angle. Une fois cela fait, mettez à jour la configuration avec les valeurs obtenues à partir de l'outil
+* Taille maximum de la plaques: La détection ignorera les plaques trop grandes. C'est une bonne technique d'efficacité à utiliser si le plaques vont être à une distance fixe de la caméra (par exemple, vous ne verrez jamais de plaques qui remplissent toute l'image)}
+* Augmentation a chaque iteration: Pourcentage que le cadre de LBP augmente chaque itération. Il doit être supérieur à 1,0. Une valeur de 1,01 signifie augmentation de 1%, 1,10 augmentation de 10% de chaque fois. Ainsi, une augmentation de 1% serait ~ 10x plus lent que 10% à traiter, mais il a une plus grande chance de l'atterrissage directement sur la plaque et d'obtenir une détection forte
+* Sensibilité de la detection: La force minimale de détection détermine comment assurer l'algorithme de détection doit être avant de signaler qu'une région de la plaque existe. Techniquement, cela correspond à LBP voisins les plus proches (par exemple, combien de détectives sont regroupés autour de la même zone). Par exemple, 2 = très indulgent, 9 = très stricte
+* Redimentionner l'image: La détection n'a pas nécessairement besoin d'une image de très haute résolution pour détecter les plaques. En utilisant une image d'entrée plus petit doit encore trouver les plaques et le fera plus rapidement. Peaufiner les valeurs de max_detection_input va redimensionner l'image d'entrée si elle est plus grande que ces tailles (exprimées en pixels)
+* Technique de detection: Technique utilisée pour trouver des régions de plaque d'immatriculation d'une image}
+* Utilisé le format de plaque local: Les résultats doivent correspondre un textpattern de post-traitement si un modèle est disponible.
+* Saut de detection: Contourne la détection de la plaque. Si elle est positionnée à 1, la bibliothèque suppose que chaque zone prévue est une zone de la plaque susceptible.
+* Multi-analyse: OpenALPR peut balayer la même image plusieurs fois avec randomisation différent. Mettre ce paramètre à une valeur plus grande que 1 peut augmenter la précision, mais augmentera le temps de traitement linéaire
+* Detection par contraste: OpenALPR détecte les cultures de plaque à contraste élevé et utilise une technique de détection de bord alternatif. Mettre cette option à 0.0 classerait toutes les images comme contraste élevé, la mise à 1.0 classerait pas d'images comme contraste élevé.
+* max_plate_angle_degrees:
+* ocr_min_font_point:
+* Minimum de confiance OCR à considérer(%):
+* Tout caractère OCR inférieur à ce parametre sera ignorée:
 
 Paramétrage de mes groupes et de mes plaques
 =============================================

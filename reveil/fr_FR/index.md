@@ -22,13 +22,20 @@ Paramètre général
 * Catégorie : défini la catégorie de l'équipement.
 * Visible : permet de rendre l'équipement visible dans le Dashboard.
 * Activer : permet d'activer l'équipement.
+* Temps après un snooze : permet de déterminer le temps de snooze
 
 Programmation
 ---
 Nous avons la possibilité de créer plusieurs programmations de réveil.
-Pour chaque programmation, une url de reconfiguration est disponible pour le lier avec d'autre équipement.
 
 ![introduction01](../images/ConfigurationProgramation.jpg)
+
+Plusieur option sont disponnible dans la configuration d'une programation
+* Nom : le nom permet d'identifié la programmation dans les actions et les condition.
+* Mode : ce paramètre permet de définir si le reveil est unique ou programmer dans la semaine.
+*	Jour actif: Si mode Unique on définie la date unique du reveil, sinon ou choisi les jour de répetiton
+*	Heure : Permet de définir l'heure du reveil
+*	Reprogrammation : Pour chaque programmation, une url de reconfiguration est disponible pour le lier avec d'autre équipement.
 
 L'url de reprogrammation se présente sous la forme suivante :
 URL_Jeedom/plugins/reveil/core/api/jeeReveil.php?apikey=APIKEY&id=ID&prog=IDcmd&day=%DAY&heure=%H&minute=%M
@@ -46,12 +53,17 @@ Afin de pouvoir filtrer les déclanchements du réveil nous avons la possibilit�
 ![introduction01](../images/ConfigurationCondition.jpg)
 
 Cliquer sur "Ajouter une condition" et configurer votre condition
+* le trigger (Demarrage, snooze, arret)
+* La programmation a prendre en compte
 Chaque condition de la liste formera un ET
 
 Action
 ---
 Vous pouvez configurer le séquencement de votre réveil, en triant l'ordre de déclanchemente des actions.
-Pour chaque action il est possible de mettre un délai d'attente de son execution 
+Pour chaque action il est possible de mettre 
+* un délai d'attente de son execution,
+* le trigger (Demarrage, snooze, arret)
+* La programmation a prendre en compte
 
 ![introduction01](../images/ConfigurationAction.jpg)
 
@@ -63,7 +75,7 @@ Les conditions sont votre meilleurs amis pour controler les declanchement du rev
 
 Est il possible de mettre un delais negatif
 ---
-Non on ne remonte pas dans le temps
+Oui, le plugin vas analyser les delais d'action dans sa programmation
 
 Peut on dynamiquement changer la programmation
 ---

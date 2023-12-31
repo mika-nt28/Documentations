@@ -16,17 +16,16 @@ Suivis de la production
 Pour chaque producteur d'énergie vous pouvez crée une gestion
 ![Exemple de la configuration d'un équipement](../images/ConfigurationProducteurs.jpg)
 
-Pour que le plugin fonctionne il est impératif de luis configurer la puissance produit instantané
-Si votre cette puissance est dans le négatif il est possible de l'inverser car le plugin compare de puissance positive
-Si l'on a la possibilité d'avoir une image de la consommation instanée (teleinfo par exemple) nous aurons donc la consommation réelle et ce qui est réinjecter dans le réseau.
-Cette puissance est souvent négative, puisque le compteur envoie une puissance consommée et que ce qui nous intéresse c'est la puissance injecter dans le réseau
+Pour que le plugin fonctionne il est necessaire de luis configurer 
+* la puissance produit instantané, et elle doit etre positive, sinon le plugin propose l'inversion de sense a cocher.
+* La puissance sur le réseau, et elle doit etre positive lorsque l'on consome et positive lorsque l'on injecte, sinon le plugin propose l'inversion de sense a cocher.
 
 Commande particulière
 =====================
 
 Le plugin a des commandes qui ne sont pas des gestions.
 Ces commandes sont des informations issues des calcul du plugin
-* Consommation : Image de la consommation actuelle de la production. Elle est négative lorsque l'on a une consommation sur le réseau
+* Consommation : Image de la consommation actuelle entre production et reseau. Elle est négative lorsque l'on a une consommation sur le réseau
 * Production : Moyenne sur une heure glissante de la puissance produite
 
 Gestions des autorisations

@@ -5,7 +5,54 @@ lang: fr_FR
 pluginId: eibd
 ---
 
-# Stable
+# Stable.
+## 21/11/2023
+* mise a jour du dpt 17.xxx
+
+## 23/11/2022
+* Niveau de log KNXD adapté par rapport au niveau de log du plugin
+ 
+## 23/06/2022
+* BugFix affichage des log de knxd
+* BugFix DPT 251.600
+* Droit sur la passerelle interne avec ft12cemi
+
+## 10/05/2022
+* Ajout d'un scripte de nettoyage pré-install
+
+## 12/04/2022
+* Mise a jours du script d'installation, suppression de knxd avant une nouvelle installation
+* Nettoyage des parametres de démarage knxd
+* Controle de démarrage démon knxd par systemctl
+* Ajout du port de connexion passerelle IP parametrable
+* Ajout du cron10 sur la configuration cyclique
+* Ajout des champs de configuration NAT
+* Modification du type tpuarts par tpuart (configuration knxd.ini)
+
+## 31/03/2022
+* Ajout des passerelles ISP200REG,YH101 et 1168 dans les passerelles compatible
+* Suppression de l'installation d'EIBD (sources plus disponnible)
+* Utilisation de l'installeur de dépendance 4.2
+* Démmarage de knxd par systemd
+* BugFix programmation par ETS Mode routing actif par defaut
+* Gestion des flag forcer (en fonction du type de commande le plugin active les flag obligatoires au fonctionnement et interdit la modification au flag inutile) 
+
+## 05/11/2021
+* Bugfix création automatique non fonctionnel (déplacement vers le répertoire data)
+
+## 08/09/2021
+* Déplacement des templates
+* Ajout equipement compatible pour https://compatibility.jeedom.com/
+
+## 03/06/2021
+* Interdiction d'envoyer une requet si demon NOK
+* Mise en place du temps d'attente entre 2 commande READ
+* Creation template dans l'arbo (fonction en tedt
+* Désactivation de l'option lorsque deja utilisé
+* Bugfix Read d'un gad
+* Bugfix flag initialisation
+* Mise a jours des droit sur le port USB au lancement du démon
+
 ## 03/12/2020
 * Bugfix "PHP Warning:  Illegal string offset 'id' in /var/www/html/plugins/eibd/core/class/eibd.class.php on line 864"
 * Bugfix "PHP Warning:  Illegal string offset 'id' in /var/www/html/plugins/eibd/core/class/eibd.class.php on line 962"
@@ -41,7 +88,7 @@ pluginId: eibd
 * Synonyme anglais sur les Templates
 * Ajout de la catégorie sur les Templates
 * Correction bug création automatique unitaire des objets
-* Recherche des gad dans les groupes de la vue bâtiment
+* Recherche des gad dans les groupes de la vue bât(souiment
 * Bugfix DPT 19.xxx
 
 ## 13/12/2019
@@ -55,26 +102,7 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
-## 04/02/2021
-* Interdiction d'envoyer une requet si demon NOK
-* Mise en place du temps d'attente entre 2 commande READ
-* Bugfix retour d'etat en creation template dans arbo
-* Ajout du parent dans la creation template dans l'arbo
 
-## 21/01/2021
-* Ajout du nom du nouvelle equipement dans la selection Template / Commande depuis l'arboressance
-* Désactivation de l'option lorsque deja utilisé
-* Bugfix Read d'un gad
-
-## 14/01/2021
-* Bugfix logique de selection Template / Commande depuis l'arboressance
-* Bugfix flag initialisation
-
-## 06/01/2021
-* Mise a jours des droit sur le port USB au lancement du démon
-
-## 19/12/2020
-* Ajout d'un systeme de creation d'equipement par template depuis l'arboressance (fonctionnement inverse d'une creation par template)
 
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
