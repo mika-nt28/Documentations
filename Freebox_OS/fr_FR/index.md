@@ -11,7 +11,7 @@ Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Fre
 
 > Toutes les infos ne sont pas encore disponibles pour la Freebox POP
 >
-> **Il est nécessaire d'avoir la Freebox Serveur en version 4.3 pour que le plugin fonctionne**
+> **Il est nécessaire d'avoir la Freebox Serveur en version 4.7 pour que le plugin fonctionne**
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
@@ -138,7 +138,7 @@ Les équipements et les commandes suivants vont être créés :
   - AirMedia Start / Stop
 - **Appareils connectés** et **Appareils connectés Wifi Invité**
   - Ensemble des appareils connectés à la Freebox
-  - Possibilité d'utiliser la commande **_Wake on LAN_**
+  - Possibilité d'utiliser la commande **_Wake on LAN_** (uniquement par scénario)
 - **Disque Dur**
   - Occupation du disque
   - Température
@@ -160,7 +160,7 @@ Les équipements et les commandes suivants vont être créés :
   - Disponible sur le réseau
   - Etat (allumé ou éteint)
     > La commande est créée uniquement si le player renvoie son état.
-    > Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
+    > **Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution) lors de la recherche**
     > Les Player mini4K ne sont pas compatibles, les players POP ne sont pas encore compatibles.
 - **Partage Windows - Mac**
   - Activer / Désactiver le Partage de fichiers Mac, Windows, FTP
@@ -446,7 +446,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - **J'ai le message "Version d’API inconnue"**
 
-  > **Il est nécessaire d'avoir la Freebox en version 4.3 minimum pour que le plugin fonctionne**
+  > **Il est nécessaire d'avoir la Freebox en version 4.7 minimum pour que le plugin fonctionne**
 
   > - Une détection automatique de la version API de la freebox est lancée une fois par semaine.
   > - Il est possible de le lancer directement depuis l'écran d'Appairage
@@ -519,3 +519,12 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
     > un contrôle est fait une fois par semaine
   >
   > - **FreeboxGET** : Permet de récupèrer les données de type info de la partie domotique
+
+  - **L'état du player ne remonte pas**
+
+  > Il faut vérifier que le type pour la commande "Etat" est le sous type **Autre**
+  > <p><img src="../images/player.png" alt="Player" width="800" /></p>
+  
+  - **Le statut du player n'est pas disponible**
+
+  > Il faut absolument lancer un scan des équipements standards avec le player sous tensionxx

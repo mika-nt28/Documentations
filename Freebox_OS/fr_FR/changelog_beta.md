@@ -19,67 +19,9 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
-# 2023
+# 2024
 
-## 25/09/2023
+## 01/01/2024
 
-- Amélioration info vers communauty pour le Core 4.4
-
-- **Tiles**
-   
-    - Amélioration gestion de la valeur de la télécommande de l'alarme
-
-    > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
-
-## 13/09/2023
-
-- Fin de la reprise des équipements pour le Core 4.4 (uniquement pour les nouveaux équipements)
-- Ajout lien vers communauty pour le Core 4.4
-
-- **Tiles**
-
-    - Amélioration log Tiles
-
-## 01/09/2023
-
-- Reprise création commande download
-- Reprise création commande système
-- Correction variable non défini
-
-- **Appareils connectés**
-
-    - Correction bug IP4 pour les équipements désactivés
-    - Ajout de l'IP4 si l'appareil a une adresse fixe
-
-- **Tiles**
-
-    - Bouton Télécommande de l'alarme, la valeur du bouton est toujours répété
-    > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
-
-## 26/06/2023
-
-- **Tiles**
-
-    - Correction Bug mise à jour des commandes de type info pour la partie TITLES
-
-- **Débit**
-
-    - Ajout info de débit (Reçu et Emis)
-
-
-## 24/04/2023
-
-- Suppression des commandes obsolètes
-
-- **Tiles**
-
-    - Amélioration gestion de l'inversion des commandes binaires pour la partie TITLES(utilisation de la commande d'inversion du CORE)
-    > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
-
-## 03/04/2023
-
-- Correction pour core 4.4
-- Version mini Core pour le plugin est 4.0
-
-# A TESTER
+    - Amélioration récupération information player pour la révolution
 
