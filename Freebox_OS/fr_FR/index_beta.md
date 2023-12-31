@@ -7,7 +7,7 @@ pluginId: Freebox_OS
 
 # Description
 
-Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA ou POP).
+Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA ou POP) et d’interagir avec via des widgets ou des scénarios reprenant les commandes créées.
 
 > Toutes les infos ne sont pas encore disponibles pour la Freebox POP
 >
@@ -75,8 +75,8 @@ Dans la fenêtre ci-dessous, il va être réalisée l'authentification sur la Fr
 Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attribués à l'application
 
 - Voir la section des Droits d'accès (dans cette documentation) pour modifier les droits sur la Freebox
-- Une fois les droits réglés, cliquer sur le bouton **Vérification des droits**
-  > Si les droits sont OK, le bouton va **suivant** deviendra visible
+- Une fois les droits réglés, cliquer sur le bouton **Vérification des droits**.
+  > Si les droits sont OK, le bouton **suivant** deviendra visible
   > Les droits obligatoires sont en gras
 
 <p><img src="../images/Freebox_OS_screenshot5.png" alt="Authentification 4" width="300" /></p>
@@ -134,18 +134,23 @@ Cliquer sur le bouton **_Scan équipements standards_**, le plugin va créer les
 Les équipements et les commandes suivants vont être créés :
 
 - **Air Média**
-  - Player actuel AirMedia
-  - AirMedia Start
-  - AirMedia Stop
+  - Choix du Player actuel 
+  - AirMedia Start / Stop
 - **Appareils connectés** et **Appareils connectés Wifi Invité**
   - Ensemble des appareils connectés à la Freebox
-  - Possibilité d'utiliser la commande **_Wake on LAN_** uniquement par scénario
+  - Possibilité d'utiliser la commande **_Wake on LAN_** (uniquement par scénario)
 - **Disque Dur**
   - Occupation du disque
+  - Température
+  - Type de raid (uniquement pour les freebox compatible)
 - **Freebox Débits**
   - Freebox rate down, rate up, bandwidth up, bandwidth down
   - Freebox media
   - Freebox state
+  - Type de connexion
+  - État de la connexion
+  - IP
+  - Réponse au ping
 - **Player**
   - Mac
   - Type
@@ -155,7 +160,7 @@ Les équipements et les commandes suivants vont être créés :
   - Disponible sur le réseau
   - Etat (allumé ou éteint)
     > La commande est créée uniquement si le player renvoie son état.
-    > Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
+    > **Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution) lors de la recherche**
     > Les Player mini4K ne sont pas compatibles, les players POP ne sont pas encore compatibles.
 - **Partage Windows - Mac**
   - Activer / Désactiver le Partage de fichiers Mac, Windows, FTP
@@ -165,6 +170,7 @@ Les équipements et les commandes suivants vont être créés :
   - Reboot
   - Freebox firmware version
   - Mac
+  - IP v4/v6
   - Vitesse ventilateur
   - Températures _(temp sw, temp cpub, temp cpum)_
   - Allumée depuis
@@ -176,10 +182,13 @@ Les équipements et les commandes suivants vont être créés :
   - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**
   - Nombre de tâches
-  - Nombre de tâches actives, en extraction, en réparation, en vérification, en attente, en erreur, stoppées, terminées
+  - Nombre de tâches actives, en extraction, en réparation, en vérification, en attente, en erreur, stoppées, terminées, de flux RSS, de flux RSS non lus
   - Téléchargement en cours
   - Vitesse réception, émission
   - Start, Stop
+  - Mode de téléchargement
+  - Etat du planning
+  - Etat connexion
 - **VM** (uniquement pour les freebox compatible)
   - Statut
   - Action possible : Stop, Redémarrer, Start
@@ -188,6 +197,11 @@ Les équipements et les commandes suivants vont être créés :
   - Statut du wifi
   - Wifi On Off
   - Gestion du filtrage des appels
+  - État du planning
+  - Session WPS ON/OFF
+  - Liste mac noire
+  - Liste mac blanche
+  - État carte wifi
 
 # Le contrôle parental
 
@@ -435,7 +449,12 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
   > **Il est nécessaire d'avoir la Freebox en version 4.7 minimum pour que le plugin fonctionne**
 
   > - Une détection automatique de la version API de la freebox est lancée une fois par semaine.
-  
+  > - Il est possible de le lancer directement depuis l'écran d'Appairage
+  > - Il est actuellement obligatoire de faire le reset de la clef API a chaque mise à jour
+  >
+  > <p><img src="../images/reset_API1.png" alt="Reset API Freebox" width="500" /></p>
+  >
+  > <p><img src="../images/reset_API2.png" alt="Reset API Freebox" width="500" /></p>
 
 - **J'ai le message "unknown host, use ip address or mafreebox.freebox.fr" et le Demon NOK**
 
@@ -500,3 +519,12 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
     > un contrôle est fait une fois par semaine
   >
   > - **FreeboxGET** : Permet de récupèrer les données de type info de la partie domotique
+
+  - **L'état du player ne remonte pas**
+
+  > Il faut vérifier que le type pour la commande "Etat" est le sous type **Autre**
+  > <p><img src="../images/player.png" alt="Player" width="800" /></p>
+  
+  - **Le statut du player n'est pas disponible**
+
+  > Il faut absolument lancer un scan des équipements standards avec le player sous tensionxx
