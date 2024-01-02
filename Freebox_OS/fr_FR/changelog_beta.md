@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 03/01/2024
+
+- Amélioration mise à jour player
+
 ## 01/01/2024
 
     - Amélioration récupération information player pour la révolution
