@@ -27,3 +27,4 @@ pluginId: Freebox_OS
 - Ajout Player Mini4K/POP  **Attention : Pas de retour d'état pour ce player**
 - Non mise à jour des équipements lors de la création (rend la création plus rapide)
 - Typo log
+- Correction affichage pour les capteurs de détection de mouvement
