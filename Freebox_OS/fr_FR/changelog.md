@@ -21,6 +21,13 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 05/01/2024
+
+- Amélioration mise à jour player
+- Ajout Player Mini4K/POP  **Attention : Pas de retour d'état pour ce player**
+- Non mise à jour des équipements lors de la création (rend la création plus rapide)
+- Typo log
+
 ## 03/01/2024
 
 - Amélioration mise à jour player

@@ -159,9 +159,9 @@ Les équipements et les commandes suivants vont être créés :
   - API disponible
   - Disponible sur le réseau
   - Etat (allumé ou éteint)
-    > La commande est créée uniquement si le player renvoie son état.
-    > **Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution) lors de la recherche**
-    > Les Player mini4K ne sont pas compatibles, les players POP ne sont pas encore compatibles.
+    > La commande est créée uniquement si le player renvoie son état et possède un ID.
+    > **Il faut absolument que le player soit sous tension et pas en veille prolongée (Révolution) lors de la recherche**
+    > Les Player mini4K/POP sont disponibles mais ils ne remontent pas l'état
 - **Partage Windows - Mac**
   - Activer / Désactiver le Partage de fichiers Mac, Windows, FTP
   - Activer / Désactiver le Partage Imprimante (disponible uniquement si SMBv2 n'est pas actif)
