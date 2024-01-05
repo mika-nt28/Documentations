@@ -21,6 +21,11 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 06/01/2024
+
+- Amélioration de la création de l'équipement **Gestion réseau**
+- Deuxieme correctif sur le capteur de détection de mouvement
+
 ## 05/01/2024
 
 - Amélioration mise à jour player
