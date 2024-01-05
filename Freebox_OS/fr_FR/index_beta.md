@@ -527,4 +527,8 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
   
   - **Le statut du player n'est pas disponible**
 
-  > Il faut absolument lancer un scan des équipements standards avec le player sous tensionxx
+  > Il faut absolument lancer un scan des équipements standards avec le player sous tension
+
+  - **Les commandes "Appareil connecté choisi" et "Sélection appareil connecté"" dans l'équipement Gestion réseau**
+
+  > Ces commandes seront créés automatiquement par l'équipement *Appareils connectés* et/ou *Appareils connectés Wifi Invité*
