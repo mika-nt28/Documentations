@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 14/01/2024
+
+- Amélioration pour core V4.4
+
 ## 06/01/2024
 
 - Amélioration de la création de l'équipement **Gestion réseau**
