@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 15/01/2024
+
+- Correction inversion binaire
+
 ## 14/01/2024
 
 - Amélioration pour core V4.4
