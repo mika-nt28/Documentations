@@ -23,7 +23,7 @@ pluginId: Freebox_OS
 
 ## 15/01/2024
 
-- Correction inversion binaire
+- Correction inversion binaire  
 
 ## 14/01/2024
 
