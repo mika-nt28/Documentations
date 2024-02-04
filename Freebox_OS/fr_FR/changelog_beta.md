@@ -21,6 +21,11 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 05/02/2024
+
+- Suppression lien community suite changement core 4.4
+- Amélioration barre de recherche
+
 ## 15/01/2024
 
 - Correction inversion binaire  
