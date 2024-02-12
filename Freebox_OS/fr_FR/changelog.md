@@ -21,6 +21,15 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 13/02/2024
+
+- Migration de l'API mini en v10.
+
+- **Debut compatibilité Freebox Ultra**
+  
+  - Pour la partie domotiquenon actualisation des équipements si migration de la Freebox Delta vers Ultra
+
+
 ## 05/02/2024
 
 - Suppression lien community suite changement core 4.4
