@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 15/02/2024
+
+- Correction Bug en cas de suppression du plugin
+
 ## 13/02/2024
 
 - Migration de l'API mini en v10.
