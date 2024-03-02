@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 02/03/2024
+
+- Amélioration LOG pour 4.4
+
 ## 15/02/2024
 
 - Correction Bug en cas de suppression du plugin
