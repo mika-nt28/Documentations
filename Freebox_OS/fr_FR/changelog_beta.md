@@ -23,6 +23,8 @@ pluginId: Freebox_OS
 
 ## 06/04/2024
 
+- Amélioration Log pour la partie management
+
 - **Tiles**
 
   - Si la box n'est plus comptatible avec cette fonction 
@@ -31,4 +33,4 @@ pluginId: Freebox_OS
 
 # 02/03/2024
 
-  - Amélioration LOG pour 4.4
+- Amélioration LOG pour 4.4
