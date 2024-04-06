@@ -7,9 +7,8 @@ pluginId: Freebox_OS
 
 # Description
 
-Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA ou POP) et d’interagir avec via des widgets ou des scénarios reprenant les commandes créées.
+Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA ou POP ou Ultra) et d’interagir avec via des widgets ou des scénarios reprenant les commandes créées.
 
-> Toutes les infos ne sont pas encore disponibles pour la Freebox POP
 >
 > **Il est nécessaire d'avoir la Freebox Serveur en version 4.7 pour que le plugin fonctionne**
 
@@ -510,7 +509,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - **A quoi corresponde les différents moteurs de tâches**
 
-  > - **RefreshToken** : Permet de raffraichir l'accès a la freebox
+  > - **RefreshToken** : Permet de rafraichir l'accès a la freebox
   >
   > - **FreeboxPUT** : Permet de faire les actions sur la freebox
   >
