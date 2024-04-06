@@ -24,6 +24,7 @@ pluginId: Freebox_OS
 ## 06/04/2024
 
 - Amélioration Log pour la partie management
+- VM : Ajout message d'erreur si la VM n'est pas trouvé ensuite elle est désactivée
 
 - **Tiles**
 
