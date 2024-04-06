@@ -28,3 +28,7 @@ pluginId: Freebox_OS
   - Si la box n'est plus comptatible avec cette fonction 
       - Désactivation de l'équipement
       - Suppresion CRON GLOBAL titles
+
+# 02/03/2024
+
+  - Amélioration LOG pour 4.4
