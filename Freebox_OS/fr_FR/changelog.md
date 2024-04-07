@@ -15,7 +15,7 @@ pluginId: Freebox_OS
 
 ## Fil d'actualité
 
-> [Voir le fil d'actualité du plugin sur Community](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
+> [Voir le fil d'actualité du plugin sur Community](https://community.jeedom.com/t/info-plugin-Freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673)
 
 # Changelog
 
@@ -29,14 +29,14 @@ pluginId: Freebox_OS
 
 - Migration de l'API mini en v10.
 
-- **Debut compatibilité Freebox Ultra**
+- **Début compatibilité Freebox Ultra**
   
-  - Pour la partie domotiquenon actualisation des équipements si migration de la Freebox Delta vers Ultra
+  - Pour la partie domotique non-actualisation des équipements si migration de la Freebox Delta vers Ultra
 
 
 ## 05/02/2024
 
-- Suppression lien community suite changement core 4.4
+- Suppression lien Community suite changement Core 4.4
 - Amélioration barre de recherche
 
 ## 15/01/2024
@@ -45,28 +45,28 @@ pluginId: Freebox_OS
 
 ## 14/01/2024
 
-- Amélioration pour core V4.4
+- Amélioration pour Core V4.4
 
 ## 06/01/2024
 
 - Amélioration de la création de l'équipement **Gestion réseau**
-- Deuxieme correctif sur le capteur de détection de mouvement
+- Deuxième correctif sur le capteur de détection de mouvement
 
 ## 05/01/2024
 
-- Amélioration mise à jour player
-- Ajout Player Mini4K/POP  **Attention : Pas de retour d'état pour ce player**
+- Amélioration mise à jour Player
+- Ajout Player Mini4K/POP  **Attention : Pas de retour d'état pour ce Player**
 - Non mise à jour des équipements lors de la création (rend la création plus rapide)
 - Typo log
 - Correction affichage pour les capteurs de détection de mouvement
 
 ## 03/01/2024
 
-- Amélioration mise à jour player
+- Amélioration mise à jour Player
 
 ## 01/01/2024
 
-- Amélioration récupération information player pour la révolution
+- Amélioration récupération information Player pour la révolution
 
 # 2023
 
@@ -82,10 +82,10 @@ pluginId: Freebox_OS
 - **Tiles**
   
   - Amélioration gestion de la valeur de la télécommande de l'alarme
-  - Bouton Télécommande de l'alarme, la valeur du bouton est toujours répété
+  - Bouton Télécommande de l'alarme, la valeur du bouton est toujours répétée
   - Amélioration log Tiles
   - Correction Bug mise à jour des commandes de type info pour la partie TITLES
-  - Amélioration gestion de l'inversion des commandes binaires pour la partie TITLES(utilisation de la commande d'inversion du CORE)
+  - Amélioration gestion de l'inversion des commandes binaires pour la partie TITLES(utilisation de la commande d'inversion du Core)
 
     > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES TITLES**
 
@@ -96,13 +96,13 @@ pluginId: Freebox_OS
 
 - **Débit**
 
-  - Ajout info de débit (Reçu et Emis)
+  - Ajout info de débit (Reçu et Émis)
 
 
 ## 04/03/2023
 
 - Correction variable indéfinie
-- Correction typo usage pour le market
+- Correction typo usage pour le Market
 
 ## 10/02/2023
 
@@ -118,7 +118,7 @@ pluginId: Freebox_OS
 - **Freebox Player**
 
     > - Correction Bug statut équipement
-    > - Ajout info dans log pour différencier les players
+    > - Ajout info dans log pour différencier les Players
     > - Suppression refresh après ajout des équipements
 
 - **Freeplug**
@@ -132,7 +132,7 @@ pluginId: Freebox_OS
 
 - **Téléphone**
 
-    > - Changement des fonctions "Vider le journal d appels" et "Tout marquer comme lu"
+    > - Changement des fonctions "Vider le journal d'appels" et "Tout marquer comme lu"
 
 - **Freebox Débits**
 
@@ -175,15 +175,15 @@ pluginId: Freebox_OS
 
 - **Version Mini Core Jeedom**
 
-  > - Dernière version compatible core 4.0
+  > - Dernière version compatible Core 4.0
 
 - **Général**
 
-  > - Arrêt des crons actifs lors du refreshToken
+  > - Arrêt des Crons actifs lors du refreshToken
   > - Création d'un Cron semaine pour rechercher la version de l'API valide
   > - Utilisation de la dernière version de l'API valide pour l’ensemble des équipements
   > - Ajout d'un bouton dans la modale “Appairage” pour rechercher la version de l'API
-  > - Ajout fonctionnalité core V4.3
+  > - Ajout fonctionnalité Core V4.3
 
 - **Airmedia**
 
@@ -195,13 +195,13 @@ pluginId: Freebox_OS
 - **Appairage** (21.09.2022, 22/09/2022)
   
   > - Ajout Bouton pour ignorer la vérification des droits
-  > - Ajout Bouton pour faire un reset de l'API de la freebox
+  > - Ajout Bouton pour faire un reset de l'API de la Freebox
 
 - **Appareils connectés** (28/08/2022)
 
-  > - Correction de l'ordre des appareils (en premier les connectés suivi des nons connectés)
+  > - Correction de l'ordre des appareils (en premier les connectés suivi des non connectés)
   > - Réécriture de la commande de refresh et de création des commandes en vue de l'ajout de futures améliorations
-  > - Les commandes suivantes seront supprimer lors de la prochaine mise a jour car elles sont désormais intégré dans la gestion réseau :
+  > - Les commandes suivantes seront supprimer lors de la prochaine mise à jour car elles sont désormais intégrées dans la gestion réseau :
 
     > "Ajouter supprimer IP Fixe"
     > "Wake on LAN"
@@ -228,11 +228,11 @@ pluginId: Freebox_OS
 - **Tiles**
 
   > - Ajout texte d'information pour l'actualisation globale des titles dans le cas de volet SOMFY
-  > - Correction du refresh équipement si le cron global n’est pas actif
+  > - Correction du refresh équipement si le Cron global n’est pas actif
 
 - **Wi-Fi**
 
-  > La commande "Ajout - Supprimer filtrage Mac" sera supprimer lors de la prochaine mise à jour car elle est désormais intégré dans la gestion réseau
+  > La commande "Ajout - Supprimer filtrage Mac" sera supprimer lors de la prochaine mise à jour car elle est désormais intégrée dans la gestion réseau
 
 ## 30/04/2022
 
@@ -242,7 +242,7 @@ pluginId: Freebox_OS
 > - Possibilité de désactiver la mise à jour des commandes Network (Il est déconseillé de le faire, cela peut poser des problèmes en cas de commande en double)
 > - Suppression Cron jour
 
-  > - un cron spécifique est paramétrable dans les équipements de type "Disque", "Appareils connectés", "Homeadapter"
+  > - un Cron spécifique est paramétrable dans les équipements de type "Disque", "Appareils connectés", "Homeadapter"
   > - si le champs "Ajout des nouvelles commandes" est laissé vide, les nouvelles commandes ne seront pas ajoutées
 
 ## 17/03/2022
@@ -250,7 +250,7 @@ pluginId: Freebox_OS
 > - Modification création commande Homeadapter
 > - Correction bug Groupe Freeplug
 > - Ajout commande ON/OFF => home adapter mais attente réponse Free
-> - Modification recherche Network avec mise a jour des noms des équipements
+> - Modification recherche Network avec mise à jour des noms des équipements
 > - Mise à jour création commande network
 > - Correction nom des VM lors de la création
 
@@ -258,8 +258,8 @@ pluginId: Freebox_OS
 
 ## 06/12/2021
 
-> - Renommage dossier image afin de répondre au nouvelle exigence du Core
-> - Correction problème d'éffacement de variable dans le cache
+> - Renommage dossier image afin de répondre aux nouvelles exigences du Core
+> - Correction problème d'effacement de variable dans le cache
 > - Amélioration création équipement caméra
 > - Correction bug sur les commandes ON et OFF de la partie titles
 > - Ajout Freeplug,
@@ -283,7 +283,7 @@ pluginId: Freebox_OS
 
 - **Freebox Débits**
 
-  > - Correction problème refresh des données fibre optique sur les freebox révolution
+  > - Correction problème refresh des données fibre optique sur les Freebox révolution
 
 - **Téléchargements**
 
@@ -292,8 +292,8 @@ pluginId: Freebox_OS
 
 ## 28/05/2021
 
-- Correction problème CRON arrêté et non redémarré lors d'un refresh du Token
-- Modification du valeur de la commande "Erreur" de l'alarme si sa valeur est nulle
+- Correction problème Cron arrêté et non redémarré lors d'un refresh du Token
+- Modification de la valeur de la commande "Erreur" de l'alarme si sa valeur est nulle
 - Amélioration recherche des appareils connectés
 
 ## 23/05/2021
@@ -325,7 +325,7 @@ pluginId: Freebox_OS
   > - Téléchargements
   > - Wi-Fi
 
-- **Amélioration CRON/DEMON**
+- **Amélioration Cron/DEMON**
 
   - Amélioration Démon
   - Ajout Cron pour les actions pour palier à la lenteur de la Freebox (merci @Nebz et @Foulek57)
@@ -339,7 +339,7 @@ pluginId: Freebox_OS
 
 - **Système**
 
- > - Ajout Info Langue de la freebox
+ > - Ajout Info Langue de la Freebox
 
 - **Appareils connectés**
 
@@ -347,33 +347,33 @@ pluginId: Freebox_OS
 
 - **VM**
 
-  > - Ajout équipement (Etat, Start, Stop, Redémarrer et d'autres infos)
+  > - Ajout équipement (État, Start, Stop, Redémarrer et d'autres infos)
 
 - **Partage Windows/Mac**
 
   > - Possibilité d'activer SMBv2
       > si SMBv2 actif, les commandes de partage d'imprimante seront supprimées lors de la prochaine mise à jour de l'équipement.
       >
-      > Attention si vous activez cette fonction, les sauvegardes jeedom peuvent ne plus fonctionner si vous sauvegarder sur la freebox
+      > Attention si vous activez cette fonction, les sauvegardes Jeedom peuvent ne plus fonctionner si vous sauvegarder sur la Freebox
 
 - **Tiles**
 
   > - Ajout Cron refresh global pour la partie domotique (merci @Nebz et @Foulek57)
-  >- Correction Bug création des caméras
+  > - Correction Bug création des caméras
     > **Attention Il est possible que les caméras soient créees en double dans le plugin Camera**
   > - Correction Bug création des Prises
-  > - Ajout Icône pour les équipement (merci @Skillix)
+  > - Ajout Icône pour les équipements (merci @Skillix)
   > - Amélioration gestion des différents types de volet
 
-  > - Ajout Toggle pour certain types de volet
-  > - Correction bug sur invertion des commandes numériques
-  >   [Voir le fil d'actualité du plugin sur Community](https://community.jeedom.com/t/info-plugin-freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673/54?u=jag)
+  > - Ajout Toggle pour certains types de volet
+  > - Correction bug sur inversion des commandes numériques
+  > [Voir le fil d'actualité du plugin sur Community](https://community.jeedom.com/t/info-plugin-Freebox-mise-a-jour-des-composants-de-la-delta-tiles-systeme/30673/54?u=jag)
 
 > **Pour l'ensemble des nouveautés ci-dessus, il faut lancer l'ensemble des scans**
 
 ## 16/02/2021
 
-- Ajout menu Debug pour les box prenant en charge les Tiles (freebox Delta)
+- Ajout menu Debug pour les box prenant en charge les Tiles (Freebox Delta)
 
 ## 14/02/2021
 
@@ -404,7 +404,7 @@ pluginId: Freebox_OS
 
   - **Alarme**
 
-    - Correction Bug non actualisation des états pour Homebridge
+    - Correction Bug non-actualisation des états pour Homebridge
 
 ## 22/01/2021
 
@@ -422,7 +422,7 @@ pluginId: Freebox_OS
 
   - **Caméra**
 
-    - Ajout de cet équipement dans le plugin avec la possibilité de:
+    - Ajout de cet équipement dans le plugin avec la possibilité de :
       - Activer / Désactiver :
 
         > - La détection de mouvement
@@ -467,10 +467,10 @@ pluginId: Freebox_OS
       - Régler :
 
         > - Puissance des bips
-        > - Puissance de la siréne
+        > - Puissance de la sirène
         > - Délai avant armement
-        > - Délai avec siréne
-        > - Durée de la siréne
+        > - Délai avec sirène
+        > - Durée de la sirène
 
     - Amélioration de la fonction Alarme non fonctionnelle avec Homebridge
 
@@ -514,7 +514,7 @@ pluginId: Freebox_OS
 
   - Ajout de la prise en charge de la gestion du filtrage des Mac
   - Possibilité d'ajouter ou supprimer des adresses MAC dans la gestion du filtrage des MAC depuis un scénario
-  - Ajout du filtrage des des adresses mac : listes blanches / Listes noires (ce filtrage se fait par scénario)
+  - Ajout du filtrage des adresses mac : listes blanches / Listes noires (ce filtrage se fait par scénario)
 
   > Il faut faire une **recherche des équipements supplémentaires** pour avoir les nouvelles commandes
 
@@ -587,7 +587,7 @@ pluginId: Freebox_OS
   - Corrections de variables non définies pour la partie Tiles
   - Corrections des valeurs nulles
   - Cron
-    - Non exécution des Crons si l'équipement est désactivé
+    - Non-exécution des Crons si l'équipement est désactivé
     - Ajout de log supplémentaire en cas de problème sur un Cron
 
 ## 01/10/2020
@@ -614,13 +614,13 @@ pluginId: Freebox_OS
 
 - **Cron**
 
-  - Le cron ne s’exécutera pas si le démon est _nok_
+  - Le Cron ne s’exécutera pas si le démon est _nok_
   - Optimisation du Cron
 
 - **CronDaily**
 
-  - Le cron ne s’exécutera pas si le démon est _nok_
-  - Le cron ne fera pas la recherche des appareils connectés si la Freebox est en mode bridge
+  - Le Cron ne s’exécutera pas si le démon est _nok_
+  - Le Cron ne fera pas la recherche des appareils connectés si la Freebox est en mode bridge
     > Ne pas oublier de faire un scan des équipements standards
 
 - **Appairage**
@@ -650,9 +650,9 @@ pluginId: Freebox_OS
 
   > **Etat (allumé ou éteint)** :
   >
-  > - La commande est créée uniquement si le player renvoie son état.
-  > - Il faut absolument que le player soit sous tension et pas en veille prolongée. (Révolution)
-  > - Le player mini4K n'est pas compatible, le player POP n'est pas encore compatible
+  > - La commande est créée uniquement si le Player renvoie son état.
+  > - Il faut absolument que le Player soit sous tension et pas en veille prolongée. (Révolution)
+  > - Le Player mini4K n'est pas compatible, le Player POP n'est pas enCore compatible
 
 ## 30/08/2020
 
@@ -679,7 +679,7 @@ pluginId: Freebox_OS
   - Ajout d'information si l’association de nouvelles applications est désactivée
   - Modification de la barre de progression lors de l'appairage
   - Ajout de log
-  - Ajout d'un message en cas d'absence de nom à votre jeedom
+  - Ajout d'un message en cas d'absence de nom à votre Jeedom
 
 - **Téléchargements**
 
@@ -690,12 +690,12 @@ pluginId: Freebox_OS
 
 - **Player**
 
-  - Certains player ne renvoient pas leur nom. Mise en place d'une parade pour pouvoir créer l'équipement
+  - Certains Player ne renvoient pas leur nom. Mise en place d'une parade pour pouvoir créer l'équipement
     > Les commandes seront mises à jour lors du scan des équipements standards
-  - Ajout d’un message dans les logs, si l’ID du player est vide
+  - Ajout d’un message dans les logs, si l’ID du Player est vide
 
   ```
-  PLAYER : Freebox-Mini-52ec41c5c8d0bbee -- L'Id est vide donc pas de création de l'équipement (mettre sous tension le player pour résoudre ce problème)
+  Player : Freebox-Mini-52ec41c5c8d0bbee -- L'Id est vide donc pas de création de l'équipement (mettre sous tension le Player pour résoudre ce problème)
   ```
 
 - **Tiles**
@@ -714,7 +714,7 @@ pluginId: Freebox_OS
 > **Important**  
 > **Il est nécessaire de refaire l'appairage de la Freebox avec le nouveau menu**
 >
-> **NE PAS FAIRE LA MISE A JOUR SI VOUS N'ETES PAS CHEZ VOUS**
+> **NE PAS FAIRE LA Mise à jour SI VOUS N'ETES PAS CHEZ VOUS**
 
 > **Merci**  
 > Merci aux bêta-testeurs : ipapy, Tom's,Olive, jcamus86 pour leurs aides et leurs retours
@@ -727,16 +727,16 @@ pluginId: Freebox_OS
 - Les fonctionnalités non disponibles pour la box sont masquées (Ex : Scan des Tiles)
 - Les regroupements d'équipements vides sont masqués
 - **Cron Journalier**
-  - Ajout cron journalier pour rechercher les nouveaux appareils connectés
-  - Ajout cron journalier pour rechercher les nouveaux disques
-  - Ajout cron journalier pour rechercher les nouveaux Home Adapters
+  - Ajout Cron journalier pour rechercher les nouveaux appareils connectés
+  - Ajout Cron journalier pour rechercher les nouveaux disques
+  - Ajout Cron journalier pour rechercher les nouveaux Home Adapters
 - **Appairage**
   - Mise en place d'une fenêtre de type modale pour faciliter l'appairage (l'association) avec la Freebox
     > Le menu se trouve maintenant dans l'interface du plugin
     > La documentation du plugin a été mise à jour en conséquence [Voir Documentation](https://mika-nt28.github.io/Documentations/Freebox_OS/fr_FR/?theme=light#tocAnchor-1-2-1)
   - Modification des réglages par défaut (masquages des paramètres non nécessaires)
   - Ajout d'une fonction pour contrôler les droits, si **NOK**, il n'est pas possible de continuer (Droits obligatoires en gras)
-  - Pour la Freebox Delta : Il est possible de lier les pièces de la Freebox avec les objects de Jeedom
+  - Pour la Freebox Delta : Il est possible de lier les pièces de la Freebox avec les objets de Jeedom
   - Possibilité de lancer la recherche des divers équipements en fin d'authentification
 - **Téléphone**
   - Suppression de l'ensemble des commandes obsolètes
@@ -751,14 +751,14 @@ pluginId: Freebox_OS
   - Ajout des commandes spécifiques pour les connexions de type _xDSL + 4G_
 - **Appareils connectés**
   - Résolution de la non-suppression des appareils non présents dans la Freebox
-  - Ajout cron Jour pour rechercher les nouveaux appareils.
+  - Ajout Cron Jour pour rechercher les nouveaux appareils.
   - Possibilité de masquer les adresses IP sur le widget
   - Le widget a été renommé
     > Il faut faire une **recherche des équipements supplémentaires** pour avoir le nouveau widget
 - **Téléchargements**
   - Ajout info flux RSS
 - **Disque Dur**
-  - Suppression du widget actuel et utilisation du widget core par défaut
+  - Suppression du widget actuel et utilisation du widget Core par défaut
 - **Wi-Fi**
   - Suppression de la commande Activer/Désactiver du Wi-Fi
     > il faut utiliser les commandes ON et OFF pour gérer le Wi-Fi
@@ -768,12 +768,12 @@ pluginId: Freebox_OS
   - Suppression du message d'installation de la caméra, si celle-ci est détectée
 - **Tiles**
   - Correction d’un problème sur la recherche
-- **Equipements standards**
+- **Équipements standards**
   - Correction d’un problème sur la recherche
 - **Freebox débits**
   - Ajout info de l’IPV4 et IPV6
     > Il faut refaire une recherche des équipements standards pour avoir cette info
-- **Equipements Appareils connectés Wi-Fi Invité**
+- **Équipements Appareils connectés Wi-Fi Invité**
   - Ajout de cet équipement
 
 ## 06/08/2020
@@ -801,9 +801,9 @@ pluginId: Freebox_OS
   - Correction du nombre de download, la valeur était toujours vide
 - **Disque**
   - Amélioration du nom lors de la création de l'équipement
-  - Correction du non retour de la capacité du disque
+  - Correction du non-retour de la capacité du disque
 - **Ensemble des équipements**
-  - Affectation des Temps de rafraichissement (cron) différents suivant le type d'équipement.
+  - Affectation des Temps de rafraichissement (Cron) différents suivant le type d'équipement.
     > Cela s'appliquera uniquement pour les nouveaux équipements
 
 ## 24/07/2020
@@ -920,7 +920,7 @@ pluginId: Freebox_OS
 
 - Bug : Correction Affichage Batterie : Masqué par défaut
 - Bug : Template par défaut pour le sabotage et l'ouverture
-- Bug : Invertion de la valeur par défaut sur le couvercle + attribution template
+- Bug : Inversion de la valeur par défaut sur le couvercle + attribution template
 - Bug : Détecteur de présence correction des templates et l'inversion des signaux
 - Autorisation de supprimer les commandes
 
@@ -951,7 +951,7 @@ pluginId: Freebox_OS
 - Amélioration affichage des commandes
 - Migration commande API Wi-Fi de V3 à V5
 - Séparation des équipements Home et Tiles dans la liste des équipements
-- Nettoyage des cron à la suppression du plugin
+- Nettoyage des Cron à la suppression du plugin
 
 ## 03/04/2020
 
@@ -971,8 +971,8 @@ pluginId: Freebox_OS
 ## 10/12/2019
 
 - Restructuration de la class API
-- Création d'un cron de rafraichissement du token pour n'avoir qu'une seule session
-- Mise a jour du widget Réseau
+- Création d'un Cron de rafraichissement du token pour n'avoir qu'une seule session
+- Mise à jour du widget Réseau
 
 ## 27/11/2019
 
