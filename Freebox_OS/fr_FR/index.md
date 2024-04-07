@@ -2,7 +2,7 @@
 layout: default
 title: Freebox OS (Freebox_OS)
 lang: fr_FR
-pluginId: Freebox_OS
+pluginId: freebox_OS
 ---
 
 # Description
@@ -20,7 +20,7 @@ Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
   - Les débits internet
   - L'état de votre connexion
   - Gestion du filtrage des appels
-- **Téléphone :** sur les dernieres 24h
+- **Téléphone :** sur les dernières 24h
   - Le nombre d'appels en absence
   - Le nombre d'appels passés
   - Le nombre d'appels reçus
@@ -50,7 +50,7 @@ Il faut ensuite suivre les différents écrans pour valider l'appairage
 
 Dans la fenêtre ci-dessous, il est possible de modifier
 
-- **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : mafreebox.freebox.fr)_
+- **IP Freebox** : Adresse de connexion de la Freebox _(par défaut : maFreebox.Freebox.fr)_
 - **Nom de l'équipement connecté** : Le nom de la Jeedom (ce champ est verrouillé)
 - **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
 - Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
@@ -84,7 +84,7 @@ Dans la fenêtre ci-dessous, Le système va contrôler les droits qui sont attri
 
 > Cette fenêtre n'apparait uniquement que si la Freebox est une DELTA
 >
-> Il est possible d'activer ou désactiver le cron "Actualisation Globale des Tiles"
+> Il est possible d'activer ou désactiver le Cron "Actualisation Globale des Tiles"
 >
 > <b>Ne pas oublier</b> de cliquer sur sauvegarder pour prendre en compte les changements
 
@@ -106,19 +106,19 @@ L'authentification est réussie.
 
 Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation du plugin, ils doivent être **obligatoirement attribués et modifiés** directement depuis l'OS de la Freebox
 
-- Se connecter à l'interface de la Freebox (http://mafreebox.freebox.fr)
+- Se connecter à l'interface de la Freebox (http://maFreebox.Freebox.fr)
 - Ouvrir les paramètres de la Freebox
 
-<p><img src="../images/freebox_para.png" alt="Paramètres de la Freebox" width="100" /></p>
+<p><img src="../images/Freebox_para.png" alt="Paramètres de la Freebox" width="100" /></p>
 
 - Ouvrir la gestion des accès de la Freebox _(ce réglage se trouve dans le mode avancé)_
 
-<p><img src="../images/freebox_gestion_acces_1.png" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
+<p><img src="../images/Freebox_gestion_acces_1.png" alt="Paramètres de gestion des accès de la Freebox" width="600" /></p>
 
 - Cliquer sur l'onglet **Applications**
 - Dans la liste, choisir l'Application déclarée lors de l'installation du Plugin _(par défaut : Plugin Freebox OS)_
 
-<p><img src="../images/freebox_gestion_acces_2.jpg" alt="Paramètres de gestion des accès de la Freebox" width="500" /></p>
+<p><img src="../images/Freebox_gestion_acces_2.jpg" alt="Paramètres de gestion des accès de la Freebox" width="500" /></p>
 
 - **Autoriser tous les droits d'accès**
 
@@ -141,7 +141,7 @@ Les équipements et les commandes suivants vont être créés :
 - **Disque Dur**
   - Occupation du disque
   - Température
-  - Type de raid (uniquement pour les freebox compatible)
+  - Type de raid (uniquement pour les Freebox compatible)
 - **Freebox Débits**
   - Freebox rate down, rate up, bandwidth up, bandwidth down
   - Freebox media
@@ -157,9 +157,9 @@ Les équipements et les commandes suivants vont être créés :
   - Version
   - API disponible
   - Disponible sur le réseau
-  - Etat (allumé ou éteint)
-    > La commande est créée uniquement si le player renvoie son état et possède un ID.
-    > **Il faut absolument que le player soit sous tension et pas en veille prolongée (Révolution) lors de la recherche**
+  - État (allumé ou éteint)
+    > La commande est créée uniquement si le Player renvoie son état et possède un ID.
+    > **Il faut absolument que le Player soit sous tension et pas en veille prolongée (Révolution) lors de la recherche**
     > Les Player mini4K/POP sont disponibles mais ils ne remontent pas l'état
 - **Partage Windows - Mac**
   - Activer / Désactiver le Partage de fichiers Mac, Windows, FTP
@@ -176,7 +176,7 @@ Les équipements et les commandes suivants vont être créés :
   - board name
   - serial
   - 4G si la carte est présente dans la Freebox
-- **Téléphone** sur les dernieres 24h
+- **Téléphone** sur les dernières 24h
   - Nombre Appels Manqués / Reçus / Passés
   - Liste Appels Manqués / Reçus / Passés
 - **Téléchargements**
@@ -186,12 +186,12 @@ Les équipements et les commandes suivants vont être créés :
   - Vitesse réception, émission
   - Start, Stop
   - Mode de téléchargement
-  - Etat du planning
-  - Etat connexion
-- **VM** (uniquement pour les freebox compatible)
+  - État du planning
+  - État connexion
+- **VM** (uniquement pour les Freebox compatible)
   - Statut
   - Action possible : Stop, Redémarrer, Start
-  - info : Nb de CPU, Adresse Mac, Mémoire, Port USB, Ecran Virtuel, Type de Disque
+  - info : Nb de CPU, Adresse Mac, Mémoire, Port USB, Écran Virtuel, Type de Disque
 - **Wifi**
   - Statut du wifi
   - Wifi On Off
@@ -212,11 +212,10 @@ Cliquer sur le bouton **_Scan Contrôle parental_**, le plugin va créer les dif
 
 - Les équipements et les commandes suivants vont être créés :
   
-  > - Etat
+  > - État
   > - Bloquer
   > - Autoriser
   > - Bloquer 30min/1h/2h
-
 
 # Spécificité de Home Adapters (Uniquement Freebox Delta), Appareils connectés, Disque Dur et système
 
@@ -230,13 +229,12 @@ Ouvrir chaque équipement et cliquer sur le bouton "Rechercher"
 
 > Un Cron Journalier permet automatiquement de chercher les nouveaux équipements
 
-
 # Gestion réseau
 
 Cet équipement permet de :
 
 > - Attribuer une adresse IP fixe
-> - Gérer le filtrage des addresses MAC
+> - Gérer le filtrage des adresses MAC
 > - Fonction Wake on LAN
 > - Modifier le type de périphérique
 
@@ -257,7 +255,6 @@ Il faut avoir les valeurs les champs suivants renseignés
 - Sélection Nom Appareil : Indiquer le nom de l'appareil
 - Commentaires : permet de saisir un commentaire (Option)
 
-
 ## Changer le type de périphérique
 
 <p><img src="../images/Modif_equip_type.png" alt="Modification des équipements" width="800" /></p>
@@ -271,7 +268,7 @@ Il faut avoir les valeurs les champs suivants renseignés
 
 - Sélection Type de périphérique : Sélectionner le type de périphérique
 - Commentaires : permet de saisir un commentaire
-- Modifier l'appareil : Permet d'envoyer la modification sur la freebox
+- Modifier l'appareil : Permet d'envoyer la modification sur la Freebox
 
 ## Gérer le filtrage des adresses MAC (WIFI)
 
@@ -293,7 +290,7 @@ Il faut avoir les valeurs les champs suivants renseignés
 - Commentaires : permet de saisir un commentaire ou un mot de passe
 - Modifier l'appareil : Permet d'envoyer la modification sur la Freebox
 
-> **A savoir** : l'appareil n'est pas automatiquement supprimer d'une liste si un changement de type de filtrage est fait.
+> **A savoir** : l'appareil n'est pas automatiquement supprimé d'une liste si un changement de type de filtrage est fait.
 
 ## Fonction Wake on LAN
 
@@ -319,9 +316,9 @@ Cliquer sur le bouton **_Scan Tiles_**,les équipements et les commandes des dif
 
 ## Statut Alarme
 
-> Le plugin remonte l'état de l'alarme par la commande "Etat de l alarme"
+> Le plugin remonte l'état de l'alarme par la commande "État de l’alarme"
 
-![Etat de l'alarme](../images/alarme_statut.png)
+![État de l'alarme](../images/alarme_statut.png)
 Les valeurs possibles sont :
 
 > **idle** = Alarme désactivée
@@ -355,29 +352,29 @@ Les valeurs possibles sont :
 
 > les caméras sont créées automatiquement si le plugin caméra est installé
 
-# Temps de rafraichissement (cron) des équipements
+# Temps de rafraichissement (Cron) des équipements
 
-- Il est possible de modifier le cron de rafraichissement de chaque équipement, par défaut :
+- Il est possible de modifier le Cron de rafraichissement de chaque équipement, par défaut :
 
   > Home Adapter, FREEBOX - Télécommande (Alarme), Contrôle parental et Mes équipements sauf disque Dur = **Cron sera réglé à 5 minutes**
   >
   > Disque Dur = **Cron sera réglé à 1 heure**
 
-- Ce cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
-  > Les commandes d'action ne sont pas concernées par ce cron.
+- Ce Cron permet de rafraichir les différentes commandes de type infos, l'équipement est actualisé automatiquement en cas d'action d'une commande.
+  > Les commandes d'action ne sont pas concernées par ce Cron.
   >
   > Plus le temps est court, plus il y aura de la charge sur la CPU de la Freebox.
 
 - Depuis la version du plugin 20210507, pour la **partie domotique**
   > Un Cron d'actualisation global est activé par défaut
   >
-  > <p><img src="../images/cron_tiles.png" alt="Temps de rafraichissement" width="800" /></p>
+  > <p><img src="../images/Cron_tiles.png" alt="Temps de rafraichissement" width="800" /></p>
   >
   > si cette option est désactivé, le **Cron sera réglé à 1 minute**
 
 # Les tiles
 
-*Chaque équipement n'est pas forcement intégré dans le système vue l'évolution de la Freebox*S
+*Chaque équipement n'est pas forcément intégré dans le système vue l'évolution de la Freebox*S
 
 - Afin de pouvoir intégrer les nouveaux systèmes, il faut :
 
@@ -391,17 +388,17 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - Faire une copie d'écran de l'équipement
 
-<p><img src="../images/tiles1.png" alt="Equipement tiles 1" width="800" /></p>
+<p><img src="../images/tiles1.png" alt="Équipement tiles 1" width="800" /></p>
 
 - Faire une copie d'écran des commandes de l'équipement
 
-<p><img src="../images/tiles2.png" alt="Equipement tiles 2" width="800" /></p>
+<p><img src="../images/tiles2.png" alt="Équipement tiles 2" width="800" /></p>
 
 - Fournir les logs sous forme de texte et non une copie d'écran
   > [Voir le paragraphe **11** Formatez correctement](https://community.jeedom.com/t/comment-nous-aider-a-vous-aider-ou-comment-poser-une-bonne-question/34932)
 
 ```
-    [2020-08-24 07:37:41][DEBUG] : ┌───────── Commande trouvée pour l'équipement FREEBOX : FREEBOX - Eclairage Canapé -- Pièce : Salon (Node ID 9)
+    [2020-08-24 07:37:41][DEBUG] : ┌───────── Commande trouvée pour l'équipement FREEBOX : FREEBOX - Eclairage Canapé -- Pièce : Salon (Node ID 9)
 [2020-08-24 07:37:41][DEBUG] : │ Label : Enclenché -- Name : switch_state
 [2020-08-24 07:37:41][DEBUG] : │ Type (eq) : light -- Action (eq): intensity_picker
 [2020-08-24 07:37:41][DEBUG] : │ Index : 0 -- Value Type : bool -- Access : rw
@@ -430,7 +427,7 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
   > Vérifier dans les réglages de l'OS de la Freebox que le paramètre **Permettre les nouvelles demandes d'associations** est coché _(Paramètres de la Freebox -> Gestion des accès -> Onglet paramètres)_
   >
-  > <p><img src="../images/freebox_association.png" alt="Association" width="500" /></p>
+  > <p><img src="../images/Freebox_association.png" alt="Association" width="500" /></p>
 
 - **Je n'ai pas le niveau de batterie sur le capteur de présence de la Freebox et/ou sur la télécommande**
 
@@ -441,24 +438,24 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 - **Je ne peux pas commander la sirène de l'alarme de la Freebox**
 
   > Il n'est pas possible de commander directement cette sirène
-  > [Voir Bugtracker Freebox FS#30650](https://dev.freebox.fr/bugs/task/30650)
+  > [Voir Bugtracker Freebox FS#30650](https://dev.Freebox.fr/bugs/task/30650)
 
 - **J'ai le message "Version d’API inconnue"**
 
   > **Il est nécessaire d'avoir la Freebox en version 4.7 minimum pour que le plugin fonctionne**
 
-  > - Une détection automatique de la version API de la freebox est lancée une fois par semaine.
+  > - Une détection automatique de la version API de la Freebox est lancée une fois par semaine.
   > - Il est possible de le lancer directement depuis l'écran d'Appairage
-  > - Il est actuellement obligatoire de faire le reset de la clef API a chaque mise à jour
+  > - Il est actuellement obligatoire de faire le reset de la clef API à chaque mise à jour
   >
   > <p><img src="../images/reset_API1.png" alt="Reset API Freebox" width="500" /></p>
   >
   > <p><img src="../images/reset_API2.png" alt="Reset API Freebox" width="500" /></p>
 
-- **J'ai le message "unknown host, use ip address or mafreebox.freebox.fr" et le Demon NOK**
+- **J'ai le message "unknown host, use IP address or maFreebox.Freebox.fr" et le Demon NOK**
 
   - Suite à la mise à jour de la Freebox 4.2.3
-  > Free a changé l'adresse de la Freebox **_mafreebox.free.fr_**, celle-ci ne fonctionne plus il faut remplacer par **_mafreebox.freebox.fr_**
+  > Free a changé l'adresse de la Freebox **_maFreebox.free.fr_**, celle-ci ne fonctionne plus il faut remplacer par **_maFreebox.Freebox.fr_**
   >
   > Voir le paragraphe **Installation et Configuration**
 
@@ -482,7 +479,6 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
   >
   > <p><img src="../images/nom_jeedom_2.png" alt="Nom Jeedom" width="800" /></p>
 
-
 - **Erreur CronDaily avec des noms d'appareils avec des icônes**
 
   > - Il ne faut pas que les noms d'appareils comportent des icônes.
@@ -499,9 +495,9 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - **J'ai le message METHODE OBSOLETE => MERCI DE REGARDER LA DOCUMENTATION**
 
-  > Les commandes ont changées dans la partie network, il est donc necessaire de changer la methode pour utiliser les commandes ci-dessous. *Voir le paragraphe "Gestion réseau"*
+  > Les commandes ont changé dans la partie network, il est donc nécessaire de changer la méthode pour utiliser les commandes ci-dessous. *Voir le paragraphe "Gestion réseau"*
   >
-  > Les commandes suivantes seront supprimer lors de la prochaine mise à jour :
+  > Les commandes suivantes seront supprimées lors de la prochaine mise à jour :
   >
   > - **"Ajout - Supprimer filtrage Mac"** pour l'équipement *WIFI*
   > - **"Ajouter supprimer IP Fixe"** pour les équipements *Appareils connectés* et *Appareils connectés Wifi Invité*
@@ -509,25 +505,26 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
 - **A quoi corresponde les différents moteurs de tâches**
 
-  > - **RefreshToken** : Permet de rafraichir l'accès a la freebox
+  > - **RefreshToken** : Permet de rafraichir l'accès à la Freebox
   >
-  > - **FreeboxPUT** : Permet de faire les actions sur la freebox
+  > - **FreeboxPUT** : Permet de faire les actions sur la Freebox
   >
   > - **FreeboxAPI** :
-    > Permet de tester de vérifier la dernière version de l'API de la freebox
+    > Permet de tester de vérifier la dernière version de l'API de la Freebox
     > un contrôle est fait une fois par semaine
   >
-  > - **FreeboxGET** : Permet de récupèrer les données de type info de la partie domotique
+  > - **FreeboxGET** : Permet de récupérer les données de type info de la partie domotique
 
-  - **L'état du player ne remonte pas**
+  - **L'état du Player ne remonte pas**
 
   > Il faut vérifier que le type pour la commande "Etat" est le sous type **Autre**
   > <p><img src="../images/player.png" alt="Player" width="800" /></p>
   
-  - **Le statut du player n'est pas disponible**
+  - **Le statut du Player n'est pas disponible**
 
-  > Il faut absolument lancer un scan des équipements standards avec le player sous tension
+  > Il faut absolument lancer un scan des équipements standards avec le Player sous tension
 
   - **Les commandes "Appareil connecté choisi" et "Sélection appareil connecté"" dans l'équipement Gestion réseau**
 
-  > Ces commandes seront créés automatiquement par l'équipement *Appareils connectés* et/ou *Appareils connectés Wifi Invité*
+  > Ces commandes seront créées automatiquement par l'équipement *Appareils connectés* et/ou *Appareils connectés Wifi Invité*
+
