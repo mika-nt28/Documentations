@@ -21,10 +21,27 @@ pluginId: Freebox_OS
 
 # 2024
 
-## 06/04/2024
+## 07-08/04/2024
 
-- Amélioration Log pour la partie management
-- VM : Ajout message d'erreur si la VM n'est pas trouvé ensuite elle est désactivée
+- **Général**
+
+- Nettoyage lors de l'installation des commandes obsolètes lors de la migration de box (révolution->ULTRA, DELTA->ULTRA)
+
+- **Management**
+
+- Amélioration Log
+
+- **Wifi**
+
+- Amélioration widget Wifi pour prendre en compte le mode économmie d'énergie (Box ULTRA)
+
+- **VM/CONTROLE PARENTAL**
+
+- Ajout message d'erreur si la VM ou le contrôle parental n'est pas trouvé ensuite l'équipement est désactivée
+
+- **Disques**
+
+  - Disque dur non actualisation de l'équipement si pas de disque et désactivation de l'équipement
 
 - **Tiles**
 
