@@ -25,7 +25,7 @@ pluginId: Freebox_OS
 
 - **Général**
 
-- Nettoyage lors de l'installation des commandes obsolètes lors de la migration de box (révolution->ULTRA, DELTA->ULTRA)
+- Nettoyage lors de l'installation des commandes obsolètes lors de la migration de box (révolution->ULTRA, DELTA->ULTRA).
 
 - **Management**
 
@@ -33,21 +33,22 @@ pluginId: Freebox_OS
 
 - **Wifi**
 
-- Amélioration widget Wifi pour prendre en compte le mode économmie d'énergie (Box ULTRA)
+- Amélioration widget Wifi pour prendre en compte le mode économie d'énergie (Box ULTRA).
 
-- **VM/CONTROLE PARENTAL**
+- **VM/CONTROLE PARENTAL/Disque**
 
-- Ajout message d'erreur si la VM ou le contrôle parental n'est pas trouvé ensuite l'équipement est désactivée
+
+- Non actualisation de l'équipement (de type VM / Contrôle parental) s'il n'est pas trouvé sur la Freebox et désactivation de l'équipement.
 
 - **Disques**
 
-  - Non actualisation de l’équipement si pas de disque et désactivation de l’équipement
+  - Non actualisation de l’équipement si pas de disque et désactivation de l’équipement.
 
 - **Tiles**
 
-  - Si la box n'est plus comptatible avec cette fonction 
+  - Si la box n'est plus compatible avec cette fonction :
       - Désactivation de l'équipement
-      - Suppresion CRON GLOBAL titles
+      - Suppression CRON GLOBAL titles
 
 # 02/03/2024
 
