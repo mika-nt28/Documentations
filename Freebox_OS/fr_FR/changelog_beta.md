@@ -41,7 +41,7 @@ pluginId: Freebox_OS
 
 - **Disques**
 
-  - Disque dur non actualisation de l'équipement si pas de disque et désactivation de l'équipement
+  - Non actualisation de l’équipement si pas de disque et désactivation de l’équipement
 
 - **Tiles**
 
