@@ -21,6 +21,37 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 10/04/2024
+
+- **Général**
+
+- Nettoyage lors de l'installation des commandes obsolètes lors de la migration de box (révolution->ULTRA, DELTA->ULTRA).
+- Amélioration LOG pour 4.4
+
+- **Management**
+
+- Amélioration Log
+
+- **Wifi**
+
+- Amélioration widget Wifi pour prendre en compte le mode économie d'énergie (Box ULTRA).
+
+- **VM/CONTROLE PARENTAL/Disque**
+
+- Non actualisation de l'équipement (de type VM / Contrôle parental) s'il n'est pas trouvé sur la Freebox et désactivation de l'équipement.
+
+- **Disques**
+
+  - Non actualisation de l’équipement si pas de disque et désactivation de l’équipement.
+
+- **Tiles**
+
+  - Si la box n'est plus compatible avec cette fonction :
+      - Désactivation de l'équipement
+      - Suppression CRON GLOBAL titles
+
+
+
 ## 15/02/2024
 
 - Correction Bug en cas de suppression du plugin
