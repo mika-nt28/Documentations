@@ -5,6 +5,14 @@ lang: fr_FR
 pluginId: QRacces
 ---
 # Stable
+## 03/05/2024
+* Mise a jour affichage image pour compatibilité Jeedom 4.4
+* suppression de l'envoie et regenration automatique du QRcode a chaque envoie
+* Ajout d'un bouton pour la regénération et l'envoie du QRcode
+* Débug de la détéction
+* Ajout d'un cadre de détéction sur l'image camera panel
+* Abaissement de la tempo de 0.1s apres l'annalyse de l'image pour baisser la consomation CPU (Beta a voir la dégradation de la détéction)
+
 ## 03/08/2022
 * Accecibilité de la configuration camera sur la page de configuration des utilisateurs et sur le panel
 * Refonte de la présentation du panel
