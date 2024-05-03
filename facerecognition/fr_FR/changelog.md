@@ -6,6 +6,10 @@ pluginId: facerecognition
 ---
 
 # Stable
+## 03/05/2024
+* Suppression des appel lazy supprimé du core 4.4
+* Debug de la détection et des remontées d'action
+  
 ## 03/08/2022
 * Accecibilité de la configuration camera sur la page de configuration des utilisateurs et sur le panel
 * Refonte de la présentation du panel
