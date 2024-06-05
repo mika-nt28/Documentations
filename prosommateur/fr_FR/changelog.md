@@ -8,7 +8,7 @@ pluginId: prosommateur
 # Stable
 ## 26/07/2022
 * Ajout d'une configuration sur la durée du lissage de production
-* 
+  
 ## 20/04/2021
 * Initialisation de l'etat de gestion a Off au démarrage du démon / sauvgarde
 * BugFix execution des actions
@@ -23,3 +23,8 @@ pluginId: prosommateur
 * Séparation du plugin et sa documentation
 
 # Beta
+## 05/06/2024
+* Ajout de la gestion des batteries
+* Lissage de la production obligatoire (sera mise a jours si necessaire)
+* Formule possible dans le champs Batterie et Consommation
+* Restructuration des phases de calcul 
