@@ -6,6 +6,16 @@ pluginId: prosommateur
 ---
 
 # Stable
+## 15/07/2024
+* Restructuration du codeet des phases de calcul
+* Ajout d'une commande stockage virtuel (injection dans le reseau)
+* Consommation revue (delta entre la produdtion et la conso vue sur le reseau)
+* Ajout des parametre de puissance a utiliser sur le reseau / batterie / stockage virtuel
+* Activation des different mode de consomation pour chaque equipement
+* Ajout de la gestion des batteries et du stockage virtuel (injections sur le reseau)
+* Lissage de la production obligatoire (sera mise a jours si necessaire)
+* Formule possible dans le champs Batterie et Consommation
+  
 ## 26/07/2022
 * Ajout d'une configuration sur la durée du lissage de production
   
@@ -23,15 +33,4 @@ pluginId: prosommateur
 * Séparation du plugin et sa documentation
 
 # Beta
-## 11/06/2024
-* Restructuration du code
-* Ajout d'une commande stockage virtuel (injection dans le reseau)
-* Consommation revue (delta entre la produdtion et la conso vue sur le reseau)
-* Ajout des parametre de puissance a utiliser sur le reseau / batterie / stockage virtuel
-* Activation des different mode de consomation pour chaque equipement
 
-## 05/06/2024
-* Ajout de la gestion des batteries
-* Lissage de la production obligatoire (sera mise a jours si necessaire)
-* Formule possible dans le champs Batterie et Consommation
-* Restructuration des phases de calcul 
