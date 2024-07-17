@@ -21,6 +21,11 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 18/07/2024
+
+- Amélioration log 
+- Correction warning PHP8
+
 ## 11/04/2024
 
 - Correction bug lors de la migration de la box DELTA à ULTRA
