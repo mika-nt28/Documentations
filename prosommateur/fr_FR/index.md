@@ -69,8 +69,7 @@ Pour l'activer
 * Tolérance (W): Saisir la consommation du réseau autorisé si stocké)
 
 
-Condition
-----------
+## Condition
 Afin de pouvoir filtrer les allumages inutiles de votre équipement nous avons la possibilité de lui ajouter des conditions d'exécution.
 
 Cliquer sur "Ajouter une condition" et configurer votre condition
@@ -78,7 +77,6 @@ Chaque condition de la liste formera un ET
 
 Dans mon exemple si dessous, on voit que j'autorise l'utilisation de la production uniquement si mon eau est inferieur a 35°C
 
-Actions
----------
+## Actions
 Les actions sont exécutées dans l'ordre d'apparition en fonction de leur déclencheurs (on ou off).
 Vous pouvez aussi bien notifier que de piloté l'équipements
