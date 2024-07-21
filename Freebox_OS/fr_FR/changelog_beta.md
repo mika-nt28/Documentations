@@ -21,6 +21,12 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 22/07/2024
+
+- Amélioration info vers Community pour le Core 4.4
+- Ajout Info du type de mode Eco pour le wifi
+- Ajout du mode de veille pour la planification du Wifi
+
 ## 11/07/2024
 
 - Amélioration log 
