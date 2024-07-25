@@ -6,6 +6,11 @@ pluginId: prosommateur
 ---
 
 # Stable
+## 25/07/2024
+* BugFix remise a zero des compteurs apres une sauvegarde ou redémarage du démon
+* BugFix Stockage virtuel négatif
+* BugFix Utilisation du stockage virtuel non demandé
+
 ## 15/07/2024
 * Restructuration du codeet des phases de calcul
 * Ajout d'une commande stockage virtuel (injection dans le reseau)
