@@ -11,7 +11,7 @@ pluginId: Freebox_OS
 
 > **_Pour rappel_**, s'il n'y a pas d'information sur la mise à jour, c'est que celle-ci concerne uniquement de la mise à jour de documentation, de traduction ou de corrections de bugs mineurs.
 >
-> **Attention : Il est nécessaire d'avoir la Freebox serveur en version 4.7 pour que le plugin fonctionne.**
+> **Attention : Il est nécessaire d'avoir la Freebox serveur en version 4.8 pour que le plugin fonctionne.**
 
 ## Fil d'actualité
 
@@ -20,6 +20,35 @@ pluginId: Freebox_OS
 # Changelog BETA
 
 # 2024
+
+## 03/08/2024
+
+> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES EQUIPEMENTS STANDARDS ET PARENTAL**
+
+- **Ensemble des équipements standarsds**
+
+- Reprise de l'ensemble des mises à jours
+
+- **Contrôle parental**
+
+- Ajout commande pour "appareil associé"
+- Ajout commande pour "Vacances associées au profil"
+
+> **ATTENTION : Il faudra supprimé la commande ETAT et renommé ETAT(1) en ETAT**
+
+- **Afficheur**
+
+- Ajout commandes pour forcer l'orientation
+- Ajout commandes pour cacher la clef Wifi
+
+- **Systeme**
+
+- Ajout commande info ssur la mise à jour du firmware de la Freebox Serveur avec les valeurs suivantes
+      - Le processus de mise à jour est en cours d\'initialisation
+      - Le micrologiciel est en cours de mise à jour
+      - Le micrologiciel est à jour
+      - Une erreur s'est produite pendant la mise à jour
+- Ajout info de la langue d'affichage
 
 ## 22/07/2024
 
