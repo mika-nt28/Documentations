@@ -25,9 +25,9 @@ pluginId: Freebox_OS
 
 > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES EQUIPEMENTS STANDARDS ET PARENTAL**
 
-- **Ensemble des équipements standarsds**
+- **Ensemble des équipements standards**
 
-- Reprise de l'ensemble des mises à jours
+- Reprise de l'ensemble des mises à jour
 
 - **Contrôle parental**
 
@@ -43,7 +43,7 @@ pluginId: Freebox_OS
 
 - **Systeme**
 
-- Ajout commande info ssur la mise à jour du firmware de la Freebox Serveur avec les valeurs suivantes
+- Ajout commande info sur la mise à jour du firmware de la Freebox Serveur avec les valeurs suivantes
       - Le processus de mise à jour est en cours d\'initialisation
       - Le micrologiciel est en cours de mise à jour
       - Le micrologiciel est à jour
