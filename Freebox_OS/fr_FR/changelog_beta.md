@@ -34,7 +34,7 @@ pluginId: Freebox_OS
 - Ajout commande pour "appareil associé"
 - Ajout commande pour "Vacances associées au profil"
 
-> **ATTENTION : Il faudra supprimé la commande ETAT et renommé ETAT(1) en ETAT**
+> **ATTENTION : Il faudra supprimer la commande ETAT et renommer ETAT(1) en ETAT**
 
 - **Afficheur**
 
