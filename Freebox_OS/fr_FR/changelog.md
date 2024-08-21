@@ -21,6 +21,41 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 21/08/2024
+
+> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES EQUIPEMENTS STANDARDS ET PARENTAL**
+
+- **Ensemble des équipements standards**
+
+- Reprise de l'ensemble des mises à jour
+- Amélioration info vers Community pour le Core 4.4
+- Correction Warning PHP8
+
+- **Contrôle parental**
+
+- Ajout commande pour "appareil associé"
+- Ajout commande pour "Vacances associées au profil"
+
+> **ATTENTION : Il faudra supprimer la commande ETAT et renommer ETAT(1) en ETAT**
+
+- **Afficheur**
+
+- Ajout commandes pour forcer l'orientation
+- Ajout commandes pour cacher la clef Wifi
+
+- **Systeme**
+
+- Ajout commande info sur la mise à jour du firmware de la Freebox Serveur avec les valeurs suivantes
+      - Le processus de mise à jour est en cours d\'initialisation
+      - Le micrologiciel est en cours de mise à jour
+      - Le micrologiciel est à jour
+      - Une erreur s'est produite pendant la mise à jour
+- Ajout info de la langue d'affichage
+
+- **Wifi**
+- Ajout Info du type de mode Eco pour le wifi
+- Ajout du mode de veille pour la planification du Wifi
+
 ## 18/07/2024
 
 - Amélioration log 
