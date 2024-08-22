@@ -54,6 +54,12 @@ Dans la fenêtre ci-dessous, il est possible de modifier
 - **Nom de l'équipement connecté** : Le nom de la Jeedom (ce champ est verrouillé)
 - **Ajouter automatiquement les équipements détectés dans :** : Indiquer la pièce par défaut
 - Il est possible de cliquer sur le bouton **Reset configuration** pour avoir les paramètres par défaut
+  > - Récupère le **Nom de votre Jeedom** si celui a changé depuis le dernier appairage
+  > - Remet les valeurs par défaut pour :
+  >     - **Version API de la Freebox** : v10
+  >     - **IP Freebox** : maFreebox.Freebox.fr
+  >     - Efface les autres configurations du plugin
+ 
 - Ne pas oublier de cliquer sur **Sauvegarder**
 
 > Il est impératif que votre Jeedom soit nommé pour continuer l'appairage du plugin avec votre Freebox
