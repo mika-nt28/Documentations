@@ -10,7 +10,7 @@ pluginId: freebox_OS
 Ce plugin permet de récupérer les informations de votre FreeboxOS (Serveur Freebox Révolution ou 4K ou DELTA ou POP ou Ultra) et d’interagir avec via des widgets ou des scénarios reprenant les commandes créées.
 
 >
-> **Il est nécessaire d'avoir la Freebox Serveur en version 4.7 pour que le plugin fonctionne**
+> **Il est nécessaire d'avoir la Freebox Serveur en version 4.8.13 pour que le plugin fonctionne**
 
 Les informations disponibles de votre Freebox Serveur sur Jeedom sont :
 
