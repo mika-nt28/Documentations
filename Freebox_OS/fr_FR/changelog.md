@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 23/08/2024
+
+- Correction bug authentification
+
 ## 21/08/2024
 
 > **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES EQUIPEMENTS STANDARDS ET PARENTAL**
