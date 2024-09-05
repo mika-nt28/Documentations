@@ -59,8 +59,8 @@ Dans la fenêtre ci-dessous, il est possible de modifier
   >     - **Version API de la Freebox** : v10
   >     - **IP Freebox** : maFreebox.Freebox.fr
   >     - Efface les autres configurations du plugin
-  
-- Ne pas oublier de cliquer sur **Sauvegarder**
+
+- Ne pas oublier de cliquer sur **Sauvegarder** après vos modifications
 
 > Il est impératif que votre Jeedom soit nommé pour continuer l'appairage du plugin avec votre Freebox
 

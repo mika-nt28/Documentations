@@ -21,6 +21,11 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 05/09/2024
+
+- Correction PHP 8
+- Correction bug remise a zéro téléphonie
+
 ## 23/08/2024
 
 - Correction bug authentification
