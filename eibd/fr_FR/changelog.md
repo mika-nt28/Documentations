@@ -6,6 +6,9 @@ pluginId: eibd
 ---
 
 # Stable.
+## 24/09/2024
+* Bugfix affichage bus monitor
+  
 ## 07/05/2024
 * Compatibilité avec jeedom 4.4
 * Compatibilité avec Debian 12
