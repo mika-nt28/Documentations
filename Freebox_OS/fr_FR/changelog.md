@@ -21,6 +21,16 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 25/09/2024
+
+- Traduction
+- Ajout Firmware dans le lien communauty
+- Clean code
+- Correction PHP 8
+- Traduction
+- Core mini 4.2
+- Correction bug remise a zéro téléphonie
+
 ## 23/08/2024
 
 - Correction bug authentification
