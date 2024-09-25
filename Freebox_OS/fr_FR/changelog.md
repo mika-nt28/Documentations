@@ -21,7 +21,7 @@ pluginId: Freebox_OS
 
 # 2024
 
-## 25/09/2024
+## 25 et 26 /09/2024
 
 - Traduction
 - Ajout Firmware dans le lien communauty
@@ -30,6 +30,10 @@ pluginId: Freebox_OS
 - Traduction
 - Core mini 4.2
 - Correction bug remise a zéro téléphonie
+- Traitement fonction Deprecated
+- Correction bug setConfiguration sur la création des commandes
+
+> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES EQUIPEMENTS STANDARDS ET PARENTAL**
 
 ## 23/08/2024
 
