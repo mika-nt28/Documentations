@@ -21,14 +21,18 @@ pluginId: Freebox_OS
 
 # 2024
 
-## 20/09/2024
+## 20 et 25 /09/2024
 
+- Correction bug setConfiguration sur la création des commandes
 - Traduction
 - Ajout Firmware dans le lien communauty
 - Clean code
 - Correction PHP 8
 - Traduction
 - Core mini 4.2
+- Traitement fonction Deprecated
+
+> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES EQUIPEMENTS STANDARDS ET PARENTAL**
 
 ## 05/09/2024
 
