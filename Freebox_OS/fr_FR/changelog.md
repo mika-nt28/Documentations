@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 27/09/2024
+
+- Correction bug installation depuis Market
+
 ## 25 et 26 /09/2024
 
 - Traduction

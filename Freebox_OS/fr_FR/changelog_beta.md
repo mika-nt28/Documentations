@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 27/09/2024
+
+- Correction bug installation depuis Market
+
 ## 20 et 25 /09/2024
 
 - Correction bug setConfiguration sur la création des commandes
