@@ -108,6 +108,35 @@ L'authentification est réussie.
 
 <p><img src="../images/Freebox_OS_screenshot8.png" alt="Authentification 6" width="300" /></p>
 
+## Problème d'Authentification terminée
+
+en cas de problème d'authentification, il faut fournir les logs du plugin en mode debug
+Voici un exemple
+```
+000|[2024-10-11 18:53:49] INFO  ──────────▶︎ Étape : setting
+0001|[2024-10-11 18:53:49] INFO  ───▶︎ IP : mafreebox.freebox.fr
+0002|[2024-10-11 18:53:49] INFO  ───▶︎ Nom API : Plugin Freebox OS
+0003|[2024-10-11 18:53:49] INFO  ───▶︎ Id API : plugin.freebox.jeedom
+0004|[2024-10-11 18:53:49] INFO  ───▶︎ Nom de votre Jeedom : JAG Jeedom-VM2
+0005|[2024-10-11 18:53:49] INFO  ───▶︎ Objet par défaut : 13
+0006|[2024-10-11 18:53:49] INFO  ───▶︎ Version API Freebox : v12
+0007|[2024-10-11 18:53:51] INFO  ──────────▶︎ Étape : authentification
+0008|[2024-10-11 18:53:53] INFO  ──────────▶︎ Étape : rights
+0009|[2024-10-11 18:53:57] DEBUG  OK  Close Session
+0010|[2024-10-11 18:53:57] DEBUG  [Freebox Close Session] : {"uid":"94d2c23d2479819c30954e64ca5981b5","success":false,"msg":"Vous devez vous connecter pour accéder à cette fonction","result":{"password_salt":"orwB6BfzCFmlKTdR+O\/6kUmIYIkXfu0P","challenge":"sQn1Z4f3UT0u21ms1kogF\/pK+lnmuPTr"},"error_code":"invalid_session"}
+0011|[2024-10-11 18:53:57] DEBUG  [Freebox Password] : {"success":true,"result":{"logged_in":false,"challenge":"sQn1Z4f3UT0u21ms1kogF\/pK+lnmuPTr","password_salt":"orwB6BfzCFmlKTdR+O\/6kUmIYIkXfu0P","password_set":true}}
+0012|[2024-10-11 18:53:57] DEBUG  [get Freebox Open Session Data] : {"result":{"session_token":"eRDFtl35L8ENEND2UGlooFzLhAgmv8CGPbMLiegdyC2n4z3DDr4UEYY+zYMOhSkS","challenge":"sQn1Z4f3UT0u21ms1kogF\/pK+lnmuPTr","password_salt":"orwB6BfzCFmlKTdR+O\/6kUmIYIkXfu0P","permissions":{"parental":true,"contacts":true,"explorer":true,"tv":true,"wdo":true,"downloader":true,"profile":true,"camera":true,"settings":true,"calls":true,"home":true,"pvr":true,"vm":true,"player":true},"password_set":true},"success":true}
+0013|[2024-10-11 18:53:57] INFO  ───▶︎ Les droits sont OK
+0014|[2024-10-11 18:53:58] INFO  ──────────▶︎ Étape : room
+0015|[2024-10-11 18:53:58] INFO  ───▶︎ Cron Global Titles ACTIVATION : NOK
+0016|[2024-10-11 18:53:58] INFO  ───▶︎ Compatibilité avec la partie domotique : NOK
+0017|[2024-10-11 18:53:58] INFO  ──────────▶︎ Étape : scan
+0018|[2024-10-11 18:53:59] INFO  ──────────▶︎ Étape : end
+```
+
+<p><img src="../images/debug_log.png" alt="Activation log en debug" width="300" /></p>
+
+
 # Droits d'accès
 
 Certains droits d'accès supplémentaires sont nécessaires pour l'utilisation du plugin, ils doivent être **obligatoirement attribués et modifiés** directement depuis l'OS de la Freebox
@@ -534,3 +563,6 @@ Ouvrir un sujet (si aucun sujet ne traite pas déjà cette demande) sur le commu
 
   > Ces commandes seront créées automatiquement par l'équipement *Appareils connectés* et/ou *Appareils connectés Wifi Invité*
 
+  - **Impossible de démarrer le Demon**
+
+  > Le démon sera autorisé a démaré uniquement si l'authentification et les droits sont OK. Cela se fait depuis le menu "appairage"
