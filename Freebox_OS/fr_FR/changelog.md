@@ -21,6 +21,12 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 09/11/2024
+
+- Correction bug bouton lancement de l'authentification
+- Correction type de regroupement d'appareil pour les débits
+- Correction du demon : il sera redemarré uniquement si l'authentification a été faite lors de la première installation.
+
 ## 27/09/2024
 
 - Correction bug installation depuis Market
