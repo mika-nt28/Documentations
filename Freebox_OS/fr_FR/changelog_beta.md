@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 09/11/2024
+
+- Correction bug bouton lancement de l'authentification
+
 ## 11/10/2024
 
 - Correction bug bouton lancement de l'authentification
