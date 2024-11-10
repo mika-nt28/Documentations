@@ -21,7 +21,11 @@ pluginId: Freebox_OS
 
 # 2024
 
-## 09/11/2024
+## 11/11/2024
+
+- Correction création disque
+
+## 10/11/2024
 
 - Correction bug bouton lancement de l'authentification
 - Correction type de regroupement d'appareil pour les débits
