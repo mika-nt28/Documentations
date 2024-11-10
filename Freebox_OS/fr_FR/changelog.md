@@ -24,6 +24,7 @@ pluginId: Freebox_OS
 ## 11/11/2024
 
 - Correction création disque
+- Correction requête pour le téléphone
 
 ## 10/11/2024
 
