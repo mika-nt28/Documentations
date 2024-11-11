@@ -21,6 +21,15 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 12/11/2024
+
+- Amélioration log
+
+- **Téléphone**
+- Ajout des commandes pour uniquement les nouveaux appel manqués et reçus
+- Correction bug si la liste est vide
+- Correction traduction
+
 ## 11/11/2024
 
 - Correction création disque
