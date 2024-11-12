@@ -21,6 +21,11 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 13/11/2024
+
+- Correction création commande du Player (il faut relancer une recherche pour de nouveau avoir l'état)
+- Correction création commande du Wifi
+
 ## 12/11/2024
 
 - Amélioration log
