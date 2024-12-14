@@ -21,6 +21,14 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 15/12/2024
+
+- Correction commande off pour l'orientation de l'affichage
+- Correction de la commande Lumininosité écran LCD
+- Ajout vérification si la box est compatible avec les VM
+- Ajout gestion Freebox Ultra Edition 25 pour la partie LCD
+- Correction de la valeur de la position du texte pour l'afficheur LCD
+
 ## 13/11/2024
 
 - Correction création commande du Player (il faut relancer une recherche pour de nouveau avoir l'état)
