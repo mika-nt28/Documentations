@@ -21,7 +21,7 @@ pluginId: Freebox_OS
 
 # 2024
 
-## 15/12/2024
+## 15-16/12/2024
 
 - Correction commande off pour l'orientation de l'affichage
 - Correction de la commande Lumininosité écran LCD
