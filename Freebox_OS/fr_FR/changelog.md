@@ -21,6 +21,24 @@ pluginId: Freebox_OS
 
 # 2024
 
+## 23/12/2024
+
+- **Ensemble des équipements standards**
+- Ajout vérification si présence disque
+- Ajout vérification si la box est compatible avec les VM
+- Ajout vérification si la box est compatible avec les différents type d'affichage de l'écran de la box
+
+- **Système**
+- Ajout l'état du disque dans l'équipement système
+
+- **Afficheur LCD**
+- Correction commande off pour l'orientation
+- Correction de la commande Lumininosité écran
+- Ajout gestion Freebox Ultra Edition 25
+- Correction de la valeur de la position du texte pour l'afficheur
+
+> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES EQUIPEMENTS STANDARDS**
+
 ## 13/11/2024
 
 - Correction création commande du Player (il faut relancer une recherche pour de nouveau avoir l'état)
