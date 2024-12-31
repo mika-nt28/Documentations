@@ -19,6 +19,12 @@ pluginId: Freebox_OS
 
 # Changelog BETA
 
+# 2025
+
+## 01/01/2025
+
+- Corrections log
+
 # 2024
 
 ## 23/12/2024
