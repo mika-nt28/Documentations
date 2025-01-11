@@ -21,6 +21,19 @@ pluginId: Freebox_OS
 
 # 2025
 
+## 12/01/2025
+
+- **Wifi**
+- Ajout Etat mode eco Wifi (pour les freebox compatibles)
+- Mise à jour des noms des commandes de l'état des cartes Wifi (suivant les cas, il faut lancer 2 fois la recherche)
+- Correction retour Etat WPS
+
+> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES EQUIPEMENTS STANDARDS**
+
+## 05/01/2025
+
+- Amélioration changement Nom des commandes pour les appareils connectés
+
 ## 01/01/2025
 
 - Corrections log
