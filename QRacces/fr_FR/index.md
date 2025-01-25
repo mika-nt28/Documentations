@@ -55,6 +55,7 @@ Dans la partie 'Configuration des Caméras' cliquez sur 'Ajouter'
 * Nom : On donne un nom à notre caméra.
 * Activation : Permet de choisir si une caméra configurée est utilisée ou non.
 * Nombre de thread: Permet de déterminer combien d'analyses simultanées peut faire le plugin. (Plus il y a de threads, plus le plugin est capable d'analyser d'images mais plus la charge est importante)
+* Nombre d'image: Permet de déterminer un compteur d'image valide afin de validé la conformité de la detection
 * Port de connexion: Saisir un port de votre jeedom libre afin que le plugin puisse communiquer avec le démon de votre caméra
 * Authentification : on saisit les identifiants de connexion si besoin.
 * URL de connexion (rtsp://, http://) : On saisit l'URL du flux de la caméra. Etant donné le nombre de caméras différentes qui existent sur le marché, il est difficile de vous aider sur cette configuration. Je vous conseille de tester vos URLs avec un lecteur de flux comme `vlc` par exemple.
