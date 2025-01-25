@@ -21,6 +21,10 @@ pluginId: Freebox_OS
 
 # 2025
 
+## 26/01/2025
+
+- Mise à jour des liens de la documentation
+
 ## 12/01/2025
 
 - **Wifi**
