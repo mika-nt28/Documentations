@@ -21,9 +21,15 @@ pluginId: Freebox_OS
 
 # 2025
 
-## 27/01/205
+## 27/01/2025
 
+- **Wifi**
+- Ajout commande "Choix Mode de veille planning" pour le wifi pour les box compatibles avec le mode Eco Wifi
+
+- **Community**
 - Ajout info supplémentaire pour Community
+
+- **Scan équipements standards**
 - Correction création des équipements de type VM sur les freebox non compatible
 
 > [Voir le sujet sur communnity](https://community.jeedom.com/t/api-non-compatible-avec-les-vm-sur-les-freebox-revolution/137141?u=jag)
