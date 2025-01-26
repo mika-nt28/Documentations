@@ -21,6 +21,20 @@ pluginId: Freebox_OS
 
 # 2025
 
+## 27/01/205
+
+- Ajout info supplémentaire pour Community
+- Correction création des équipements de type VM sur les freebox non compatible
+
+> [Voir le sujet sur communnity](https://community.jeedom.com/t/api-non-compatible-avec-les-vm-sur-les-freebox-revolution/137141?u=jag)
+
+> **ATTENTION : IL FAUT RELANCER UNE RECHERCHE DES EQUIPEMENTS STANDARDS**
+
+## 26/01/2025
+
+- Mise à jour des liens de la documentation
+
+
 ## 01/01/2025
 
 - Corrections log
