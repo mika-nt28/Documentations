@@ -6,6 +6,9 @@ pluginId: ChauffeEau
 ---
 
 # Stable
+## 27/01/2024
+* BugFix : Non rallumage du chauffe-eau après délestage et heure de dispo dépassé
+  
 ## 23/01/2023
 * BugFix creation de cron douche (Arret et redemarrage complet du demon a la sauvegarde
 
