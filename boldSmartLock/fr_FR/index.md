@@ -13,19 +13,15 @@ Pour fonctionner, il vous faut une Bold connect ainsi qu'un cylindre
 
 ![Page de configuration du plugin ](../images/boldSmartLock_screenshot_Configuration.jpg)
 
-Le plugin n'a pas besoin de dépendance, il communique avec les serveurs Bold au travers de leur API
-Pour fonctionner le plugin a besoin d'information 
-* Client ID : a demander a Bold
-* Secret key  : a demander a Bold
-
-Pensez a sauvgarder les paramatres avant de l'association de votre jeedom a votre compte Bolde
+Le plugin n'a pas besoin de dépendance, il communique avec les serveurs Jeedom et Bold au travers de leur API
+Pour que les services jeedom puisse communiqué avec votre serrure il faut lier Jeedom a Bold par le lien
 
 # Configuration Equipements
 
 ![Page de configuration des equipements](../images/boldSmartLock_screenshot_Equipements.jpg)
 
 ## Autodetection
-Apres l'association a votre box, le demon demmarrera et créra toutes les serrures liée au compte
+Apres l'association, vous pouver lancer une recherche de vos équipements qui seront automatiquement remonté par Bold
 
 ## Commandes
 
