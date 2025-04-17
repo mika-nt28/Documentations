@@ -21,6 +21,11 @@ Des fonctions d'auto-configuration (auto-include, parser ETS) ont été impléme
 * `Adresse de la passerelle` : Indiquez l'adresse IP de la passerelle
 * `Port de la passerelle` : Indiquez le port de la passerelle
 * `Niveau d'adresse de groupe (GAD)` : Sélectionnez le niveau de GAD choisi lors de la programmation des équipements
+* `Temps d'attente entre 2 envois (ms) ` : Attente entre 2 envoies
+Dans le cas d'une connxion en KNX secure Tunnelling
+![Récupération du certificat KNX secure](../images/knx_ets_tunnel.jpg)
+* `Certificat KNX secure ` : Télecargement du certificat recupérer sur ETS
+* `Mot de passe knx secure` : Saisir le mots de passe
 
 > Pensez à sauvegarder.
 
