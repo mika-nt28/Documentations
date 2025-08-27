@@ -6,6 +6,9 @@ pluginId: withings
 ---
 
 # Stable
+## 27/08/2025
+* Ajout du panel pour interface mobile
+  
 ## 26/02/2022 Mise a jour proposé a @MADomotique
 * Ajout des commandes de sommeil manquante
 * Mise a jours des commande sommeil dépressier par withings
