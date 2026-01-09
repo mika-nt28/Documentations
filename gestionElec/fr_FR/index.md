@@ -11,7 +11,7 @@ Ce plugin a pour but de permettre de gérer les objets connéctés de votre domo
 
 Paramétrage du plugin
 =====================
-![Parmaetrage du plugin](../images/screenshot_gestionElec_configurationPlugin.jpg)
+![Parmaetrage du plugin](../../images/screenshot_gestionElec_configurationPlugin.jpg)
 
 Le plugin n'a besoin d'aucune configuration particuliere.
 Vous avez juste dans cette partie les options habituel de Jeedom
@@ -19,7 +19,7 @@ Vous avez juste dans cette partie les options habituel de Jeedom
 Paramétrage des équipements par leurs generiques type
 ======================================================
 
-![Configuration des type generique](../images/screenshot_gestionElec_ConfigurationGenericType.jpg)
+![Configuration des type generique](../../images/screenshot_gestionElec_ConfigurationGenericType.jpg)
 
 Le plugin permet de simplifié la gestion des équipements en utilisent leur generique type
 Dans l'onglet "Configurer les generiques type" vous retrouverez les états de tous les équipements compatible avec le plugin.
@@ -40,7 +40,7 @@ Le plugin vas automatiquement creer un gestionnaire, mais vous pouvez personnali
 * Visible : Permet de rendre l'équipement visible dans le Dashboard
 * Activer : Permet d'activer l'équipement
 
-![Configuration de l'automatisme](../images/screenshot_gestionElec_ConfigurationEquipement.jpg)
+![Configuration du gestionnaire](../../images/screenshot_gestionElec_ConfigurationEquipement.jpg)
 
 ## Configuration du suivis des puissance de consommation et production
 
@@ -51,7 +51,7 @@ Pour que le plugin fonctionne il est necessaire de luis configurer
 
 ## Gestion de la production
 
-![Configuration de l'automatisme](../images/screenshot_gestionElec_ConfigurationProducteur.jpg)
+![Configuration de la gestion de production](../../images/screenshot_gestionElec_ConfigurationProducteur.jpg)
 
 Lorsque vous produisez de l'energie vous souhaitez pouvoir utiliser cette prodution sur les équipements connecté.
 * Délai avant desactivation en mins : Temps de maintien du plugin, de l'activation des équipements lorsque la production lissé n'est plus suffisante
@@ -59,7 +59,7 @@ Lorsque vous produisez de l'energie vous souhaitez pouvoir utiliser cette produt
 
 ## Gestion du delestage
 
-![Configuration de l'automatisme](../images/screenshot_gestionElec_ConfigurationDelestage.jpg)
+![Configuration de la gestion de délestage](../../images/screenshot_gestionElec_ConfigurationDelestage.jpg)
 
 Lorsque vous consommé trop d'energie vous souhaitez pouvoir reduir et desactivé ses équipements connecté qui peuvent consommé plus tard.
 * Délai avant réactivation  en mins : Temps de maintien du plugin, du délestage des équipements lorsque la consomation est trop importante
@@ -83,6 +83,5 @@ Le plugin genere autotmatiquement ses commandes
 * Stockage virtuel : Compteur d'energie injecter dans le reseau / utilisé par le plugin
 * Délestage : indicateur de l'etat de la gestion de delestage. Passe a 1 lorsque le delestage est en cours
 * Utilisation de la production : indicateur de l'etat de la gestion de prodution. Passe a 1 lorsque la gestion est en cours
-
 
 
