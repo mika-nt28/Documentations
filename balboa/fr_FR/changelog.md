@@ -5,6 +5,9 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
+## 12/01/2026
+* BugFix connexion CMS
+
 ## 12/04/2023
 * Suppression de la pompe de circulation des equipements par defaut
 * Suppression de la pompe 2 des equipements par defaut
