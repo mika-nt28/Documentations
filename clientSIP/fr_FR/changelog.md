@@ -35,7 +35,8 @@ pluginId: clientSIP
 * Séparation du plugin et sa documentation
 
 # Beta
-
+## 21/01/2026
+* BugFix Debian 12 et Python3.11
 
 # A venir
 * Ajout du Speach to text (Google ou autre a définir)
