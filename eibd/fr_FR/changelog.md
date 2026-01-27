@@ -6,6 +6,10 @@ pluginId: eibd
 ---
 
 # Stable.
+## 27/01/2026
+* BugFix arrêt du bus moniteur en cas d'inactivité
+* Arrêt du bus moniteur en cas d'erreur KNXD
+
 ## 24/09/2024
 * Bugfix affichage bus monitor
   
