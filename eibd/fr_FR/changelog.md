@@ -7,6 +7,9 @@ pluginId: eibd
 
 # Stable.
 ## 27/01/2026
+* Retour a l'origin suite au bug remonté
+  
+## 27/01/2026
 * BugFix arrêt du bus moniteur en cas d'inactivité
 * Arrêt du bus moniteur en cas d'erreur KNXD
 
@@ -113,8 +116,11 @@ pluginId: eibd
 * Ajout d'une vue liste pour simplifier la configuration de base
 
 # Beta
-
-
+## 02/02/2026
+* Suppression Timout fixe sur la socket 
+* BugFix arrêt du bus moniteur en cas d'inactivité
+* Ajout d'un arrêt du bus moniteur en cas d'erreur KNXD
+  
 # Prochainement
 * Recherche des objets existants sur la creation manuel pour mise a jours en arboressance
 * Prise en compte des spécifité du plugin lors de la duplication
