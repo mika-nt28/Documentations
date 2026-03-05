@@ -6,6 +6,10 @@ pluginId: clientSIP
 ---
 
 # Stable
+## 05/03/2026
+* BugFix Debian 12 et Python3.11
+* Utilsation de EsPeak pour le TTS
+
 ## 04/08/2023
 * Refonte du plugin et passage sur une demon python (Tous doit etre a revalider et a tester,
 * Remontées des états du client (Etat appel / Etat connexion)
@@ -37,6 +41,8 @@ pluginId: clientSIP
 # Beta
 ## 21/01/2026
 * BugFix Debian 12 et Python3.11
+## 05/03/2026
+* Utilsation de EsPeak pour le TTS
 
 # A venir
 * Ajout du Speach to text (Google ou autre a définir)
