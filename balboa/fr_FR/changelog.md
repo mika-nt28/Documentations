@@ -5,7 +5,7 @@ lang: fr_FR
 pluginId: balboa
 ---
 # Stable
-## 12/01/2026
+## 21/01/2026
 * BugFix connexion CMS
 
 ## 12/04/2023
