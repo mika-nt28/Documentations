@@ -48,7 +48,24 @@ Pour que le plugin fonctionne il est necessaire de luis configurer
 * Puissance produite instantanée (W)  : Commande de puissance instantané de la production. Cette commande doit etre positive, sinon le plugin propose l'inversion de sense a cocher. La puissance configurer peut etre lissé (voir chapitre spécifique) (Commande pas obligatoire)
 * Puissance batterie (W) : Commande de puissance instantané de la batterie. Cette commande doit etre positive, sinon le plugin propose l'inversion de sense a cocher.(Commande pas obligatoire)
 * Puissance instantanée du reseau (Consommation/Injection) (W) : Commande de puissance instantané du reseau. Cette commande doit etre positive, sinon le plugin propose l'inversion de sense a cocher. (Commande obligatoire)
+Configuration des gestions automatique
+========================================
 
+## Configuration générale
+Pour toute les gestions, il est possible de paramettre les champs standard Jeedom tel que :
+* Le nom de la commande (gestion)
+* L'historisation de l'etat de commande
+* L'affichage sur le widget
+  
+## Condition
+Afin de pouvoir filtrer les allumages/extinction inutiles de vos équipements nous avons la possibilité de lui ajouter des conditions a la gestion.
+Cliquer sur "Ajouter une condition" et configurer votre condition 
+Chaque condition de la liste formera un ET
+
+## Actions
+Lors du déclenchement d'une gestion, il est possible de générer des actions.
+Les actions sont exécutées dans l'ordre d'apparition en fonction de leur déclencheurs (on ou off).
+  
 ## Gestion de la production
 
 ![Configuration de la gestion de production](../images/screenshot_gestionElec_ConfigurationProducteur.jpg)
@@ -66,7 +83,10 @@ Lorsque vous consommé trop d'energie vous souhaitez pouvoir reduir et desactiv�
 * Seuil maximal de délestage en Watts : Seuil de la puissance consommé pour l'activation / desactivation de la gestion
 
 Le plugin vas commencer le delestage par les generiques type de thermostat.
-Pour les generiques type de thermostat, le plugin vas delesté en priorité les thermostats avec le plus petit delta de température.
+Pour les generiques type de thermostat, le plugin vas delester en priorité les thermostats avec le plus petit delta de température.
+Le delestage d'un thermostat peut se faire de 2 maniere
+* On a des generic type de verrouillage empechant la chaufe
+* sinon, le plugin applique une baisse de 5°C a la consigne
 
  
 ## Gestion avec stockage viruel
