@@ -6,6 +6,9 @@ pluginId: voletProp
 ---
 
 # Stable
+## 30/02026
+* BugFix Erreur de mise a jour de la hauteur 
+
 ## 15/04/2021
 * Ajout d'un test du parmetre de mouvement avant un monté ou une descente manuel pour executer un stop et mettre a jours la position
 * Suppression du temps d'attente et du STOP dans une synchro 0 ou  100%
