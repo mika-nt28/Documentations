@@ -6,7 +6,10 @@ pluginId: voletProp
 ---
 
 # Stable
-## 30/02026
+## 23/04/2026
+* Bugfix stop exécution
+  
+## 30/01/2026
 * BugFix Erreur de mise a jour de la hauteur 
 
 ## 15/04/2021
