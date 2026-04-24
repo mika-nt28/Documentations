@@ -6,6 +6,9 @@ pluginId: voletProp
 ---
 
 # Stable
+## 24/04/2026
+* Bugfix Timeout volet
+  
 ## 23/04/2026
 * Bugfix stop exécution
   
