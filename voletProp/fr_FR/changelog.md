@@ -6,6 +6,10 @@ pluginId: voletProp
 ---
 
 # Stable
+## 05/05/2026
+* Restauration ancienne version sans bug
+* Ajout correction PHP8 pour Timeout volet
+
 ## 24/04/2026
 * Bugfix Timeout volet
   
