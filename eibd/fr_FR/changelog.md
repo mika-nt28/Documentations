@@ -6,10 +6,13 @@ pluginId: eibd
 ---
 
 # Stable.
+## 25/08/2026
+* configuration initiale pour atlas
+* BugFix sélection de retour d'état
+* Refonte du code de gestion du démon moniteur
+
 ## 27/01/2026
-* Retour a l'origin suite au bug remonté
-  
-## 27/01/2026
+* Retour à l'origine suite au bug remonté
 * BugFix arrêt du bus moniteur en cas d'inactivité
 * Arrêt du bus moniteur en cas d'erreur KNXD
 
